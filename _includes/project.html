@@ -1,8 +1,11 @@
-<article class="project">
-  {% for image in post.images %}
-    <img src="{{ image }}">
-  {% endfor %}
-  {{ post.title }}<br>
-  {{ post.work }}
-  {{ post.content }}
-</article>
+<section class="project row">
+  <span class="project-information column large-2">
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.work }}</p>
+  </span>
+  <span class="project-images column large-10">
+    {% for image in post.images %}
+      <img src="{{ image }}">
+    {% endfor %}
+  </span>
+</section>
