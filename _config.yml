@@ -1,0 +1,8 @@
+name: Your New Jekyll Site
+pygments: true
+
+
+# defaults
+sass:
+  syntax: scss
+  style:  compressed  # nested|expanded|compact|compressed
