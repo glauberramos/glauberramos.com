@@ -1,6 +1,8 @@
 <article class="project">
+  {% for image in post.images %}
+    <img src="{{ image }}">
+  {% endfor %}
   {{ post.title }}<br>
-  {{ post.images }}<br>
   {{ post.work }}
   {{ post.content }}
 </article>
