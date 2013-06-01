@@ -1,25 +1,50 @@
 .projects {
-  background: $primaryColor;
   color: white;
-  padding: 2% 5%;
-
-  h3, h4 {
-    color: $titleColor;
-  }
 
   a {
-    background: $titleColor;
     text-decoration: none;
     color: white;
     padding: 3px 10px;
     border-radius: 20px;
-
-    &:hover {
-      background: darken($titleColor, 10%);
-    } 
   }
 
   .project-images {
     margin-top: 20px;
+  }
+}
+
+.project {
+  padding: 4% 5%;
+}
+
+.first {
+  background: $firstBackgroundColor;
+
+  h3, h4 {
+    color: $firstTitleColor;
+  }
+
+  a {
+    background: $firstTitleColor;
+
+    &:hover {
+      background: darken($firstTitleColor, 10%);
+    } 
+  }
+}
+
+.second {
+  background: $secondBackgroundColor;
+
+  h3, h4 {
+    color: $secondTitleColor;
+  }
+
+  a {
+    background: $secondTitleColor;
+
+    &:hover {
+      background: darken($secondTitleColor, 10%);
+    } 
   }
 }

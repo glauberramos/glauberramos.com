@@ -6,4 +6,5 @@ title: "CEA"
 desc: "Instuticional website for Centro de Educação Ambiental. Contains information about the institution, projects, initiatives, testemuniais, videos, donation and contact."
 website: "http://ceavilapinto.org.br"
 category: project
+class: "first"
 ---
