@@ -11,15 +11,21 @@
     <body>
         <div class="container">
           <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            </div>
+            <header class="header row">
+              <nav class="column">
+                <ul>
+                  <li>About</li>
+                  <li>Work</li>
+                  <li>Photos</li>
+                  <li>Contact</li>
+                </ul>
+              </nav>
+            </header>
                 {{ content }}
             <footer class="footer">
               <div class="contact">
                 <p>
-                  Glauber Ramos<br />
-                  glauberamos@gmail.com<br />
+                  Glauber Ramos - <a href="mailto:glauberamos@gmail.com">Email</a><br />
                   Built with <a href="http://jekyllrb.com/">Jekyll</a>, 
                   <a href="http://sass-lang.com/">Sass</a>, 
                   <a href="http://compass-style.org/">Compass</a>, 

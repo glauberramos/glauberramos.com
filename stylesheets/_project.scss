@@ -8,11 +8,18 @@
   }
 
   a {
-    color: $titleColor;
+    background: $titleColor;
     text-decoration: none;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 20px;
 
     &:hover {
-      color: darken($titleColor, 10%);
+      background: darken($titleColor, 10%);
     } 
+  }
+
+  .project-images {
+    margin-top: 20px;
   }
 }
