@@ -1,4 +1,16 @@
-@import "base";
+//fonts
+@import "fonts";
+@import "font-awesome";
+
+//vendor
 @import "normalize";
 @import "globalFoundation";
 @import "gridFoundation";
+@import "jekyll";
+
+//init
+@import "color";
+@import "base";
+
+//site
+@import "project";

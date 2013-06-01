@@ -3,9 +3,8 @@ layout: default
 title: Glauber Ramos Portfolio
 ---
 
-<article id="projects">
-  <h1>Projects</h1>
-  <ul class="projects">
+<article id="projects" class="projects">
+  <ul class="projects-list">
     {% for post in site.categories.project %}
       {% include project.html %}
     {% endfor %}

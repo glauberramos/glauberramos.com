@@ -1,11 +1,17 @@
 <section class="project row">
-  <span class="project-information column large-2">
+  <aside class="project-information column large-3">
     <h3>{{ post.title }}</h3>
+    <p>{{ post.desc }}</p>
+    <h4>Responsible for</h4>
     <p>{{ post.work }}</p>
-  </span>
-  <span class="project-images column large-10">
+    <a href="{{ post.website }}">Website</a>
+  </aside>
+  <span class="project-images column large-9">
     {% for image in post.images %}
       <img src="{{ image }}">
+    {% endfor %}
+    {% for image in post.images-half %}
+      <img class="small-6" src="{{ image }}">
     {% endfor %}
   </span>
 </section>

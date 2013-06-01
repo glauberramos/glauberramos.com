@@ -1,0 +1,18 @@
+.projects {
+  background: $primaryColor;
+  color: white;
+  padding: 2% 5%;
+
+  h3, h4 {
+    color: $titleColor;
+  }
+
+  a {
+    color: $titleColor;
+    text-decoration: none;
+
+    &:hover {
+      color: darken($titleColor, 10%);
+    } 
+  }
+}
