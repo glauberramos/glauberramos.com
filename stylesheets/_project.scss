@@ -4,47 +4,113 @@
   a {
     text-decoration: none;
     color: white;
-    padding: 3px 10px;
-    border-radius: 20px;
+    border-radius: 1px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 7px 15px;
+  }
+
+  h3, h4, h5 {
+    margin-bottom: 10px;
+  }
+
+  strong {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-family: 'Droid Serif', serif;
+    //font-family: "OpenSansLight";
   }
 
   .project-images {
     margin-top: 20px;
+
+    img {
+      padding: 2% 0%;
+      //-webkit-box-shadow: 0px 2px 7px #c1c7c1;
+    }
   }
 }
 
 .project {
-  padding: 4% 5%;
+  padding: 5% 0;
 }
 
 .first {
   background: $firstBackgroundColor;
+  color: $firstFontColor;
+  border-top: 4px solid $firstBorderColor;
 
-  h3, h4 {
+  h3, h4, h5 {
     color: $firstTitleColor;
   }
 
+  p {
+    border-bottom: 1px solid lighten($firstTitleColor, 10%);
+    padding-bottom: 25px;
+    margin-bottom: 0;
+  }
+
   a {
-    background: $firstTitleColor;
+    border: 2px solid $firstTitleColor;
+    color: $firstTitleColor;
 
     &:hover {
-      background: darken($firstTitleColor, 10%);
+      background: $firstTitleColor;
+      color: white;
     } 
   }
 }
 
 .second {
   background: $secondBackgroundColor;
+  color: $secondFontColor;
+  border-top: 4px solid $secondBorderColor;
 
-  h3, h4 {
+  h3, h4, h5 {
     color: $secondTitleColor;
   }
 
+  p {
+    border-bottom: 1px solid lighten($secondTitleColor, 10%);
+    padding-bottom: 25px;
+    margin-bottom: 0;
+  }
+
   a {
-    background: $secondTitleColor;
+    border: 2px solid $secondTitleColor;
+    color: $secondTitleColor;
 
     &:hover {
-      background: darken($secondTitleColor, 10%);
+      background: $secondTitleColor;
+      color: white;
+    } 
+  }
+}
+
+.third {
+  background: $thirdBackgroundColor;
+  color: $thirdFontColor;
+  border-top: 4px solid $thirdBorderColor;
+
+  h3, h4, h5 {
+    color: $thirdTitleColor;
+  }
+
+  p {
+    border-bottom: 1px solid lighten($thirdTitleColor, 10%);
+    padding-bottom: 25px;
+    margin-bottom: 0;
+  }
+
+  a {
+    border: 2px solid $thirdTitleColor;
+    color: $thirdTitleColor;
+
+    &:hover {
+      background: $thirdTitleColor;
+      color: white;
     } 
   }
 }
