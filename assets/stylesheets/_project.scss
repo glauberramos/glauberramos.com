@@ -39,7 +39,7 @@
 @mixin project($backgroundColor, $fontColor, $borderColor, $titleColor) {
   background: $backgroundColor;
   color: $fontColor;
-  border-top: 4px solid $borderColor;
+  border-top: 6px solid $borderColor;
 
   h3, h4, h5 {
     color: $titleColor;
