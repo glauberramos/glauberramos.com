@@ -1,6 +1,5 @@
 header {
   background: $headerColor;
-  color: white;
   font-family: "OpenSansBold";
 }
 
@@ -12,5 +11,15 @@ nav {
     text-decoration: none;
     display: inline-block;
     margin: 0 2.3%;
+
+    a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s;
+
+      &:hover {
+        color: darken($headerColor, 15%);
+      }
+    }
   }
 }
