@@ -20,7 +20,6 @@
 
   p {
     font-family: 'Droid Serif', serif;
-    //font-family: "OpenSansLight";
   }
 
   .project-images {
@@ -28,7 +27,6 @@
 
     img {
       padding: 2% 0%;
-      //-webkit-box-shadow: 0px 2px 7px #c1c7c1;
     }
   }
 }
@@ -37,80 +35,41 @@
   padding: 5% 0;
 }
 
-.first {
-  background: $firstBackgroundColor;
-  color: $firstFontColor;
-  border-top: 4px solid $firstBorderColor;
+
+@mixin project($backgroundColor, $fontColor, $borderColor, $titleColor) {
+  background: $backgroundColor;
+  color: $fontColor;
+  border-top: 4px solid $borderColor;
 
   h3, h4, h5 {
-    color: $firstTitleColor;
+    color: $titleColor;
   }
 
   p {
-    border-bottom: 1px solid lighten($firstTitleColor, 10%);
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     margin-bottom: 0;
   }
 
   a {
-    border: 2px solid $firstTitleColor;
-    color: $firstTitleColor;
+    border: 2px solid $titleColor;
+    color: $titleColor;
 
     &:hover {
-      background: $firstTitleColor;
+      background: $titleColor;
       color: white;
     } 
   }
+}
+
+
+.first {
+  @include project($firstBackgroundColor, $firstFontColor, $firstBorderColor, $firstTitleColor);  
 }
 
 .second {
-  background: $secondBackgroundColor;
-  color: $secondFontColor;
-  border-top: 4px solid $secondBorderColor;
-
-  h3, h4, h5 {
-    color: $secondTitleColor;
-  }
-
-  p {
-    border-bottom: 1px solid lighten($secondTitleColor, 10%);
-    padding-bottom: 25px;
-    margin-bottom: 0;
-  }
-
-  a {
-    border: 2px solid $secondTitleColor;
-    color: $secondTitleColor;
-
-    &:hover {
-      background: $secondTitleColor;
-      color: white;
-    } 
-  }
+  @include project($secondBackgroundColor, $secondFontColor, $secondBorderColor, $secondTitleColor);  
 }
 
 .third {
-  background: $thirdBackgroundColor;
-  color: $thirdFontColor;
-  border-top: 4px solid $thirdBorderColor;
-
-  h3, h4, h5 {
-    color: $thirdTitleColor;
-  }
-
-  p {
-    border-bottom: 1px solid lighten($thirdTitleColor, 10%);
-    padding-bottom: 25px;
-    margin-bottom: 0;
-  }
-
-  a {
-    border: 2px solid $thirdTitleColor;
-    color: $thirdTitleColor;
-
-    &:hover {
-      background: $thirdTitleColor;
-      color: white;
-    } 
-  }
+  @include project($thirdBackgroundColor, $thirdFontColor, $thirdBorderColor, $thirdTitleColor);  
 }
