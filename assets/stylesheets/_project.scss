@@ -53,6 +53,7 @@
   a {
     border: 2px solid $titleColor;
     color: $titleColor;
+    transition: background 0.1s;
 
     &:hover {
       background: $titleColor;

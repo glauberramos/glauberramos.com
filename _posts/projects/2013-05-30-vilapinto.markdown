@@ -1,5 +1,5 @@
 ---
-images: ["vilapinto.png"]
+images: ["vilapinto.jpg"]
 images-half: [vilaiphone.png"]
 work: "UI design, Visual Identity, Logo Design, Reponsive Design, HTML & CSS and Ruby code."
 title: "CEA"
