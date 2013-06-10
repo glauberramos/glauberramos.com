@@ -1,6 +1,49 @@
 header {
   background: $headerColor;
   font-family: "OpenSansBold";
+  color: white;
+}
+
+.main-header {
+  margin: 15px 0;
+  position: relative;
+
+  a {
+    right: 10%;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+  }
+
+  i {
+    font-size: 1.5em;
+  }
+}
+
+.toggle-header {
+  overflow:hidden;
+  max-height:0;
+  opacity:0;
+  transition: all .4s ease-out;
+}
+
+#header:target .toggle-header {
+  max-height:100px;
+  opacity:1;
+}
+
+#header:target .top { 
+  opacity:0;pointer-events: none;
+}
+
+
+.logo {
+  float: left;
+  font-family: "Lato";
+  letter-spacing: 0.05em;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: white;
 }
 
 nav {
