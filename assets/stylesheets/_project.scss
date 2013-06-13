@@ -71,14 +71,22 @@
 
 .project-hero {
   position: relative;
+  overflow: hidden;
+  height: 400px;
+  border-bottom: 3px solid white;
+
+  &:last-child {
+    border-bottom: 0;
+  }
 
   img {
-    opacity: 0.5;
+    opacity: 0.8;
+    width: 100%;
   }
 
   &:hover {
-    img {
-      opacity: 0.8;
+    .project-info {
+      background: #333;
     }
   }
 }
@@ -91,21 +99,17 @@
   -webkit-animation-delay: 0s;
   -webkit-animation-fill-mode: both;
 
-  background: #333;
+  display: block;
+  margin: 0 auto;
   color: #eee;
   position: absolute;
   text-align: center;
-  top: 200px;
+  top: 70px;
   width: 100%;
   border: 0;
 
   h4 {
     font-size: 2.5em;
-  }
-
-  p {
-    width: 60%;
-    margin: 0 auto;
   }
 }
 
@@ -113,10 +117,6 @@
   a {
     display: block;
     background: #333;
-  }
-
-  img {
-    transition: opacity 0.4s;
   }
 }
 
