@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="{{ page.class }}">
+  <section class="project row">
+    <span class="project-images column large-9">
+      {% for image in page.images %}
+        <img src="../assets/images/{{ image }}">
+      {% endfor %}
+      {% for image in page.images-half %}
+        <img class="small-4" src="../assets/images/{{ image }}">
+      {% endfor %}
+    </span>
+    <aside class="project-information column large-3">
+      <h4>{{ page.title }}</h4>
+      <p>{{ page.desc }}</p>
+      <h5>Work</h5>
+      <p>{{ page.work }}</p>
+      <a href="{{ page.website }}">Visit Site</a>
+    </aside>
+  </section>
+</div>

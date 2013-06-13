@@ -47,3 +47,15 @@ em {
   font-weight: normal;
   font-family: "OpenSansItalic";
 }
+
+@mixin clear {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}

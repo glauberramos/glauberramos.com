@@ -5,3 +5,5 @@ pygments: true
 sass:
   syntax: scss
   style:  compressed  # nested|expanded|compact|compressed
+
+permalink: none

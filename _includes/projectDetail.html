@@ -1,0 +1,19 @@
+<div class="{{ post.class }}">
+  <section class="project row">
+    <span class="project-images column large-9">
+      {% for image in post.images %}
+        <img src="assets/images/{{ image }}">
+      {% endfor %}
+      {% for image in post.images-half %}
+        <img class="small-4" src="assets/images/{{ image }}">
+      {% endfor %}
+    </span>
+    <aside class="project-information column large-3">
+      <h4>{{ post.title }}</h4>
+      <p>{{ post.desc }}</p>
+      <h5>Work</h5>
+      <p>{{ post.work }}</p>
+      <a href="{{ post.website }}">Visit Site</a>
+    </aside>
+  </section>
+</div>
