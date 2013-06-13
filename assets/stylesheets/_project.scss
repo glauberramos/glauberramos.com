@@ -84,6 +84,14 @@
 }
 
 .project-info {
+  -webkit-animation-name: intro-right;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-iteration-count: once;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-fill-mode: both;
+
+  background: #333;
   color: #eee;
   position: absolute;
   text-align: center;
@@ -109,5 +117,16 @@
 
   img {
     transition: opacity 0.4s;
+  }
+}
+
+@-webkit-keyframes intro-right {
+  from {
+    -webkit-transform: translateX(-500px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateX(0px);
+    opacity: 1;
   }
 }
