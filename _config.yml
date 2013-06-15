@@ -7,3 +7,4 @@ sass:
   style:  compressed  # nested|expanded|compact|compressed
 
 permalink: :title.html
+baseurl: /glauberramos.com
