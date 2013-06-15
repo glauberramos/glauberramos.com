@@ -6,4 +6,4 @@ sass:
   syntax: scss
   style:  compressed  # nested|expanded|compact|compressed
 
-permalink: /:title
+permalink: categories
