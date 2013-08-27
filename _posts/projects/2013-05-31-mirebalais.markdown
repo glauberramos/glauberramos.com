@@ -8,5 +8,5 @@ website: "http://mirebalaisstyleguide.herokuapp.com/"
 cover: "mirebalaiscover.jpg"
 category: project
 class: "second"
-url: "mirebalais.html"
+link: "mirebalais.html"
 ---

@@ -8,5 +8,5 @@ website: "http://reclamacoes-br.herokuapp.com/"
 cover: "reclamacoescover.jpg"
 category: project
 class: "third"
-url: "reclamacoes.html"
+link: "reclamacoes.html"
 ---
