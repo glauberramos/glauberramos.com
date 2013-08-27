@@ -9,4 +9,5 @@ website: "http://ceavilapinto.org.br"
 cover: "vilapintocover.jpg"
 category: project
 class: "first"
+url: "vilapinto.html"
 ---
