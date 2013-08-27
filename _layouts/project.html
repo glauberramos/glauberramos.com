@@ -16,7 +16,9 @@ layout: default
       <p>{{ page.desc }}</p>
       <h5>Work</h5>
       <p>{{ page.work }}</p>
-      <a href="{{ page.website }}">Visit Site</a>
+      {% for website in page.website %}
+        <a href="{{ website }}">Visit Site</a>
+      {% endfor %}
     </aside>
   </section>
 </div>
