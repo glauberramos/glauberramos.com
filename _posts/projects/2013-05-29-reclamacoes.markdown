@@ -5,7 +5,7 @@ work: "UX & UI design - Development."
 title: "Reclamações BR"
 desc: "Open Data governament project for company reclamations. Won second place at the championship http://dados.gov.br/ "
 website: "http://reclamacoes-br.herokuapp.com/"
-cover: "reclamacoescover.jpg"
+cover: "reclamacoes.png"
 category: project
 class: "third"
 link: "reclamacoes.html"
