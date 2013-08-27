@@ -73,7 +73,7 @@
   position: relative;
   overflow: hidden;
   height: 400px;
-  border-bottom: 3px solid white;
+  border-bottom: 5px solid #777;
 
   &:last-child {
     border-bottom: 0;
@@ -81,6 +81,7 @@
 
   img {
     width: 100%;
+    opacity: 0.3;
   }
 
   &:hover {
@@ -100,7 +101,7 @@
 
   display: block;
   margin: 0 auto;
-  color: #eee;
+  color: #333;
   position: absolute;
   text-align: center;
   top: 70px;

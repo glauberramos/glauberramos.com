@@ -10,6 +10,10 @@ header {
   margin: 15px 0;
   position: relative;
 
+  a {
+    cursor: pointer;
+  }
+
   .bot, .top {
     right: 10%;
     color: white;
@@ -35,7 +39,7 @@ header {
 
   em {
     font-size: 0.9em;
-    color: #ddd;
+    color: #444;
     padding-top: 5px;
     position: relative;
     top: 5px;
@@ -43,7 +47,7 @@ header {
 }
 
 #header:target .toggle-header {
-  max-height:100px;
+  max-height:120px;
   opacity:1;
 }
 
@@ -64,7 +68,7 @@ nav {
   text-align: center;
   margin: 2% 0;
   float: right;
-  margin-top: 70px;
+  margin-top: 90px;
 
   li {
     text-decoration: none;
