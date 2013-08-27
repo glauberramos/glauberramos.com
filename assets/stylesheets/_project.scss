@@ -108,9 +108,13 @@
   width: 100%;
   border: 0;
 
+  h4 {
+    margin: 0.5em;
+  }
+
   .view-project {
     position: relative;
-    top: 30px;
+    top: 70px;
     padding: 10px 20px;
     border: 2px solid #333;
     color: #333;
