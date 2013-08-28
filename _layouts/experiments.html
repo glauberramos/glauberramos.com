@@ -6,7 +6,7 @@ layout: default
     <span class="project-images column large-9">
       {% for image in page.images %}
         <img src="assets/images/{{ image }}">
-        <a href="{{ page.website[forloop.index0] }}">Visit Site</a>
+        <a class="experiment" href="{{ page.website[forloop.index0] }}">Visit Site</a>
       {% endfor %}
       <a href="index.html">Back to all projects</a>
     </span>

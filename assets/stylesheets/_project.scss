@@ -9,6 +9,11 @@
     margin-top: 20px;
     padding: 7px 15px;
     transition: background 0.1s;
+
+    &.experiment {
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
   }
 
   h3, h4, h5 {
