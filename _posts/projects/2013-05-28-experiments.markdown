@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: experiments
 images: ["experiments1.png", "experiments2.png", "experiments3.png", "experiments4.png", "experiments5.png"]
 work: "UX & UI design - Development."
 title: "Experiments in HTML/CSS/JS"
