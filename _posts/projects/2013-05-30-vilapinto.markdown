@@ -2,9 +2,9 @@
 layout: project
 images: ["vilapinto.jpg"]
 images-half: [vilaiphone.png"]
-work: "UX & UI design - Visual Identity - Reponsive Design - Development"
+work: "UX & UI design - Visual Identity - Responsive Design - Development"
 title: "CEA"
-desc: "Instuticional website for Centro de Educação Ambiental. Contains information about the institution, projects, initiatives, testemuniais, videos, donation and contact."
+desc: "Institucional website for Centro de Educação Ambiental. Contains information about the organization, projects, initiatives, testimonials, videos, donations and contacts."
 website: "http://ceavilapinto.org.br"
 cover: "vilapintocover.jpg"
 category: project
