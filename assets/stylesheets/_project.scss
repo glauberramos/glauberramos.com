@@ -47,6 +47,11 @@
   background: $backgroundColor;
   color: $fontColor;
 
+  ::selection {
+    background: $titleColor;
+    color: white;    
+  }
+
   h3, h4, h5 {
     color: $titleColor;
   }
