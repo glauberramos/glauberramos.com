@@ -8,7 +8,6 @@ layout: default
         <img src="assets/images/{{ image }}">
         <a class="experiment" href="{{ page.website[forloop.index0] }}">Visit Site</a>
       {% endfor %}
-      <a href="index.html">Back to all projects</a>
     </span>
     <aside class="project-information column large-3">
       <h4>{{ page.title }}</h4>
@@ -17,4 +16,5 @@ layout: default
       <p>{{ page.work }}</p>
     </aside>
   </section>
+  {% include navigation.html %}
 </div>

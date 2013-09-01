@@ -1,0 +1,10 @@
+<section class="navigation">
+{% for post in site.categories.project %}
+{% if post.link != page.link %} 
+  <a class="thumb" href="{{ post.link }}">
+    <img src="assets/images/{{ post.name }}_thumb.png"></img>
+    {{ post.title }}
+  </a>
+{% endif %}
+{% endfor %}
+</section>
