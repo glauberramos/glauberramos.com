@@ -109,6 +109,13 @@
   -webkit-animation-delay: 0s;
   -webkit-animation-fill-mode: both;
 
+  animation-name: intro-right;
+  animation-duration: 0.5s;
+  animation-iteration-count: once;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+
   display: block;
   margin: 0 auto;
   color: #333;
@@ -160,6 +167,17 @@
   }
   to {
     -webkit-transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes intro-right {
+  from {
+    transform: translateX(-300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
     opacity: 1;
   }
 }
