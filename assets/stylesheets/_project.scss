@@ -98,12 +98,6 @@
     width: 100%;
     opacity: 0.5;
   }
-
-  &:hover {
-    .project-info {
-      
-    }
-  }
 }
 
 .project-info {
@@ -132,6 +126,8 @@
 
   h4 {
     margin: 0.5em;
+    line-height: 1em;
+    font-size: 2.5em;
   }
 
   .view-project {
@@ -148,13 +144,9 @@
   }
 
   p {
-    width: 60%;
+    width: 85%;
     margin: 0 auto;
     font-size: 1.15em;
-  }
-
-  h4 {
-    font-size: 2.5em;
   }
 }
 
