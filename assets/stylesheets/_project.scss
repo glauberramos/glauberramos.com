@@ -101,7 +101,7 @@
   }
 }
 
-.project-info {
+.text-animation {
   -webkit-animation-name: intro-right;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-iteration-count: once;
@@ -115,7 +115,10 @@
   animation-timing-function: ease-out;
   animation-delay: 0.2s;
   animation-fill-mode: both;
+}
 
+
+.project-info {
   display: block;
   margin: 0 auto;
   color: #333;
