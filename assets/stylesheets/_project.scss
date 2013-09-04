@@ -80,6 +80,11 @@
 }
 
 .project-hero {
+  background: #333; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   position: relative;
   overflow: hidden;
   height: 400px;
@@ -150,13 +155,6 @@
 
   h4 {
     font-size: 2.5em;
-  }
-}
-
-.project-cover {
-  a {
-    display: block;
-    background: #333;
   }
 }
 
