@@ -1,13 +1,27 @@
 .blog {
 	text-align: center;
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 90px;
 
 	img {
-		width: 130px;
+		width: 80px;
 	}
 
 	a {
 		color: $headerColor;
+		float: left;
+	}
+
+	li {
+		@include clear;
+		width: 500px;
+		margin: 0 auto;
+		list-style: none;
+		display: block;
+	}
+
+	em {
+		color: #aaa;
+		float: right;
 	}
 }
