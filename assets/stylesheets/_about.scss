@@ -1,0 +1,20 @@
+.about {
+  margin-bottom: 20px;
+
+  a {
+  	font-size: 2em;
+  	text-decoration: none;
+  	color: $headerColor;
+  	margin-left: 10px;
+
+  	&:hover {
+		text-decoration: underline;  		
+  	}
+  }
+
+  .portrait {
+  	width: 170px;
+  	display: block;
+  	margin: 0 auto;
+  }
+}

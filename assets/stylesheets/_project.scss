@@ -80,24 +80,19 @@
 }
 
 .project-hero {
-  background: #333; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  @include clear;
+  padding-top: 30px;
+  padding-bottom: 30px;
   position: relative;
-  overflow: hidden;
-  height: 400px;
-  border-bottom: 3px solid #777;
+  border-bottom: 2px solid #ccc;
 
   &:last-child {
     border-bottom: 0;
   }
+}
 
-  img {
-    width: 100%;
-    opacity: 0.5;
-  }
+.project-thumb {
+  display: inline-block;
 }
 
 .project-info {
@@ -115,27 +110,24 @@
   animation-delay: 0.2s;
   animation-fill-mode: both;
 
-  display: block;
+  display: inline-block;
   margin: 0 auto;
   color: #333;
-  position: absolute;
-  text-align: center;
-  top: 70px;
-  width: 100%;
+  text-align: left;
   border: 0;
 
   h4 {
-    margin: 0.5em;
-    line-height: 1em;
-    font-size: 2.5em;
+    line-height: 0.1em;
+    margin-top: 10px;
+    font-size: 2em;
   }
 
   .view-project {
-    position: relative;
-    top: 70px;
     padding: 10px 20px;
     border: 2px solid #333;
     color: #333;
+    margin-top: 15px;
+    display: inline-block;
     
     &:hover {
       background: #333;
@@ -144,8 +136,6 @@
   }
 
   p {
-    width: 85%;
-    margin: 0 auto;
     font-size: 1.15em;
   }
 }

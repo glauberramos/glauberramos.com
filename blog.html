@@ -1,0 +1,17 @@
+---
+layout: default
+title: About Glauber Ramos
+---
+
+<section class="blog">
+	<img class="portrait" src="assets/images/galuber.png" />
+
+	<ul>
+	  {% for post in site.categories.post %}
+	    <li>
+	      <a href="{{ post.url }}">{{ post.title }}</a>
+	      <em href="{{ post.url }}">{{ post.date }}</em>
+	    </li>
+	  {% endfor %}
+	</ul>
+</section>

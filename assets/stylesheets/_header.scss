@@ -14,55 +14,6 @@ header {
   a {
     cursor: pointer;
   }
-
-  .bot, .top {
-    right: 0;
-    color: white;
-    text-decoration: none;
-    position: absolute;
-  }
-
-  i {
-    font-size: 1.5em;
-  }
-}
-
-.toggle-header {
-  overflow:hidden;
-  max-height:0;
-  opacity:0;
-  transition: all .4s ease-out;
-
-  p {
-    padding-left: 0;
-    font-family: "OpenSans";
-  }
-
-  em {
-    font-size: 0.9em;
-    color: #777;
-    padding-top: 5px;
-    position: relative;
-    top: 5px;
-  }
-
-  .portrait {
-    width: 95px;
-    float: left;
-    margin-right: 20px;
-    top: -15px;
-    position: relative;
-  }
-}
-
-#header:target .toggle-header {
-  max-height: 120px;
-  opacity: 1;
-}
-
-#header:target .top { 
-  opacity: 0;
-  pointer-events: none;
 }
 
 .logo {
@@ -76,9 +27,7 @@ header {
 
 nav {
   text-align: center;
-  margin: 2% 0;
   float: right;
-  margin-top: 90px;
 
   li {
     text-decoration: none;

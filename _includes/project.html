@@ -1,6 +1,9 @@
-<section class="project-hero" style="background-image: url('assets/images/{{ post.cover }}');">
+<section class="project-hero">
   <a href="{{ post.link }}">
-    <span class="project-info">  
+  	<span class="project-thumb column large-5">
+  		<img src="assets/images/{{ post.cover }}"></img>
+  	</span>
+    <span class="project-info column large-7">  
       <h4>{{ post.title }}</h4>
       <p>{{ post.desc }}</p>
       <span class="view-project">View Project</span>
