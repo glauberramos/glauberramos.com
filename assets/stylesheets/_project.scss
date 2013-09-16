@@ -84,7 +84,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   position: relative;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 1px solid #eee;
 
   &:last-child {
     border-bottom: 0;
@@ -93,6 +93,11 @@
 
 .project-thumb {
   display: inline-block;
+  text-align: right;
+
+  img {
+    width: 80%;
+  }
 }
 
 .project-info {
@@ -117,9 +122,9 @@
   border: 0;
 
   h4 {
-    line-height: 0.1em;
-    margin-top: 10px;
-    font-size: 2em;
+    line-height: 1em;
+    margin-top: 0;
+    font-size: 1.7em;
   }
 
   .view-project {
@@ -137,6 +142,7 @@
 
   p {
     font-size: 1.15em;
+    width: 70%;
   }
 }
 
