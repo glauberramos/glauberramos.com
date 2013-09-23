@@ -12,9 +12,19 @@
   	}
   }
 
+  p {
+    line-height: 1.7em;
+  }
+
   .portrait {
+    position: relative;
+    top: 20px;
   	width: 170px;
   	display: block;
   	margin: 0 auto;
+  }
+
+  .highlight {
+    color: $headerColor;
   }
 }
