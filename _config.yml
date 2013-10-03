@@ -1,4 +1,7 @@
 name: Glauber Ramos Website
+description: Blog sobre Pensamentos e Insights de Glauber Ramos
+url: http://glauberramos.com
+
 pygments: true
 
 # defaults
