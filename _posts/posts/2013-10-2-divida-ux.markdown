@@ -10,6 +10,8 @@ categories: post
 
 O termo "Dívida de UX" surgiu como referência ao termo [Dívida Técnica](http://martinfowler.com/bliki/TechnicalDebt.html). Ele foi primeiramente apresentado por [Ward Cunningham](http://pt.wikipedia.org/wiki/Ward_Cunningham) para descrever decisões de design de código (geralmente rápidas e de baixa qualidade) que ao longo prazo geram impacto negativo no desenvolvimento deixando-o mais lento.
 
+Usa-se "dívida", pois assim como dívidas, a dívida técnica gera juros que teram que ser pagos depois. No caso da dívida técnica gera lentidão para desenvolver funcionalidades novas e a dívida de UX gera uma experiência baixa para o usuário.
+
 O que é dívida de UX?
 ---------------------
 
@@ -18,7 +20,7 @@ Dívida de UX é a lacuna que existe entre a experiência que o seu produto tem 
 ###Pirámide das necessidades de UX
 !["Pirámide das necessidades de UX"](/assets/images/uxneeds.jpg "Pirámide de necessidades de UX")
 
-Da mesma maneira que o dívida técnica, o dívida de UX vai se acumulando ao longo do desenvolvimento de um produto devido a decisões rápidas e de baixa qualidade. Tambêm pode ser gerado devido a falta de visão da experiência do produto como um todo que gera falhas e inconsistencias.
+Da mesma maneira que a dívida técnica, a dívida de UX vai se acumulando ao longo do desenvolvimento de um produto devido a decisões rápidas e de baixa qualidade. Tambêm pode ser criada devido a falta de visão da experiência do produto como um todo gerando falhas e inconsistencias.
 
 Tipos de dívida de UX
 ---------------------
@@ -33,7 +35,7 @@ O dívida de UX intencional é criado quando se opta pela opção mais rápida e
 
 ###Dívida de UX não intencional
 
-O dívida de UX não intencional ocorre quando não se tem um total conhecimento sobre as necessidades dos usuários ou não se sabe exatamente quem é o público alvo e seu conhecimento de técnologia, dessa maneira uma experiência errada é projetada gerando dívidas de UX. Outra maneira não intencional é quando não se pensa na experiência como um todo do produto ou não se pensa qual a experiência presente em outras funcionalidades, que tambem gera inconsistencias na aplicação.
+O dívida de UX não intencional ocorre quando não se tem um total conhecimento sobre as necessidades dos usuários ou não se sabe exatamente quem é o público alvo e seu conhecimento de tecnologia, dessa maneira uma experiência errada é projetada gerando dívidas de UX. Outra maneira não intencional é quando não se pensa na experiência como um todo ou não se sabe qual a experiência presente em outras funcionalidades.
 
 ###Adicionar mais e mais
 
@@ -44,23 +46,23 @@ Isso ocorre quando criamos um design e continuamente adicionamos mais e mais lin
 Priorização
 -----------
 
-Após análise e coleta dos dívidas de UX, uma das maneiras de se fazer a priorização é a seguinte:
+Após análise e coleta das dívidas de UX, uma das maneiras de se fazer a priorização é a seguinte:
 
-1. Mapear todos os dívidas de UX encontrados
-2. Separar os dívidas por categorias (ajuste de interface, análise, etc.)
+1. Mapear todos as dívidas de UX encontrados
+2. Separar as dívidas por categorias (ajuste de interface, análise, etc.)
 3. Criar uma matriz de Ganho X Esforço com 3 níveis (Baixo, Médio e Alto)
 4. Classificar cada dívida entre as 9 possibilidades
-5. Priorizar primeiramente os dívidas que tem maior ganho e menor esforço, depois médio esforço e maior ganho e assim por diante como achar necessário.
+5. Priorizar primeiramente as dívidas que tem maior ganho e menor esforço, depois médio esforço e maior ganho e assim por diante.
 
 
 ####Exemplo de priorização de Dívida de UX
 
-!["Gráfico de priorização do Dívida de UX"](/assets/images/ux_debt.jpg "Gráfico priorixazão dívida de UX")
+!["Gráfico de priorização da Dívida de UX"](/assets/images/ux_debt.jpg "Gráfico priorização dívida de UX")
 
 Conclusão
 ---------
 
-É importante que o dívida de UX seja análisado desde o início do desenvolvimento de um produto para que assim evita-se o acumulo e potencialize a experiência do usuário. O dívida irá ocorrer diversas vezes, mas manter tudo documentado e constantemente priorizado é importante para assegurar a entrega da melhor experiência possível.
+É importante que a dívida de UX seja análisada desde o início do desenvolvimento de um produto para que assim evita-se o acumulo e potencialize a experiência do usuário. A dívida irá ocorrer diversas vezes, mas manter tudo documentado e constantemente priorizado é importante para assegurar a entrega da melhor experiência possível.
 
 Referências:
 
