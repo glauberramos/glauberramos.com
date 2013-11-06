@@ -8,7 +8,7 @@ categories: post
 
 !["Dívida de UX"](/assets/images/debitouxcapa.jpg "Dívida de UX")
 
-O termo "Dívida de UX" surgiu como referência ao termo [Dívida Técnica](http://martinfowler.com/bliki/TechnicalDebt.html). Ele foi primeiramente apresentado por [Ward Cunningham](http://pt.wikipedia.org/wiki/Ward_Cunningham) para descrever decisões de design de código (geralmente rápidas e de baixa qualidade) que ao longo prazo geram impacto negativo no desenvolvimento deixando-o mais lento.
+O termo "Dívida de UX" surgiu como referência ao termo [Dívida Técnica](http://martinfowler.com/bliki/TechnicalDebt.html). Dívida técnica foi primeiramente apresentada por [Ward Cunningham](http://pt.wikipedia.org/wiki/Ward_Cunningham) para descrever decisões de design de código (geralmente rápidas e de baixa qualidade) que ao longo prazo geram impacto negativo no desenvolvimento deixando-o mais lento.
 
 Usa-se "dívida", pois assim como dívidas, a dívida técnica gera juros que teram que ser pagos depois. No caso da dívida técnica gera lentidão para desenvolver funcionalidades novas e a dívida de UX gera uma experiência baixa para o usuário.
 
@@ -31,11 +31,11 @@ Outros exemplos são: falta de padronização entre elementos, por exemplo botõ
 
 ###Dívida de UX intencional
 
-O dívida de UX intencional é criado quando se opta pela opção mais rápida e não pela melhor decisão que vai tomar mais tempo para ser implementada. Isso pode ocorrer quando há pressão para entrega de um produto e o time acaba pecando na experiência do usuário. A experiência nunca deve ser cortada mas sim deve-se manter uma padronização entre todas as funcionalidades da aplicação.
+A dívida de UX intencional é criada quando se opta pela opção mais rápida e não pela melhor decisão que vai tomar mais tempo para ser implementada. Isso pode ocorrer quando há pressão para entrega de um produto e o time acaba pecando na experiência do usuário. A experiência nunca deve ser cortada mas sim deve-se manter uma padronização entre todas as funcionalidades da aplicação.
 
 ###Dívida de UX não intencional
 
-O dívida de UX não intencional ocorre quando não se tem um total conhecimento sobre as necessidades dos usuários ou não se sabe exatamente quem é o público alvo e seu conhecimento de tecnologia, dessa maneira uma experiência errada é projetada gerando dívidas de UX. Outra maneira não intencional é quando não se pensa na experiência como um todo ou não se sabe qual a experiência presente em outras funcionalidades.
+A dívida de UX não intencional ocorre quando não se tem um total conhecimento sobre as necessidades dos usuários ou não se sabe exatamente quem é o público alvo e seu conhecimento de tecnologia, dessa maneira uma experiência errada é projetada gerando dívidas de UX. Outra maneira não intencional é quando não se pensa na experiência como um todo ou não se sabe qual a experiência presente em outras funcionalidades.
 
 ###Adicionar mais e mais
 
