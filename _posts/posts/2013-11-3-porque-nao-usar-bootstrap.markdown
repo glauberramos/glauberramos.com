@@ -32,7 +32,7 @@ A dívida técnica vem na forma de dissociar o markup do estilo de sua aplicaç�
 
 O boostrap foi criado para ser um framework de inicialização (bootstrap), ele faz esse trabalho muito bem, mas ele não foi criado para ser a base de interfaces customisáveis.
 
-No final você deve seguir o que o Twitter fez e tantos outros ([Adobe](http://topcoat.io/), [Yahoo](http://purecss.io/), [Zurb](http://foundation.zurb.com/), etc.), que construiram seus próprios frameworks baseado no contexto da empresa deles. Você deve sim seguir as boas práticas (variáveis, módulos e estrutura de arquivos) que esses frameworks trazem e construir o seu próprio framework.
+No final você deve seguir o que o Twitter fez e tantos outros ([Adobe](http://topcoat.io/), [Yahoo](http://purecss.io/), [Zurb](http://foundation.zurb.com/), [Locaweb](http://locaweb.github.io/locawebstyle/), etc.), que construiram seus próprios frameworks baseado no contexto da empresa deles. Você deve sim seguir as boas práticas (variáveis, módulos e estrutura de arquivos) que esses frameworks trazem e construir o seu próprio framework.
 
 Lembre o que Steve Jobs [falou](http://www.youtube.com/watch?v=GHAJhosbWiM):
 
