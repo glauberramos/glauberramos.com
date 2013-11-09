@@ -20,4 +20,20 @@
 	.main-header {
 		margin-bottom: 0;
 	}
+
+	.blog {
+		li {
+			max-width: 500px;
+			width: auto;
+
+			em {
+				font-size: 0.8em;
+			}
+		}
+	}
+
+	.post {
+		padding: 10px;
+		width: 100%;
+	}
 }
