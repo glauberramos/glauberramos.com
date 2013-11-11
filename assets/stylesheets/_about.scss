@@ -9,7 +9,7 @@
   	margin-left: 10px;
 
   	&:hover {
-		text-decoration: underline;  		
+		  color: darken($headerColor, 10%);
   	}
   }
 
@@ -26,6 +26,16 @@
   }
 
   .highlight {
-    color: $headerColor;
+    font-family: "OpenSansBold";
+  }
+
+  ul {
+    font-size: 0.9em;
+    list-style: none;
+    font-family: "OpenSansItalic";
+
+    li {
+      margin-bottom: 8px;
+    }
   }
 }
