@@ -41,4 +41,19 @@
 		font-size: 1.3em;
   		line-height: 1.7em;
 	}
+
+	a, a:visited {
+		color: $headerColor;
+	}
+
+	i {
+		margin-right: 5px;
+	}
+
+	.back {
+		font-size: 1.2em;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		display: block;
+	}
 }
