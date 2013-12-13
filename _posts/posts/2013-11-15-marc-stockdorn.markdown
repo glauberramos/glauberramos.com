@@ -1,3 +1,10 @@
+---
+layout: post
+comments: true
+title: "ISA 2013 - Marc Stockdorn"
+date: 2013-11-15 12:00:00
+---
+
 service design
 
 minimize expectations to increase the experience

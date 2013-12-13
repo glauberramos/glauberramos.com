@@ -1,3 +1,10 @@
+---
+layout: post
+comments: true
+title: "ISA 2013 - Catarina Mota"
+date: 2013-11-15 12:00:00
+---
+
 designing for hackability
 
 hackers want to explore the world
@@ -11,7 +18,7 @@ how to make almost everything
 you can create anything you ant with those tools like laser cut and 3d printers
 online digifab services
 personal digitab tools
-you can have one already, they are cheapers
+you can have one already, they are cheap
 
 the future of designing and making objects can be very different of what is today
 
@@ -73,11 +80,11 @@ remove waste - good for environment
 
 3 needs
 
-competecen
+competence
 relatenes
 autonomy -- hacking design helps that autonomy
 
-changes our perspectives of yourselfs, we are not only consumers, are makers we are also creative 
+changes our perspectives of yourselfs, we are not only consumers, we are makers we are  creative
 
 keep calm and hack the planet
 

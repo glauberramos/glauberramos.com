@@ -3,7 +3,6 @@ layout: post
 comments: true
 title: "ISA 2013 - Josh Seiden"
 date: 2013-11-15 12:00:00
-categories: post
 ---
 
 User experience in a rapidly changing world
@@ -66,7 +65,7 @@ not only design assumptions but business assumptions also
 we will know this is true when we  see this
 
 small dedicated coloted amd cross-functional team
-two-pizza teams
+two-pizza teams - 6 people
 1 project each
 1 location(same time zone)
 self-sufficient
@@ -80,9 +79,9 @@ design systems at GE
 mvp is the smallest thing you can make to test your hypothesis
 
 what are businesses trying to learn
-is there a need / opportunity in the market?
-will buy my solution?
-does my solution work?
+- is there a need / opportunity in the market?
+- will anyone buy my solution?
+- does my solution work?
 
 second question is hard to us - to designers
 

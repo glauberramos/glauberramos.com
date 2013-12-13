@@ -1,3 +1,10 @@
+---
+layout: post
+comments: true
+title: "ISA 2013 - Jared Spool"
+date: 2013-11-15 12:00:00
+---
+
 Jared Spool
 
 Mobie and UX in the eye of the perfect storm
@@ -41,7 +48,7 @@ the kano model
 
 performance payoff
 
-baseic expectations
+basic expectations
 
 excitement generators
 

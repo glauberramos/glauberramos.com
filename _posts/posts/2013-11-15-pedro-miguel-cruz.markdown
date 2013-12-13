@@ -3,7 +3,6 @@ layout: post
 comments: true
 title: "ISA 2013 - Pedro Miguel Cruz"
 date: 2013-11-15 12:00:00
-categories: post
 ---
 
 #Pedro Miguel Cruz

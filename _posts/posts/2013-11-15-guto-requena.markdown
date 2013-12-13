@@ -3,11 +3,12 @@ layout: post
 comments: true
 title: "ISA 2013 - Guto Requena"
 date: 2013-11-15 12:00:00
-categories: post
 ---
 
 guto requena
 estudio guto requena
+
+maquenização do homem e a humanização da maquina
 
 ciborgue
 

@@ -1,3 +1,10 @@
+---
+layout: post
+comments: true
+title: "ISA 2013 - Bill Buxton"
+date: 2013-11-15 12:00:00
+---
+
 why ebay is a better prototyping tool than a 3d printer
 
 the long nose, and other tales of history
@@ -20,22 +27,21 @@ sketch is not a design
 
 I cant do critic on a single thing/piece
 
-fwhat is true in sketching is equally true in usability testing
+what is true in sketching is equally true in usability testing
 
-a cant do usability testing on a single product, single thing.
+cant do usability testing on a single product, single thing.
 
 if you expose users to only one design, no rejections
 give 3 different things, them you get honest opinions
-
-people like to please
+people like to please, they don't want critique your design
 
 too high subjective ratings
 
 minimal creative input from users
 
-dman it's hard, do 3 prototyes, three sketches, and test with users
+dammit it's hard, do 3 prototyes, three sketches, and test with users
 
-design right cs right design, you need both
+design right and right design, you need both
 
 the long nose of innovation - 20 years
 
@@ -49,7 +55,7 @@ how to avoid problems with redesign, do small changes continuously, dont surpris
 
 works, sell, flows, and work together
 
-ecosustem of products, that's a change in everything
+ecosystem of products, that's a change in everything
 
 the more you need the more you want
 
@@ -63,7 +69,7 @@ every new product and service must provide great experience and excellent value
 
 it works and flows
 
-bue each must also reduce the complexity and encrease the value of all of the others things work together
+but each must also reduce the complexity and encrease the value of all of the others things work together
 
 rule number 3
 
@@ -74,7 +80,7 @@ car and cellphone connected, like put the cellphone and it turns into a gps
 cellphone tells you about the speed and the 
 mobile is all around
 
-when you connect 2 devices consistency doenst make too much difference, while talking in the car like 100% of the UI changed
+when you connect 2 devices consistency doe	nst make too much difference, while talking in the car like 100% of the UI changed
 
 
 
