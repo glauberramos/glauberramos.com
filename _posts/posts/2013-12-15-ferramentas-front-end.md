@@ -89,3 +89,10 @@ categories: post
 
 <li>Você quer suportar <a href="http://bit.ly/15zBP1b">retina</a> ou <a href="http://retina-images.complexcompulsions.com/">high DPI</a> dispositivos? <strong>novo</strong></li>
 </ul>
+
+<h3>Outras considerações</h3>
+<ul>
+<li>Performance <a href="http://browserdiet.com/">Browser Diet</a>.</li>
+
+<li>Design responsivo <a href="http://browserfit.github.io/">Browser Fit</a>.</li>
+</ul>
