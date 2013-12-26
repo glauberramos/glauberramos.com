@@ -3,86 +3,83 @@ layout: post
 comments: true
 title:  "Ferramentas de Front End"
 date:   2013-12-15 21:18:28
+categories: post
 ---
 
-<p>Hi guys!</p>
+<p>Essa é uma lista de coisas a se pensar na hora de criar um projeto front-end. Ela foi baseda na lista criada pelo meu colega <a href="http://3oheme.com/blog/2013/09/25/different-areas-you-need-to-think-about-for-a-website-frontend-wip.html#static_code_analysis">Ignacio Duarte</a>. A idéia é manter essa lista sempre atualizada e que ela seja um guia rápido de referência quando se está pensando em um projeto de front-end.</p>
 
-<p>This is just a list I’ve created basically for myself, so I don’t forget any scenario or issue when thinking about a frontend project, but I thought it’d be useful for any other frontend out there :-)</p>
+<h3 id="documenting_the_code">Documentando o código</h3>
 
-<p>Please feel free to add anything I’ve forgot in the comments, so I can update it.</p>
+<p><strong>Uma das maneiras mais fáceis de melhorar a comunicação entre desenvolvedores front-end e backend é criando um guia de estilo</strong> (Exemplos <a href="http://bit.ly/Yicgb2">starbucks</a>, <a href="http://bit.ly/17XbvIZ">Github</a> ou <a href="http://bit.ly/1gWYBmi">Hackerhires</a>) —&nbsp;essa é uma das principais razões pela qual o bootstrap está sendo tão usado.</p>
 
-<h3 id="documenting_the_code">Documenting the code</h3>
-
-<p><strong>One of the easiest ways to improve the communication between frontend and backend developers is using a styleguide</strong> (<a href="http://bit.ly/Yicgb2">starbucks</a>, <a href="http://bit.ly/17XbvIZ">Github</a> or <a href="http://bit.ly/1gWYBmi">Hackerhires</a> examples) —&nbsp;that’s one of the main reasons why twitter bootstrap has been so widely used.</p>
-
-<p>The following tools and links will help you to create styleguides:</p>
+<p>Ferramentas que ajudam na criação de um guia de estilo:</p>
 
 <ul>
-<li><a href="http://warpspire.com/kss/">Kneath</a> is a methodology for documenting CSS and generating styleguides.</li>
+<li><a href="http://warpspire.com/kss/">Kneath</a> é uma metodologia de documentação de CSS e geração de guia de estilos.</li>
 
-<li><a href="http://nadarei.co/nkss-rails">Nadarei KSS</a> is a Kneath KSS port to Rails.</li>
+<li><a href="http://nadarei.co/nkss-rails">Nadarei KSS</a> é a versão do Kneath KSS para Rails.</li>
 
-<li><a href="http://kaleistyleguide.com/">Kalei styleguide</a> is a clever client-side solution using backbone, so no need to maintain a server.</li>
+<li><a href="http://kaleistyleguide.com/">Kalei styleguide</a> é uma solução client-side usando backbone, então não é necessário manter um servidor.</li>
 
-<li><a href="http://pea.rs/">Pears</a> uses wordpress and a <a href="https://github.com/simplebits/Pears">specific theme</a> to create styleguides.</li>
+<li><a href="http://pea.rs/">Pears</a> usa wordpress e <a href="https://github.com/simplebits/Pears">um tema específico</a> para criar guia de estilos.</li>
 
-<li><a href="http://jacobrask.github.com/styledocco/">Styledocco</a> uses NodeJS and Markdown to generate HTML styleguides and documentation.</li>
+<li><a href="http://jacobrask.github.com/styledocco/">Styledocco</a> usa NodeJS e Markdown para gerar guia de estilos em HTML e documentação.</li>
 
-<li><a href="https://github.com/adactio/Pattern-Primer">Patter primer</a> generates styled markup from a folder of markup snippets.</li>
+<li><a href="https://github.com/adactio/Pattern-Primer">Patter primer</a> gera markup estilizado através de uma pasta com componentes markup.</li>
 
-<li><a href="https://github.com/topcoat/topdoc">TopDoc</a> is a well documented tool for generating usage guides for css that uses very stric structures to document our CSS code.</li>
+<li><a href="https://github.com/topcoat/topdoc">TopDoc</a> é uma ferramenta muito bem documentada para gerar guias de uso para CSS que utiliza uma maneira estrita de documentação de código CSS.</li>
 
-<li>And some interesting reference posts from <a href="http://warpspire.com/posts/kss/">Warpspire</a>, <a href="http://blog.rjmetrics.com/2012/02/20/our-living-style-guide-writing-maintainable-htmlcss/#.Ul1ZBGR9DFQ">rjmetrics</a> and <a href="http://uxmag.com/articles/anchoring-your-design-language-in-a-live-style-guide">UXMag</a>.</li>
+<li>Alguns posts interessantes <a href="http://warpspire.com/posts/kss/">Warpspire</a>, <a href="http://blog.rjmetrics.com/2012/02/20/our-living-style-guide-writing-maintainable-htmlcss/#.Ul1ZBGR9DFQ">rjmetrics</a> e <a href="http://uxmag.com/articles/anchoring-your-design-language-in-a-live-style-guide">UXMag</a>.</li>
 </ul>
 
-<h3 id="regression_tests">Regression tests</h3>
+<h3 id="regression_tests">Testes de regressão</h3>
 
-<p><strong>CSS is a set of rules that, applied to some specific HTML, produce a pleasant result</strong>. That’s why is not easy to add tests to a CSS framework, but there are some different stages we can add to our pipeline, mostly based on before and after image diffs:</p>
+<p><strong>CSS é um conjunto de regras que aplicado ao HTML produz um resultado bonito esteticamente.</strong>. Por essa razão não é fácil adicionar testes a um CSS framework. Mas existem maneiras de adicionar testes ao nosso pipeline, a maioria baseado em antes e depois usando comparações de imagens:</p>
 
 <ul>
-<li><a href="https://github.com/bbc-news/wraith">Wraith</a>, a responsive screenshot comparison tool from the BBC guys.</li>
+<li><a href="https://github.com/bbc-news/wraith">Wraith</a>, uma ferramenta de comparação responsiva feita pelo pessoal da BCC.</li>
 
-<li><a href="https://github.com/Huddle/PhantomCSS">PhantomCSS</a> provides visual regression testing with PhantomJS.</li>
+<li><a href="https://github.com/Huddle/PhantomCSS">PhantomCSS</a> Testes de regressão visual usando PhantomJS.</li>
 
-<li><a href="https://github.com/thingsinjars/Hardy">Hardy</a> is, as they say, a <em>“Selenium-driven, cucumber-powered CSS testing”</em>.</li>
+<li><a href="https://github.com/thingsinjars/Hardy">Hardy</a> Teste de CSS, baseado em Selenium e cucumber.</li>
 
-<li><a href="http://cburgmer.github.io/csscritic/">CSS critic</a>, a lightweight framework for regression testing of Cascading Style Sheets.</li>
+<li><a href="http://cburgmer.github.io/csscritic/">CSS critic</a>, Um framework leve de testes de regressão para folhas de estilo.</li>
 
-<li><a href="http://www.sikuli.org/">Sikuli</a> is a <em>general purpose visual technology to automate and test graphical user interfaces using screenshot images</em>.</li>
+<li><a href="http://www.sikuli.org/">Sikuli</a> é uma <em>ferramenta de testes de interface gráfica utilizando screenshots.</em>.</li>
 
-<li><a href="https://github.com/suitcss/test">SuitCSS</a> provides a test structure for visually testing other components.</li>
+<li><a href="https://github.com/suitcss/test">SuitCSS</a> provê uma estrutura de testes para testar componentes visualmente.</li>
 </ul>
 
-<h3 id="static_code_analysis">Static code analysis</h3>
+<h3 id="static_code_analysis">Análise de código estática</h3>
 
-<p>Interesting as a before-commit, checking any syntax errors and code redundancy:</p>
+<p>Interessante para se utilizar antes de commitar, para verificar erros de sintaxe e redundância de código:</p>
 
 <ul>
-<li><a href="http://zmoazeni.github.io/csscss/">CSSCSS</a> is a CSS redundancy analyzer that analyzes redundancy (I love this guys :-)</li>
+<li><a href="http://zmoazeni.github.io/csscss/">CSSCSS</a> é um analizador de redundância de CSS</li>
 
-<li>CSSLint <a href="http://csslint.net/">online tool</a> and <a href="https://github.com/stubbornella/csslint/wiki/Command-line-interface">command line tool</a> for syntax and basic performance checking.</li>
+<li>CSSLint <a href="http://csslint.net/">ferramenta online</a> e <a href="https://github.com/stubbornella/csslint/wiki/Command-line-interface">ferramenta de linha de comando</a> para verificar performance e sintaxe.</li>
 
-<li><a href="https://github.com/peterbe/mincss">MINCSS</a> will check unused CSS selectors in your code.</li>
+<li><a href="https://github.com/peterbe/mincss">MINCSS</a> vai verificar seletores CSS que não estão sendo usados.</li>
 </ul>
 
-<h3 id="specific_htmlcss_implementation">Specific HTML+CSS implementation</h3>
+<h3 id="specific_htmlcss_implementation">Implementação HTML+CSS</h3>
 
-<p>Once we have set up our whole project, is time to start thinking about the specific CSS code we are going to write, then you should think about:</p>
+<p>Depois de você configurar o seu projeto, é preciso pensar em como você irá escrever seu código CSS:</p>
 
 <ul>
-<li><strong>Reset</strong> or <strong>normalize</strong> your default CSS.</li>
+<li><strong>Reset</strong> ou <strong>normalize</strong> seu CSS.</li>
 
-<li><strong>Grid system</strong> —&nbsp;handmade, supporting different breakpoints or just tackling a fixed amount of columns across devices.</li>
+<li><strong>Grid system</strong> —&nbsp;feito a mão, suportando diferentes breakpoints ou apenas suportando um número fixo de colunas em diferentes dispositivos.</li>
 
-<li>CSS3 <strong>feature detection</strong> libraries like <a href="http://modernizr.com/">moderniz</a> or relying on <a href="http://dev.opera.com/articles/view/native-css-feature-detection-via-the-supports-rule/">native detection</a>.</li>
+<li>CSS3 <strong>detecção de funcionalidade</strong> bibliotecas como <a href="http://modernizr.com/">modernizr</a> ou <a href="http://dev.opera.com/articles/view/native-css-feature-detection-via-the-supports-rule/">detecção nativa</a>.</li>
 
-<li>CSS <strong>preprocessor</strong> —&nbsp;<a href="http://sass-lang.com/">SASS</a> or <a href="http://lesscss.org/">LESS</a>.</li>
+<li>CSS <strong>pré-processadores</strong> —&nbsp;<a href="http://sass-lang.com/">SASS</a> ou <a href="http://lesscss.org/">LESS</a>.</li>
 
-<li>How are you going to <strong>organize your CS</strong>S? <a href="https://github.com/stubbornella/oocss/tree/master/oocss">OOCSS</a>, <a href="http://smacss.com/">SMACCS</a>, or maybe <a href="bit.ly/1fmXi1H">Semantic UI</a>.</li>
+<li>Como você irá <strong>organizar o seu CSS? </strong><a href="https://github.com/stubbornella/oocss/tree/master/oocss">OOCSS</a>, <a href="http://smacss.com/">SMACCS</a>, ou <a href="bit.ly/1fmXi1H">Semantic UI</a>.</li>
 
-<li><strong>Responsive images solution</strong> —&nbsp;while W3C is still refining the <a href="http://picture.responsiveimages.org/">picture element draft</a>, you should give a try to <a href="https://github.com/scottjehl/picturefill">picturefill</a>, the <a href="http://coding.smashingmagazine.com/2013/06/02/clown-car-technique-solving-for-adaptive-images-in-responsive-web-design/">clown car technique</a> or use a <a href="http://www.hongkiat.com/blog/serving-responsive-images/">server side solution</a>.</li>
+<li><strong>Soluções para imagens responsivas</strong> —&nbsp;enquanto W3C ainda define o <a href="http://picture.responsiveimages.org/">rascunho do picture element</a>, você deve testar <a href="https://github.com/scottjehl/picturefill">picturefill</a>, a <a href="http://coding.smashingmagazine.com/2013/06/02/clown-car-technique-solving-for-adaptive-images-in-responsive-web-design/">técnica clown car</a> ou usar uma <a href="http://www.hongkiat.com/blog/serving-responsive-images/">solução server side</a>.</li>
 
-<li>Where are you going to set your <a href="http://bit.ly/188oUBo">media queries</a> <a href="http://bit.ly/188oPNR">breakpoints</a>? <strong>new</strong></li>
+<li>Onde você irá setar suas <a href="http://bit.ly/188oUBo">media queries</a> <a href="http://bit.ly/188oPNR">breakpoints</a>? <strong>novo</strong></li>
 
-<li>Would you like to support <a href="http://bit.ly/15zBP1b">retina</a> or <a href="http://retina-images.complexcompulsions.com/">high DPI</a> devices? <strong>new</strong></li>
+<li>Você quer suportar <a href="http://bit.ly/15zBP1b">retina</a> ou <a href="http://retina-images.complexcompulsions.com/">high DPI</a> dispositivos? <strong>novo</strong></li>
 </ul>
