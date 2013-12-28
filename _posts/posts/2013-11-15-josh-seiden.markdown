@@ -3,101 +3,73 @@ layout: post
 comments: true
 title: "ISA 2013 - Josh Seiden"
 date: 2013-11-15 12:00:00
+categories: post
 ---
 
-User experience in a rapidly changing world
- 
-NEO
+Esse ano tive a oportunidade de participar do Interation South America que aconteceu em Recife - Brasil. Uma das palestras que mais gostei foi a do Josh Seiden - User experience in a rapidly changing world. Ele trabalha na empresa NEO e é autor do livro Lean UX.
 
-author of lean UX
+<img src="/assets/images/leanUX.jpg" alt="Lean UX" style="width: 400px;"/>
 
-changing is the new reality 
-adapting our practice
+Josh falou que na nossa área e mudança é a nova realidade e precisamos estar sempre se adaptando, modificando nossas práticas e técnicas.
 
-old assumptions new reality
+O desenvolvimento de software antigamente era baseado muito no processo de manufatura que na época era o que funcionava muito bem. Hoje o desenvolvimento de software evoluiu para ser mais ágil, entregar valor para o cliente, ter uma boa experiência do usuário e evitar o desperdício.
 
-old software process based on a manucfacturing process
+Empresas como Etsy fazem deploy para produção 50 vezes por dia. Facebook duas vezes por dia. Amazon faz entregas para produção a cada 11.6 segundos!
 
-etsy created continuous integration
-50 times a day new softare
+O software hoje em dia possibilita que ocorra mudanças continuas, nessa nova realidade práticas mais antigas de design como design upfront não fazem mais sentido. Não há tempo para se planejar e desenhar toda uma interface para somente após esse periodo implementa-la.
 
-facebook deliveres new soft 2 a day
-amazon deliveres new soft every 11.6 sec
-software enables continuous change
+Desenvolvedores aprenderam Metodologias Agéis.
+Designers aprenderam a usar UX Ágil.
+Pessoas de negócios usam Lean Startup.
 
-sofware developers learn to be more continuous using agile
-designers learn using agile UX
-business people learn using lean startup
+1. Aprendizado Continuo
+2. Suposições & Hipóteses
+3. Times pequenos X Times grandes
+4. Possibilitar o fazer
+5. Gerenciar os resultados
+6. Uma nova organização
 
-first to figure out how to be fast is agile software development techies - developers
-agile UX - designers
-lean startup  - business learn how to be fast
-enterprise
-sofware is eating the world
-every bussines is a software bussiness
-every bussiness need to understand how to work continuously
+#####Aprendizado Continuo
 
-1. continuous learning
-2. assumptions & hypotheses
-3. small X functional temais
-4. enable making
-5. manage outcomes
-6. a new organisation
+Uma empresa deve estar sempre aprendendo sobre seus produtos e seus clientes. Não espere você ter uma idéia implementada para começar a testar com o mercado e os seus clientes. Esse processo deve começar desde o início.
 
-continuous learning
-internet mouse - the worst thing I ever done
+#####Suposições & Hipóteses
 
-reduce inventory, risk and waste
+Todo projeto começa com suposições. Eu acho imoprtante chamarmos de suposições porque na maioria dos casos onde trabalhei essas suposições eram tomadas como verdades.
 
-I have a big idea -------- nope
-how long are you gonna wait to learn
-a system built on continuous learning
-qualitative information
-quantitative information
-process learing
+> Suposições são chamadas de requisitos
 
-asumptions and hypotheses
-every project start with an assumptions
+Hipóteses são maneiras de testar as nossas suposições. Nós saberemos que essa suposição é verdadeira quando vermos que essas métricas aconteceram.
 
-we called them requirements
-not only design assumptions but business assumptions also
+#####Times pequenos X Times grandes
 
-we will know this is true when we  see this
+Josh gosta da idéia de times de 2 pizzas. Um time que pode ser alimentado por 2 pizzas, que tenha apenas 1 projeto, multi-disciplinar, estejam todos na mesma localidade, auto-suficiente e com liberdade para experimentar.
 
-small dedicated coloted amd cross-functional team
-two-pizza teams - 6 people
-1 project each
-1 location(same time zone)
-self-sufficient
-freedom to experiment
+#####Possibilitar o fazer
 
-sketching designers and developers doying prototype in real time
+Designers desenhando e desenvolvedores prototipando ao mesmo tempo. Cultura geral da empresa para fazer coisas. MVP é a menor coisa para poder testar suas hipóteses.
 
-bias towards and enable making
-cultural bias towards making things
-design systems at GE
-mvp is the smallest thing you can make to test your hypothesis
+O que as empresas estão tentando aprender?
+- Existe alguma necessidade/oportunidade no mercado?
+- Alguêm irá comprar minha solução?
+- A minha solução funciona?
 
-what are businesses trying to learn
-- is there a need / opportunity in the market?
-- will anyone buy my solution?
-- does my solution work?
+Designers não devem desenhar um produto mas sim um experimento, testar idéias mais rapidamente.
 
-second question is hard to us - to designers
+#####Gerenciar os resultados
 
-don't design a product, design an experiment
-testing an idea early
+Resultados são as coisas que você constroe e o resultado que elas geram. Em vez de focar em funcionalidades entregas, foque nos resultados que você gerou, por exemplo: Aumento de usuários fazendo cadastro no seu site.
 
-manage outcomes
-output is the thing you make
-outcome is that business wants, why are you putting a button?
-outuput outcomer 
+#####Uma nova organização
 
-small team working on product validation and business model validation
+Times pequenos trabalhando em validar produtos e validar modelos de negócio. Nós devemos possibilitar times a trabalhar em funcionalidades que não funcionam, nós precisamos que eles falhem para poder aprender.
 
-we should allow teams to build features that dont work, we need them to fail
+#####Algumas frases interessantes do Josh:
 
-deliverable model is an old system and its changing
-design only company is a bad idea
+> Eu acredito que um entregável de design deve ser um sistema rodando
 
-i believe a deliverable should be a live system
+> Modelo de entregáveis de design é um modelo antigo e está mudando
+
+> Empresas apenas de design é uma péssima idéia
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/28297313" width="557" height="506" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px"></iframe>
