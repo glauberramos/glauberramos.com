@@ -10,7 +10,7 @@ Esse ano tive a oportunidade de participar do Interation South America que acont
 
 <img src="/assets/images/leanUX.jpg" alt="Lean UX" style="width: 400px;"/>
 
-Josh falou que na nossa área e mudança é a nova realidade e precisamos estar sempre se adaptando, modificando nossas práticas e técnicas.
+Josh falou que na nossa área a mudança é a nova realidade e precisamos estar sempre se adaptando, modificando nossas práticas e técnicas.
 
 O desenvolvimento de software antigamente era baseado muito no processo de manufatura que na época era o que funcionava muito bem. Hoje o desenvolvimento de software evoluiu para ser mais ágil, entregar valor para o cliente, ter uma boa experiência do usuário e evitar o desperdício.
 
@@ -22,20 +22,13 @@ Desenvolvedores aprenderam Metodologias Agéis.
 Designers aprenderam a usar UX Ágil.
 Pessoas de negócios usam Lean Startup.
 
-1. Aprendizado Continuo
-2. Suposições & Hipóteses
-3. Times pequenos X Times grandes
-4. Possibilitar o fazer
-5. Gerenciar os resultados
-6. Uma nova organização
-
 #####Aprendizado Continuo
 
 Uma empresa deve estar sempre aprendendo sobre seus produtos e seus clientes. Não espere você ter uma idéia implementada para começar a testar com o mercado e os seus clientes. Esse processo deve começar desde o início.
 
 #####Suposições & Hipóteses
 
-Todo projeto começa com suposições. Eu acho imoprtante chamarmos de suposições porque na maioria dos casos onde trabalhei essas suposições eram tomadas como verdades.
+Todo projeto começa com suposições. Eu acho importante chamarmos de suposições porque na maioria dos casos onde trabalhei essas suposições eram tomadas como verdades.
 
 > Suposições são chamadas de requisitos
 
@@ -71,5 +64,7 @@ Times pequenos trabalhando em validar produtos e validar modelos de negócio. N�
 > Modelo de entregáveis de design é um modelo antigo e está mudando
 
 > Empresas apenas de design é uma péssima idéia
+
+> Usuários são cegos a pequenas mudanças continuas
 
 <iframe src="http://www.slideshare.net/slideshow/embed_code/28297313" width="557" height="506" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px"></iframe>
