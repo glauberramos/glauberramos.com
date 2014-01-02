@@ -16,7 +16,7 @@ O desenvolvimento de software antigamente era baseado muito no processo de manuf
 
 Empresas como Etsy fazem deploy para produção 50 vezes por dia. Facebook duas vezes por dia. Amazon faz entregas para produção a cada 11.6 segundos!
 
-O software hoje em dia possibilita que ocorra mudanças continuas, nessa nova realidade práticas mais antigas de design como design upfront não fazem mais sentido. Não há tempo para se planejar e desenhar toda uma interface para somente após esse periodo implementa-la.
+O software hoje em dia possibilita que ocorra mudanças continuas, nessa nova realidade práticas mais antigas como design upfront não fazem mais sentido. Não há tempo para se planejar e desenhar toda uma interface para somente após esse periodo implementa-la.
 
 Desenvolvedores aprenderam Metodologias Agéis.
 Designers aprenderam a usar UX Ágil.
@@ -61,7 +61,7 @@ Times pequenos trabalhando em validar produtos e validar modelos de negócio. N�
 
 > Eu acredito que um entregável de design deve ser um sistema rodando
 
-> Modelo de entregáveis de design é um modelo antigo e está mudando
+> Entregáveis de design é um modelo antigo e está mudando
 
 > Empresas apenas de design é uma péssima idéia
 
