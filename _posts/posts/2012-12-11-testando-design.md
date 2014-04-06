@@ -17,7 +17,7 @@ Esse script ofusca todo texto e imagens do seu design, dessa maneira você conse
 	document.body.innerHTML += '<style>*, ::-webkit-input-placeholder{ color: transparent !important; text-shadow: 0 0 5px rgba(0,0,0,0.5); } img, iframe, object { -webkit-filter: blur(5px)  saturate(200%) sepia(100%) grayscale(100%);}</style>';
 
 
-!["Imagem Blur"](/assets/images/scriptblur.png "Imagem Blur") 
+!["Imagem Blur"](/assets/images/scriptblur.png "Imagem Blur")
 
 ###Como checar a poluição visual do seu design
 
@@ -29,4 +29,3 @@ Esse script remove todo texto do seu design, se você ainda continua vendo muita
 
 
 !["Imagem No Text"](/assets/images/scriptnotext.png "Imagem No Text")
-
