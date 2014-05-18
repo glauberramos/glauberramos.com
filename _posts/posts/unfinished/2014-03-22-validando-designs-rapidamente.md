@@ -1,4 +1,4 @@
-gorrila user testing
+guerrilla usability testing
 
 5 second test
 

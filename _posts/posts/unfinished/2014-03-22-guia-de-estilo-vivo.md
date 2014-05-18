@@ -6,6 +6,8 @@ date:   2014-3-22 21:18:28
 categories: post
 ---
 
+http://jsoncorbett.com/styleguide/development/2014/05/05/use-styleguides-religously.html
+
 !["Guia de estilo"](/assets/images/guiadeestilo.png "Guia de estilo")
 
 Guia de estilos vem sendo usados no mundo do design a muito tempo. Eles servem para documentar o trabalho que o designer faz referente a um produto, marca ou serviço. Ele é usado para diferentes finalidades: 
