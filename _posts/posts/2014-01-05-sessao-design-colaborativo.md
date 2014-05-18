@@ -36,14 +36,11 @@ Todo time deve participar das sessões. Quanto mais pessoas melhor, desenvolvedo
 - Comece com um objetivo final
 - Assegure-se que o problema que você trouxe no início é melhor conhecido quando a sessão acabar
 
-####Dicas para ajudar
+####Dicas para ajudar a quebrar o gelo
 
-Se algum participante estiver com problema para começar a desenhar, faça para ele criar um frame
-
-Triangulo, circulo e quadrado. Todos sabem desenhar isso é a base para qualquer desenho de uma interface, nenhuma outra forma é necessária.
+Se algum participante estiver com problema para começar a desenhar, faça para ele desenhar a estrutura básica de um site inicialmente. Outro dica importante é mostrar que o básico para se desenhar wireframes é composto por triangulo, circulo e quadrado. Todos sabem desenhar isso é a base para qualquer desenho de uma interface, nenhuma outra forma é necessária.
 
 ####Como organizar a sessão
-
 
 1. Quebra Gelo (10 minutos)
 http://www.funretrospectives.com/visual-phone/
@@ -54,8 +51,6 @@ Contexto do usuário, contexto do projeto, contexto to problema, e o quer ser at
 Você pode usar o formato de problem statement criado por livro Lean UX. Usar personas, hipóteses, etc... O importante é deixar todos na mesma página.
 
 Antes do workshop prepare essa parte e imprima o que achar necessário, quanto mais coisas visuais melhor para o workshop.
-
-mostrar figura de design thinking
 
 3. Divida os participantes em grupos de 4 - 5 pessoas e peça que inicialmente elas peguem uma folha e dobrem para que fique 6 pedaços. Peça que cada pessoa inicilamente desenhe 6 idéias individualmente (10 min)
 
@@ -75,7 +70,4 @@ O resultado principal é um entendimento geral do grupo sobre o problema e o con
 
 Faça o resultado do workshop seja visual para que quem não atendeu veja e entende a experiéncia que seu time passou.
 
-
-
 Baseado no post http://www.thoughtworks.com/insights/blog/collaborative-sketching-builds-shared-vision
-
