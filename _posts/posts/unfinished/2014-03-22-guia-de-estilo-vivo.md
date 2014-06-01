@@ -46,3 +46,5 @@ Esse é um gerador de guia de estilo automatico por url (bem simples mas interes
 Outra ferramenta interessante mas mais simples são Style Tiles. Que são basicamente um resumo do estilo de uma página web pensando tambem na parte responsiva.
 
 [Style Tiles](http://sparkbox.github.io/style-prototype/)
+
+http://rizzo.lonelyplanet.com/styleguide/design-elements/colours

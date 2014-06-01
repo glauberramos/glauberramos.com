@@ -1,0 +1,13 @@
+Existe uma maneira de calcular o que entra numa aplicação e o que não entra?
+
+Resolver os problemas de todos os usuários é muito difícil, cada pessoa tem idéias e necessidades diferentes. 
+
+A pergunta que eu coloco em discussão é quantos casos de uso precisamos suprir com uma aplicação? 
+
+No exemplo de um site de banco que possibilita realizar pagamentos recorrentes mensalmente, por semana e por dia.
+
+Se a opção por dia é muito pouco usada no produto atual, quando é certo dizer que podemos cortar essa funcionalidade? 
+
+Por exemplo, se uma funcionalidade é usada por menos que 2% dos usuários ela deveria ser retirada? A pergunta é quando devemos passar a regua numa funcionalidade?
+
+Para assim termos um produto mais focado e evitar ter um produto cheio de funcionalidades que nem sempre são usadas e no final só complicam a usabilidade do produto.
