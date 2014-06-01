@@ -6,11 +6,7 @@ date: 2014-05-13 12:00:00
 categories: post
 ---
 
-Queria mostrar o processo de UX que segui no meu projeto para desenvolver uma nova funcionalidade. O time trabalha em um processo ágil e eu utilizei design centrado no usuário com técnicas de lean UX.
-
-<img src="/assets/images/designthinking.png" alt="Design Thinkng" style="width: 700px;"/>
-
-Imagem representativa do processo geral de UX mas é interessante para demonstrar como funciona e como podemos repetir isso para qualquer projeto que estamos desenvolvendo.
+Queria mostrar o processo de UX que segui no meu projeto para desenvolver uma nova funcionalidade. O time trabalha em um processo ágil e eu utilizei uma metodologia lean focando no usuário.
 
 ### Entendimento e Definição (30 min)
 
@@ -22,7 +18,7 @@ Tivemos primeiramente uma reunião com analistas e stakeholders para entender o 
 
 Após o time estar na mesma página sobre o que precisa ser feito, reuni algumas pessoas para fazermos um exercicio de sketching. Dessa maneira conseguimos gerar diferentes idéias para o mesmo problema.
 
-Aqui há mais detalhes de como funciona o [exércicio de sketching](http://glauberramos.com/sessao-design-colaborativo.html)
+Aqui há mais detalhes de como funciona o [exercicio de sketching](http://glauberramos.com/sessao-design-colaborativo.html)
 
 <img src="/assets/images/sketches.jpg" alt="Design Thinkng" style="width: 550px;"/>
 
@@ -44,7 +40,7 @@ Para a criação da animação utilizei o software [LICEcap](http://www.cockos.c
 
 ### Testar (1 hora)
 
-Após gerar os prótotipos fui para um café para testar com alguns usuários utilizando a técnica de [Guerrilla User Testing](http://www.uxbooth.com/articles/the-art-of-guerilla-usability-testing/). A idéia era [testar com 5 usuários](http://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/) tentando testar um grupo mais diverso possível (sexo, etinia, idade, experiência com computadores). Claro que nem sempre é possível pegar um grupo totalmente diverso pois não entrevistamos as pessoas antes de testar. Por isso deve-se testar frequentemente, no minimo 1 vez por semana.
+Após gerar os prótotipos fui para um café para testar com alguns usuários utilizando a técnica de [Guerrilla User Testing](http://www.uxbooth.com/articles/the-art-of-guerilla-usability-testing/). A idéia era [testar com 5 usuários](http://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/) tentando testar um grupo mais diverso possível (sexo, etnia, idade, experiência com computadores). Claro que nem sempre é possível pegar um grupo totalmente diverso pois não entrevistamos as pessoas antes de testar. Por isso deve-se testar frequentemente, no minimo 1 vez por semana.
 
 Perguntas para se fazer durante o teste:
 - O que você acha que essa página faz?
@@ -59,7 +55,7 @@ Imagem das notas que fiz depois do teste com os primeiros usuários. É importan
 
 ### Iteração (1 hora)
 
-Após realizar os testes dei uma revisada nas notas que fiz e começei a gerar novas idéias e incrementar os protótipos/wireframes.
+Após realizar os testes dei uma revisada nas notas que fiz e comecei a gerar novas idéias e incrementar os protótipos/wireframes.
 
 <img src="/assets/images/editGroup2.gif" alt="Design Thinkng" style="width: 650px;"/>
 
