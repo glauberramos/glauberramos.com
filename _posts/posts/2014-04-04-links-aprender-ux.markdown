@@ -87,7 +87,7 @@ categories: post
 - [Dribbble](https://dribbble.com/) - Site muito bom para procurar referências, muito forte em design visual
 
 ### Cursos
-[Curso de Human Computer Interaction](https://www.coursera.org/course/hci)
+[Curso de Human Computer Interaction](https://www.coursera.org/course/hciucsd)
 Gratuito e demanda bastante trabalho para entregar todas as tarefas, mas recomendo acessar os videos para ver.
 
 [Hack Design](http://hackdesign.org/)
