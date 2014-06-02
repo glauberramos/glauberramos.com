@@ -10,15 +10,15 @@ categories: post
 
 O termo "Dívida de UX" surgiu como referência ao termo [Dívida Técnica](http://martinfowler.com/bliki/TechnicalDebt.html). Dívida técnica foi primeiramente apresentada por [Ward Cunningham](http://pt.wikipedia.org/wiki/Ward_Cunningham) para descrever decisões de design de código (geralmente rápidas e de baixa qualidade) que ao longo prazo geram impacto negativo no desenvolvimento deixando-o mais lento.
 
-Usa-se "dívida", pois assim como dívidas, a dívida técnica gera juros que teram que ser pagos depois. No caso da dívida técnica gera lentidão para desenvolver funcionalidades novas e a dívida de UX gera uma experiência baixa para o usuário.
+Usa-se "dívida", pois assim como dívidas, a dívida técnica gera juros que terão que ser pagos depois. No caso da dívida técnica gera lentidão para desenvolver funcionalidades novas e a dívida de UX gera uma experiência baixa para o usuário.
 
 O que é dívida de UX?
 ---------------------
 
 Dívida de UX é a lacuna que existe entre a experiência que o seu produto tem hoje e o potencial da experiência que ele pode ter dado o devido tempo e os recursos necessários, ou seja, todas as melhorias na experiência do usuário que o produto atual pode ter. 
 
-###Pirámide das necessidades de UX
-!["Pirámide das necessidades de UX"](/assets/images/uxneeds.jpg "Pirámide de necessidades de UX")
+###Pirâmide das necessidades de UX
+!["Pirâmide das necessidades de UX"](/assets/images/uxneeds.jpg "Pirámide de necessidades de UX")
 
 Da mesma maneira que a dívida técnica, a dívida de UX vai se acumulando ao longo do desenvolvimento de um produto devido a decisões rápidas e de baixa qualidade. Tambêm pode ser criada devido a falta de visão da experiência do produto como um todo gerando falhas e inconsistencias.
 
