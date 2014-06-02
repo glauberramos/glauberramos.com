@@ -2,16 +2,20 @@
 layout: default
 title: About Glauber Ramos
 ---
-
 <section class="blog row">
 	<img class="portrait" src="assets/images/galuber.png" />
 	<h4>Thoughts and inspiration</h4>
-	<ul>
-	  {% for post in site.categories.post %}
-	    <li>
-	      <a href="{{ post.url }}">{{ post.title }}</a>
-	      <em>{{ post.date | date: "%B %d, %Y" }}</em>
-	    </li>
-	  {% endfor %}
+
+	<ul class="posts">
+	    {% for post in site.categories.post limit 4 %}
+		    <li>
+		    	<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+		    	{{ post.content | strip_html | truncatewords:25}}<br>
+			    <span>
+		    		{{ post.date | date_to_string }}
+		    	</span>
+		    </li>
+		    
+	    {% endfor %}
 	</ul>
 </section>

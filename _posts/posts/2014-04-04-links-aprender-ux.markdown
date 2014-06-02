@@ -70,6 +70,8 @@ categories: post
 #### Estado do UX Design
 <iframe src="//player.vimeo.com/video/6952223" width="560" height="315"> </iframe>
 
+### Como se tornar UX designer
+<iframe src="//www.youtube.com/embed/CexVeagtk2Y?rel=0" width="560" height="315"> </iframe>
 
 ### Caras fodas para seguir
 - [Luke Wroblewski](http://www.lukew.com/)
