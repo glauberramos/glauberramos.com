@@ -100,3 +100,7 @@ Básico, mas bem interessante. Recomendo fazer porque é bastante hands-on e bem
 
 [Interaction Design Courses](http://www.interaction-design.org/)
 Bastante material e cursos de interaction design.
+
+[The Hipper Element](http://thehipperelement.com/)
+
+[UX 31 Fundamentals](http://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals)
