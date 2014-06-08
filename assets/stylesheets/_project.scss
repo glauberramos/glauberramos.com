@@ -81,10 +81,13 @@
 
 .project-hero {
   @include clear;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   position: relative;
-  border-bottom: 1px solid #eee;
+
+  &:first-child {
+    padding-top: 30px;
+  }
 
   &:last-child {
     border-bottom: 0;
@@ -97,25 +100,12 @@
   margin-bottom: 5px;
 
   img {
-    width: 80%;
+    width: 65%;
   }
 }
 
 .project-info {
-  -webkit-animation-name: intro-right;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-iteration-count: once;
-  -webkit-animation-timing-function: ease-out;
-  -webkit-animation-delay: 0.2s;
-  -webkit-animation-fill-mode: both;
-
-  animation-name: intro-right;
-  animation-duration: 0.5s;
-  animation-iteration-count: once;
-  animation-timing-function: ease-out;
-  animation-delay: 0.2s;
-  animation-fill-mode: both;
-
+  vertical-align: top;
   display: inline-block;
   margin: 0 auto;
   color: #555;
@@ -124,48 +114,26 @@
 
   h4 {
     line-height: 1em;
-    margin-top: 0;
-    font-size: 1.7em;
+    margin: 0;
+    font-size: 1.4em;
   }
 
   .view-project {
     padding: 7px 15px;
-    border: 2px solid #555;
-    color: #555;
+    border: 2px solid $headerColor;
+    color: $headerColor;
     margin-top: 15px;
     display: inline-block;
     
     &:hover {
-      background: #555;
+      background: $headerColor;
       color: white;
     } 
   }
 
   p {
-    font-size: 1.15em;
+    font-size: 1em;
     width: 70%;
-  }
-}
-
-@-webkit-keyframes intro-right {
-  from {
-    -webkit-transform: translateX(-300px);
-    opacity: 0;
-  }
-  to {
-    -webkit-transform: translateX(0px);
-    opacity: 1;
-  }
-}
-
-@keyframes intro-right {
-  from {
-    transform: translateX(-300px);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0px);
-    opacity: 1;
   }
 }
 

@@ -1,14 +1,13 @@
 header {
-  background: $headerColor;
+  color: $headerColor;
   font-family: "OpenSansBold";
-  color: white;
+  background: white;
   padding-bottom: 10px;
-  border-bottom: 3px solid #1a967d;
   z-index: 999;
 }
 
 .main-header {
-  margin: 15px 0;
+  margin: 10px 0;
   position: relative;
   top: 4px;
 
@@ -19,11 +18,11 @@ header {
 
 .logo {
   float: left;
-  font-family: "OpenSansLight";
+  font-family: "OpenSans";
   letter-spacing: 0.05em;
   font-weight: 300;
   font-size: 1.5em;
-  color: white;
+  color: $headerColor;
 }
 
 nav {
@@ -36,7 +35,7 @@ nav {
     margin: 0 2.3%;
 
     a {
-      color: white;
+      color: $headerColor;
       text-decoration: none;
       transition: color 0.3s;
 
