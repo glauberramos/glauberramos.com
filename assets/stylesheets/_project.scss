@@ -120,13 +120,13 @@
 
   .view-project {
     padding: 7px 15px;
-    border: 2px solid $headerColor;
-    color: $headerColor;
+    border: 2px solid #555;
+    color: #555;
     margin-top: 15px;
     display: inline-block;
     
     &:hover {
-      background: $headerColor;
+      background: #555;
       color: white;
     } 
   }
