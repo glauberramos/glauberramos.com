@@ -2,14 +2,7 @@
   font-size: 0.9em;
   color: #666;
   padding: 15px 20px;
-
-  &:before {
-    content: "";
-    background: -webkit-linear-gradient(left, rgba(255,255,255,0), #ccc, rgba(255,255,255,0));
-    height: 2px;
-    display: block;
-    margin: 0 auto 1.5em;
-  }
+  border-top: 2px solid #eee;
 
   .contact {
     width: 60%;

@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
+
 <div class="projects {{ page.class }}">
   <section class="project row">
     <span class="project-images column large-9">
+      {{ content }}
       {% for image in page.images %}
         <img src="assets/images/{{ image }}">
       {% endfor %}
