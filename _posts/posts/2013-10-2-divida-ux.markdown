@@ -6,7 +6,9 @@ date:   2013-10-2 21:18:28
 categories: post
 ---
 
-!["Dívida de UX"](/assets/images/debitouxcapa.jpg "Dívida de UX")
+<div class="parallax-container">
+	<img title="Dívida de UX" src="/assets/images/debitouxcapa.jpg" alt="Dívida de UX">
+</div>
 
 O termo "Dívida de UX" surgiu como referência ao termo [Dívida Técnica](http://martinfowler.com/bliki/TechnicalDebt.html). Dívida técnica foi primeiramente apresentada por [Ward Cunningham](http://pt.wikipedia.org/wiki/Ward_Cunningham) para descrever decisões de design de código (geralmente rápidas e de baixa qualidade) que ao longo prazo geram impacto negativo no desenvolvimento deixando-o mais lento.
 

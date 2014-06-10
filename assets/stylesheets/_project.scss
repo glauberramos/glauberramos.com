@@ -137,8 +137,9 @@
     display: inline-block;
     
     &:hover {
-      background: #555;
+      background: $headerColor;
       color: white;
+      border-color: $headerColor; 
     } 
   }
 

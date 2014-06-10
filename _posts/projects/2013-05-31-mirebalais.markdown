@@ -64,7 +64,7 @@ In order to understand the context of use we started mapping the user journey tr
 
 <img class="half" src="assets/images/ux_debt.jpg" />
 
-<h3>Quotes from the client and final designs</h3>
+<h3>Final designs</h3>
 
 <img class="half" src="assets/images/mirebalais.png" />
 <img class="half" src="assets/images/mirebalais2.png" />
