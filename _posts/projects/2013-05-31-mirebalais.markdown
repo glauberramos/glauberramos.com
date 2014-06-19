@@ -1,8 +1,8 @@
 ---
-layout: project
+layout: project-simple
 category: project
 images: []
-work: "Continuous Design - User Research - User Testing - SASS framework - Style Guide - Development."
+work: "Continuous Design - User Research - User Testing - SASS framework - Style Guide - Development"
 title: "Mirebalais"
 desc: "Electronic medical record system for a hospital in Mirebalais - Haiti"
 website: "http://mirebalaisstyleguide.herokuapp.com/"
@@ -12,15 +12,17 @@ link: "mirebalais.html"
 name: "mirebalais"
 ---
 
+<div class="parallax-container">
+	<img title="Dívida de UX" src="/assets/images/mirebalaiscover.jpg" alt="Dívida de UX">
+</div>
+
 <h3>Context</h3>
 
-<span class="alert">The following work is result of work from a team. I was mostly responsible for interaction design, visual design and frontend development.</span>
+As part of an agile team at [Thoughtworks](www.thoughtworks.com) I helped build a internal system for the biggest hospital in Haiti. I was responsible for user research, interaction design, visual design and frontend development.
 
 The hospital provides primary care services to about 185,000 people in Mirebalais and two nearby communities. But patients from a much wider area—all of central Haiti and areas in and around Port-au-Prince—can also receive secondary and tertiary care. The hospital sees as many as 700 patients every day in our ambulatory clinics.
 
-Thoughtworks was called to help build the internal system for the hospital. The challenge involved creating a sofisticated system to keep medical records and other features like patient registration, vitals, dispense medication and x-ray.
-
-The system needed to be intuitive and easy to use, it was going to be used by people from Haiti with low experience with computers.
+The system needed to be intuitive and easy to use, it was going to be used by people from Haiti with low experience with computers and used to keyboards. So it was a challange to build something that fit their needs and experience.
 
 <h3>Personas and user journeys</h3>
 
@@ -32,6 +34,8 @@ In order to understand the context of use we started mapping the user journey tr
 <img class="half" src="assets/images/userjourney.jpg" />
 
 <h3>Page flow and navigation</h3>
+
+The next step was to start sketching the basic flow and navigation of the application. We started with some basic features like patient register and with that we could have a bit picture of how the application would work.
 
 <img class="half" src="assets/images/interfaceflow.jpg" />
 

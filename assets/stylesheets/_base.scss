@@ -1,7 +1,13 @@
+::selection {
+  color: white;
+  background: $headerColor;
+}
+
 body {
   font-family: "OpenSans";
   font-size: 15px;
   line-height: 1em;
+  counter-reset: section;
 }
 
 footer {
@@ -24,7 +30,8 @@ h1 {
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2.7em;
+  font-family: "OpenSansLight";
 }
 
 h3 {
@@ -76,4 +83,10 @@ em {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+}
+
+.half {
+  display: inline-block;
+  width: 49%;
+  margin-right: 1%;
 }

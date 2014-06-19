@@ -58,6 +58,10 @@
   		margin-bottom: 10px;
 	}
 
+	img {
+		margin: 1em 0.2em;
+	}
+
 	li {
 		margin-bottom: 10px;
 	}
@@ -80,5 +84,36 @@
 
 blockquote {
 	border-left: 5px solid #1abc9c;
-	padding-left: 10px;
+	padding: 10px;
+	margin: 10px 0;
+
+	p {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.after-element {
+	&:after {
+		content: "♡";
+		color: red;
+		font-size: 3em;
+	}
+}
+
+#hash-example:target {
+	background: #bada55;
+	padding: 10px;
+	color: white;
+	margin-bottom: 20px;
+	display: block;
+}
+
+p[title~="titulo"] {
+	background: #BADA55;
+}
+
+.counter:before {
+	counter-increment: section;
+    content: "Sessão " counter(section) ": ";
 }

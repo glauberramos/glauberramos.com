@@ -5,7 +5,7 @@ images: ["vilapinto.jpg"]
 images-half: [vilaiphone.png"]
 work: "UX & UI design - Visual Identity - Responsive Design - Development"
 title: "CEA Vila Pinto"
-desc: "Institutional website for Centro de Educação Ambiental. Contains information about the organization, projects, initiatives, testimonials, videos, donations and contacts."
+desc: "Institutional website for Centro de Educação Ambiental. Contains information about the organization, projects, initiatives, testimonials, videos, donations and contacts"
 website: "http://ceavilapinto.org.br"
 cover: "vilapintologo.png"
 class: "first"

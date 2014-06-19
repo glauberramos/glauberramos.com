@@ -118,7 +118,7 @@ easter_egg.load();
 
 //adding parallax to post image
 $(window).scroll(function() {
-	Parallax.slideUp($(this), $('#post img'), 'top', 0);
+	Parallax.slideUp($(this), $('.parallax-container img'), 'top', 0);
 });
 
 //ga
