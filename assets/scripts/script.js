@@ -137,5 +137,14 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 ga('create', 'UA-43718419-1', 'glauberramos.com');
-ga('set', 'dimension1', hideFirstOption);
 ga('send', 'pageview');
+
+$('.back').click(function () {
+	console.log(123);
+	ga('set', 'dimension1', 'firstOption');
+});
+
+$('.back2').click(function () {
+	console.log(123);
+	ga('set', 'dimension1', 'secondOption');
+});
