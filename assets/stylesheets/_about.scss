@@ -3,7 +3,7 @@
   flex: 1;
 
   a {
-  	font-size: 2em;
+  	font-size: 3em;
   	text-decoration: none;
   	color: $headerColor;
   	margin-left: 10px;
@@ -15,12 +15,14 @@
 
   p {
     line-height: 1.7em;
+    margin-top: 3.5%;
+    font-size: 1.3em;
   }
 
   .portrait {
     position: relative;
     top: 20px;
-  	width: 170px;
+  	width: 130px;
   	display: block;
   	margin: 0 auto;
   }
