@@ -1,0 +1,59 @@
+http://martinfowler.com/articles/designDead.html
+http://www.sketchin.ch/en/evo/
+
+Design evolutivo
+
+
+*INICIO*
+
+As girafas possuem pescoços longos que ajudam a alcançar os brotos reçem nascidos nos topos das árvores. Isso possiblidade a girafa a ter uma vantagem em relação aos outros herbivoros pois ela come brotos que possuem grande quantidade de nutrientes.
+
+As aves possuem diferentes tipos de bicos adaptados ao seu ambiente e a sua necessidade. Aguns mais longos para alcançar insetos dentro de troncos, outros mais fortes para poder quebrar sementes e outros finos para alcançar o nectar das flores.
+
+As aves possuem pouca massa corporal, ossos porosos e assas aerodinamicas para poder voar. Assim conseguem capturar sua presa em voo, conseguem ter uma vantagem e surpreender sua presa por cima.
+
+Todas essas caracteristicas foram sendo adquiridas com o tempo, e atravês de inumeras iterações da mãe natureza. Ao longo de milhares e milhares de anos os animais mais adaptados ao ambiente e com mais facilidade de caçar ou se alimentar sobreviveram. O design dos animais que possilitou uma facilidade na hora de se alimentar, sobreviver, foram os mais sucedidos.
+
+Assim como na natureza, o design evolutivo de aplicações busca se adaptar as diferentes caracteristicas do momento e tem por natureza ser incremental.
+
+"imagem de evolução de um animal - bacteria até animal maior"
+
+"imagem de evolução de um produto em comparação"
+
+*MEIO*
+
+Os animais não foram criados utilizando big design upfront, todos animais começaram como uma simples bactéria e a partir disso foram evoluindo nos diferentes animais que conhecemos hoje em dia.
+
+Do mesmo modo devemos desenvolver nossos produtos de uma maneira mais icremental e que evite disperdicio. Muito design antes de se testar e entender o que estamos construindo.
+
+Diferentes niveis de fidelidade
+
+Devemos utilizar diferentes niveis de fidelidade para construir um produto. Cada nivel tem sua finalidade e evita-se que muito seja pensado antes de hora.
+ 
+SKETCHES e WIREFRAMES são utéis para pensar inicialmente em funcionalidades. Desenhar e ver o que funciona e o que não funciona.
+
+PROTÓTIPOS são utéis para construir funcionalidades e fluxos da aplicação. Assim pode-se testar mais a fundo um conceito e ver como a iteração funciona.
+
+Num passo mais pra frente pode-se criar o DESIGN VISUAL REFINADO que teremos uma idéia de como a aplicação vai parecer 
+
+Escopo do produto
+
+ESTÓRIAS DOS USUÁRIOS
+
+Primeiramente deve-se focar nas funcionalidades mais necessárias ao usuário 
+
+MVP
+
+Validação
+
+
+
+O design deve ser focado em estórias do usuário e ser incremental. A aplicação irá tomar forma aos poucos e o design vai evoluindo junto.
+
+Não é necessário detalhar partes da aplicação que ainda não irão ser implementadas.
+
+A partir desse ponto deve-se pensar no que essas pessoas precisam, quais são as principais necessidades e a partir disso pensase no MVP.
+
+
+*FIM*
+

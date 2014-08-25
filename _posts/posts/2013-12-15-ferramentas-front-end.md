@@ -27,6 +27,8 @@ categories: post
 
 <li><a href="https://github.com/adactio/Pattern-Primer">Patter primer</a> gera markup estilizado através de uma pasta com componentes markup.</li>
 
+<li><a href="http://trulia.github.io/hologram/">Hologram</a> é uma ruby gem para gerar guia de estilo baseado em comentários no CSS</li>
+
 <li><a href="https://github.com/topcoat/topdoc">TopDoc</a> é uma ferramenta muito bem documentada para gerar guias de uso para CSS que utiliza uma maneira estrita de documentação de código CSS.</li>
 
 <li>Alguns posts interessantes <a href="http://warpspire.com/posts/kss/">Warpspire</a>, <a href="http://blog.rjmetrics.com/2012/02/20/our-living-style-guide-writing-maintainable-htmlcss/#.Ul1ZBGR9DFQ">rjmetrics</a> e <a href="http://uxmag.com/articles/anchoring-your-design-language-in-a-live-style-guide">UXMag</a>.</li>
