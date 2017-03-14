@@ -3,10 +3,9 @@
   flex: 1;
 
   a {
-  	font-size: 3em;
   	text-decoration: none;
-  	color: $headerColor;
-  	margin-left: 10px;
+  	color: #ff9d00;
+  	margin-left: 5px;
 
   	&:hover {
 		  color: darken($headerColor, 10%);
@@ -14,9 +13,10 @@
   }
 
   p {
-    line-height: 1.7em;
+    line-height: 2em;
     margin-top: 3.5%;
-    font-size: 1.3em;
+    font-size: 1.5em;
+    color: white;
   }
 
   .portrait {
