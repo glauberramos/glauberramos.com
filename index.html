@@ -16,8 +16,24 @@ title: Glauber Ramos Portfolio
 	<span class="column large-2"></span>
 </section>
 
-<article id="covers" class="covers">
-  {% for post in site.categories.project %}
+<article id="covers" class="covers row">
+  <h2 class="center">Latest work</h2>
+  {% for post in site.categories.project limit:3 %}
     {% include project.html %}
   {% endfor %}
 </article>
+
+<section class="blog row">
+  <h2>Latest posts</h2>
+	<ul class="posts">
+	    {% for post in site.categories.post limit:3 %}
+		    <li>
+		    	<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+		    	{{ post.content | strip_html | truncatewords:25}}<br>
+			    <span>
+		    		{{ post.date | date_to_string }}
+		    	</span>
+		    </li>
+	    {% endfor %}
+	</ul>
+</section>
