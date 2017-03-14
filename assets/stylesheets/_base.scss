@@ -8,6 +8,7 @@ body {
   font-size: 15px;
   line-height: 1em;
   counter-reset: section;
+  color: #333;
 }
 
 footer {
@@ -23,7 +24,6 @@ h1, h2, h3, h4, h5 {
   font-family: "OpenSansBold";
   font-weight: normal;
   line-height: 1em;
-  color: white;
 }
 
 h1 {
@@ -60,7 +60,6 @@ small {
   font-family: "OpenSansLight";
   font-size: 1.3em;
   line-height: 2em;
-  color: white;
   display: inline-block;
   margin-bottom: 1em;
 }
@@ -92,7 +91,6 @@ em {
 }
 
 .site {
-  background: #171918;
   line-height: 1.35em;
   display: flex;
   min-height: 100vh;
