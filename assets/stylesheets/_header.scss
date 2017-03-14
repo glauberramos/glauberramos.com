@@ -27,8 +27,14 @@ header {
 }
 
 nav {
-  text-align: center;
   float: right;
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    display: inline-flex;
+    margin-left: 5%;
+  }
 
   li {
     text-decoration: none;

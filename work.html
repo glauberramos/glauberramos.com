@@ -1,0 +1,10 @@
+---
+layout: default
+title: Glauber Ramos Portfolio
+---
+
+<article id="covers" class="covers">
+  {% for post in site.categories.project %}
+    {% include project.html %}
+  {% endfor %}
+</article>
