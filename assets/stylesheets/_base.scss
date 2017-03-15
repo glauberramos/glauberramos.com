@@ -8,7 +8,7 @@ body {
   font-size: 15px;
   line-height: 1em;
   counter-reset: section;
-  color: #444;
+  color: white;
 }
 
 footer {
@@ -93,6 +93,7 @@ em {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background: #222;
 }
 
 .half {

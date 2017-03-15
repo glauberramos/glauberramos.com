@@ -1,7 +1,9 @@
 .about {
-  padding-bottom: 40px;
+  padding-bottom: 60px;
+  margin-bottom: 30px;
   flex: 1;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #444;
+  color: white;
 
   a {
   	text-decoration: none;
@@ -13,17 +15,26 @@
   	}
   }
 
+  .icons {
+    margin-top: 40px;
+    display: block;
+  }
+
   p {
-    line-height: 2em;
-    font-size: 1.4em;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    letter-spacing: 1px;
     font-family: "OpenSansLight";
   }
 
   .portrait {
     position: relative;
     top: 20px;
-  	width: 130px;
-  	display: block;
-  	margin: 0 auto;
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+    background: white;
+    border-radius: 50%;
+    padding: 0px 34px;
   }
 }

@@ -1,12 +1,12 @@
 //fonts
 @import "fonts";
-@import "font-awesome";
 
 //vendor
-@import "normalize";
-@import "globalFoundation";
-@import "gridFoundation";
-@import "jekyll";
+@import "vendor/font-awesome";
+@import "vendor/globalFoundation";
+@import "vendor/gridFoundation";
+@import "vendor/jekyll";
+@import "vendor/normalize";
 
 //init
 @import "color";

@@ -1,8 +1,12 @@
 header {
   color: $headerColor;
   font-family: "OpenSansBold";
-  padding-bottom: 10px;
-  background: white;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  background: #222;
+  border-top: 5px solid $headerColor;
+  border-bottom: 1px solid #444;
+  margin-bottom: 40px;
   z-index: 999;
 }
 

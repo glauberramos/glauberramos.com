@@ -16,13 +16,13 @@
 		display: block;
 		width: 100%;
 		font-size: 2.2em;
-		margin-top: 15px;
-		margin-bottom: 10px;
+		margin-top: 20px;
+		margin-bottom: 20px;
 		font-weight: bold;
 
 		&:hover {
-        	color: darken($headerColor, 15%);
-      	}
+    	color: darken($headerColor, 15%);
+  	}
 	}
 
 	li {
@@ -35,7 +35,7 @@
 		font-size: 1em;
 		margin-bottom: 20px;
 		margin-top: 20px;
-		border-top: 1px solid #eee;
+		border-top: 1px solid #444;
 	}
 
 	em {
