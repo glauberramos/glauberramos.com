@@ -79,10 +79,16 @@
   @include project($thirdBackgroundColor, $thirdFontColor, $thirdBorderColor, $thirdTitleColor);
 }
 
+.covers {
+  h3 {
+    color: #ccc;
+  }
+}
+
 .project-hero {
   @include clear;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   position: relative;
 
   &:first-child {
@@ -104,20 +110,20 @@
   vertical-align: top;
   display: inline-block;
   margin: 0 auto;
-  color: white;
+  color: #ccc;
   text-align: left;
   border: 0;
 
   h5 {
     line-height: 1em;
     margin: 0;
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
 
   .view-project {
     padding: 7px 15px;
-    border: 2px solid white;
-    color: white;
+    border: 2px solid $headerColor;
+    color: $headerColor;
     margin-top: 15px;
     display: inline-block;
 
@@ -130,6 +136,7 @@
 
   p {
     font-size: 1em;
+    line-height: 1.75em;
   }
 }
 
