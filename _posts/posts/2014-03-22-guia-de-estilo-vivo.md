@@ -6,11 +6,9 @@ date:   2014-3-22 21:18:28
 categories: post
 ---
 
-
-
 !["Guia de estilo"](/assets/images/guiadeestilo.png "Guia de estilo")
 
-Guia de estilos vem sendo usados no mundo do design a muito tempo. Eles servem para documentar o trabalho que o designer faz referente a um produto, marca ou serviço. Ele é usado para diferentes finalidades: 
+Guia de estilos vem sendo usados no mundo do design a muito tempo. Eles servem para documentar o trabalho que o designer faz referente a um produto, marca ou serviço. Ele é usado para diferentes finalidades:
 
 - Showcase do trabalho para o cliente
 - Guia visual - cores, logo, tipografia, tom, diagramação
@@ -22,7 +20,7 @@ Guia de estilos podem se tornar documentos muito detalhados de uma aplicação w
 
 ### Pós PSD
 
-A nova realidade da web traz um maneira diferente de trabalharmos. Um site ou aplicação precisa suportar diferentes tamanhos de tela e o número aumenta mais a cada dia. 
+A nova realidade da web traz um maneira diferente de trabalharmos. Um site ou aplicação precisa suportar diferentes tamanhos de tela e o número aumenta mais a cada dia.
 
 Isso faz com que o design mude, pois agora não é mais possível fazer o design numa ferramenta estática como o photoshop. Precisamos nos adaptar e encontrar novas ferramentas para esse novo modelo.
 
@@ -53,12 +51,12 @@ Criados por mim:
 - [Mirebalais Styleguide](http://mirebalaisstyleguide.herokuapp.com/)
 
 Outros:
-- [Ionic Framework](http://ionicframework.com/docs/components) 
-- [Sassy Seeds](http://sassyseeds.org/) 
-- [Salesforce](http://sfdc-styleguide.herokuapp.com/) 
+- [Ionic Framework](http://ionicframework.com/docs/components)
+- [Sassy Seeds](http://sassyseeds.org/)
+- [Salesforce](http://sfdc-styleguide.herokuapp.com/)
 - [Lonely Planet](http://rizzo.lonelyplanet.com/styleguide/design-elements/colours)
 
-Esse é um gerador de guia de estilo automatico por url (bem simples mas interessante) 
+Esse é um gerador de guia de estilo automatico por url (bem simples mas interessante)
 - [Stylifyme](http://stylifyme.com/)
 
 Outra ferramenta interessante mas mais simples é o Style Tiles. Que é basicamente um resumo do estilo de uma página/aplicação pensando como funciona em diferentes dispositivos.
@@ -66,7 +64,7 @@ Outra ferramenta interessante mas mais simples é o Style Tiles. Que é basicame
 - [Style tiles informação](http://styletil.es/)
 - [Style tiles exemplo](http://sparkbox.github.io/style-prototype/)
 
-Mais informações 
+Mais informações
 
 - [Use styleguides religously](http://jsoncorbett.com/styleguide/development/2014/05/05/use-styleguides-religously.html)
 - [Front end style guides](http://24ways.org/2011/front-end-style-guides/)

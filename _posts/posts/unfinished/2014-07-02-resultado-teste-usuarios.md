@@ -12,6 +12,6 @@ Logo após isso adicionamos todos os items na coluna que temos na nossa wall par
 
 Inline image 4
 
-A idéia dessa coluna é toda iteração priorizarmos com o product owner para ver o que pode ser colocado no fluxo de stories normal. 
+A idéia dessa coluna é toda iteração priorizarmos com o product owner para ver o que pode ser colocado no fluxo de stories normal.
 
 Eu não gosto muito de relatórios, prefiro priorizar e partir direto pra ação. Acho que relatório só serve quando é preciso fazer uma apresentação para outras pessoas e tal.
