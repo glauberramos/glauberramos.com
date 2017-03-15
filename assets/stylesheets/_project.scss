@@ -49,7 +49,7 @@
 
   ::selection {
     background: $titleColor;
-    color: white;    
+    color: white;
   }
 
   h3, h4, h5 {
@@ -59,24 +59,24 @@
   .button:not(.thumb) {
     border: 2px solid $titleColor;
     color: $titleColor;
-    
+
     &:hover {
       background: $titleColor;
       color: white;
-    } 
+    }
   }
 }
 
 .first {
-  @include project($firstBackgroundColor, $firstFontColor, $firstBorderColor, $firstTitleColor);  
+  @include project($firstBackgroundColor, $firstFontColor, $firstBorderColor, $firstTitleColor);
 }
 
 .second {
-  @include project($secondBackgroundColor, $secondFontColor, $secondBorderColor, $secondTitleColor);  
+  @include project($secondBackgroundColor, $secondFontColor, $secondBorderColor, $secondTitleColor);
 }
 
 .third {
-  @include project($thirdBackgroundColor, $thirdFontColor, $thirdBorderColor, $thirdTitleColor);  
+  @include project($thirdBackgroundColor, $thirdFontColor, $thirdBorderColor, $thirdTitleColor);
 }
 
 .project-hero {
@@ -98,10 +98,6 @@
   display: inline-block;
   text-align: right;
   margin-bottom: 5px;
-
-  img {
-    width: 65%;
-  }
 }
 
 .project-info {
@@ -124,17 +120,16 @@
     color: #555;
     margin-top: 15px;
     display: inline-block;
-    
+
     &:hover {
       background: $headerColor;
       color: white;
-      border-color: $headerColor; 
-    } 
+      border-color: $headerColor;
+    }
   }
 
   p {
     font-size: 1em;
-    width: 60%;
   }
 }
 
@@ -142,7 +137,7 @@
   text-decoration: none;
   display: inline-block;
   margin-top: 20px;
-  text-align: center; 
+  text-align: center;
   cursor: pointer;
   margin-right: 10px;
   text-transform: uppercase;
@@ -155,7 +150,7 @@
   &:hover {
     opacity: 0.8;
     transition: opacity 0.1s;
-  }  
+  }
 
   img {
     display: block;

@@ -1,10 +1,11 @@
 .about {
-  margin-bottom: 20px;
+  padding-bottom: 40px;
   flex: 1;
+  border-bottom: 1px solid #eee;
 
   a {
   	text-decoration: none;
-  	color: #ff9d00;
+  	color: $headerColor;
   	margin-left: 5px;
 
   	&:hover {
@@ -14,8 +15,8 @@
 
   p {
     line-height: 2em;
-    margin-top: 3.5%;
-    font-size: 1.5em;
+    font-size: 1.4em;
+    font-family: "OpenSansLight";
   }
 
   .portrait {
