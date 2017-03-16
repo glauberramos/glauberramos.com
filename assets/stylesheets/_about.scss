@@ -18,12 +18,16 @@
   .icons {
     margin-top: 40px;
     display: block;
+
+    li {
+      margin-right: 2%;
+    }
   }
 
   p {
     line-height: 1.5em;
+    margin: 0.7em 0;
     font-size: 1.5em;
-    letter-spacing: 1px;
     font-family: "OpenSansLight";
   }
 
