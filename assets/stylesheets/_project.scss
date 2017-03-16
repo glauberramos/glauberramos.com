@@ -3,11 +3,10 @@
 
   a:not(.thumb) {
     text-decoration: none;
-    color: white;
     border-radius: 1px;
+    color: $headerColor;
     display: inline-block;
     margin-top: 20px;
-    padding: 7px 15px;
     transition: background 0.1s;
 
     &.experiment {
