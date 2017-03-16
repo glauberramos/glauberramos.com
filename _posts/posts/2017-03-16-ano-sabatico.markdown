@@ -22,7 +22,7 @@ Tem algumas coisas que quero focar e aprender mais nesse ano, mas as duas coisas
 
 ## 2 - Projetos de impacto positivo
 
-Minha ideia é fazer freelance para conseguir pagar as contas mas ao mesmo tempo (e talvez junto) é trabalhar em projetos que tenham impacto positivo no mundo.
+Minha ideia é fazer freelance para conseguir pagar as contas mas ao mesmo tempo (e talvez a mesma coisa) é trabalhar em projetos que tenham impacto positivo no mundo.
 
 ### O que isso significa para mim?
 
@@ -38,7 +38,7 @@ O último objetivo seria continuar algo que já venho fazendo faz alguns anos, q
 
 Esse objetivo é muito importante para eu poder conhecer novas realidades, expandir meu conhecimento sobre como as pessoas vivem, que problemas que existem por ai, etc...
 
-Essa é a ideia em geral.
+### Essa é a ideia em geral.
 
 Eu entendo que só vou conseguir fazer isso devido a alguns privilégios que tenho, como ter tido uma boa educação, ter uma reserva financeira, conhecimento prático, etc... Mas espero que esse tempo ajude a melhorar a vida de outras pessoas.
 
