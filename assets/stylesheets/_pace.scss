@@ -1,13 +1,12 @@
 .pace .pace-progress {
-  background: $headerColor;
   position: relative;
-  z-index: 200;
   top: 51px;
   left: 0;
+  z-index: 200;
   height: 2px;
-
+  background: $headerColor;
   -webkit-transition: width 1s;
-  -moz-transition: width 1s;
-  -o-transition: width 1s;
-  transition: width 1s;
+     -moz-transition: width 1s;
+       -o-transition: width 1s;
+          transition: width 1s;
 }

@@ -1,12 +1,12 @@
 header {
-  color: $headerColor;
-  font-family: "OpenSansBold";
-  padding-bottom: 20px;
+  z-index: 999;
   padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: "OpenSansBold";
+  color: $headerColor;
   background: #222;
   border-top: 5px solid $headerColor;
   border-bottom: 1px solid #333;
-  z-index: 999;
 }
 
 header + .row {
@@ -14,10 +14,10 @@ header + .row {
 }
 
 .main-header {
-  margin: 10px 0;
   position: relative;
-  padding: 0 0.4em;
   top: 4px;
+  padding: 0 0.4em;
+  margin: 10px 0;
 
   > a {
     @media (max-width: $smallWidth) {
@@ -37,10 +37,10 @@ header + .row {
 .logo {
   float: left;
   font-family: "OpenSans";
-  letter-spacing: 0.05em;
-  font-weight: 300;
   font-size: 1.5em;
+  font-weight: 300;
   color: $headerColor;
+  letter-spacing: 0.05em;
 }
 
 nav {
@@ -49,9 +49,9 @@ nav {
 
 .icons {
   li {
-    text-decoration: none;
     display: inline-block;
     margin-right: 7%;
+    text-decoration: none;
   }
 
   ul {

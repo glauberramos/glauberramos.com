@@ -1,10 +1,10 @@
 .parallax-container {
-	height: 350px;
-	position: relative;
-	overflow: hidden;
+  position: relative;
+  height: 350px;
+  overflow: hidden;
 
-	img {
-		width: 100%;
-		position: absolute;
-	}
+  img {
+    position: absolute;
+    width: 100%;
+  }
 }

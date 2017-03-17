@@ -1,23 +1,23 @@
 .about {
   padding-bottom: 60px;
   margin-bottom: 30px;
+  color: #ccc;
   flex: 1;
   border-bottom: 1px solid #333;
-  color: #ccc;
 
   a {
-  	text-decoration: none;
-  	color: $headerColor;
-  	margin-left: 5px;
+    margin-left: 5px;
+    color: $headerColor;
+    text-decoration: none;
 
-  	&:hover {
-		  color: darken($headerColor, 10%);
-  	}
+    &:hover {
+      color: darken($headerColor, 10%);
+    }
   }
 
   .icons {
-    margin-top: 40px;
     display: block;
+    margin-top: 40px;
 
     li {
       margin-right: 2%;
@@ -25,21 +25,21 @@
   }
 
   p {
-    line-height: 1.5em;
     margin: 0.7em 0;
-    font-size: 1.5em;
     font-family: "OpenSansLight";
+    font-size: 1.5em;
+    line-height: 1.5em;
   }
 
   .portrait {
     position: relative;
     top: 20px;
-    width: 180px;
     display: block;
+    width: 180px;
+    padding: 0 34px;
     margin: 0 auto;
     background: white;
     border-radius: 50%;
-    padding: 0px 34px;
 
     @media (max-width: $smallWidth) {
       margin-bottom: 40px;

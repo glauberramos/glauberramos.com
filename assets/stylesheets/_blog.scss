@@ -1,135 +1,134 @@
 .blog {
-	padding: 10px;
-	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 90px;
-	flex: 1;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 90px;
+  text-align: center;
+  flex: 1;
 
-	h3 {
-		color: #ccc;
-	}
+  h3 {
+    color: #ccc;
+  }
 
-	img {
-		width: 80px;
-	}
+  img {
+    width: 80px;
+  }
 
-	a {
-		color: $headerColor;
-		float: left;
-		text-decoration: none;
-		display: block;
-		width: 100%;
-		font-size: 2.2em;
-		margin-top: 20px;
-		margin-bottom: 20px;
-		font-weight: bold;
+  a {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2.2em;
+    font-weight: bold;
+    color: $headerColor;
+    text-decoration: none;
 
-		&:hover {
-    	color: darken($headerColor, 15%);
-  	}
-	}
+    &:hover {
+      color: darken($headerColor, 15%);
+    }
+  }
 
-	li {
-		text-align: left;
-		@include clear;
-		margin: 0 auto;
-		list-style: none;
-		display: block;
-		line-height: 1.2em;
-		font-size: 1em;
-		border-top: 1px solid #333;
-		margin-bottom: 30px;
-		padding-top: 20px;
-		display: inline-block;
-		color: #ccc;
-	}
+  li {
+    @include clear;
+    display: inline-block;
+    padding-top: 20px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #ccc;
+    text-align: left;
+    list-style: none;
+    border-top: 1px solid #333;
+  }
 
-	em {
-		color: #aaa;
-		float: right;
-	}
+  em {
+    float: right;
+    color: #aaa;
+  }
 }
 
-
 .post {
-	p {
-		font-size: 1.2em;
-		line-height: 1.7em;
-	}
+  p {
+    font-size: 1.2em;
+    line-height: 1.7em;
+  }
 
-	ul {
-		font-size: 1.2em;
-  		line-height: 1.7em;
-  		margin-bottom: 10px;
-	}
+  ul {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    line-height: 1.7em;
+  }
 
-	img {
-		margin: 1em 0.2em;
-	}
+  img {
+    margin: 1em 0.2em;
+  }
 
-	li {
-		margin-bottom: 10px;
-	}
+  li {
+    margin-bottom: 10px;
+  }
 
-	a, a:visited {
-		color: $headerColor;
-	}
+  a,
+  a:visited {
+    color: $headerColor;
+  }
 
-	i {
-		margin-right: 5px;
-	}
+  i {
+    margin-right: 5px;
+  }
 
-	.back {
-		font-size: 1.2em;
-		margin-top: 40px;
-		margin-bottom: 30px;
-		display: block;
-	}
+  .back {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+  }
 
-	.back2 {
-		font-size: 2em;
-		margin-top: 60px;
-		margin-bottom: 30px;
-		display: block;
-	}
+  .back2 {
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 2em;
+  }
 }
 
 blockquote {
-	border-left: 5px solid #1abc9c;
-	padding: 10px;
-	margin: 10px 0;
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 5px solid #1abc9c;
 
-	p {
-		margin: 0;
-		padding: 0;
-	}
+  p {
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .after-element {
-	&:after {
-		content: "♡";
-		color: red;
-		font-size: 3em;
-	}
+  &::after {
+    font-size: 3em;
+    color: red;
+    content: "♡";
+  }
 }
 
 #hash-example:target {
-	background: #bada55;
-	padding: 10px;
-	color: white;
-	margin-bottom: 20px;
-	display: block;
+  display: block;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: white;
+  background: #bada55;
 }
 
 p[title~="titulo"] {
-	background: #BADA55;
+  background: #bada55;
 }
 
-.counter:before {
-	counter-increment: section;
-    content: "Sessão " counter(section) ": ";
+.counter::before {
+  content: "Sessão " counter(section) ": ";
+  counter-increment: section;
 }
 
 .posts li a {
-	line-height: 1.2em;
+  line-height: 1.2em;
 }

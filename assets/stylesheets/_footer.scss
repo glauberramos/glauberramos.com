@@ -1,7 +1,7 @@
 .footer {
+  padding: 25px 20px;
   font-size: 0.9em;
   color: #ccc;
-  padding: 25px 20px;
   border-top: 1px solid #333;
 
   .contact {
@@ -10,20 +10,20 @@
   }
 
   span {
-  	display: inline-block;
+    display: inline-block;
   }
 
   i {
-  	font-size: 1.4em;
-  	margin-left: 10px;
+    margin-left: 10px;
+    font-size: 1.4em;
   }
 
   a {
-  	text-decoration: none;
-  	color: $headerColor;
+    color: $headerColor;
+    text-decoration: none;
 
-  	&:hover {
-		text-decoration: underline;
-  	}
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }

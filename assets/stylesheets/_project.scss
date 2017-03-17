@@ -2,11 +2,11 @@
   color: white;
 
   a:not(.thumb) {
-    text-decoration: none;
-    border-radius: 1px;
-    color: $headerColor;
     display: inline-block;
     margin-top: 20px;
+    color: $headerColor;
+    text-decoration: none;
+    border-radius: 1px;
     transition: background 0.1s;
 
     &.experiment {
@@ -19,7 +19,9 @@
     padding: 7px 15px;
   }
 
-  h3, h4, h5 {
+  h3,
+  h4,
+  h5 {
     margin-bottom: 10px;
   }
 
@@ -28,16 +30,16 @@
   }
 
   p {
-    font-family: 'OpenSans';
     padding-bottom: 10px;
     margin-bottom: 0;
+    font-family: "OpenSans";
   }
 
   .project-images {
     margin-top: 20px;
 
     img {
-      padding: 2% 0%;
+      padding: 2% 0;
     }
   }
 }
@@ -47,25 +49,27 @@
 }
 
 @mixin project($backgroundColor, $fontColor, $borderColor, $titleColor) {
-  background: $backgroundColor;
   color: $fontColor;
+  background: $backgroundColor;
 
   ::selection {
-    background: $titleColor;
     color: white;
+    background: $titleColor;
   }
 
-  h3, h4, h5 {
+  h3,
+  h4,
+  h5 {
     color: $titleColor;
   }
 
   .button:not(.thumb) {
-    border: 2px solid $titleColor;
     color: $titleColor;
+    border: 2px solid $titleColor;
 
     &:hover {
-      background: $titleColor;
       color: white;
+      background: $titleColor;
     }
   }
 }
@@ -90,9 +94,9 @@
 
 .project-hero {
   @include clear;
+  position: relative;
   padding-top: 30px;
   padding-bottom: 30px;
-  position: relative;
 
   &:first-child {
     padding-top: 30px;
@@ -105,34 +109,34 @@
 
 .project-thumb {
   display: inline-block;
-  text-align: right;
   margin-bottom: 5px;
+  text-align: right;
 }
 
 .project-info {
-  vertical-align: top;
   display: inline-block;
   margin: 0 auto;
   color: #ccc;
   text-align: left;
+  vertical-align: top;
   border: 0;
 
   h5 {
-    line-height: 1em;
     margin: 0;
     font-size: 1.4em;
+    line-height: 1em;
   }
 
   .view-project {
-    padding: 7px 15px;
-    border: 2px solid $headerColor;
-    color: $headerColor;
-    margin-top: 15px;
     display: inline-block;
+    padding: 7px 15px;
+    margin-top: 15px;
+    color: $headerColor;
+    border: 2px solid $headerColor;
 
     &:hover {
-      background: $headerColor;
       color: white;
+      background: $headerColor;
       border-color: $headerColor;
     }
   }
@@ -144,18 +148,18 @@
 }
 
 .thumb {
-  text-decoration: none;
   display: inline-block;
-  margin-top: 20px;
-  text-align: center;
-  cursor: pointer;
-  margin-right: 10px;
-  text-transform: uppercase;
-  font-size: 0.8em;
-  font-family: "OpenSansBold";
-  color: white;
   width: 350px;
-  heigh: 250px;
+  height: 250px;
+  margin-top: 20px;
+  margin-right: 10px;
+  font-family: "OpenSansBold";
+  font-size: 0.8em;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
 
   &:hover {
     opacity: 0.8;

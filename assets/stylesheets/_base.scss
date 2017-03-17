@@ -7,12 +7,12 @@ body {
   font-family: "OpenSans";
   font-size: 16px;
   line-height: 1em;
-  counter-reset: section;
   color: #ccc;
+  counter-reset: section;
 }
 
 footer {
-  padding: 0% 5%;
+  padding: 0 5%;
 }
 
 a {
@@ -20,11 +20,15 @@ a {
 }
 
 ul {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "OpenSansBold";
   font-weight: normal;
   line-height: 1em;
@@ -35,14 +39,14 @@ h1 {
 }
 
 h2 {
-  font-size: 2.7em;
   font-family: "OpenSansLight";
+  font-size: 2.7em;
 }
 
 h3 {
-  font-size: 1.5em;
   margin-top: 1.5em;
   font-family: "OpenSansLight";
+  font-size: 1.5em;
 }
 
 h4 {
@@ -54,33 +58,33 @@ h5 {
 }
 
 strong {
-  font-weight: normal;
   font-family: "OpenSansBold";
+  font-weight: normal;
 }
 
 small {
-  font-weight: normal;
-  font-family: "OpenSansLight";
-  font-size: 1.3em;
-  line-height: 2em;
   display: inline-block;
   margin-bottom: 1em;
+  font-family: "OpenSansLight";
+  font-size: 1.3em;
+  font-weight: normal;
+  line-height: 2em;
 }
 
 em {
-  font-weight: normal;
-  font-style: normal;
   font-family: "OpenSans";
+  font-style: normal;
+  font-weight: normal;
 }
 
 @mixin clear {
-  &:before,
-  &:after {
-    content: " ";
+  &::before,
+  &::after {
     display: table;
+    content: " ";
   }
 
-  &:after {
+  &::after {
     clear: both;
   }
 }
@@ -94,9 +98,9 @@ em {
 }
 
 .site {
-  line-height: 1.35em;
   display: flex;
   min-height: 100vh;
+  line-height: 1.35em;
   flex-direction: column;
   background: #222;
 }

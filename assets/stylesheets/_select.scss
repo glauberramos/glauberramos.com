@@ -5,38 +5,39 @@ select {
 }
 
 .styled-select {
-  width: 28em;
-  display: inline-block;
-  margin: 0;
-  padding-bottom: 1px;
-  border: 1px solid #ccc;
   position: relative;
+  top: 14px;
+  display: inline-block;
+  width: 28em;
   height: 2.5em;
+  padding-bottom: 1px;
+  margin: 0;
   overflow: hidden;
   background: white;
-  top: 14px;
+  border: 1px solid #ccc;
 
-  &:after {
-    content: "▼";
+  &::after {
     position: absolute;
     top: 0.6em;
     right: 0.6em;
-    pointer-events: none;
     color: #69889c;
+    pointer-events: none;
+    content: "▼";
   }
 
   select {
     width: 100%;
+            appearance: none;
+       -moz-appearance: none;
+         -o-appearance: none;
+    -webkit-appearance: none;
     background: transparent;
     border: none;
-    border-radius: 0;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -o-appearance: none;
-    appearance: none;
-    -webkit-border-radius: 0px;
     border-right: 2.3em solid #f2f2f2;
+            border-radius: 0;
+    -webkit-border-radius: 0;
   }
+
   select::-ms-expand {
     display: none;
   }

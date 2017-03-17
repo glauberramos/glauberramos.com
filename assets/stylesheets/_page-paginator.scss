@@ -1,19 +1,19 @@
 .page-navigation {
-	position: fixed;
-	width: 100%;
-	top: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
 
-	a {
-		text-decoration: none;
-		color: $headerColor;
-		font-size: 2em;
-	}
+  a {
+    font-size: 2em;
+    color: $headerColor;
+    text-decoration: none;
+  }
 
-	.left {
-		margin-left: 2em;
-	}
+  .left {
+    margin-left: 2em;
+  }
 
-	.right {
-		margin-right: 2em;
-	}
+  .right {
+    margin-right: 2em;
+  }
 }
