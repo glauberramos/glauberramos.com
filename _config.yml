@@ -1,13 +1,18 @@
 name: Glauber Ramos Website
-description: Blog sobre Pensamentos e Insights de Glauber Ramos
+email: glauberamos@gmail.com
+description: Portfolio Glauber Ramos
 url: http://glauberramos.com
+twitter_username: glauberamos
+github_username:  glauberramos
 
-pygments: true
+highlighter: true
 
-# defaults
 sass:
-  syntax: scss
-  style:  compressed  # nested|expanded|compact|compressed
+    sass_dir: assets/stylesheets
+    style: compressed
 
 permalink: :title.html
 #baseurl: glauberramos.com
+
+gems:
+- jekyll-autoprefixer

@@ -27,15 +27,11 @@ select {
 
   select {
     width: 100%;
-            appearance: none;
-       -moz-appearance: none;
-         -o-appearance: none;
-    -webkit-appearance: none;
+    appearance: none;
     background: transparent;
     border: none;
     border-right: 2.3em solid #f2f2f2;
-            border-radius: 0;
-    -webkit-border-radius: 0;
+    border-radius: 0;
   }
 
   select::-ms-expand {
