@@ -19,8 +19,18 @@ header + .row {
   padding: 0 0.4em;
   top: 4px;
 
-  a {
-    cursor: pointer;
+  > a {
+    @media (max-width: $smallWidth) {
+      font-size: 0.7em;
+    }
+  }
+
+  nav {
+    @media (max-width: $smallWidth) {
+      display: inline-block;
+      width: 200px;
+      margin-top: 0;
+    }
   }
 }
 

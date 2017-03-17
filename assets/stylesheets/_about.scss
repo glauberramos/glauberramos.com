@@ -40,5 +40,9 @@
     background: white;
     border-radius: 50%;
     padding: 0px 34px;
+
+    @media (max-width: $smallWidth) {
+      margin-bottom: 40px;
+    }
   }
 }
