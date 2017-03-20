@@ -87,8 +87,16 @@
 }
 
 .covers {
-  h3 {
-    color: #ccc;
+  background: white;
+  width: 100%;
+  margin: 0;
+  max-width: 100%;
+  padding: 5% 15%;
+  border-top: 2px solid #555;
+  border-bottom: 2px solid #555;
+
+  h2, h5, p {
+    color: #222;
   }
 }
 
@@ -129,10 +137,11 @@
 
   .view-project {
     display: inline-block;
-    padding: 7px 15px;
+    padding: 10px 20px;
     margin-top: 15px;
-    color: $headerColor;
-    border: 2px solid $headerColor;
+    background: $headerColor;
+    color: #222;
+    border-radius: 10px;
 
     &:hover {
       color: white;

@@ -23,14 +23,14 @@ title: Glauber Ramos Portfolio
 </section>
 
 <article id="covers" class="covers row">
-  <h3 class="center">LATEST WORK</h3>
+  <h2 class="center">LATEST WORK</h2>
   {% for post in site.categories.project limit:3 %}
     {% include project.html %}
   {% endfor %}
 </article>
 
 <section class="blog row">
-  <h3>LATEST POSTS</h3>
+  <h2>LATEST POSTS</h2>
 	<ul class="posts">
 	    {% for post in site.categories.post limit:3 %}
 		    <li>
