@@ -91,68 +91,97 @@
   width: 100%;
   margin: 0;
   max-width: 100%;
-  padding: 5% 15%;
-  border-top: 2px solid #555;
+  padding: 5% 10%;
+  border-top: 2px solid #bbb;
   border-bottom: 2px solid #555;
+
+  h2 {
+    text-align: center;
+  }
 
   h2, h5, p {
     color: #222;
   }
 }
 
-.project-hero {
-  @include clear;
-  position: relative;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.project-overlay {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.65);
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
 
-  &:first-child {
-    padding-top: 30px;
+  h5 {
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    width: 100%;
+  }
+}
+
+.project-hero {
+  width: 48%;
+  @include clear;
+  display: inline-block;
+  transition: top 0.2s;
+  position: relative;
+  margin: 10px 0.9%;
+  top: 0;
+
+  &:hover {
+    top: -4px;
+
+    .project-overlay {
+      opacity: 1;
+    }
+
+    h5, .view-project {
+      top: 0;
+    }
+  }
+
+  img {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.23);
+    width: 100%;
   }
 
   &:last-child {
     border-bottom: 0;
+  }
+
+  .view-project, h5 {
+    position: absolute;
+    top: 20px;
+    transition: top 0.2s;
   }
 }
 
 .project-thumb {
   display: inline-block;
   margin-bottom: 5px;
+  width: 100%;
   text-align: right;
 }
 
-.project-info {
+.view-project {
   display: inline-block;
-  margin: 0 auto;
-  color: #ccc;
-  text-align: left;
-  vertical-align: top;
-  border: 0;
+  padding: 12px 40px;
+  margin-top: 130px;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid white;
 
-  h5 {
-    margin: 0;
-    font-size: 1.4em;
-    line-height: 1em;
-  }
-
-  .view-project {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-top: 15px;
-    background: $headerColor;
-    color: #222;
-    border-radius: 10px;
-
-    &:hover {
-      color: white;
-      background: $headerColor;
-      border-color: $headerColor;
-    }
-  }
-
-  p {
-    font-size: 1em;
-    line-height: 1.5em;
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
   }
 }
 

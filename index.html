@@ -8,11 +8,10 @@ title: Glauber Ramos Portfolio
 		<img class="portrait" src="assets/images/galuber.png" />
 	</aside>
 	<span class="column large-9">
-    <p>I'm a <strong>Frontend developer</strong> and <strong>UX designer</strong> available for freelance work.</p>
-    <p>I've over 11 years of experience, worked on many countries and domains for Thoughtworks and Dell. Also co-founded a crowfunding startup called <a href="http://apoia.se" target="_black">APOIA.se</a>.</p>
-    <p>I'm am opensource enthusiast and I like to create projects that have a positive impact in the world.</p>
+    <p>I'm a freelancer <strong>Frontend developer</strong> and <strong>UX designer</strong> with 10+ years of experience working with product software development for many industries.</p>
+		<p>In the last 6 years I worked at <a href="http://thoughtworks.com" target="_black">Thoughtworks</a>, a global consultancy focused on agile software development, also I co-founded a crowfunding startup called <a href="http://apoia.se" target="_black">APOIA.se</a>.</p>
+    <p>I'm an opensource enthusiast and I like to work on projects that have a positive impact in the world.</p>
     <ul class="icons">
-      <li><a href="mailto:glauberamos@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
       <li><a href="http://www.github.com/glauberramos" target="_blank"><i class="fa fa-github"></i></a></li>
       <li><a href="http://www.linkedin.com/in/glauberdutraramos" target="_blank"><i class="fa fa-linkedin"></i></a></li>
       <li><a href="http://www.twitter.com/glauberamos" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -22,9 +21,25 @@ title: Glauber Ramos Portfolio
 	<span class="column large-2"></span>
 </section>
 
+<article id="covers" class="contact-me-section row">
+  <p>I am currently working as a freelancer and I'm available for work.</p>
+	<ul>
+		<li>Javascript</li>
+		<li>Responsive design</li>
+		<li>SASS and CSS architecture</li>
+		<li>Angular and React</li>
+		<li>HTML5</li>
+		<li>Wireframes and interaction</li>
+		<li>Jquery</li>
+		<li>Usability</li>
+		<li>User testing</li>
+	</ul>
+	<a class="contact-me" href="mailto:glauberamos@gmail.com"><i class="fa fa-envelope-o"></i> SEND ME AN EMAIL</a>
+</article>
+
 <article id="covers" class="covers row">
   <h2 class="center">LATEST WORK</h2>
-  {% for post in site.categories.project limit:3 %}
+  {% for post in site.categories.project limit:4 %}
     {% include project.html %}
   {% endfor %}
 </article>

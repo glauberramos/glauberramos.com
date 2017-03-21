@@ -4,8 +4,7 @@
 
   a {
     margin-left: 5px;
-    color: $headerColor;
-    text-decoration: none;
+    color: white;
 
     &:hover {
       color: darken($headerColor, 10%);
@@ -16,17 +15,13 @@
     display: block;
     margin-top: 40px;
 
+    a {
+      color: $headerColor;
+    }
+
     li {
       margin-right: 2%;
     }
-  }
-
-  p {
-    margin: 0.7em 0;
-    font-family: "OpenSansLight";
-    font-size: 1.5em;
-    line-height: 1.5em;
-    color: white;
   }
 
   .portrait {
@@ -42,5 +37,68 @@
     @media (max-width: $smallWidth) {
       margin-bottom: 40px;
     }
+  }
+}
+
+.about, .contact-me-section {
+  p {
+    margin: 0.7em 0;
+    font-family: "OpenSansLight";
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: white;
+  }
+}
+
+.contact-me-section {
+  text-align: center;
+  background: #eee;
+  color: #222;
+  width: 100%;
+  padding: 5% 15%;
+  max-width: 100%;
+  margin: 0;
+
+  p {
+    color: #222;
+  }
+
+  ul {
+    margin: 40px 0;
+  }
+
+  .contact-me {
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    transition: top 0.2s;
+    position: relative;
+    top: 0;
+    padding: 20px 30px;
+    background: $headerColor;
+    color: #222;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 40px auto;
+    text-decoration: none;
+
+    i {
+      margin-right: 10px;
+    }
+
+    &:hover {
+      top: -4px;
+    }
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    color: #1600B2;
+    background: rgba(162, 203, 245, 0.5);
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin: 5px 3px;
   }
 }
