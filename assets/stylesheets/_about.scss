@@ -44,9 +44,14 @@
   .icons {
     display: block;
     margin-top: 40px;
+    transition: color 0.3s;
 
     a {
       color: $headerColor;
+
+      &:hover {
+        color: darken($headerColor, 10%);
+      }
     }
 
     li {
@@ -133,5 +138,17 @@
     color: #1600b2;
     background: rgba(162, 203, 245, 0.5);
     border-radius: 5px;
+  }
+}
+
+.about .menu {
+  li a {
+    color: white;
+    transition: color 0.3s;
+
+
+    &:hover {
+      color: $headerColor;
+    }
   }
 }

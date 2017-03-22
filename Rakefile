@@ -4,6 +4,7 @@ require 'jekyll'
 require 'rdoc'
 require 'date'
 require 'tmpdir'
+require "shellwords"
 
 # Change your GitHub reponame
 GITHUB_REPONAME = "glauberramos/glauberramos.com"
@@ -25,7 +26,7 @@ namespace :site do
       system "git init"
       system "git add ."
       message = "Site updated at #{Time.now.utc}"
-      system "git commit -m #{message.shellescape}"
+      system "git commit -m #{Shellwords.escape(message)}"
       system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
       system "git push origin master:refs/heads/gh-pages --force"
     end
