@@ -4,7 +4,6 @@
   max-width: 100%;
   padding: 7% 10% 7%;
   padding-top: 30px;
-  padding-bottom: 90px;
   text-align: center;
   flex: 1;
   background: white;
@@ -22,7 +21,7 @@
     margin-bottom: 20px;
     font-size: 2.2em;
     font-weight: bold;
-    color: #222;
+    color: #053357;
     text-decoration: none;
 
     &:hover {
@@ -32,10 +31,9 @@
 
   li {
     display: flex;
-    width: 70%;
+    width: 80%;
     padding-top: 20px;
     margin: 0 auto;
-    margin-bottom: 30px;
     font-size: 1em;
     line-height: 1.2em;
     color: #555;
