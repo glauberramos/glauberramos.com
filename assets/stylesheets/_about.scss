@@ -1,6 +1,30 @@
 .about {
   color: #ccc;
   flex: 1;
+  background:
+    linear-gradient(
+      rgba(6, 51, 87, 0.7),
+      rgba(6, 51, 87, 0.7)
+    ),
+    url('../images/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 0 10% 7%;
+  border-bottom: 2px solid #ccc;
+
+  header {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    background: transparent;
+    border: none;
+    margin-bottom: 70px;
+
+    .icons {
+      margin: 0;
+    }
+  }
 
   a {
     margin-left: 5px;
@@ -42,9 +66,9 @@
 
 .about, .contact-me-section {
   p {
-    margin: 0.7em 0;
-    font-family: "OpenSansLight";
-    font-size: 1.5em;
+    margin: 1em 0;
+    font-family: "OpenSans";
+    font-size: 1.3em;
     line-height: 1.5em;
     color: white;
   }
@@ -55,7 +79,7 @@
   background: #eee;
   color: #222;
   width: 100%;
-  padding: 5% 15%;
+  padding: 7% 15%;
   max-width: 100%;
   margin: 0;
 
@@ -97,7 +121,7 @@
     color: #1600B2;
     background: rgba(162, 203, 245, 0.5);
     display: inline-block;
-    padding: 3px 10px;
+    padding: 5px 12px;
     border-radius: 5px;
     margin: 5px 3px;
   }
