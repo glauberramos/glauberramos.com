@@ -1,25 +1,27 @@
 .about {
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  height: 605px;
+  padding: 0 10% 7%;
   color: #ccc;
   flex: 1;
-  background:
-    linear-gradient(
-      rgba(6, 51, 87, 0.7),
-      rgba(6, 51, 87, 0.7)
-    ),
-    url('../images/background.jpeg');
-  background-size: cover;
+  background: linear-gradient(
+  rgba(6, 51, 87, 0.7),
+  rgba(6, 51, 87, 0.7)
+  ),
+  url('../images/background.jpeg');
   background-position: center;
-  width: 100%;
-  padding: 0 10% 7%;
+  background-size: cover;
   border-bottom: 2px solid #ccc;
 
   header {
-    padding-left: 10px;
-    padding-right: 10px;
     padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 70px;
     background: transparent;
     border: none;
-    margin-bottom: 70px;
 
     .icons {
       margin: 0;
@@ -64,7 +66,8 @@
   }
 }
 
-.about, .contact-me-section {
+.about,
+.contact-me-section {
   p {
     margin: 1em 0;
     font-family: "OpenSans";
@@ -75,13 +78,15 @@
 }
 
 .contact-me-section {
+  z-index: 10;
+  width: 100%;
+  max-width: 100%;
+  padding: 7% 15%;
+  margin: 0;
+  margin-top: 605px;
+  color: #222;
   text-align: center;
   background: #eee;
-  color: #222;
-  width: 100%;
-  padding: 7% 15%;
-  max-width: 100%;
-  margin: 0;
 
   p {
     color: #222;
@@ -92,17 +97,17 @@
   }
 
   .contact-me {
-    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
-    transition: top 0.2s;
     position: relative;
     top: 0;
-    padding: 20px 30px;
-    background: $headerColor;
-    color: #222;
-    border-radius: 5px;
     display: inline-block;
+    padding: 20px 30px;
     margin: 40px auto;
+    color: #222;
     text-decoration: none;
+    background: $headerColor;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    transition: top 0.2s;
 
     i {
       margin-right: 10px;
@@ -118,11 +123,11 @@
   }
 
   li {
-    color: #1600B2;
-    background: rgba(162, 203, 245, 0.5);
     display: inline-block;
     padding: 5px 12px;
-    border-radius: 5px;
     margin: 5px 3px;
+    color: #1600b2;
+    background: rgba(162, 203, 245, 0.5);
+    border-radius: 5px;
   }
 }
