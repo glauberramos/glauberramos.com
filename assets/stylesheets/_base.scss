@@ -7,7 +7,7 @@ body {
   font-family: "OpenSans";
   font-size: 16px;
   line-height: 1em;
-  color: #ccc;
+  color: #222;
   counter-reset: section;
 }
 
@@ -102,7 +102,6 @@ em {
   min-height: 100vh;
   line-height: 1.35em;
   flex-direction: column;
-  background: #222;
 }
 
 .half {

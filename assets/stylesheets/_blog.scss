@@ -7,6 +7,7 @@
   text-align: center;
   flex: 1;
   background: white;
+  border-top: 2px solid #ddd;
 
   h2 {
     color: #222;
@@ -46,6 +47,8 @@
 }
 
 .post {
+  margin-top: 5%;
+
   p {
     font-size: 1.2em;
     line-height: 1.7em;
@@ -67,7 +70,7 @@
 
   a,
   a:visited {
-    color: $headerColor;
+    color: $linkColor;
   }
 
   i {
