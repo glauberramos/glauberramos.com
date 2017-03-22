@@ -2,16 +2,15 @@
   z-index: 10;
   width: 100%;
   max-width: 100%;
-  padding: 10px;
-  padding: 0 10% 7%;
+  padding: 7% 10% 7%;
   padding-top: 30px;
   padding-bottom: 90px;
   text-align: center;
   flex: 1;
   background: white;
 
-  h3 {
-    color: #ccc;
+  h2 {
+    color: #222;
   }
 
   img {
@@ -19,14 +18,11 @@
   }
 
   a {
-    display: block;
-    float: left;
-    width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 2.2em;
     font-weight: bold;
-    color: $headerColor;
+    color: #222;
     text-decoration: none;
 
     &:hover {
@@ -35,22 +31,19 @@
   }
 
   li {
-    @include clear;
-    display: inline-block;
+    display: flex;
+    width: 70%;
     padding-top: 20px;
     margin: 0 auto;
     margin-bottom: 30px;
     font-size: 1em;
     line-height: 1.2em;
-    color: #ccc;
+    color: #555;
     text-align: left;
     list-style: none;
-    border-top: 1px solid #333;
-  }
-
-  em {
-    float: right;
-    color: #aaa;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
   }
 }
 
