@@ -15,6 +15,10 @@
   background-size: cover;
   border-bottom: 2px solid #ccc;
 
+  @media (max-width: $smallWidth) {
+    padding: 0 5% 7%;
+  }
+
   header {
     margin-bottom: 70px;
     background: transparent;
@@ -22,7 +26,6 @@
   }
 
   a {
-    margin-left: 5px;
     color: white;
 
     &:hover {
