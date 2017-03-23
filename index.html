@@ -31,7 +31,7 @@ title: Glauber Ramos Portfolio
 </section>
 
 <article class="contact-me-section">
-  <h2>I'm a freelancer looking for work</h2>
+  <h2>I'm a freelancer looking for remote work</h2>
 	<ul>
 		<li>Javascript</li>
 		<li>Responsive design</li>
@@ -48,7 +48,7 @@ title: Glauber Ramos Portfolio
 
 <article id="covers" class="covers">
   <h2 class="center">LATEST WORK</h2>
-  {% for post in site.categories.project limit:4 %}
+  {% for post in site.categories.project limit:6 %}
     {% include project.html %}
   {% endfor %}
 </article>
