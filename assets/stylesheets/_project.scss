@@ -147,29 +147,6 @@ header + .covers {
   background: white;
 }
 
-.project-overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 10px;
-  left: 0;
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  background: rgba(0, 0, 0, 0.65);
-  opacity: 0;
-  transition: opacity 0.3s;
-
-  h5 {
-    width: 100%;
-    margin-top: 70px;
-    margin-bottom: 20px;
-    font-size: 2em;
-    color: white;
-    text-align: center;
-  }
-}
-
 .project-hero {
   @include grid-column(4);
   position: relative;
@@ -189,10 +166,6 @@ header + .covers {
 
   &:hover {
     top: -4px;
-
-    .project-overlay {
-      opacity: 1;
-    }
 
     h5,
     .view-project {
