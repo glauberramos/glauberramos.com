@@ -22,6 +22,11 @@ header {
 header + .row {
   padding-top: 70px;
   padding-bottom: 70px;
+
+  @media (max-width: $smallWidth) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .main-header {

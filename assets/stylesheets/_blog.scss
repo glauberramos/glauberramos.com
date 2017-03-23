@@ -30,10 +30,14 @@
     text-decoration: none;
 
     @media (max-width: $mediumWidth) {
+      margin-top: 10px;
+      margin-bottom: 10px;
       font-size: 1.5em;
     }
 
     @media (max-width: $smallWidth) {
+      margin-top: 0;
+      margin-bottom: 0;
       font-size: 1.2em;
     }
 
@@ -101,7 +105,7 @@
     display: block;
     margin-top: 60px;
     margin-bottom: 30px;
-    font-size: 2em;
+    font-size: 1.2em;
   }
 }
 
