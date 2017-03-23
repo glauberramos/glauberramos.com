@@ -27,8 +27,14 @@ header + .row {
 .main-header {
   position: relative;
   top: 4px;
+  display: flex;
   padding: 0 0.4em;
   margin: 10px 0;
+  justify-content: space-between;
+
+  @media (max-width: $smallWidth) {
+    flex-direction: column;
+  }
 
   > a {
     @media (max-width: $mediumWidth) {
@@ -58,6 +64,7 @@ nav {
 }
 
 .menu {
+  width: 250px;
   margin: 0;
 
   li {
@@ -66,7 +73,7 @@ nav {
     margin-left: 5%;
     text-decoration: none;
 
-    @media (max-width: $mediumWidth) {
+    @media (max-width: $xsmallWidth) {
       margin-right: 4%;
       margin-left: 0;
     }
