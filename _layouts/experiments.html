@@ -2,14 +2,14 @@
 layout: default
 ---
 <div class="projects {{ page.class }}">
-  <section class="project row">
-    <span class="project-images column large-9">
+  <section class="project">
+    <span class="project-images">
       {% for image in page.images %}
         <img src="assets/images/{{ image }}">
         <a class="experiment button" target="_blank" href="{{ page.website[forloop.index0] }}">Visit Site</a>
       {% endfor %}
     </span>
-    <aside class="project-information column large-3">
+    <aside class="project-information">
       <h4>{{ page.title }}</h4>
       <p>{{ page.desc }}</p>
       <h5>Work</h5>

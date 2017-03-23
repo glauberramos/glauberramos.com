@@ -34,18 +34,51 @@
     margin-bottom: 0;
     font-family: "OpenSans";
   }
+}
 
-  .project-images {
-    margin-top: 20px;
+.first,
+.second,
+.third {
+  .project:not(.details-project) {
+    display: flex;
 
-    img {
-      padding: 2% 0;
+    @media (max-width: $mediumWidth) {
+      flex-direction: column;
     }
   }
 }
 
-.project {
+.project-information {
+  @include grid-column(3);
+  padding-left: 20px;
+
+  @media (max-width: $mediumWidth) {
+    @include grid-column(12);
+    order: 1;
+  }
+}
+
+.project-images {
+  @include grid-column(9);
+  margin-top: 10px;
+
+  @media (max-width: $mediumWidth) {
+    @include grid-column(12);
+    order: 2;
+  }
+
+  img {
+    padding: 2% 0;
+  }
+}
+
+.project:not(.details-project) {
   padding: 2% 0;
+}
+
+.details-project {
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 @mixin project($backgroundColor, $fontColor, $borderColor, $titleColor) {
@@ -202,11 +235,9 @@ header + .covers {
 }
 
 .thumb {
+  @include grid-column(4);
   display: inline-block;
-  width: 350px;
-  height: 250px;
   margin-top: 20px;
-  margin-right: 10px;
   font-family: "OpenSansBold";
   font-size: 0.8em;
   color: white;
@@ -214,6 +245,14 @@ header + .covers {
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
+
+  @media (max-width: $mediumWidth) {
+    @include grid-column(6);
+  }
+
+  @media (max-width: $smallWidth) {
+    @include grid-column(12);
+  }
 
   &:hover {
     opacity: 0.8;
@@ -226,6 +265,12 @@ header + .covers {
 }
 
 .navigation {
-  padding: 2% 7%;
+  padding: 5% 7%;
+  overflow: hidden;
   background: #222;
+
+  @media (max-width: $smallWidth) {
+    padding: 2%;
+    padding-bottom: 5%;
+  }
 }

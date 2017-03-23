@@ -30,48 +30,48 @@ We started creating personas to understand better the type of user was going to 
 
 In order to understand the context of use we started mapping the user journey trought the hospital, creating user journeys for every user we thought was important. The user journey covered offline and online interactions of the users.
 
-<img class="half" src="assets/images/persona1.png" />
-<img class="half" src="assets/images/userjourney.jpg" />
+<img src="assets/images/persona1.png" />
+<img src="assets/images/userjourney.jpg" />
 
 <h3>Page flow and navigation</h3>
 
 The next step was to start sketching the basic flow and navigation of the application. We started with some basic features like patient register and with that we could have a bit picture of how the application would work.
 
-<img class="half" src="assets/images/interfaceflow.jpg" />
+<img src="assets/images/interfaceflow.jpg" />
 
 <h3>Sketches and mockups</h3>
 
-<img class="half" src="assets/images/sketch.jpg" />
-<img class="half" src="assets/images/mockups.jpg" />
+<img src="assets/images/sketch.jpg" />
+<img src="assets/images/mockups.jpg" />
 
 <h3>Team collaboration</h3>
 
-<img class="half" src="assets/images/pairing.jpg" />
-<img class="half" src="assets/images/designcolaboration.jpg" />
+<img src="assets/images/pairing.jpg" />
+<img src="assets/images/designcolaboration.jpg" />
 
 <h3>Prototype paper to code</h3>
 
-<img class="half" src="assets/images/prototype.png" />
-<img class="half" src="assets/images/developertools.png" />
+<img src="assets/images/prototype.png" />
+<img src="assets/images/developertools.png" />
 
 <h3>User testing</h3>
 
-<img class="half" src="assets/images/usertesting.jpg" />
-<img class="half" src="assets/images/usertesting2.png" />
+<img src="assets/images/usertesting.jpg" />
+<img src="assets/images/usertesting2.png" />
 
 <h3>Style guide and CSS framework</h3>
 
-<img class="half" src="assets/images/css.png" />
-<img class="half" src="assets/images/mirebalais4.png" />
+<img src="assets/images/css.png" />
+<img src="assets/images/mirebalais4.png" />
 
 <h3>UX debt</h3>
 
-<img class="half" src="assets/images/ux_debt.jpg" />
+<img src="assets/images/ux_debt.jpg" />
 
 <h3>Final designs</h3>
 
-<img class="half" src="assets/images/mirebalais.png" />
-<img class="half" src="assets/images/mirebalais2.png" />
-<img class="half" src="assets/images/mirebalais3.png" />
-<img class="half" src="assets/images/mirebalais7.png" />
-<img class="half" src="assets/images/mirebalais5.png" />
+<img src="assets/images/mirebalais.png" />
+<img src="assets/images/mirebalais2.png" />
+<img src="assets/images/mirebalais3.png" />
+<img src="assets/images/mirebalais7.png" />
+<img src="assets/images/mirebalais5.png" />

@@ -48,8 +48,7 @@ header + .row {
   }
 
   nav {
-    @media (max-width: $mediumWidth) {
-      display: inline-block;
+    @media (max-width: $smallWidth) {
       margin-top: 10px;
     }
   }

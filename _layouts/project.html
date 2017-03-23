@@ -4,7 +4,7 @@ layout: default
 
 <div class="projects {{ page.class }}">
   <section class="project row">
-    <span class="project-images column large-9">
+    <span class="project-images">
       {{ content }}
       {% for image in page.images %}
         <img src="assets/images/{{ image }}">
@@ -13,7 +13,7 @@ layout: default
         <img class="small-4" src="assets/images/{{ image }}">
       {% endfor %}
     </span>
-    <aside class="project-information column large-3">
+    <aside class="project-information">
       <h4>{{ page.title }}</h4>
       <p>{{ page.desc }}</p>
       <h5>Work</h5>
