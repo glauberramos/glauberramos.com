@@ -92,8 +92,12 @@
   max-width: 100%;
   padding: 7% 10%;
   margin: 0;
-  background: white;
+  background: #eee;
   border-top: 2px solid #ddd;
+
+  @media (max-width: $mediumWidth) {
+    padding: 5%;
+  }
 
   h2 {
     text-align: center;
@@ -104,6 +108,10 @@
   p {
     color: #222;
   }
+}
+
+header + .covers {
+  background: white;
 }
 
 .project-overlay {
@@ -130,13 +138,17 @@
 }
 
 .project-hero {
-  @include clear;
+  @include grid-column(6);
   position: relative;
   top: 0;
   display: inline-block;
-  width: 48%;
-  margin: 10px 0.9%;
+  margin-top: 10px;
+  margin-bottom: 10px;
   transition: top 0.2s;
+
+  @media (max-width: $smallWidth) {
+    @include grid-column(12);
+  }
 
   &:hover {
     top: -4px;

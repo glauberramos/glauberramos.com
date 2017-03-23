@@ -41,6 +41,14 @@ h1 {
 h2 {
   font-family: "OpenSansLight";
   font-size: 2.7em;
+
+  @media (max-width: $smallWidth) {
+    font-size: 1.7em;
+  }
+
+  @media (max-width: $xsmallWidth) {
+    font-size: 1.5em;
+  }
 }
 
 h3 {

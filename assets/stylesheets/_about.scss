@@ -101,7 +101,15 @@
   margin-top: 605px;
   color: #222;
   text-align: center;
-  background: #eee;
+  background: white;
+
+  @media (max-width: $smallWidth) {
+    padding: 5% 10%;
+  }
+
+  @media (max-width: $xsmallWidth) {
+    padding: 2% 5%;
+  }
 
   p {
     color: #222;
@@ -153,11 +161,6 @@
 
   @media (max-width: $largeWidth) {
     @include grid-column(10);
-    margin: 0;
-  }
-
-  @media (max-width: $smallWidth) {
-    @include grid-column(12);
     margin: 0;
   }
 
