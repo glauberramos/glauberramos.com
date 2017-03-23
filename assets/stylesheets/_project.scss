@@ -171,13 +171,17 @@ header + .covers {
 }
 
 .project-hero {
-  @include grid-column(6);
+  @include grid-column(4);
   position: relative;
   top: 0;
   display: inline-block;
   margin-top: 10px;
   margin-bottom: 10px;
   transition: top 0.2s;
+
+  @media (max-width: $mediumWidth) {
+    @include grid-column(6);
+  }
 
   @media (max-width: $smallWidth) {
     @include grid-column(12);
@@ -198,7 +202,8 @@ header + .covers {
 
   img {
     width: 100%;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.23);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.14902) 0 4px 15px 0;
   }
 
   &:last-child {
