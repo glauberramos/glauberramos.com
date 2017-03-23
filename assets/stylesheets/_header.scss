@@ -1,10 +1,22 @@
 header {
   z-index: 999;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding: 30px 10px 20px;
   font-family: "OpenSansBold";
   color: white;
   background: #053357;
+}
+
+.site > header {
+  width: 100%;
+  padding-right: 10%;
+  padding-left: 10%;
+  background: linear-gradient(
+  rgba(6, 51, 87, 0.7),
+  rgba(6, 51, 87, 0.7)
+  ),
+  url('../images/background.jpeg');
+  background-position: top;
+  background-size: cover;
 }
 
 header + .row {
@@ -46,28 +58,39 @@ nav {
   float: right;
 }
 
-.icons {
+.menu {
+  margin: 0;
+
   li {
     display: inline-block;
     margin-right: 7%;
+    margin-left: 5%;
     text-decoration: none;
-  }
 
-  ul {
-    text-align: right;
-  }
+    a {
+      position: relative;
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s;
 
-  a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
+      &:before {
+        position: absolute;
+        top: -20px;
+        left: 0;
+        width: 0;
+        height: 4px;
+        content: '';
+        background: $headerColor;
+        transition: width 0.5s;
+      }
 
-    &:hover {
-      color: $headerColor;
+      &:hover {
+        color: $headerColor;
+
+        &:before {
+          width: 100%;
+        }
+      }
     }
-  }
-
-  .fa {
-    font-size: 2em;
   }
 }

@@ -16,20 +16,9 @@
   border-bottom: 2px solid #ccc;
 
   header {
-    padding-top: 30px;
-    padding-right: 10px;
-    padding-left: 10px;
     margin-bottom: 70px;
     background: transparent;
     border: none;
-
-    .icons {
-      margin: 0;
-    }
-
-    li {
-      margin-left: 5%;
-    }
   }
 
   a {
@@ -44,7 +33,12 @@
   .icons {
     display: block;
     margin-top: 40px;
+    list-style: none;
     transition: color 0.3s;
+
+    .fa {
+      font-size: 2em;
+    }
 
     a {
       color: $headerColor;
@@ -55,6 +49,7 @@
     }
 
     li {
+      display: inline-block;
       margin-right: 3%;
     }
   }
