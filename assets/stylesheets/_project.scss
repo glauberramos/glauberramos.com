@@ -269,6 +269,10 @@ header + .covers {
   overflow: hidden;
   background: #222;
 
+  h2 {
+    color: white;
+  }
+
   @media (max-width: $smallWidth) {
     padding: 2%;
     padding-bottom: 5%;
