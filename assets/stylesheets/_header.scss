@@ -31,13 +31,13 @@ header + .row {
   margin: 10px 0;
 
   > a {
-    @media (max-width: $smallWidth) {
+    @media (max-width: $mediumWidth) {
       font-size: 0.7em;
     }
   }
 
   nav {
-    @media (max-width: $smallWidth) {
+    @media (max-width: $mediumWidth) {
       display: inline-block;
       margin-top: 10px;
     }
@@ -66,7 +66,7 @@ nav {
     margin-left: 5%;
     text-decoration: none;
 
-    @media (max-width: $smallWidth) {
+    @media (max-width: $mediumWidth) {
       margin-right: 4%;
       margin-left: 0;
     }

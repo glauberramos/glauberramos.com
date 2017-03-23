@@ -15,8 +15,12 @@
   background-size: cover;
   border-bottom: 2px solid #ccc;
 
+  @media (max-width: $mediumWidth) {
+    padding: 0 3% 5%;
+  }
+
   @media (max-width: $smallWidth) {
-    padding: 0 5% 7%;
+    padding: 0 2% 3%;
   }
 
   header {
@@ -67,7 +71,7 @@
     background: white;
     border-radius: 50%;
 
-    @media (max-width: $smallWidth) {
+    @media (max-width: $mediumWidth) {
       margin-bottom: 40px;
     }
   }
@@ -81,6 +85,10 @@
     font-size: 1.3em;
     line-height: 1.5em;
     color: white;
+
+    @media (max-width: $mediumWidth) {
+      font-size: 1em;
+    }
   }
 }
 
@@ -148,5 +156,19 @@
     &:hover {
       color: $headerColor;
     }
+  }
+}
+
+.about-me {
+  @include grid-column(8);
+  margin: 0;
+
+  @media (max-width: $largeWidth) {
+    @include grid-column(10);
+    margin: 0;
+  }
+
+  @media (max-width: $smallWidth) {
+    width: 100%;
   }
 }
