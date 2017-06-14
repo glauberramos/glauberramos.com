@@ -1,0 +1,13 @@
+
+I usually don't use any framework (like bootstrap, materialize or foundation)
+Use normalize.css, this helps keeping your site looking the same on every browser
+Have a file for variables (colors, fonts, sizes, media queries) (you will need to use style-loader to use import)
+Use PostCSS, this guy is amazing, you can use Autoprefixer to avoid writing vendors prefixers (-ms, -webkit, etc)
+Keep the .scss file inside the component folder, so when you are changing a component you change everything in the same folder.
+Avoid using ID's inside the .scss file, also avoid using !important. Those 2 things messes up with the selectors hierarchy and it can cause big problems when the project gets bigger.
+Don't target elements on the CSS as well (like a or div), it's always better to use classes. Let take this example: .car a. The browser reads the CSS selector from right to left, so it will look for all the links on the page to start, this is not optimized, it is better to use a class.
+Use a consistent class naming pattern, imagine a component called "Car". The file should be car.scss, the class should be the same name of the component .car, every element inside should keep car .car-child, and modifiers as well .car-child-active. BEM works fine for that (but it has ugly syntax). This will help to avoid one component influencing on other component, so don't worry if you think you are repeating CSS here, the idea is to have the component self-contained.
+Use Stylelint, this will help with typeSafe CSS and other things, like setting a max nesting of 3 levels (this is important as well)
+Use CSSComb, this is less important but it will organize the properties when you save the file, you can add that on sublime or atom
+Also take a look on this post, it summarizes very well the basics for a good CSS architecture
+I hope this helps.
