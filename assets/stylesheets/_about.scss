@@ -6,11 +6,8 @@
   padding: 0 10% 7%;
   color: #ccc;
   flex: 1;
-  background: linear-gradient(
-  rgba(6, 51, 87, 0.7),
-  rgba(6, 51, 87, 0.7)
-  ),
-  url('../images/background.jpeg');
+  background: linear-gradient(rgba(6, 51, 87, 0.7), rgba(6, 51, 87, 0.7)),
+    url("https://s3-us-west-2.amazonaws.com/glauberramos/background.jpeg");
   background-position: center;
   background-size: cover;
   border-bottom: 2px solid #ccc;
@@ -129,7 +126,7 @@
     text-decoration: none;
     background: $headerColor;
     border-radius: 5px;
-    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     transition: top 0.2s;
 
     i {
