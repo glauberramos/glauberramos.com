@@ -7,21 +7,25 @@ categories: post
 ---
 
 ### Websites
+
 - [Indie Hackers](https://www.indiehackers.com/)
 - [Product Hunt](https://www.producthunt.com/)
 - [Barnacles](https://barnacl.es/)
 - [Awesome Indie](https://github.com/mezod/awesome-indie)
 
 ### People to Follow
+
 - [Piter Levels](https://levels.io/)
 - [Andrey Azimov](https://www.andreyazimov.com/)
 - [Justin Jackson](https://justinjackson.ca/)
 
 ### Useful tools
+
 - [Maker Rocks](https://maker.rocks)
 - [Ship Streams](https://shipstreams.com/)
 
 ### Podcasts
+
 - [Indie Hackers Podcast](https://www.indiehackers.com/podcast)
 - [Product People](https://www.productpeople.tv/)
 - [Bootstrapped Web](http://bootstrappedweb.com/)
@@ -29,12 +33,15 @@ categories: post
 - [Startup For The Rest of Us](https://www.startupsfortherestofus.com/)
 
 ### Courses
+
 - [Startup School](https://www.startupschool.org/)
 
 ### Blogs
+
 - [Signal vs Noize](https://m.signalvnoise.com/)
 
 ### Books
+
 - [Make Book](https://makebook.io/)
 - [Start Small Stay Small](http://www.startupbook.net/)
 - [Marketing for Developers](https://devmarketing.xyz/)
@@ -42,13 +49,15 @@ categories: post
 - [Rework](https://basecamp.com/books/rework)
 
 ### Free Communities
+
 - [Makers Kitchen](https://makerskitchen.xyz/)
 - [Maker Log](https://wip.chat/)
 
 ### Paid Communities
+
 - [WIP - Work In Progress](https://wip.chat/)
 - [Mega Maker](https://megamaker.co/)
 
 ### Conferences
-- [Micro Conf](https://www.microconf.com/)
 
+- [Micro Conf](https://www.microconf.com/)
