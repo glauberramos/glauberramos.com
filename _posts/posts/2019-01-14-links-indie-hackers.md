@@ -1,27 +1,63 @@
 ---
 layout: post
 comments: true
-title: "CSS Architecture"
-date: 2017-06-13 12:00:00
+title: "Links for Indie Hackers and Makers"
+date: 2019-01-01 12:00:00
 categories: post
 ---
 
-#### CSS architecture
+### Websites
 
-Hello everyone,
+- [Indie Hackers](https://www.indiehackers.com/)
+- [Product Hunt](https://www.producthunt.com/)
+- [Barnacles](https://barnacl.es/)
+- [Awesome Indie](https://github.com/mezod/awesome-indie)
 
-I am planning to start creating some posts related to CSS architecture. My plan is to share my current knowledge regarding CSS, SASS, good practices, Stylelint, POSTCSS, etc. My idea is to write in english first, but I may translate to portuguese as well later.
+### People to Follow
 
-Another thing that I am very curious to learn more is regarding CSS in JS. I know the biggest js frameworks nowadays are working with it (React and Angular). And I think that's the future for CSS, so I will try to share things related to it.
+- [Piter Levels](https://levels.io/)
+- [Andrey Azimov](https://www.andreyazimov.com/)
+- [Justin Jackson](https://justinjackson.ca/)
 
-Main areas that I plan to talk about, this is not written in stone so it may change:
+### Useful tools
 
-* Should I use a framework or not
-* Naming and CSS Methodologies
-* Folder and files structure
-* Do's and Don'ts
-* Preprocessors
-* POSTCSS, NextCSS and Autoprefixer
-* CSS Analysis: selector specificity and parker
-* CSS Analysis: stylelint
-* CSS in JS (React and Angular)
+- [Maker Rocks](https://maker.rocks)
+- [Ship Streams](https://shipstreams.com/)
+
+### Podcasts
+
+- [Indie Hackers Podcast](https://www.indiehackers.com/podcast)
+- [Product People](https://www.productpeople.tv/)
+- [Bootstrapped Web](http://bootstrappedweb.com/)
+- [Bootstrapped FM](http://bootstrapped.fm/)
+- [Startup For The Rest of Us](https://www.startupsfortherestofus.com/)
+
+### Courses
+
+- [Startup School](https://www.startupschool.org/)
+
+### Blogs
+
+- [Signal vs Noize](https://m.signalvnoise.com/)
+
+### Books
+
+- [Make Book](https://makebook.io/)
+- [Start Small Stay Small](http://www.startupbook.net/)
+- [Marketing for Developers](https://devmarketing.xyz/)
+- [Getting Real](https://basecamp.com/books/getting-real)
+- [Rework](https://basecamp.com/books/rework)
+
+### Free Communities
+
+- [Makers Kitchen](https://makerskitchen.xyz/)
+- [Maker Log](https://wip.chat/)
+
+### Paid Communities
+
+- [WIP - Work In Progress](https://wip.chat/)
+- [Mega Maker](https://megamaker.co/)
+
+### Conferences
+
+- [Micro Conf](https://www.microconf.com/)
