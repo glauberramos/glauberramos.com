@@ -124,7 +124,7 @@ blockquote {
   &::after {
     font-size: 3em;
     color: red;
-    content: "♡";
+    content: "s2";
   }
 }
 
@@ -141,7 +141,7 @@ p[title~="titulo"] {
 }
 
 .counter::before {
-  content: "Sessão " counter(section) ": ";
+  content: "Categoria " counter(section) ": ";
   counter-increment: section;
 }
 
