@@ -15,7 +15,7 @@ categories: post
 
 ### People to Follow
 
-- [Piter Levels](https://levels.io/)
+- [Pieter Levels](https://levels.io/)
 - [Andrey Azimov](https://www.andreyazimov.com/)
 - [Justin Jackson](https://justinjackson.ca/)
 
@@ -51,7 +51,7 @@ categories: post
 ### Free Communities
 
 - [Makers Kitchen](https://makerskitchen.xyz/)
-- [Maker Log](https://wip.chat/)
+- [Maker Log](https://getmakerlog.com)
 
 ### Paid Communities
 
