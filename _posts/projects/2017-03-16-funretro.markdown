@@ -5,7 +5,7 @@ images: ["funretro1.png", "funretro2.png"]
 work: "Founder. I was responsible for everything from design to development."
 title: "Fun Retro"
 desc: "Easy to use, open-source, free and beautiful restrospective board for distributed teams."
-website: "http://funretro.github.io/distributed"
+website: "https://funretro.io"
 cover: "funretrologo.png"
 class: "third"
 link: "funretro.html"
