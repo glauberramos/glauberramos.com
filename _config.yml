@@ -1,9 +1,9 @@
 name: Glauber Ramos Website
-email: glauberamos@gmail.com
+email: contato@glauberramos.com
 description: Portfolio Glauber Ramos
 url: http://glauberramos.com
 twitter_username: glauberamos
-github_username:  glauberramos
+github_username: glauberramos
 
 highlighter: true
 
@@ -15,4 +15,4 @@ permalink: :title.html
 #baseurl: glauberramos.com
 
 gems:
-- jekyll-autoprefixer
+    - jekyll-autoprefixer

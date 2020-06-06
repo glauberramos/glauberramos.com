@@ -43,5 +43,3 @@ Esse objetivo é muito importante para eu poder conhecer novas realidades, expan
 Eu entendo que só vou conseguir fazer isso devido a alguns privilégios que tenho, como ter tido uma boa educação, ter uma reserva financeira, conhecimento prático, etc... Mas espero que esse tempo ajude a melhorar a vida de outras pessoas.
 
 Só sei que estou bem empolgado com esse ano de 2017 e quero muito ver o que vai acontecer.
-
-Se você chegou até aqui, e tem interesse em me contratar para algum projeto de frontend e UX e melhor ainda se for algum projeto com impacto positivo, por favor, entre em contato comigo em [glauberamos@gmail.com](mailto:glauberamos@gmail.com).
