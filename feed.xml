@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Glauber Ramos Website - Posts</title>
+		<description>Posts from Glauber Ramos</description>
+		<link>http://glauberramos.com</link>
+		<atom:link href="http://glauberramos.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Como se proteger dos vazamentos de dados de todos os brasileiros</title>
+				<description>&lt;h1 id=&quot;como-se-proteger-do-vazamento-de-dados-de-quase-todos-brasileiros&quot;&gt;Como se proteger do vazamento de dados de quase todos brasileiros&lt;/h1&gt;
+
+&lt;h2 id=&quot;básico-para-segurança-digital&quot;&gt;Básico para segurança digital&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Utilizar um gerenciador de senhas e não usar a mesma senha para todos sites&lt;/li&gt;
+  &lt;li&gt;Ligar autenticação de 2 passos nos sites que possuem isso&lt;/li&gt;
+  &lt;li&gt;Fazer uma limpa de aplicativos que você possui no celular e não usa&lt;/li&gt;
+  &lt;li&gt;Fazer uma limpa de cadastros em sites que você não usa e pedir para deletarem seus dados&lt;/li&gt;
+  &lt;li&gt;Pesquisar no google pelo seu nome completo, cpf, email e ver os sites que aparecem, deletar as informações de onde você conseguir&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;aplicativos&quot;&gt;Aplicativos&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Se cadastrar no aplicativo do FGTS para evitar que outras pessoas saquem seu fundo de garantia&lt;/li&gt;
+  &lt;li&gt;Se cadastrar no aplicativo Caixa Tem para evitar o golpe do FGTS tbm&lt;/li&gt;
+  &lt;li&gt;Se cadastrar no aplicativo do Auxilio Emergencial para evitar que outras pessoas saquem auxilio no seu nome&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mudança-de-informações&quot;&gt;Mudança de informações&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Se seu número de celular foi vazado, você pode trocar de número&lt;/li&gt;
+  &lt;li&gt;Trocar de email e modificar o email dos principais sites que você usa&lt;/li&gt;
+  &lt;li&gt;trocar as senhas nos sites que você usa e nunca utilizar a mesma senha&lt;/li&gt;
+  &lt;li&gt;Se seu passaporte foi vazado, você pode pedir um novo passaporte&lt;/li&gt;
+  &lt;li&gt;Em casos mais extremos você pode mudar de endereço se seu endereço foi vazado&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sites-de-monitoramento&quot;&gt;Sites de monitoramento&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;O banco central oferece esse sistema para monitorar seu CPF https://www.bcb.gov.br/cidadaniafinanceira/registrato&lt;/li&gt;
+  &lt;li&gt;O serasa tem um sistema de monitoramento mas não sugiro utilizar porque a fonte de vazamento foi o próprio serasa&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Sat, 14 Mar 2020 12:00:00 +0000</pubDate>
+				<link>http://glauberramos.com/se-proteger-de-vazamento-de-dados.html</link>
+				<guid isPermaLink="true">http://glauberramos.com/se-proteger-de-vazamento-de-dados.html</guid>
+			</item>
+		
+			<item>
+				<title>Links for Indie Hackers and Makers</title>
+				<description>&lt;h3 id=&quot;websites&quot;&gt;Websites&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.indiehackers.com/&quot;&gt;Indie Hackers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.producthunt.com/&quot;&gt;Product Hunt&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://barnacl.es/&quot;&gt;Barnacles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mezod/awesome-indie&quot;&gt;Awesome Indie&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;people-to-follow&quot;&gt;People to Follow&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://levels.io/&quot;&gt;Pieter Levels&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.andreyazimov.com/&quot;&gt;Andrey Azimov&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://justinjackson.ca/&quot;&gt;Justin Jackson&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;useful-tools&quot;&gt;Useful tools&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://maker.rocks&quot;&gt;Maker Rocks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://shipstreams.com/&quot;&gt;Ship Streams&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;podcasts&quot;&gt;Podcasts&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.indiehackers.com/podcast&quot;&gt;Indie Hackers Podcast&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.productpeople.tv/&quot;&gt;Product People&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bootstrappedweb.com/&quot;&gt;Bootstrapped Web&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bootstrapped.fm/&quot;&gt;Bootstrapped FM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.startupsfortherestofus.com/&quot;&gt;Startup For The Rest of Us&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;courses&quot;&gt;Courses&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.startupschool.org/&quot;&gt;Startup School&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;blogs&quot;&gt;Blogs&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://m.signalvnoise.com/&quot;&gt;Signal vs Noize&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;books&quot;&gt;Books&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://makebook.io/&quot;&gt;Make Book&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.startupbook.net/&quot;&gt;Start Small Stay Small&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devmarketing.xyz/&quot;&gt;Marketing for Developers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://basecamp.com/books/getting-real&quot;&gt;Getting Real&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://basecamp.com/books/rework&quot;&gt;Rework&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;free-communities&quot;&gt;Free Communities&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://makerskitchen.xyz/&quot;&gt;Makers Kitchen&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://getmakerlog.com&quot;&gt;Maker Log&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;paid-communities&quot;&gt;Paid Communities&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wip.chat/&quot;&gt;WIP - Work In Progress&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://megamaker.co/&quot;&gt;Mega Maker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;conferences&quot;&gt;Conferences&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.microconf.com/&quot;&gt;Micro Conf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Tue, 01 Jan 2019 12:00:00 +0000</pubDate>
+				<link>http://glauberramos.com/links-indie-hackers.html</link>
+				<guid isPermaLink="true">http://glauberramos.com/links-indie-hackers.html</guid>
+			</item>
+		
+			<item>
+				<title>CSS Architecture</title>
+				<description>&lt;h4 id=&quot;css-architecture&quot;&gt;CSS architecture&lt;/h4&gt;
+
+&lt;p&gt;Hello everyone,&lt;/p&gt;
+
+&lt;p&gt;I am planning to start creating some posts related to CSS architecture. My plan is to share my current knowledge regarding CSS, SASS, good practices, Stylelint, POSTCSS, etc. My idea is to write in english first, but I may translate to portuguese as well later.&lt;/p&gt;
+
+&lt;p&gt;Another thing that I am very curious to learn more is regarding CSS in JS. I know the biggest js frameworks nowadays are working with it (React and Angular). And I think that’s the future for CSS, so I will try to share things related to it.&lt;/p&gt;
+
+&lt;p&gt;Main areas that I plan to talk about, this is not written in stone so it may change:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Should I use a framework or not&lt;/li&gt;
+  &lt;li&gt;Naming and CSS Methodologies&lt;/li&gt;
+  &lt;li&gt;Folder and files structure&lt;/li&gt;
+  &lt;li&gt;Do’s and Don’ts&lt;/li&gt;
+  &lt;li&gt;Preprocessors&lt;/li&gt;
+  &lt;li&gt;POSTCSS, NextCSS and Autoprefixer&lt;/li&gt;
+  &lt;li&gt;CSS Analysis: selector specificity and parker&lt;/li&gt;
+  &lt;li&gt;CSS Analysis: stylelint&lt;/li&gt;
+  &lt;li&gt;CSS in JS (React and Angular)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Tue, 13 Jun 2017 12:00:00 +0000</pubDate>
+				<link>http://glauberramos.com/css-architecture.html</link>
+				<guid isPermaLink="true">http://glauberramos.com/css-architecture.html</guid>
+			</item>
+		
+			<item>
+				<title>Ano Sabático 2017</title>
+				<description>&lt;p&gt;Olár a todos,&lt;/p&gt;
+
+&lt;p&gt;Depois de muitos anos trabalhando na indústria (10 anos mais ou menos) e depois de pensar muito sobre o assunto, decidi que queria testar coisas diferentes na minha carreira. Eu pedi demissão do lugar onde eu estava trabalhando (Thoughtworks) e agora estou sem emprego formal.&lt;/p&gt;
+
+&lt;p&gt;Você pode chamar de crise dos 30, retorno de saturno, ano sabático, ano farrático, o que seja, hehehe. O importante é que eu achei que era o momento de testar algumas coisas que eu estava na cabeça faz um tempo, e achei que agora era o melhor momento para fazer isso.&lt;/p&gt;
+
+&lt;h4 id=&quot;bom-mas-o-que-você-quer-fazer&quot;&gt;Bom mas o que você quer fazer?&lt;/h4&gt;
+
+&lt;p&gt;Na verdade ainda não sei exatamente, mas eu listei alguns objetivos para esse ano.&lt;/p&gt;
+
+&lt;h2 id=&quot;1---aprender-coisas-novas&quot;&gt;1 - Aprender coisas novas&lt;/h2&gt;
+
+&lt;p&gt;Tem algumas coisas que quero focar e aprender mais nesse ano, mas as duas coisas principais são: melhorar meus skills de design gráfico e aprender mais sobre sustentabilidade (mais especificamente permacultura).&lt;/p&gt;
+
+&lt;h2 id=&quot;2---projetos-de-impacto-positivo&quot;&gt;2 - Projetos de impacto positivo&lt;/h2&gt;
+
+&lt;p&gt;Minha ideia é fazer freelance para conseguir pagar as contas mas ao mesmo tempo (e talvez a mesma coisa) é trabalhar em projetos que tenham impacto positivo no mundo.&lt;/p&gt;
+
+&lt;h3 id=&quot;o-que-isso-significa-para-mim&quot;&gt;O que isso significa para mim?&lt;/h3&gt;
+
+&lt;p&gt;Existem várias interpretações, mas para mim são projetos que tentam melhorar algum dos problemas reais do mundo, projetos que tem uma visão clara e positiva e não estão só preocupados em lucro por si só.&lt;/p&gt;
+
+&lt;p&gt;Esses problemas variam entre saúde precária, educação precária, injustiças sociais, injustiça econômica e problemas ambientais.&lt;/p&gt;
+
+&lt;p&gt;Eu tenho mais interesse em trabalhar nesse ultimo tópico que são projetos relacionados ao aquecimento global, extinção de especies, degradação do meio ambiente, poluição, sustentabilidade, etc…&lt;/p&gt;
+
+&lt;h2 id=&quot;3---experienciar-o-mundo&quot;&gt;3 - Experienciar o mundo&lt;/h2&gt;
+
+&lt;p&gt;O último objetivo seria continuar algo que já venho fazendo faz alguns anos, que é viajar pelo planeta, conhecer países novos, novos continentes, novas experiencias.&lt;/p&gt;
+
+&lt;p&gt;Esse objetivo é muito importante para eu poder conhecer novas realidades, expandir meu conhecimento sobre como as pessoas vivem, que problemas que existem por ai, etc…&lt;/p&gt;
+
+&lt;h3 id=&quot;essa-é-a-ideia-em-geral&quot;&gt;Essa é a ideia em geral.&lt;/h3&gt;
+
+&lt;p&gt;Eu entendo que só vou conseguir fazer isso devido a alguns privilégios que tenho, como ter tido uma boa educação, ter uma reserva financeira, conhecimento prático, etc… Mas espero que esse tempo ajude a melhorar a vida de outras pessoas.&lt;/p&gt;
+
+&lt;p&gt;Só sei que estou bem empolgado com esse ano de 2017 e quero muito ver o que vai acontecer.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 16 Mar 2017 12:00:00 +0000</pubDate>
+				<link>http://glauberramos.com/ano-sabatico.html</link>
+				<guid isPermaLink="true">http://glauberramos.com/ano-sabatico.html</guid>
+			</item>
+		
+			<item>
+				<title>Affordance</title>
+				<description>&lt;p&gt;Conceito criado por Don Norman para definir as propriedades percebíveis de um objeto mas que tbm é utilizado para elementos de aplicações.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Um bom design é quando um objeto possui diversas affordances que não foram pensadas inicialmente pelo designer&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;affordance&quot;&gt;Affordance&lt;/h4&gt;
+&lt;iframe src=&quot;//www.youtube.com/embed/NK1Zb_5VxuM?rel=0&quot; width=&quot;560&quot; height=&quot;315&quot;&gt; &lt;/iframe&gt;
+</description>
+				<pubDate>Wed, 02 Jul 2014 12:00:00 +0000</pubDate>
+				<link>http://glauberramos.com/affordance.html</link>
+				<guid isPermaLink="true">http://glauberramos.com/affordance.html</guid>
+			</item>
+		
+			<item>
+				<title>12 regras CSS que poucos conhecem</title>
+				<description>&lt;div class=&quot;parallax-container&quot;&gt;
+	&lt;img title=&quot;Dívida de UX&quot; src=&quot;/assets/images/css3.jpg&quot; alt=&quot;Dívida de UX&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;selection&quot;&gt;Selection&lt;/h2&gt;
+
+&lt;p&gt;Um seletor muito interessante é o &lt;a href=&quot;http://www.w3schools.com/cssref/sel_selection.asp&quot;&gt;::selection&lt;/a&gt;. Ele serve para estilizar o texto quando está selecionado. Sublinhe esse texto para ver um exemplo.&lt;/p&gt;
+
+&lt;p&gt;Ele pode dar um toque no design porque mostra que foi dado atenção aos &lt;a href=&quot;http://littlebigdetails.com/&quot;&gt;pequenos grandes detalhes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;span class=&quot;selector&quot;&gt;::selection &lt;/span&gt;{
+  &lt;span class=&quot;property&quot;&gt;background:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;#BADA55;&lt;/span&gt;
+  &lt;span class=&quot;property&quot;&gt;color:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;white;&lt;/span&gt;
+} 
+&lt;/pre&gt;
+
+&lt;h2 id=&quot;appearance&quot;&gt;Appearance&lt;/h2&gt;
+
+&lt;p&gt;Essa propriedade é muito interessante quando se quer modificar a aparência nativa de algum elemento HTML e estilizar da maneira que você quiser.&lt;/p&gt;
+
+&lt;p&gt;Um exemplo de select box sem estilo:&lt;/p&gt;
+
+&lt;p&gt;&lt;select&gt;
+	&lt;option&gt;Opção 1&lt;/option&gt;
+	&lt;option&gt;Opção 2&lt;/option&gt;
+	&lt;option&gt;Opção 3&lt;/option&gt;
+&lt;/select&gt;&lt;/p&gt;
+
+&lt;p&gt;Um exemplo de um select box estilizado:&lt;/p&gt;
+
+&lt;div class=&quot;styled-select&quot;&gt;
+	&lt;select&gt;
+		&lt;option&gt;Opção 1&lt;/option&gt;
+		&lt;option&gt;Opção 2&lt;/option&gt;
+		&lt;option&gt;Opção 3&lt;/option&gt;
+	&lt;/select&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A propriedade &lt;a href=&quot;http://www.w3schools.com/cssref/css3_pr_appearance.asp&quot;&gt;appearance&lt;/a&gt; é possível utilizar os valores “normal”, “none”, “button”, etc.&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;span class=&quot;selector&quot;&gt;select&lt;/span&gt; {
+  &lt;span class=&quot;property&quot;&gt;appearance:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;none;&lt;/span&gt;
+  &lt;span class=&quot;property&quot;&gt;-webkit-appearance:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;none;&lt;/span&gt;
+  &lt;span class=&quot;property&quot;&gt;-moz-appearance:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;none;&lt;/span&gt;
+  &lt;span class=&quot;property&quot;&gt;-o-appearance:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;none;&lt;/span&gt;
+} 
+&lt;/pre&gt;
+
+&lt;h2 id=&quot;not&quot;&gt;Not&lt;/h2&gt;
+
+&lt;p&gt;O seletor &lt;a href=&quot;http://css-tricks.com/almanac/selectors/n/not/&quot;&gt;not&lt;/a&gt; é muito útil para excluir elementos dos seletores quando você não precisa deles. Um exemplo é por exemplo quando você quer estilizar todos spans mas não quer alterar os que tenham a classe “item”.&lt;/p&gt;
+
+&lt;p&gt;Ele também pode ser utilizada com outros seletores como &lt;a href=&quot;http://www.w3schools.com/cssref/sel_firstchild.asp&quot;&gt;:first-child&lt;/a&gt;, &lt;a href=&quot;http://www.w3schools.com/cssref/sel_last-child.asp&quot;&gt;:last-child&lt;/a&gt;, etc.&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;span class=&quot;selector&quot;&gt;span:not(.item)&lt;/span&gt; {
+  &lt;span class=&quot;property&quot;&gt;color&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;#444;&lt;/span&gt;
+} 
+&lt;/pre&gt;
+
+&lt;h2 id=&quot;pointer-events&quot;&gt;Pointer Events&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://css-tricks.com/almanac/properties/p/pointer-events/&quot;&gt;Pointer events&lt;/a&gt; serve para alterar a resposta de elementos html em relação a eventos relacionados ao mouse como clicar ou hover. Você pode fazer com que o click do mouse pare de funcionar para determinado elemento html.&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;span class=&quot;selector&quot;&gt;.avoid-clicks&lt;/span&gt; {
+  &lt;span class=&quot;property&quot;&gt;pointer-events:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;none;&lt;/span&gt;
+} 
+&lt;/pre&gt;
+
+&lt;h2 id=&quot;outline&quot;&gt;Outline&lt;/h2&gt;
+
+&lt;p&gt;Outline é muito útil quando se quer remover o comportamento padrão do browser de adicionar uma borda a um elemento quando ele esta selecionado. Ela pode ser útil quando voce quer deixar o design mais limpo. Ela é diferente da propriedade border pois adiciona mais uma borda a um elemento.&lt;/p&gt;
+
+&lt;p&gt;Cuidado ao remover o comportamento default do browser pois pode deixar seu site mais difícil de utilizar por pessoas que usam teclado para navegação.&lt;/p&gt;
+
+&lt;div style=&quot;border: 3px solid #bada55; outline: 3px solid black; margin-bottom: 20px;&quot;&gt;Elemento com borda e outline&lt;/div&gt;
+
+&lt;div style=&quot;border: 3px solid #bada55;&quot;&gt;Elemento apenas com borda&lt;/div&gt;
+
+&lt;pre&gt;
+&lt;span class=&quot;selector&quot;&gt;div&lt;/span&gt; {
+  &lt;span class=&quot;property&quot;&gt;outline:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;none;&lt;/span&gt;
+} 
+&lt;/pre&gt;
+
+&lt;h2 id=&quot;after-and-before&quot;&gt;After and Before&lt;/h2&gt;
+
+&lt;p&gt;Muito útil para adicionar pseudo elementos html apenas usando CSS. Isso deixa seu html mais limpo pois tudo é tratado no css.&lt;/p&gt;
+
+&lt;div class=&quot;after-element&quot;&gt;Exemplo de pseudo elemento, o coração está sendo adicionado via CSS&lt;/div&gt;
+
+&lt;pre&gt;
+&lt;span class=&quot;selector&quot;&gt;div:after&lt;/span&gt; {
+  &lt;span class=&quot;property&quot;&gt;content:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;'♡';&lt;/span&gt;
+  &lt;span class=&quot;property&quot;&gt;color:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;red;&lt;/span&gt;
+  &lt;span class=&quot;property&quot;&gt;font-size:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;3em;&lt;/span&gt;
+} 
+&lt;/pre&gt;
+
+&lt;h2 id=&quot;columns&quot;&gt;Columns&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.w3schools.com/css/css3_multiple_columns.asp&quot;&gt;Columns&lt;/a&gt; serve para repartir um texto em colunas, muito útil para diagramar um texto.&lt;/p&gt;
+
+&lt;p style=&quot;-webkit-column-count: 3; column-count: 3;&quot;&gt;Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. &lt;/p&gt;
+
+&lt;pre&gt;
+&lt;span class=&quot;selector&quot;&gt;p&lt;/span&gt; {
+  &lt;span class=&quot;property&quot;&gt;-webkit-column-count:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;3;&lt;/span&gt;
+  &lt;span class=&quot;property&quot;&gt;column-count:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;3;&lt;/span&gt;
+} 
+&lt;/pre&gt;
+
+&lt;h2 id=&quot;target&quot;&gt;Target&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://css-tricks.com/on-target/&quot;&gt;Esse seletor&lt;/a&gt; funciona quando você quer estilizar algum elemento baseado no estado do hash. Por exemplo quando você tem diferentes sessões na página e quer pintar elas com cores diferentes.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#hash-example&quot; id=&quot;hash-example&quot;&gt;Clique aqui para mudar o estado&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;span class=&quot;selector&quot;&gt;#hash-example:target&lt;/span&gt; {
+  &lt;span class=&quot;property&quot;&gt;background:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;#BADA555;&lt;/span&gt;
+} 
+&lt;/pre&gt;
+
+&lt;h2 id=&quot;attribute&quot;&gt;Attribute&lt;/h2&gt;
+
+&lt;p&gt;Com seletor de atributo você pode estilizar todos elementos que tenham algum atributo especifico como título por exemplo.&lt;/p&gt;
+
+&lt;p title=&quot;titulo&quot;&gt;Texto com titulo&lt;/p&gt;
+
+&lt;p&gt;Texto sem titulo&lt;/p&gt;
+
+&lt;p title=&quot;titulo&quot;&gt;Texto com titulo&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;span class=&quot;selector&quot;&gt;p[title~=&quot;titulo&quot;]&lt;/span&gt; {
+  &lt;span class=&quot;property&quot;&gt;background:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;#BADA55;&lt;/span&gt;
+} 
+&lt;/pre&gt;
+
+&lt;h2 id=&quot;vh-unit&quot;&gt;VH Unit&lt;/h2&gt;
+
+&lt;p&gt;View port units são utilizadas quando se quer dar um tamanho a um elemento baseado no tamanho de tela visível. Se você utilizar por exemplo esse código:&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;span class=&quot;selector&quot;&gt;p&lt;/span&gt; {
+  &lt;span class=&quot;property&quot;&gt;height:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;20vh;&lt;/span&gt;
+} 
+&lt;/pre&gt;
+
+&lt;p&gt;Isso significa que o parágrafo sempre vai ter 20% de altura baseado no tamanho da tela atual.&lt;/p&gt;
+
+&lt;p style=&quot;height: 20vh; background: #BADA55; padding: 10px;&quot;&gt;Exemplo utilizando view port&lt;/p&gt;
+
+&lt;p&gt;Para testar por favor diminua o tamanho do browser e veja o comportamento do parágrafo.&lt;/p&gt;
+
+&lt;h2 id=&quot;counters&quot;&gt;Counters&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Counters&quot;&gt;Counters&lt;/a&gt; é útil para gerar contadores por CSS sem que seja preciso utilizar javascript.&lt;/p&gt;
+
+&lt;p&gt;No exemplo a seguir os números estão sendo gerados por CSS.&lt;/p&gt;
+
+&lt;div class=&quot;counter&quot;&gt;Introdução&lt;/div&gt;
+&lt;div class=&quot;counter&quot;&gt;Meio&lt;/div&gt;
+&lt;div class=&quot;counter&quot;&gt;Fim&lt;/div&gt;
+
+&lt;pre&gt;
+&lt;span class=&quot;selector&quot;&gt;body&lt;/span&gt; {
+  &lt;span class=&quot;property&quot;&gt;counter-reset:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;section;&lt;/span&gt;
+} 
+
+&lt;span class=&quot;selector&quot;&gt;.counter:before&lt;/span&gt; {
+  &lt;span class=&quot;property&quot;&gt;counter-increment:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;section;&lt;/span&gt;
+  &lt;span class=&quot;property&quot;&gt;content:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;&quot;Sessão &quot; counter(section) &quot;: &quot;;&lt;/span&gt;
+} 
+&lt;/pre&gt;
+
+&lt;h2 id=&quot;resize&quot;&gt;Resize&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://css-tricks.com/almanac/properties/r/resize/&quot;&gt;Resize&lt;/a&gt; é muito útil quando se quer que um elemento seja resizable.&lt;/p&gt;
+
+&lt;p style=&quot;resize: both; overflow: scroll; width: 250px; height: 200px; border: 1px solid #ccc; padding: 10px; border-radius: 2px;&quot;&gt;Exemplo de parágrafo resizable. Exemplo de parágrafo resizable. Exemplo de parágrafo resizable.&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;span class=&quot;selector&quot;&gt;p&lt;/span&gt; {
+  &lt;span class=&quot;property&quot;&gt;resize:&lt;/span&gt; &lt;span class=&quot;value&quot;&gt;both;&lt;/span&gt;
+} 
+&lt;/pre&gt;
+</description>
+				<pubDate>Wed, 18 Jun 2014 21:18:28 +0000</pubDate>
+				<link>http://glauberramos.com/12-regras-css-poucos-conhecem.html</link>
+				<guid isPermaLink="true">http://glauberramos.com/12-regras-css-poucos-conhecem.html</guid>
+			</item>
+		
+			<item>
+				<title>Daily Inspiration - Inventing on principle</title>
+				<description>&lt;blockquote&gt;
+  &lt;p&gt;Base your life on a principle.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Creators need a immediate connection to what they create.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;So much of creation is discovery. You cant discovery anything if you cant see what you are doing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;iframe src=&quot;//player.vimeo.com/video/36579366?byline=0&quot; width=&quot;750&quot; height=&quot;381&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
+</description>
+				<pubDate>Wed, 04 Jun 2014 12:00:00 +0000</pubDate>
+				<link>http://glauberramos.com/inventing-on-principle.html</link>
+				<guid isPermaLink="true">http://glauberramos.com/inventing-on-principle.html</guid>
+			</item>
+		
+			<item>
+				<title>Links sobre CSS - Material de estudo</title>
+				<description>&lt;h3 id=&quot;dica-básica&quot;&gt;Dica básica&lt;/h3&gt;
+
+&lt;p&gt;A web é aberta, todo código CSS está disponível a um click do mouse. Ou seja, a código dos melhores programadores de CSS do mundo está disponível a um click do mouse para você poder aprender com eles. Faça disso um hábito e você verá que seus conhecimentos irão melhorar muito.&lt;/p&gt;
+
+&lt;h3 id=&quot;sites&quot;&gt;Sites&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.w3schools.com/&quot;&gt;W3 Schools&lt;/a&gt; - Biblia do CSS e HTML&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://css-tricks.com/&quot;&gt;CSS Tricks&lt;/a&gt; - Esse aqui é bem bom para referência e tem vários artigos interessantes&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://caniuse.com/&quot;&gt;Can I Use&lt;/a&gt; - Legal para ver suporte dos browsers para propriedades CSS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://html5doctor.com/&quot;&gt;HTML 5 Doctor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://html5weekly.com/&quot;&gt;HTML 5 Weekly&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.html5rocks.com/en/&quot;&gt;HTML 5 Rocks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;inspiração&quot;&gt;Inspiração&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://codepen.io/&quot;&gt;Code Pen&lt;/a&gt; - Bastante exemplos legais para se basear, mas é mais focado em animação e features mais avançadas de CSS.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cssdeck.com/&quot;&gt;CSS Deck&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/demos&quot;&gt;Mozilla Developer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;experimentos&quot;&gt;Experimentos&lt;/h3&gt;
+&lt;p&gt;Experimentos são muito legais para aprender CSS sem a pressão de um projeto e um cliente verdadeiro. Experimente diferentes técnicas e aprenda com isso.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bernarddeluna.com/project/pure-css3-homer/&quot;&gt;Homer feito com CSS&lt;/a&gt; - Experimento bem legal feito inteiramente com CSS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bernarddeluna.com/project/old-radio-lab/&quot;&gt;Radio feito com CSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.jenniferdewalt.com/post/56319597560/im-learning-to-code-by-building-180-websites-in-180&quot;&gt;Um site por dia&lt;/a&gt; - Blog de um experimento sobre criar um site por dia&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;artigos&quot;&gt;Artigos&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://designshack.net/articles/css/5-steps-to-drastically-improve-your-css-knowledge-in-24-hours/&quot;&gt;5 steps to improve your CSS skills&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://philipwalton.github.io/solved-by-flexbox/&quot;&gt;Solved by Flexbox&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cursos-grátis&quot;&gt;Cursos grátis&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://learnlayout.com/&quot;&gt;Learn Layout&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://adamschwartz.co/magic-of-css&quot;&gt;Magic of CSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codeschool.com/courses/css-cross-country&quot;&gt;CSS Cross Country&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://learn.shayhowe.com/html-css/&quot;&gt;Shayhowe Learn HTML CSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.codecademy.com/tracks/web&quot;&gt;Code Academy Web&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cursos-iterativos&quot;&gt;Cursos iterativos&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://flukeout.github.io/&quot;&gt;CSS Diner&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://devbryce.com/site/flexbox/&quot;&gt;Flexbox&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;assuntos-mais-avançadas&quot;&gt;Assuntos mais avançadas&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://coding.smashingmagazine.com/2011/12/12/an-introduction-to-object-oriented-css-oocss/&quot;&gt;Introduction to Object Oriented CSS&lt;/a&gt; - Framework de arquitetura de CSS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://oocss.org/&quot;&gt;OOCSS&lt;/a&gt; - Framework de arquitetura de CSS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://smacss.com/book/&quot;&gt;SMACSS&lt;/a&gt; - Framework de arquitetura de CSS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sass-lang.com/&quot;&gt;SASS&lt;/a&gt; - Pré processador de CSS&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Tue, 03 Jun 2014 12:00:00 +0000</pubDate>
+				<link>http://glauberramos.com/links-aprender-css.html</link>
+				<guid isPermaLink="true">http://glauberramos.com/links-aprender-css.html</guid>
+			</item>
+		
+			<item>
+				<title>Redesenhando uma funcionalidade</title>
+				<description>&lt;p&gt;Como redesenhar uma funcionalidade levando em conta fatores como a funcionalidade atual? estatistica de uso? competidores? necessidades dos usuários? etc…&lt;/p&gt;
+
+&lt;p&gt;Tive a oportunidade de redesenhar uma funcionalidade de pagamento e queria contar um pouco do processo que realizei.&lt;/p&gt;
+
+&lt;h3 id=&quot;pesquise-como-o-problema-é-resolvido-atualmente&quot;&gt;Pesquise como o problema é resolvido atualmente&lt;/h3&gt;
+
+&lt;p&gt;Tudo começou quando tive uma conversa com os analistas sobre o que era preciso ser feito e a partir desse ponto fui em busca do site atual para ver como era a funcionalidade.&lt;/p&gt;
+
+&lt;p&gt;Descobri que a funcionalidade em si era muito complexa e muito dificil de usar. Bom design é simples e intuitivo. A funcionalidade atual estava bem longe disso. Havia muitas opções, o deign era confuso, muita informação, etc.&lt;/p&gt;
+
+&lt;h3 id=&quot;papel-e-caneta&quot;&gt;Papel e caneta&lt;/h3&gt;
+
+&lt;p&gt;Primeiramente comecei a criar algumas alternativas usando &lt;a href=&quot;http://glauberramos.com/sessao-design-colaborativo.html&quot;&gt;papel e caneta&lt;/a&gt;, testando o maior número de idéias que eu tinha na cabeça. Esse processo se mostrou um pouco complicado porque me faltava muitas informações.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;O que os usuários queriam realizar ao usar essa funcionalidade?&lt;/li&gt;
+  &lt;li&gt;Quais opções eles mais usavam? Quais eram as mais importantes?&lt;/li&gt;
+  &lt;li&gt;O que eles achavam da funcionalidade atual?&lt;/li&gt;
+  &lt;li&gt;Como os competidores resolveram esse problema?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pesquise-com-usuários&quot;&gt;Pesquise com usuários&lt;/h3&gt;
+
+&lt;p&gt;Então mandei um email para minha empresa perguntando quem já havia feito pagamento e quem gostaria de responder algumas perguntas sobre essa experiência.&lt;/p&gt;
+
+&lt;p&gt;9 pessoas mostraram interesse e no outro dia passei algumas horas &lt;a href=&quot;http://www.thoughtworks.com/insights/blog/10-tips-get-most-out-user-research&quot;&gt;entrevistando&lt;/a&gt; essas pessoas para entender melhor o contexto delas ao usar o software.&lt;/p&gt;
+
+&lt;p&gt;No estilo &lt;a href=&quot;http://www.smashingmagazine.com/2011/03/07/lean-ux-getting-out-of-the-deliverables-business/&quot;&gt;lean ux&lt;/a&gt; research com pouco esforço consegui importantes informações como o que era mais importante para o usuário, qual o contexto de uso, qual sua real necessidade, qual opinião da funcionalidade atual do sistema, etc.&lt;/p&gt;
+
+&lt;h3 id=&quot;pesquise-os-competidores&quot;&gt;Pesquise os competidores&lt;/h3&gt;
+
+&lt;p&gt;Durante a pesquisa tambem tive a oportunidade de olhar com os competidores estavam resolvendo o mesmo problema e isso deu uma base para poder redesenhar a funcionalidade. É claro que a idéia não é copiar diretamente mais buscar inspiração para poder ter melhores idéias na hora de desenhar as telas.&lt;/p&gt;
+
+&lt;h3 id=&quot;olhe-as-estatísticas-de-uso&quot;&gt;Olhe as estatísticas de uso&lt;/h3&gt;
+
+&lt;p&gt;Outra fonte de informação que fui atrás foi sobre o uso do sistema atual, métricas sobre o uso da funcionalidade, quais opções mais usadas, etc. Isso deu uma boa base para poder redesenhar a funcionalidade baseado em dados reais.&lt;/p&gt;
+
+&lt;p&gt;A partir disso eu tinha muito mais contexto para trabalhar e parti para o papel e caneta de novo.&lt;/p&gt;
+
+&lt;h3 id=&quot;de-volta-para-o-papel&quot;&gt;De volta para o papel&lt;/h3&gt;
+
+&lt;p&gt;Foi mais fácil dessa vez criar soluções e assim que fiquei satisfeito com uma parti direto para o HTML/CSS e javascript para criar um protótipo rápido para assim poder testar com usuários.&lt;/p&gt;
+
+&lt;h3 id=&quot;do-papel-para-o-html&quot;&gt;Do papel para o HTML&lt;/h3&gt;
+
+&lt;p&gt;Não demorou muito e já tinha um protótipo testável e assim parti para testar com 5 usuários.&lt;/p&gt;
+
+&lt;h3 id=&quot;testes-com-usuários&quot;&gt;Testes com usuários&lt;/h3&gt;
+
+&lt;p&gt;Fiz os usuários responderem algumas perguntas de novo para entender o contexto que eles usam a funcionalidade e então fiz eles usarem o protótipo e navegarem na funcionalidade. Com isso consegui detectar alguns problemas que foram arrumados rapidamente e comprovei que o design realmente funcionava para aquelas pessoas.&lt;/p&gt;
+
+&lt;h3 id=&quot;finalizando&quot;&gt;Finalizando&lt;/h3&gt;
+
+&lt;p&gt;Dessa maneira fiquei mais seguro que o design atual é suficientemente bom para seguir em frente com o desenvolvimento, claro que o design poderá sofrer alterações.&lt;/p&gt;
+
+&lt;p&gt;Baseado nos diferentes testes que fiz tenho mais certeza que o design é o certo do que se não tivesse realizado nenhum dos testes anteriores.&lt;/p&gt;
+</description>
+				<pubDate>Fri, 30 May 2014 12:00:00 +0000</pubDate>
+				<link>http://glauberramos.com/redesenhando-uma-funcionalidade.html</link>
+				<guid isPermaLink="true">http://glauberramos.com/redesenhando-uma-funcionalidade.html</guid>
+			</item>
+		
+			<item>
+				<title>Prototipagem rápida e teste</title>
+				<description>&lt;p&gt;Queria mostrar o processo de UX que segui no meu projeto para desenvolver uma nova funcionalidade. O time trabalha em um processo ágil e eu utilizei uma metodologia lean focando no usuário.&lt;/p&gt;
+
+&lt;h3 id=&quot;entendimento-e-definição-30-min&quot;&gt;Entendimento e Definição (30 min)&lt;/h3&gt;
+
+&lt;p&gt;Tivemos primeiramente uma reunião com analistas e stakeholders para entender o que precisa ser feito. Utilizamos o formato de &lt;a href=&quot;http://www.thoughtworks.com/insights/blog/how-do-you-get-more-out-your-user-stories&quot;&gt;estórias do usuário&lt;/a&gt; e sempre pensamos em qual problema que estamos tentando resolver (problem statement).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/userstory.png&quot; alt=&quot;Design Thinkng&quot; style=&quot;width: 400px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ideação-30-min&quot;&gt;Ideação (30 min)&lt;/h3&gt;
+
+&lt;p&gt;Após o time estar na mesma página sobre o que precisa ser feito, reuni algumas pessoas para fazermos um exercicio de sketching. Dessa maneira conseguimos gerar diferentes idéias para o mesmo problema.&lt;/p&gt;
+
+&lt;p&gt;Aqui há mais detalhes de como funciona o &lt;a href=&quot;http://glauberramos.com/sessao-design-colaborativo.html&quot;&gt;exercicio de sketching&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/sketches.jpg&quot; alt=&quot;Design Thinkng&quot; style=&quot;width: 550px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;prototipagem-rápida-1-hora&quot;&gt;Prototipagem rápida (1 hora)&lt;/h3&gt;
+
+&lt;p&gt;A partir dos desenhos parti para o &lt;a href=&quot;http://balsamiq.com/&quot;&gt;Balsamiq&lt;/a&gt; para gerar alguns wireframes rapidamente. O &lt;a href=&quot;http://balsamiq.com/&quot;&gt;balsamiq&lt;/a&gt; possui uma maneira de criar protótipos clicaveis que funciona muito bem.&lt;/p&gt;
+
+&lt;p&gt;A idéia aqui é criar as 2 - 3 melhores idéias para poder testar com usuários.&lt;/p&gt;
+
+&lt;h3 id=&quot;wireframes&quot;&gt;Wireframes&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/wireframes1.png&quot; alt=&quot;Design Thinkng&quot; style=&quot;width: 550px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;protótipo-clicavel&quot;&gt;Protótipo clicavel&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/editGroup.gif&quot; alt=&quot;Design Thinkng&quot; style=&quot;width: 650px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Para a criação da animação utilizei o software &lt;a href=&quot;http://www.cockos.com/licecap/&quot;&gt;LICEcap&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;testar-1-hora&quot;&gt;Testar (1 hora)&lt;/h3&gt;
+
+&lt;p&gt;Após gerar os prótotipos fui para um café para testar com alguns usuários utilizando a técnica de &lt;a href=&quot;http://www.uxbooth.com/articles/the-art-of-guerilla-usability-testing/&quot;&gt;Guerrilla User Testing&lt;/a&gt;. A idéia era &lt;a href=&quot;http://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/&quot;&gt;testar com 5 usuários&lt;/a&gt; tentando testar um grupo mais diverso possível (sexo, etnia, idade, experiência com computadores). Claro que nem sempre é possível pegar um grupo totalmente diverso pois não entrevistamos as pessoas antes de testar. Por isso deve-se testar frequentemente, no minimo 1 vez por semana.&lt;/p&gt;
+
+&lt;p&gt;Perguntas para se fazer durante o teste:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;O que você acha que essa página faz?&lt;/li&gt;
+  &lt;li&gt;Você precisa editar tal informação, como você faria isso nessa tela?&lt;/li&gt;
+  &lt;li&gt;O que você espera que aconteça quando clicar aqui?&lt;/li&gt;
+  &lt;li&gt;O que tu mudaria nessa aplicação?&lt;/li&gt;
+  &lt;li&gt;Qual versão tu gostou mais e porque?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Imagem das notas que fiz depois do teste com os primeiros usuários. É importante tomar nota para depois utiliza-las quando fores retrabalhar os designs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/usernotes.jpg&quot; alt=&quot;User Notes&quot; style=&quot;width: 350px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;iteração-1-hora&quot;&gt;Iteração (1 hora)&lt;/h3&gt;
+
+&lt;p&gt;Após realizar os testes dei uma revisada nas notas que fiz e comecei a gerar novas idéias e incrementar os protótipos/wireframes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/editGroup2.gif&quot; alt=&quot;Design Thinkng&quot; style=&quot;width: 650px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;testar-de-novo-30-min&quot;&gt;Testar de novo (30 min)&lt;/h3&gt;
+
+&lt;p&gt;Fiz mais testes usando guerrilla user testing das diferentes versões com 3 usuários até escolher o design que irei seguir em frente.&lt;/p&gt;
+
+&lt;p&gt;Esse processo pode ser repetido inúmeras vezes até se ter a definição do modelo a seguir para implementação. Nesse ponto os wireframes e protótipos serão passados para os visual designers e desenvolvedores poderem trabalhar em cima.&lt;/p&gt;
+
+&lt;h3 id=&quot;considerações-finais&quot;&gt;Considerações finais&lt;/h3&gt;
+
+&lt;p&gt;O processo inteiro demorou em torno de 4 - 5 horas. É um processo bem rápido e isso quebra alguns pré-conceitos que pessoas tem sobre UX em relação a testes e criação de protótipos que é um processo lento e caro.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 13 May 2014 12:00:00 +0000</pubDate>
+				<link>http://glauberramos.com/prototipagem-rapida-teste.html</link>
+				<guid isPermaLink="true">http://glauberramos.com/prototipagem-rapida-teste.html</guid>
+			</item>
+		
+	</channel>
+</rss>
