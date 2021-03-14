@@ -10,7 +10,6 @@ title: Glauber Ramos Portfolio
       <nav class="menu">
         <ul>
           <li><a href="/">HOME</a></li>
-          <li><a href="work">WORK</a></li>
           <li><a href="blog">BLOG</a></li>
         </ul>
       </nav>
@@ -18,8 +17,8 @@ title: Glauber Ramos Portfolio
   </header>
   <span class="column about-me">
     <p>
-      Indie Maker from Brazil. Creating things for the web - currently
-      funretro.io
+      Indiehacker from Brazil. Creating things for the web - currently
+      easyretro.io
     </p>
     <ul class="icons">
       <li>
@@ -28,13 +27,13 @@ title: Glauber Ramos Portfolio
         ></a>
       </li>
       <li>
-        <a href="http://www.linkedin.com/in/glauberdutraramos" target="_blank"
-          ><i class="fa fa-linkedin"></i
+        <a href="http://www.twitter.com/glauberamos" target="_blank"
+          ><i class="fa fa-twitter"></i
         ></a>
       </li>
       <li>
-        <a href="http://www.twitter.com/glauberamos" target="_blank"
-          ><i class="fa fa-twitter"></i
+        <a href="mailto:contato@glauberramos.com" target="_blank"
+          ><i class="fa fa-envelope"></i
         ></a>
       </li>
     </ul>
@@ -42,27 +41,13 @@ title: Glauber Ramos Portfolio
   <span class="column large-2"></span>
 </section>
 
-<article class="contact-me-section">
-  <a class="contact-me" href="mailto:contato@glauberramos.com"
-    ><i class="fa fa-envelope-o"></i> SEND ME AN EMAIL</a
-  >
-</article>
-
-<article id="covers" class="covers">
-  <h2 class="center">LATEST WORK</h2>
-  {% for post in site.categories.project limit:6 %} {% include project.html %}
-  {% endfor %}
-</article>
-
 <section class="blog">
   <h2>LATEST POSTS</h2>
   <ul class="posts">
     {% for post in site.categories.post limit:5 %}
     <li>
       <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-      <span>
-        {{ post.date | date_to_string }}
-      </span>
+      <span> {{ post.date | date_to_string }} </span>
     </li>
     {% endfor %}
   </ul>

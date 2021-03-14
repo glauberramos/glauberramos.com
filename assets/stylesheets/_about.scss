@@ -1,16 +1,11 @@
 .about {
-  position: fixed;
-  z-index: 9;
-  width: 100%;
-  height: 305px;
-  padding: 0 10% 7%;
+  padding: 0 10% 3%;
   color: #ccc;
   flex: 1;
   background: linear-gradient(rgba(6, 51, 87, 0.7), rgba(6, 51, 87, 0.7)),
-  url("https://s3-us-west-2.amazonaws.com/glauberramos/background.jpeg");
+    url("../images/cool-background.png");
   background-position: center;
   background-size: cover;
-  border-bottom: 2px solid #ccc;
 
   @media (max-width: $mediumWidth) {
     padding: 0 3% 5%;
