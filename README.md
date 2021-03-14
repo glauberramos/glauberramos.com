@@ -1,6 +1,8 @@
 # Run locally
-* jekyll serve --watch
-* compass watch
+
+- bundle exec jekyll serve --watch
+- compass watch
 
 # Deploy to production
-* rake site:publish
+
+- bundle exec rake site:publish
