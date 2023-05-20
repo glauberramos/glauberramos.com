@@ -32,7 +32,6 @@
   p {
     padding-bottom: 10px;
     margin-bottom: 0;
-    font-family: "OpenSans";
   }
 }
 
@@ -108,15 +107,30 @@
 }
 
 .first {
-  @include project($firstBackgroundColor, $firstFontColor, $firstBorderColor, $firstTitleColor);
+  @include project(
+    $firstBackgroundColor,
+    $firstFontColor,
+    $firstBorderColor,
+    $firstTitleColor
+  );
 }
 
 .second {
-  @include project($secondBackgroundColor, $secondFontColor, $secondBorderColor, $secondTitleColor);
+  @include project(
+    $secondBackgroundColor,
+    $secondFontColor,
+    $secondBorderColor,
+    $secondTitleColor
+  );
 }
 
 .third {
-  @include project($thirdBackgroundColor, $thirdFontColor, $thirdBorderColor, $thirdTitleColor);
+  @include project(
+    $thirdBackgroundColor,
+    $thirdFontColor,
+    $thirdBorderColor,
+    $thirdTitleColor
+  );
 }
 
 .covers {
@@ -216,7 +230,7 @@ header + .covers {
   @include grid-column(4);
   display: inline-block;
   margin-top: 20px;
-  font-family: "OpenSansBold";
+  font-weight: 500;
   font-size: 0.8em;
   color: white;
   text-align: center;

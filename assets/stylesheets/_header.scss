@@ -1,7 +1,7 @@
 header {
   z-index: 999;
   padding: 10px 10px 20px;
-  font-family: "OpenSansBold";
+  font-weight: 500;
   color: white;
   background: #053357;
 }
@@ -30,7 +30,7 @@ header + .row {
   top: 4px;
   display: flex;
   padding: 0;
-  margin: 10px 0;
+  margin: 15px 0 10px;
   justify-content: space-between;
 
   @media (max-width: $smallWidth) {
@@ -52,9 +52,8 @@ header + .row {
 
 .logo {
   float: left;
-  font-family: "OpenSansBold";
   font-size: 1.5em;
-  font-weight: 300;
+  font-weight: 700;
   color: white;
   letter-spacing: 0.05em;
 }

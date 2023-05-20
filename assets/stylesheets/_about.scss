@@ -2,8 +2,7 @@
   padding: 0 10%;
   color: #ccc;
   flex: 1;
-  background: linear-gradient(rgba(6, 51, 87, 0.7), rgba(6, 51, 87, 0.7)),
-    url("../images/cool-background.png");
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
   background-position: center;
   background-size: cover;
 
@@ -78,7 +77,6 @@
 .contact-me-section {
   p {
     margin: 5px 0 25px;
-    font-family: "OpenSans";
     font-size: 18px;
     line-height: 1.5em;
     color: white;

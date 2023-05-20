@@ -4,7 +4,8 @@
 }
 
 body {
-  font-family: "OpenSans";
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16px;
   line-height: 1em;
   color: #222;
@@ -29,8 +30,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "OpenSansBold";
-  font-weight: normal;
+  font-weight: 500;
   line-height: 1em;
 }
 
@@ -39,7 +39,6 @@ h1 {
 }
 
 h2 {
-  font-family: "OpenSansLight";
   font-size: 30px;
 
   @media (max-width: $smallWidth) {
@@ -53,7 +52,6 @@ h2 {
 
 h3 {
   margin-top: 1.5em;
-  font-family: "OpenSansLight";
   font-size: 1.5em;
 }
 
@@ -66,21 +64,18 @@ h5 {
 }
 
 strong {
-  font-family: "OpenSansBold";
-  font-weight: normal;
+  font-weight: 500;
 }
 
 small {
   display: inline-block;
   margin-bottom: 1em;
-  font-family: "OpenSansLight";
   font-size: 1.3em;
   font-weight: normal;
   line-height: 2em;
 }
 
 em {
-  font-family: "OpenSans";
   font-style: normal;
   font-weight: normal;
 }
