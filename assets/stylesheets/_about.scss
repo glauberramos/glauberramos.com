@@ -2,7 +2,7 @@
   padding: 0 10%;
   color: #ccc;
   flex: 1;
-  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  // background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
   background-position: center;
   background-size: cover;
 
@@ -23,7 +23,7 @@
   }
 
   a {
-    color: white;
+    color: #053357;
 
     &:hover {
       color: darken($headerColor, 10%);
@@ -76,10 +76,10 @@
 .about,
 .contact-me-section {
   p {
-    margin: 5px 0 25px;
+    margin: 0 0 20px;
     font-size: 18px;
     line-height: 1.5em;
-    color: white;
+    color: #053357;
 
     @media (max-width: $mediumWidth) {
       font-size: 1em;

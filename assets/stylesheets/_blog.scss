@@ -3,11 +3,10 @@
   width: 100%;
   max-width: 100%;
   padding: 7% 10% 3%;
-  padding-top: 30px;
+  padding-top: 0;
   text-align: center;
   flex: 1;
   background: white;
-  border-top: 2px solid #ddd;
 
   @media (max-width: $mediumWidth) {
     padding: 5%;
@@ -66,7 +65,7 @@
 }
 
 .post {
-  margin-top: 3%;
+  margin-top: 5px;
   margin-bottom: 3%;
 
   p {

@@ -38,21 +38,3 @@ layout: default
   >
   {% endif %}
 </section>
-
-<div class="page-navigation">
-  <div class="left link">
-    {% if page.previous.url %}
-    <a
-      href="{{page.previous.url}}"
-      title="Previous Post: {{page.previous.title}}"
-      >←</a
-    >
-    {% endif %}
-  </div>
-  <div class="right link">
-    {% if page.next.url %}
-    <a href="{{page.next.url}}" title="next Post: {{page.next.title}}">→ </a>
-    {% endif %}
-  </div>
-  <div class="clear">&nbsp;</div>
-</div>
