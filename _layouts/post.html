@@ -3,42 +3,60 @@ layout: default
 ---
 
 <section class="post">
-	<h2>{{ page.title }}</h2>
-	<p class="meta">{{ page.date | date_to_string }}</p>
-	<div id="post">
-	{{ content }}
-	</div>
+  <h2>{{ page.title }}</h2>
+  <p class="meta">{{ page.date | date_to_string }}</p>
+  <div id="post">{{ content }}</div>
 
-	<a class="back" href="blog"><i class="icon-arrow-left"></i>Voltar para todos os posts</a>
-	<a class="back2" href="blog"><i class="icon-arrow-left"></i>Voltar para todos os posts</a>
+  <a class="back" href="/"
+    ><i class="icon-arrow-left"></i>Go back to all posts</a
+  >
+  <a class="back2" href="/"
+    ><i class="icon-arrow-left"></i>Go back to all posts</a
+  >
 
-	{% if page.comments %}
-		    <div id="disqus_thread"></div>
-		    <script type="text/javascript">
-		        var disqus_shortname = 'fotografiafeita';
+  {% if page.comments %}
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = "fotografiafeita";
 
-		        (function() {
-		            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-		            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		        })();
-		    </script>
-		    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-		    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-	{% endif %}
+    (function () {
+      var dsq = document.createElement("script");
+      dsq.type = "text/javascript";
+      dsq.async = true;
+      dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+      (
+        document.getElementsByTagName("head")[0] ||
+        document.getElementsByTagName("body")[0]
+      ).appendChild(dsq);
+    })();
+  </script>
+  <noscript
+    >Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript"
+      >comments powered by Disqus.</a
+    ></noscript
+  >
+  <a href="http://disqus.com" class="dsq-brlink"
+    >comments powered by <span class="logo-disqus">Disqus</span></a
+  >
+  {% endif %}
 </section>
 
 <div class="page-navigation">
-    <div class="clear">&nbsp;</div>
-    <div class="left link">
-        {% if page.previous.url %}
-            <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">←</a>
-        {% endif %}
-        </div>
-        <div class="right link">
-        {% if page.next.url %}
-            <a href="{{page.next.url}}" title="next Post: {{page.next.title}}">→ </a>
-        {% endif %}
-    </div>
-    <div class="clear">&nbsp;</div>
+  <div class="clear">&nbsp;</div>
+  <div class="left link">
+    {% if page.previous.url %}
+    <a
+      href="{{page.previous.url}}"
+      title="Previous Post: {{page.previous.title}}"
+      >←</a
+    >
+    {% endif %}
+  </div>
+  <div class="right link">
+    {% if page.next.url %}
+    <a href="{{page.next.url}}" title="next Post: {{page.next.title}}">→ </a>
+    {% endif %}
+  </div>
+  <div class="clear">&nbsp;</div>
 </div>

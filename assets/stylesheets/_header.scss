@@ -10,11 +10,7 @@ header {
   width: 100%;
   padding-right: 10%;
   padding-left: 10%;
-  background: linear-gradient(
-  rgba(6, 51, 87, 0.7),
-  rgba(6, 51, 87, 0.7)
-  ),
-  url('../images/background.jpeg');
+  background: #053357;
   background-position: top;
   background-size: cover;
 }
@@ -68,6 +64,7 @@ nav {
 }
 
 .menu {
+  text-align: right;
   width: 250px;
   margin: 0;
 
@@ -92,7 +89,7 @@ nav {
         left: 0;
         width: 0;
         height: 4px;
-        content: '';
+        content: "";
         background: $headerColor;
         transition: width 0.5s;
       }

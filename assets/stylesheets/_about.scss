@@ -1,5 +1,5 @@
 .about {
-  padding: 0 10% 3%;
+  padding: 0 10%;
   color: #ccc;
   flex: 1;
   background: linear-gradient(rgba(6, 51, 87, 0.7), rgba(6, 51, 87, 0.7)),
@@ -16,7 +16,7 @@
   }
 
   header {
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     background: transparent;
     border: none;
   }
@@ -31,9 +31,9 @@
 
   .icons {
     display: block;
-    margin-top: 40px;
     list-style: none;
     transition: color 0.3s;
+    width: 150px;
 
     .fa {
       font-size: 2em;
@@ -49,7 +49,7 @@
 
     li {
       display: inline-block;
-      margin-right: 3%;
+      margin-right: 10px;
     }
   }
 
@@ -148,8 +148,10 @@
 }
 
 .about-me {
-  @include grid-column(8);
-  margin: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 
   @media (max-width: $largeWidth) {
     @include grid-column(10);
