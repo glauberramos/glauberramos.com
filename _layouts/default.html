@@ -18,11 +18,37 @@
   <body>
     <div class="container">
       <div class="site">
-        <header id="header" class="header">
-          <div class="main-header column">
-            <a href="/"><span class="logo">Glauber Ramos</span></a>
-          </div>
-        </header>
+        <section class="about">
+          <header id="header" class="header">
+            <div class="main-header column">
+              <a href="/"><span class="logo">Glauber Ramos</span></a>
+            </div>
+          </header>
+          <span class="column about-me">
+            <p>
+              Indiehacker from Brazil. Creating things for the web - currently
+              EasyRetro.io
+            </p>
+            <ul class="icons">
+              <li>
+                <a href="http://www.github.com/glauberramos" target="_blank"
+                  ><i class="fa fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a href="http://www.twitter.com/glauberamos" target="_blank"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="mailto:contato@glauberramos.com" target="_blank"
+                  ><i class="fa fa-envelope"></i
+                ></a>
+              </li>
+            </ul>
+          </span>
+          <span class="column large-2"></span>
+        </section>
         {{ content }}
         <footer class="footer">
           <div class="contact">
@@ -37,11 +63,6 @@
       async
       type="text/javascript"
       src="assets/scripts/script.js"
-    ></script>
-    <script
-      async
-      type="text/javascript"
-      src="assets/scripts/pace.min.js"
     ></script>
   </body>
 </html>
