@@ -8,11 +8,11 @@ github_username: glauberramos
 highlighter: true
 
 sass:
-    sass_dir: assets/stylesheets
-    style: compressed
+  sass_dir: assets/stylesheets
+  style: compressed
 
 permalink: :title.html
 #baseurl: glauberramos.com
 
 gems:
-    - jekyll-autoprefixer
+  - jekyll-autoprefixer

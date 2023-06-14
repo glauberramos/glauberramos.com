@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "deploy": "bundle exec rake site:publish",
-    "serve": "bundle exec jekyll serve --watch"
+    "dev": "bundle exec jekyll serve --watch"
   },
   "repository": {
     "type": "git",

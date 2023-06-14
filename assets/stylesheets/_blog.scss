@@ -18,6 +18,8 @@
     margin-left: 10%;
     margin-right: 10%;
     text-align: left;
+    margin-bottom: 0;
+    font-size: 26px;
   }
 
   img {
@@ -26,21 +28,21 @@
 
   a {
     margin-bottom: 8px;
-    font-size: 1.5em;
-    font-weight: 300;
-    color: #053357;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #222;
     text-decoration: none;
 
     @media (max-width: $mediumWidth) {
       margin-top: 10px;
       margin-bottom: 10px;
-      font-size: 1.5em;
+      font-size: 1.3em;
     }
 
     @media (max-width: $smallWidth) {
       margin-top: 0;
       margin-bottom: 0;
-      font-size: 1.2em;
+      font-size: 1em;
     }
 
     &:hover {
@@ -145,4 +147,42 @@ p[title~="titulo"] {
 
 .posts li a {
   line-height: 1em;
+}
+
+.bottom-0 {
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+
+.subscribe-form {
+  filter: drop-shadow(0 20px 13px rgba(0, 0, 0, 0.03))
+    drop-shadow(0 8px 5px rgba(0, 0, 0, 0.08));
+
+  background: #00f6ff;
+  padding: 25px 10px;
+  text-align: center;
+  width: 390px;
+  margin-left: 10%;
+  font-size: 20px;
+  border-radius: 3px;
+  font-weight: 600;
+
+  input {
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 10px 10px;
+  }
+
+  input[type="submit"] {
+    background: #111;
+    color: white;
+  }
+
+  p {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px 0;
+    gap: 20px;
+  }
 }

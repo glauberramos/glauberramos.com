@@ -44,16 +44,29 @@ title: Glauber Ramos Portfolio
   <span class="column large-2"></span>
 </section>
 
-<section class="blog row">
-  <ul class="posts">
-    {% for post in site.categories.post %}
-    <li>
-      <a name="{{ post.title }}" href="{{ BASE_PATH }}{{ post.url }}"
-        >{{ post.title }}</a
-      >
-      <span> {{ post.date | date_to_string }} </span>
-    </li>
+{% include subscribe.html %}
 
-    {% endfor %}
+<section class="blog row">
+    {% for post in site.posts %} {% capture year_of_current_post %} {{ post.date
+    | date: "%Y" }} {% endcapture %} {% capture year_of_previous_post %} {{
+    post.previous.date | date: "%Y" }} {% endcapture %} {% if forloop.first %}
+    <h2>{{ year_of_current_post }}</h2>
+    <ul class="posts">
+      {% endif %}
+
+      <li>
+        <a name="{{ post.title }}" href="{{ BASE_PATH }}{{ post.url }}"
+          >{{ post.title }}</a
+        >
+      </li>
+
+      {% if forloop.last %}
+    </ul>
+    {% else %} {% if year_of_current_post != year_of_previous_post %}
+  </ul>
+
+  <h2>{{ year_of_previous_post }}</h2>
+  <ul class="posts">
+    {% endif %} {% endif %} {% endfor %}
   </ul>
 </section>
