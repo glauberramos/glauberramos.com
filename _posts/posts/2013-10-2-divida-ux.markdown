@@ -1,8 +1,9 @@
 ---
 layout: post
 comments: true
-title:  "Dívida de UX"
-date:   2013-10-2 21:18:28
+title: "Dívida de UX"
+date: 2013-10-2 21:18:28
+description: 2013-10-2 21:18:28
 categories: post
 ---
 
@@ -14,20 +15,18 @@ O termo "Dívida de UX" surgiu como referência ao termo [Dívida Técnica](http
 
 Usa-se "dívida", pois assim como dívidas, a dívida técnica gera juros que terão que ser pagos depois. No caso da dívida técnica gera lentidão para desenvolver funcionalidades novas e a dívida de UX gera uma experiência baixa para o usuário.
 
-O que é dívida de UX?
----------------------
+## O que é dívida de UX?
 
-Dívida de UX é a lacuna que existe entre a experiência que o seu produto tem hoje e o potencial da experiência que ele pode ter dado o devido tempo e os recursos necessários, ou seja, todas as melhorias na experiência do usuário que o produto atual pode ter. 
+Dívida de UX é a lacuna que existe entre a experiência que o seu produto tem hoje e o potencial da experiência que ele pode ter dado o devido tempo e os recursos necessários, ou seja, todas as melhorias na experiência do usuário que o produto atual pode ter.
 
 ###Pirâmide das necessidades de UX
 !["Pirâmide das necessidades de UX"](/assets/images/uxneeds.jpg "Pirámide de necessidades de UX")
 
 Da mesma maneira que a dívida técnica, a dívida de UX vai se acumulando ao longo do desenvolvimento de um produto devido a decisões rápidas e de baixa qualidade. Tambêm pode ser criada devido a falta de visão da experiência do produto como um todo gerando falhas e inconsistencias.
 
-Tipos de dívida de UX
----------------------
+## Tipos de dívida de UX
 
-Dívida de UX inclui desde pequenos ajustes na interface, performace, consistência, até mudanças mais drásticas que envolvem uma análise maior e mudanças nos paradigmas de navegação. 
+Dívida de UX inclui desde pequenos ajustes na interface, performace, consistência, até mudanças mais drásticas que envolvem uma análise maior e mudanças nos paradigmas de navegação.
 
 Outros exemplos são: falta de padronização entre elementos, por exemplo botões que possuem formato e cores diferentes, elementos de uma página que estão desalinhados, interfaces mal projetadas, páginas muito carregadas de informação, validações e mensagens de formulários que não estão corretas ou mal escritas.
 
@@ -45,8 +44,7 @@ A dívida de UX não intencional ocorre quando não se tem um total conhecimento
 
 Isso ocorre quando criamos um design e continuamente adicionamos mais e mais links, ou mais e mais tabs, até percebemos que chegou em um estado crítico e um redesign é necessário. Outro exemplo é quando mais e mais funcionalidades são adicionadas sem pensar como a experiência é afetada e como essas funcionalidades conversam entre si.
 
-Priorização
------------
+## Priorização
 
 Após análise e coleta das dívidas de UX, uma das maneiras de se fazer a priorização é a seguinte:
 
@@ -56,13 +54,11 @@ Após análise e coleta das dívidas de UX, uma das maneiras de se fazer a prior
 4. Classificar cada dívida entre as 9 possibilidades
 5. Priorizar primeiramente as dívidas que tem maior ganho e menor esforço, depois médio esforço e maior ganho e assim por diante.
 
-
 ####Exemplo de priorização de Dívida de UX
 
 !["Gráfico de priorização da Dívida de UX"](/assets/images/ux_debt.jpg "Gráfico priorização dívida de UX")
 
-Conclusão
----------
+## Conclusão
 
 É importante que a dívida de UX seja análisada desde o início do desenvolvimento de um produto para que assim evita-se o acumulo e potencialize a experiência do usuário. A dívida irá ocorrer diversas vezes, mas manter tudo documentado e constantemente priorizado é importante para assegurar a entrega da melhor experiência possível.
 
@@ -73,4 +69,3 @@ Referências:
 3. [UX and Minimum Viable Product - Ryan Singer](http://37signals.com/svn/posts/2963-what-happens-to-user-experience-in-a-minimum-viable-product)
 4. [Dívida técnica - Akita on Rails](http://www.akitaonrails.com/2008/12/18/tradu-o-d-vida-t-cnica)
 5. [Product Design Debt vs Tech Debt - Andrew Chen](http://andrewchen.co/2009/11/25/product-design-debt-versus-technical-debt/)
-

@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: "Best events for bootstrapped founders"
+description: "List of the best events for bootstrapped founders"
 date: 2023-06-11 12:00:00
 categories: post
 ---

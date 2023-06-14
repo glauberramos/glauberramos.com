@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: "Places to buy and sell websites, microsaas and saas"
+description: "List of best places to buy and sell websites, microsaas and saas"
 date: 2023-05-19 12:00:00
 categories: post
 ---

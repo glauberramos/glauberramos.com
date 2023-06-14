@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: "Best communities for bootstrapped founders"
+Description: "List of best communities for bootstrapped founders"
 date: 2023-06-11 12:00:00
 categories: post
 ---

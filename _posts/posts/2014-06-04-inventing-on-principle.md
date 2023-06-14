@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: "Daily Inspiration - Inventing on principle"
+description: "Daily Inspiration - Inventing on principle"
 date: 2014-06-04 12:00:00
 categories: post
 ---

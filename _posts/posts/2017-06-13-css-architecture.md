@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: "CSS Architecture"
+description: "CSS Architecture"
 date: 2017-06-13 12:00:00
 categories: post
 ---
@@ -16,12 +17,12 @@ Another thing that I am very curious to learn more is regarding CSS in JS. I kno
 
 Main areas that I plan to talk about, this is not written in stone so it may change:
 
-* Should I use a framework or not
-* Naming and CSS Methodologies
-* Folder and files structure
-* Do's and Don'ts
-* Preprocessors
-* POSTCSS, NextCSS and Autoprefixer
-* CSS Analysis: selector specificity and parker
-* CSS Analysis: stylelint
-* CSS in JS (React and Angular)
+- Should I use a framework or not
+- Naming and CSS Methodologies
+- Folder and files structure
+- Do's and Don'ts
+- Preprocessors
+- POSTCSS, NextCSS and Autoprefixer
+- CSS Analysis: selector specificity and parker
+- CSS Analysis: stylelint
+- CSS in JS (React and Angular)

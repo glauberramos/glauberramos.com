@@ -2,11 +2,13 @@
 layout: post
 comments: true
 title: "Links sobre UX - Experiência do Usuário"
+description: "Links sobre UX - Experiência do Usuário"
 date: 2014-04-04 12:00:00
 categories: post
 ---
 
 ### Livros
+
 - [Don't make me think](http://www.amazon.com/Dont-Make-Me-Think-Usability/dp/0321344758)
 - [Design of Everyday Things](http://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107/ref=pd_sim_b_1)
 - [Lean UX](http://www.amazon.com/Lean-UX-Applying-Principles-Experience-ebook/dp/B0074KA0A4/ref=pd_sim_kstore_5?ie=UTF8&refRID=07EFCV9CVERR9E8WSH0D)
@@ -16,10 +18,12 @@ categories: post
 - [Web Form Design](http://www.lukew.com/resources/web_form_design.asp)
 
 ### Sites com vários livros
+
 - [Rosenfeld Media](http://rosenfeldmedia.com/)
 - [A book apart](http://www.abookapart.com/)
 
 ### Blogs
+
 - [A List Apart](http://alistapart.com/)
 - [24 Ways](http://24ways.org/)
 - [Thoughtworks Experience Design](http://www.thoughtworks.com/insights/experience-design)
@@ -35,6 +39,7 @@ categories: post
 - [UIE](http://www.uie.com/brainsparks/)
 
 ### Outros Sites
+
 - [UX Myths](http://uxmyths.com/) - Mitos de UX
 - [Outdated UX Patters](http://sideproject.io/outdated-ux-patterns/) - Padrões de UX desatualizados
 - [UX is not UI](http://www.uxisnotui.com/) - Diferença entre UX e UI
@@ -44,43 +49,54 @@ categories: post
 - [10 Usabiity Heuristics](http://www.nngroup.com/articles/ten-usability-heuristics/) - 10 heuristicas de usabilidade
 
 ### Sites em português
+
 - [UX Design Blog](http://www.uxdesign.blog.br/)
 - [Arquitetura de Informação](http://arquiteturadeinformacao.com/)
 
 ### Videos
 
 #### Sobre o que é UX design
+
 <iframe src="//www.youtube.com/embed/Ovj4hFxko7c?rel=0" width="560" height="315"> </iframe>
 
 #### Vilões e heróis no design
+
 <iframe src="//player.vimeo.com/video/70030549" width="560" height="315"> </iframe>
 
 #### Testes de usabilidade com frutas
+
 <iframe src="//www.youtube.com/embed/3Qg80qTfzgU?rel=0" width="560" height="315"> </iframe>
 
 #### Design centrado no usuário (gatos)
+
 <iframe src="//www.youtube.com/embed/dln9xDsmCoY?rel=0" width="560" height="315"> </iframe>
 
 #### O usuário está bebado
+
 <iframe src="//www.youtube.com/embed/r2CbbBLVaPk?rel=0" width="560" height="315"> </iframe>
 
 #### UX Rap
+
 <iframe src="//www.youtube.com/embed/WGLwXOAo6N0?rel=0" width="560" height="315"> </iframe>
 
 #### Estado do UX Design
+
 <iframe src="//player.vimeo.com/video/6952223" width="560" height="315"> </iframe>
 
 ### Como se tornar UX designer
+
 <iframe src="//www.youtube.com/embed/CexVeagtk2Y?rel=0" width="560" height="315"> </iframe>
 
 ### Caras fodas para seguir
+
 - [Luke Wroblewski](http://www.lukew.com/)
 - [Ian Storm Taylor](http://ianstormtaylor.com/)
 - [Brad Frost](http://bradfrostweb.com/)
 - [Jeff Gothelf](http://www.jeffgothelf.com/)
 - [Joshua Seiden](http://www.joshuaseiden.com/)
 
-### Sites de referencia 
+### Sites de referencia
+
 - [UI Patterns](http://ui-patterns.com/) - Diversos padrões de interface
 - [Pttrns](http://www.pttrns.com/) - Diversos padrões de interface
 - [Wireframes](http://wireframes.tumblr.com/) - Site com diversos wireframes para referência
@@ -89,6 +105,7 @@ categories: post
 - [Dribbble](https://dribbble.com/) - Site muito bom para procurar referências, muito forte em design visual
 
 ### Cursos
+
 [Curso de Human Computer Interaction](https://www.coursera.org/course/hciucsd)
 Gratuito e demanda bastante trabalho para entregar todas as tarefas, mas recomendo acessar os videos para ver.
 

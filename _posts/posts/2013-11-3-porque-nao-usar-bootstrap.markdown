@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: "Motivos para não usar o Bootstrap"
+description: "Motivos para não usar o Bootstrap"
 date: 2013-11-3 17:31:00
 categories: post
 ---

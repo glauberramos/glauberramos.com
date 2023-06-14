@@ -1,8 +1,9 @@
 ---
 layout: post
 comments: true
-title:  "Sessão de design colaborativa"
-date:   2014-1-5 21:18:28
+title: "Sessão de design colaborativa"
+description: "Sessão de design colaborativa"
+date: 2014-1-5 21:18:28
 categories: post
 ---
 
@@ -12,7 +13,7 @@ Normalmente quando os designers apresentam mockups ou designs para coletar feedb
 
 Esses pontos as vezes não são tão importantes quanto questões mais relevantes como: O usuário vai utilizar/gostar disso? Qual problema que queremos resolver?
 
-Como fazer o time colaborar de uma maneira mais efetiva no design? 
+Como fazer o time colaborar de uma maneira mais efetiva no design?
 
 ###Sessões colaborativas de design
 
@@ -46,7 +47,7 @@ Outro dica importante é mostrar que o básico para se desenhar wireframes é co
 
 ####Como organizar a sessão
 
-1. Quebra Gelo (10 minutos) - [Telefone sem fio visual](http://www.funretrospectives.com/visual-phone/) 
+1. Quebra Gelo (10 minutos) - [Telefone sem fio visual](http://www.funretrospectives.com/visual-phone/)
 
 2. De um contexto do problema e o que queremos atingir (10 - 15 min) - Problem statement, personas, limitações, pesquisa e todas informações que achares necessário apresentar. Antes do workshop prepare essa parte e imprima o que achar necessário, quanto mais coisas visuais melhor para o workshop.
 

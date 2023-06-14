@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: "Redesenhando uma funcionalidade"
+description: "Redesenhando uma funcionalidade"
 date: 2014-05-30 12:00:00
 categories: post
 ---
@@ -27,9 +28,9 @@ Primeiramente comecei a criar algumas alternativas usando [papel e caneta](http:
 
 ### Pesquise com usuários
 
-Então mandei um email para minha empresa perguntando quem já havia feito pagamento e quem gostaria de responder algumas perguntas sobre essa experiência. 
+Então mandei um email para minha empresa perguntando quem já havia feito pagamento e quem gostaria de responder algumas perguntas sobre essa experiência.
 
-9 pessoas mostraram interesse e no outro dia passei algumas horas [entrevistando](http://www.thoughtworks.com/insights/blog/10-tips-get-most-out-user-research) essas pessoas para entender melhor o contexto delas ao usar o software. 
+9 pessoas mostraram interesse e no outro dia passei algumas horas [entrevistando](http://www.thoughtworks.com/insights/blog/10-tips-get-most-out-user-research) essas pessoas para entender melhor o contexto delas ao usar o software.
 
 No estilo [lean ux](http://www.smashingmagazine.com/2011/03/07/lean-ux-getting-out-of-the-deliverables-business/) research com pouco esforço consegui importantes informações como o que era mais importante para o usuário, qual o contexto de uso, qual sua real necessidade, qual opinião da funcionalidade atual do sistema, etc.
 
@@ -49,7 +50,7 @@ Foi mais fácil dessa vez criar soluções e assim que fiquei satisfeito com uma
 
 ### Do papel para o HTML
 
-Não demorou muito e já tinha um protótipo testável e assim parti para testar com 5 usuários. 
+Não demorou muito e já tinha um protótipo testável e assim parti para testar com 5 usuários.
 
 ### Testes com usuários
 
@@ -57,6 +58,6 @@ Fiz os usuários responderem algumas perguntas de novo para entender o contexto 
 
 ### Finalizando
 
-Dessa maneira fiquei mais seguro que o design atual é suficientemente bom para seguir em frente com o desenvolvimento, claro que o design poderá sofrer alterações. 
+Dessa maneira fiquei mais seguro que o design atual é suficientemente bom para seguir em frente com o desenvolvimento, claro que o design poderá sofrer alterações.
 
 Baseado nos diferentes testes que fiz tenho mais certeza que o design é o certo do que se não tivesse realizado nenhum dos testes anteriores.

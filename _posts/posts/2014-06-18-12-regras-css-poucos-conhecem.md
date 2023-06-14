@@ -1,8 +1,9 @@
 ---
 layout: post
 comments: true
-title:  "12 regras CSS que poucos conhecem"
-date:   2014-06-18 21:18:28
+title: "12 regras CSS que poucos conhecem"
+description: "12 regras CSS que poucos conhecem"
+date: 2014-06-18 21:18:28
 categories: post
 ---
 
@@ -80,7 +81,7 @@ Ele também pode ser utilizada com outros seletores como [:first-child](http://w
 
 ## Outline
 
-Outline é muito útil quando se quer remover o comportamento padrão do browser de adicionar uma borda a um elemento quando ele esta selecionado. Ela pode ser útil quando voce quer deixar o design mais limpo. Ela é diferente da propriedade border pois adiciona mais uma borda a um elemento. 
+Outline é muito útil quando se quer remover o comportamento padrão do browser de adicionar uma borda a um elemento quando ele esta selecionado. Ela pode ser útil quando voce quer deixar o design mais limpo. Ela é diferente da propriedade border pois adiciona mais uma borda a um elemento.
 
 Cuidado ao remover o comportamento default do browser pois pode deixar seu site mais difícil de utilizar por pessoas que usam teclado para navegação.
 
@@ -143,7 +144,6 @@ Com seletor de atributo você pode estilizar todos elementos que tenham algum at
 
 <p title="titulo">Texto com titulo</p>
 
-
 <pre>
 <span class="selector">p[title~="titulo"]</span> {
   <span class="property">background:</span> <span class="value">#BADA55;</span>
@@ -153,7 +153,6 @@ Com seletor de atributo você pode estilizar todos elementos que tenham algum at
 ## VH Unit
 
 View port units são utilizadas quando se quer dar um tamanho a um elemento baseado no tamanho de tela visível. Se você utilizar por exemplo esse código:
-
 
 <pre>
 <span class="selector">p</span> {
@@ -168,6 +167,7 @@ Isso significa que o parágrafo sempre vai ter 20% de altura baseado no tamanho 
 Para testar por favor diminua o tamanho do browser e veja o comportamento do parágrafo.
 
 ## Counters
+
 [Counters](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Counters) é útil para gerar contadores por CSS sem que seja preciso utilizar javascript.
 
 No exemplo a seguir os números estão sendo gerados por CSS.

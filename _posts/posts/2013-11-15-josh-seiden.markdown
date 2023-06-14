@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: "Interaction South America 2013 - Josh Seiden"
+description: "Interaction South America 2013 - Josh Seiden"
 date: 2013-11-15 12:00:00
 categories: post
 ---
@@ -43,6 +44,7 @@ Josh gosta da idéia de times de 2 pizzas. Um time que pode ser alimentado por 2
 Designers desenhando e desenvolvedores prototipando ao mesmo tempo. Cultura geral da empresa para fazer coisas. MVP é a menor coisa para poder testar suas hipóteses.
 
 O que as empresas estão tentando aprender?
+
 - Existe alguma necessidade/oportunidade no mercado?
 - Alguêm irá comprar minha solução?
 - A minha solução funciona?

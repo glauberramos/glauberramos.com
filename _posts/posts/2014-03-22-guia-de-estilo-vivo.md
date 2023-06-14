@@ -1,8 +1,9 @@
 ---
 layout: post
 comments: true
-title:  "Guia de estilo vivo"
-date:   2014-3-22 21:18:28
+title: "Guia de estilo vivo"
+description: "Guia de estilo vivo"
+date: 2014-3-22 21:18:28
 categories: post
 ---
 
@@ -47,16 +48,19 @@ A outra maneira é criar seu guia de estilo usando html padrão. Dessa maneira p
 Aqui tem alguns exemplos de guia de estilo para se basear:
 
 Criados por mim:
+
 - [Openmrs Styleguide](devtest01.openmrs.org:8080/openmrs/uicommons/styleGuide.page)
 - [Mirebalais Styleguide](http://mirebalaisstyleguide.herokuapp.com/)
 
 Outros:
+
 - [Ionic Framework](http://ionicframework.com/docs/components)
 - [Sassy Seeds](http://sassyseeds.org/)
 - [Salesforce](http://sfdc-styleguide.herokuapp.com/)
 - [Lonely Planet](http://rizzo.lonelyplanet.com/styleguide/design-elements/colours)
 
 Esse é um gerador de guia de estilo automatico por url (bem simples mas interessante)
+
 - [Stylifyme](http://stylifyme.com/)
 
 Outra ferramenta interessante mas mais simples é o Style Tiles. Que é basicamente um resumo do estilo de uma página/aplicação pensando como funciona em diferentes dispositivos.

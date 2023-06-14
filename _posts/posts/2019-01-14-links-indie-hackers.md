@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: "Links for Indie Hackers and Makers"
+description: "Links for Indie Hackers and Makers"
 date: 2019-01-01 12:00:00
 categories: post
 ---

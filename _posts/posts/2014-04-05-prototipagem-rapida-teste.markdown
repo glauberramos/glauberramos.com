@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: "Prototipagem rápida e teste"
+description: "Prototipagem rápida e teste"
 date: 2014-05-13 12:00:00
 categories: post
 ---
@@ -43,6 +44,7 @@ Para a criação da animação utilizei o software [LICEcap](http://www.cockos.c
 Após gerar os prótotipos fui para um café para testar com alguns usuários utilizando a técnica de [Guerrilla User Testing](http://www.uxbooth.com/articles/the-art-of-guerilla-usability-testing/). A idéia era [testar com 5 usuários](http://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/) tentando testar um grupo mais diverso possível (sexo, etnia, idade, experiência com computadores). Claro que nem sempre é possível pegar um grupo totalmente diverso pois não entrevistamos as pessoas antes de testar. Por isso deve-se testar frequentemente, no minimo 1 vez por semana.
 
 Perguntas para se fazer durante o teste:
+
 - O que você acha que essa página faz?
 - Você precisa editar tal informação, como você faria isso nessa tela?
 - O que você espera que aconteça quando clicar aqui?
