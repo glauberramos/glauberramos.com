@@ -4,7 +4,7 @@
   color: #ccc;
 
   @media (max-width: $mediumWidth) {
-    padding: 0 50px 5%;
+    padding: 0 20px 5%;
   }
 
   @media (max-width: $xsmallWidth) {
@@ -49,25 +49,9 @@
       margin-right: 10px;
     }
   }
-
-  .portrait {
-    position: relative;
-    top: 20px;
-    display: block;
-    width: 180px;
-    padding: 0 34px;
-    margin: 0 auto;
-    background: white;
-    border-radius: 50%;
-
-    @media (max-width: $mediumWidth) {
-      margin-bottom: 40px;
-    }
-  }
 }
 
-.about,
-.contact-me-section {
+.about {
   p {
     margin: 0;
     font-size: 18px;
@@ -77,69 +61,6 @@
     @media (max-width: $mediumWidth) {
       font-size: 1em;
     }
-  }
-}
-
-.contact-me-section {
-  z-index: 10;
-  width: 100%;
-  max-width: 100%;
-  padding: 7% 15%;
-  margin: 0;
-  margin-top: 305px;
-  color: #222;
-  text-align: center;
-  background: white;
-
-  @media (max-width: $smallWidth) {
-    padding: 5% 10%;
-  }
-
-  @media (max-width: $xsmallWidth) {
-    padding: 2% 5%;
-  }
-
-  p {
-    color: #222;
-  }
-
-  ul {
-    margin: 40px 0;
-  }
-
-  .contact-me {
-    position: relative;
-    top: 0;
-    display: inline-block;
-    padding: 20px 30px;
-    margin: 40px auto;
-    color: #222;
-    text-decoration: none;
-    background: $headerColor;
-    border-radius: 5px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    transition: top 0.2s;
-
-    i {
-      margin-right: 10px;
-    }
-
-    &:hover {
-      top: -4px;
-    }
-  }
-
-  ul {
-    list-style: none;
-  }
-
-  li {
-    display: inline-block;
-    padding: 5px 12px;
-    margin: 5px 3px;
-    color: #1600b2;
-    background: rgba(162, 203, 245, 0.5);
-    border-radius: 5px;
   }
 }
 
