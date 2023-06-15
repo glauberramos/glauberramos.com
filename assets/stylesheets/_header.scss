@@ -58,6 +58,10 @@ header + .row {
   font-weight: 700;
   color: #222;
   text-decoration: none;
+
+  @media (max-width: $mediumWidth) {
+    font-size: 2em;
+  }
 }
 
 nav {
