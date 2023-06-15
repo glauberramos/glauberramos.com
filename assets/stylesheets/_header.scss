@@ -40,12 +40,6 @@ header + .row {
     flex-direction: column;
   }
 
-  > a {
-    @media (max-width: $mediumWidth) {
-      font-size: 0.7em;
-    }
-  }
-
   nav {
     @media (max-width: $smallWidth) {
       margin-top: 10px;
@@ -58,10 +52,6 @@ header + .row {
   font-weight: 700;
   color: #222;
   text-decoration: none;
-
-  @media (max-width: $mediumWidth) {
-    font-size: 2em;
-  }
 }
 
 nav {
