@@ -7,8 +7,6 @@ date: 2020-03-14 12:00:00
 categories: post
 ---
 
-# Como se proteger do vazamento de dados de quase todos brasileiros
-
 ## Básico para segurança digital
 
 - Utilizar um gerenciador de senhas e não usar a mesma senha para todos sites

@@ -5,13 +5,10 @@ layout: default
 {% include subscribe.html %}
 
 <section class="post">
+  <a class="back" href="/"><i class="icon-arrow-left"></i>< Go back</a>
   <h2>{{ page.title }}</h2>
   <p class="meta">{{ page.date | date_to_string }}</p>
   <div id="post">{{ content }}</div>
-
-  <a class="back" href="/"
-    ><i class="icon-arrow-left"></i>Go back to all posts</a
-  >
 
   <!-- {% if page.comments %}
   <div id="disqus_thread"></div>
