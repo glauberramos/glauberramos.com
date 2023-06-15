@@ -2,28 +2,28 @@
 ---
 
 //vendor
-@import "vendor/globalFoundation";
-@import "vendor/gridFoundation";
+// @import "vendor/globalFoundation";
+// @import "vendor/gridFoundation";
 @import "vendor/jekyll";
-@import "vendor/normalize";
-@import "../../neat/neat";
+// @import "vendor/normalize";
+// @import "../../neat/neat";
 
 //init
 @import "variables";
 @import "base";
 
 //site
-@import "project";
+// @import "project";
 @import "header";
 @import "footer";
 @import "about";
 @import "blog";
-@import "pace";
-@import "parallax";
-@import "lightbox";
+// @import "pace";
+// @import "parallax";
+// @import "lightbox";
 @import "select";
 @import "pre";
-@import "talks";
+// @import "talks";
 
 //media queries
 @import "media";
