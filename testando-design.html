@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="description" content="Lean UX - Testando seu design" />
+    <title>Lean UX - Testando seu design</title>
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Glauber Ramos Website"
+      href="http://glauberramos.com/feed.xml"
+    />
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <link async rel="stylesheet" href="assets/stylesheets/main.css" />
+    <script
+      defer
+      data-domain="glauberramos.com"
+      src="https://plausible.io/js/script.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="site">
+        <section class="about">
+  <header id="header" class="header">
+    <div class="main-header">
+      <a name="logo" href="/"><span class="logo">Glauber Ramos</span></a>
+    </div>
+  </header>
+  <span class="about-me">
+    <p>
+      Indiehacker from Brazil &nbsp;
+      <a name="EasyRetro website" target="_blank" href="https://easyretro.io"
+        >EasyRetro.io</a
+      >,
+      <a name="ImageAi website" target="_blank" href="https://imageai.app"
+        >ImageAI.app</a
+      >
+      -
+      <a name="All Projects" href="/projects">All Projects</a>
+    </p>
+    <ul class="icons">
+      <li>
+        <a
+          name="Glauber ramos twitter"
+          aria-label="Glauber ramos twitter"
+          href="http://www.twitter.com/glauberamos"
+          target="_blank"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            fill="#053357"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+            />
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </span>
+</section>
+ <sectin class="blog bottom-0">
+  <form
+    class="subscribe-form"
+    action="https://tinyletter.com/glauberramos"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://tinyletter.com/glauberramos', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+  >
+    <label for="tlemail">Get the latest news about my projects</label>
+    <p>
+      <input
+        type="text"
+        placeholder="Your email address"
+        style="width: 250px; padding: 5px"
+        name="email"
+        id="tlemail"
+      />
+      <input type="hidden" value="1" name="embed" /><input
+        type="submit"
+        value="Join"
+      />
+    </p>
+  </form>
+</sectin>
+
+
+<section class="post">
+  <a class="back" href="/"><i class="icon-arrow-left"></i>< Go back</a>
+  <h2>Lean UX - Testando seu design</h2>
+  <p class="meta">13 Dec 2013</p>
+  <div id="post"><p>###Como checar a hierarquia visual do seu design</p>
+
+<p><img src="/assets/images/scriptoriginal.png" alt="&quot;Imagem Original&quot;" title="Imagem Original" /></p>
+
+<p>Esse script ofusca todo texto e imagens do seu design, dessa maneira você consegue ver quais elementos se sobressaem e se esses elementos são realmente importantes para o seu design.</p>
+
+<pre><code>document.body.innerHTML += '&lt;style&gt;*, ::-webkit-input-placeholder{ color: transparent !important; text-shadow: 0 0 5px rgba(0,0,0,0.5); } img, iframe, object { -webkit-filter: blur(5px)  saturate(200%) sepia(100%) grayscale(100%);}&lt;/style&gt;';
+</code></pre>
+
+<p><img src="/assets/images/scriptblur.png" alt="&quot;Imagem Blur&quot;" title="Imagem Blur" /></p>
+
+<p>###Como checar a poluição visual do seu design</p>
+
+<p>Esse script remove todo texto do seu design, se você ainda continua vendo muita informação significa que seu design possuí pouco texto e muita poluição visual que pode ser melhorada.</p>
+
+<pre><code>document.body.innerHTML += '&lt;style&gt;*, ::-webkit-input-placeholder { color: transparent !important; text-shadow: none !important; }&lt;/style&gt;';
+</code></pre>
+
+<p><img src="/assets/images/scriptnotext.png" alt="&quot;Imagem No Text&quot;" title="Imagem No Text" /></p>
+</div>
+
+  <!-- 
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = "fotografiafeita";
+
+    (function () {
+      var dsq = document.createElement("script");
+      dsq.type = "text/javascript";
+      dsq.async = true;
+      dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+      (
+        document.getElementsByTagName("head")[0] ||
+        document.getElementsByTagName("body")[0]
+      ).appendChild(dsq);
+    })();
+  </script>
+  <noscript
+    >Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript"
+      >comments powered by Disqus.</a
+    ></noscript
+  >
+  <a href="http://disqus.com" class="dsq-brlink"
+    >comments powered by <span class="logo-disqus">Disqus</span></a
+  >
+   -->
+</section>
+
+        <footer class="footer">
+          <div class="contact">
+            <span> Designed and coded with ♡ by Glauber Ramos </span>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

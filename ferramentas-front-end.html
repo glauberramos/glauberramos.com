@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="description" content="Ferramentas de Front End" />
+    <title>Ferramentas de Front End</title>
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Glauber Ramos Website"
+      href="http://glauberramos.com/feed.xml"
+    />
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <link async rel="stylesheet" href="assets/stylesheets/main.css" />
+    <script
+      defer
+      data-domain="glauberramos.com"
+      src="https://plausible.io/js/script.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="site">
+        <section class="about">
+  <header id="header" class="header">
+    <div class="main-header">
+      <a name="logo" href="/"><span class="logo">Glauber Ramos</span></a>
+    </div>
+  </header>
+  <span class="about-me">
+    <p>
+      Indiehacker from Brazil &nbsp;
+      <a name="EasyRetro website" target="_blank" href="https://easyretro.io"
+        >EasyRetro.io</a
+      >,
+      <a name="ImageAi website" target="_blank" href="https://imageai.app"
+        >ImageAI.app</a
+      >
+      -
+      <a name="All Projects" href="/projects">All Projects</a>
+    </p>
+    <ul class="icons">
+      <li>
+        <a
+          name="Glauber ramos twitter"
+          aria-label="Glauber ramos twitter"
+          href="http://www.twitter.com/glauberamos"
+          target="_blank"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            fill="#053357"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+            />
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </span>
+</section>
+ <sectin class="blog bottom-0">
+  <form
+    class="subscribe-form"
+    action="https://tinyletter.com/glauberramos"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://tinyletter.com/glauberramos', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+  >
+    <label for="tlemail">Get the latest news about my projects</label>
+    <p>
+      <input
+        type="text"
+        placeholder="Your email address"
+        style="width: 250px; padding: 5px"
+        name="email"
+        id="tlemail"
+      />
+      <input type="hidden" value="1" name="embed" /><input
+        type="submit"
+        value="Join"
+      />
+    </p>
+  </form>
+</sectin>
+
+
+<section class="post">
+  <a class="back" href="/"><i class="icon-arrow-left"></i>< Go back</a>
+  <h2>Ferramentas de Front End</h2>
+  <p class="meta">15 Dec 2013</p>
+  <div id="post"><p>Essa é uma lista de coisas a se pensar na hora de criar um projeto front-end. Ela foi baseda na lista criada pelo meu colega <a href="http://3oheme.com/blog/2013/09/25/different-areas-you-need-to-think-about-for-a-website-frontend-wip.html#static_code_analysis">Ignacio Duarte</a>. A idéia é manter essa lista sempre atualizada e que ela seja um guia rápido de referência quando se está pensando em um projeto de front-end.</p>
+
+<h3>Documentando o código</h3>
+
+<p><strong>Uma das maneiras mais fáceis de melhorar a comunicação entre desenvolvedores front-end e backend é criando um guia de estilo</strong> (Exemplos <a href="http://bit.ly/Yicgb2">starbucks</a>, <a href="http://bit.ly/17XbvIZ">Github</a> ou <a href="http://bit.ly/1gWYBmi">Hackerhires</a>) —&nbsp;essa é uma das principais razões pela qual o bootstrap está sendo tão usado.</p>
+
+<p>Ferramentas que ajudam na criação de um guia de estilo:</p>
+
+<ul>
+<li><a href="http://warpspire.com/kss/">Kneath</a> é uma metodologia de documentação de CSS e geração de guia de estilos.</li>
+
+<li><a href="http://nadarei.co/nkss-rails">Nadarei KSS</a> é a versão do Kneath KSS para Rails.</li>
+
+<li><a href="http://kaleistyleguide.com/">Kalei styleguide</a> é uma solução client-side usando backbone, então não é necessário manter um servidor.</li>
+
+<li><a href="http://pea.rs/">Pears</a> usa wordpress e <a href="https://github.com/simplebits/Pears">um tema específico</a> para criar guia de estilos.</li>
+
+<li><a href="http://jacobrask.github.com/styledocco/">Styledocco</a> usa NodeJS e Markdown para gerar guia de estilos em HTML e documentação.</li>
+
+<li><a href="https://github.com/adactio/Pattern-Primer">Patter primer</a> gera markup estilizado através de uma pasta com componentes markup.</li>
+
+<li><a href="http://trulia.github.io/hologram/">Hologram</a> é uma ruby gem para gerar guia de estilo baseado em comentários no CSS</li>
+
+<li><a href="https://github.com/topcoat/topdoc">TopDoc</a> é uma ferramenta muito bem documentada para gerar guias de uso para CSS que utiliza uma maneira estrita de documentação de código CSS.</li>
+
+<li>Alguns posts interessantes <a href="http://warpspire.com/posts/kss/">Warpspire</a>, <a href="http://blog.rjmetrics.com/2012/02/20/our-living-style-guide-writing-maintainable-htmlcss/#.Ul1ZBGR9DFQ">rjmetrics</a> e <a href="http://uxmag.com/articles/anchoring-your-design-language-in-a-live-style-guide">UXMag</a>.</li>
+</ul>
+
+<h3>Testes de regressão</h3>
+
+<p><strong>CSS é um conjunto de regras que aplicado ao HTML produz um resultado bonito esteticamente.</strong>. Por essa razão não é fácil adicionar testes a um CSS framework. Mas existem maneiras de adicionar testes ao nosso pipeline, a maioria baseado em antes e depois usando comparações de imagens:</p>
+
+<ul>
+<li><a href="https://github.com/bbc-news/wraith">Wraith</a>, uma ferramenta de comparação responsiva feita pelo pessoal da BCC.</li>
+
+<li><a href="https://github.com/Huddle/PhantomCSS">PhantomCSS</a> Testes de regressão visual usando PhantomJS.</li>
+
+<li><a href="https://github.com/thingsinjars/Hardy">Hardy</a> Teste de CSS, baseado em Selenium e cucumber.</li>
+
+<li><a href="http://cburgmer.github.io/csscritic/">CSS critic</a>, Um framework leve de testes de regressão para folhas de estilo.</li>
+
+<li><a href="http://www.sikuli.org/">Sikuli</a> é uma <em>ferramenta de testes de interface gráfica utilizando screenshots.</em>.</li>
+
+<li><a href="https://github.com/suitcss/test">SuitCSS</a> provê uma estrutura de testes para testar componentes visualmente.</li>
+</ul>
+
+<h3>Análise de código estática</h3>
+
+<p>Interessante para se utilizar antes de commitar, para verificar erros de sintaxe e redundância de código:</p>
+
+<ul>
+<li><a href="http://zmoazeni.github.io/csscss/">CSSCSS</a> é um analizador de redundância de CSS</li>
+
+<li>CSSLint <a href="http://csslint.net/">ferramenta online</a> e <a href="https://github.com/stubbornella/csslint/wiki/Command-line-interface">ferramenta de linha de comando</a> para verificar performance e sintaxe.</li>
+
+<li><a href="https://github.com/peterbe/mincss">MINCSS</a> vai verificar seletores CSS que não estão sendo usados.</li>
+</ul>
+
+<h3>Implementação HTML+CSS</h3>
+
+<p>Depois de você configurar o seu projeto, é preciso pensar em como você irá escrever seu código CSS:</p>
+
+<ul>
+<li>Você irá utilizar algum framework como base? <a href="http://inuitcss.com/">inuitcss</a> ou <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>.</li>
+
+<li>Alguma ferramenta de automação do seu workflow? <a href="http://bower.io/">Bower</a>, <a href="http://gruntjs.com/">Grunt</a> ou <a href="http://yeoman.io/">Yeoman</a>.</li>
+
+<li><a href="http://www.cssreset.com/">Reset</a> ou <a href="http://necolas.github.io/normalize.css/">Normalize</a> seu CSS.</li>
+
+<li>Grid system —&nbsp;feito a mão, suportando diferentes breakpoints ou apenas suportando um número fixo de colunas em diferentes dispositivos. <a href="http://semantic.gs/">Semantic.gs</a> ou <a href="http://neat.bourbon.io/">Bourbon Neat</a>.</li>
+
+<li>CSS3 detecção de funcionalidade - bibliotecas como <a href="http://modernizr.com/">modernizr</a> ou <a href="http://dev.opera.com/articles/view/native-css-feature-detection-via-the-supports-rule/">detecção nativa</a>.</li>
+
+<li>Pré-processadores CSS —&nbsp;<a href="http://sass-lang.com/">SASS</a>, <a href="http://lesscss.org/">LESS</a> ou <a href="http://learnboost.github.io/stylus/">Stylus</a>.</li>
+
+<li>Ferramentas de utilitários e prefixos <a href="http://compass-style.org/">Compass</a>.</li>
+
+<li>Como você irá organizar o seu CSS? <a href="https://github.com/stubbornella/oocss/tree/master/oocss">OOCSS</a>, <a href="http://smacss.com/">SMACCS</a>, <a href="bit.ly/1fmXi1H">Semantic UI</a> ou <a href="http://bem.info/">BEM</a>.</li>
+
+<li>Soluções para imagens responsivas —&nbsp;enquanto W3C ainda define o <a href="http://picture.responsiveimages.org/">rascunho do picture element</a>, você deve testar <a href="https://github.com/scottjehl/picturefill">picturefill</a>, a <a href="http://coding.smashingmagazine.com/2013/06/02/clown-car-technique-solving-for-adaptive-images-in-responsive-web-design/">técnica clown car</a> ou usar uma <a href="http://www.hongkiat.com/blog/serving-responsive-images/">solução server side</a>.</li>
+
+<li>Onde você irá setar suas <a href="http://bit.ly/188oUBo">media queries</a> <a href="http://bit.ly/188oPNR">breakpoints</a>? <strong>novo</strong></li>
+
+<li>Você quer suportar <a href="http://bit.ly/15zBP1b">retina</a> ou <a href="http://retina-images.complexcompulsions.com/">high DPI</a> dispositivos? <strong>novo</strong></li>
+</ul>
+
+<h3>Outras considerações</h3>
+<ul>
+<li>Performance <a href="http://browserdiet.com/">Browser Diet</a>.</li>
+
+<li>Design responsivo <a href="http://browserfit.github.io/">Browser Fit</a>.</li>
+</ul>
+</div>
+
+  <!-- 
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = "fotografiafeita";
+
+    (function () {
+      var dsq = document.createElement("script");
+      dsq.type = "text/javascript";
+      dsq.async = true;
+      dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+      (
+        document.getElementsByTagName("head")[0] ||
+        document.getElementsByTagName("body")[0]
+      ).appendChild(dsq);
+    })();
+  </script>
+  <noscript
+    >Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript"
+      >comments powered by Disqus.</a
+    ></noscript
+  >
+  <a href="http://disqus.com" class="dsq-brlink"
+    >comments powered by <span class="logo-disqus">Disqus</span></a
+  >
+   -->
+</section>
+
+        <footer class="footer">
+          <div class="contact">
+            <span> Designed and coded with ♡ by Glauber Ramos </span>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

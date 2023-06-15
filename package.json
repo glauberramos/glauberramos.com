@@ -1,0 +1,14 @@
+{
+  "name": "glauberramos.com",
+  "version": "1.0.0",
+  "description": "Glauber Ramos Blog",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "bundle exec rake site:publish",
+    "dev": "bundle exec jekyll serve --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glauberramos/glauberramos.com.git"
+  }
+}

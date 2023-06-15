@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="description" content="12 regras CSS que poucos conhecem" />
+    <title>12 regras CSS que poucos conhecem</title>
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Glauber Ramos Website"
+      href="http://glauberramos.com/feed.xml"
+    />
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <link async rel="stylesheet" href="assets/stylesheets/main.css" />
+    <script
+      defer
+      data-domain="glauberramos.com"
+      src="https://plausible.io/js/script.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="site">
+        <section class="about">
+  <header id="header" class="header">
+    <div class="main-header">
+      <a name="logo" href="/"><span class="logo">Glauber Ramos</span></a>
+    </div>
+  </header>
+  <span class="about-me">
+    <p>
+      Indiehacker from Brazil &nbsp;
+      <a name="EasyRetro website" target="_blank" href="https://easyretro.io"
+        >EasyRetro.io</a
+      >,
+      <a name="ImageAi website" target="_blank" href="https://imageai.app"
+        >ImageAI.app</a
+      >
+      -
+      <a name="All Projects" href="/projects">All Projects</a>
+    </p>
+    <ul class="icons">
+      <li>
+        <a
+          name="Glauber ramos twitter"
+          aria-label="Glauber ramos twitter"
+          href="http://www.twitter.com/glauberamos"
+          target="_blank"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            fill="#053357"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+            />
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </span>
+</section>
+ <sectin class="blog bottom-0">
+  <form
+    class="subscribe-form"
+    action="https://tinyletter.com/glauberramos"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://tinyletter.com/glauberramos', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+  >
+    <label for="tlemail">Get the latest news about my projects</label>
+    <p>
+      <input
+        type="text"
+        placeholder="Your email address"
+        style="width: 250px; padding: 5px"
+        name="email"
+        id="tlemail"
+      />
+      <input type="hidden" value="1" name="embed" /><input
+        type="submit"
+        value="Join"
+      />
+    </p>
+  </form>
+</sectin>
+
+
+<section class="post">
+  <a class="back" href="/"><i class="icon-arrow-left"></i>< Go back</a>
+  <h2>12 regras CSS que poucos conhecem</h2>
+  <p class="meta">18 Jun 2014</p>
+  <div id="post"><div class="parallax-container">
+	<img title="Dívida de UX" src="/assets/images/css3.jpg" alt="Dívida de UX" />
+</div>
+
+<h2 id="selection">Selection</h2>
+
+<p>Um seletor muito interessante é o <a href="http://www.w3schools.com/cssref/sel_selection.asp">::selection</a>. Ele serve para estilizar o texto quando está selecionado. Sublinhe esse texto para ver um exemplo.</p>
+
+<p>Ele pode dar um toque no design porque mostra que foi dado atenção aos <a href="http://littlebigdetails.com/">pequenos grandes detalhes</a>.</p>
+
+<pre>
+<span class="selector">::selection </span>{
+  <span class="property">background:</span> <span class="value">#BADA55;</span>
+  <span class="property">color:</span> <span class="value">white;</span>
+} 
+</pre>
+
+<h2 id="appearance">Appearance</h2>
+
+<p>Essa propriedade é muito interessante quando se quer modificar a aparência nativa de algum elemento HTML e estilizar da maneira que você quiser.</p>
+
+<p>Um exemplo de select box sem estilo:</p>
+
+<p><select>
+	<option>Opção 1</option>
+	<option>Opção 2</option>
+	<option>Opção 3</option>
+</select></p>
+
+<p>Um exemplo de um select box estilizado:</p>
+
+<div class="styled-select">
+	<select>
+		<option>Opção 1</option>
+		<option>Opção 2</option>
+		<option>Opção 3</option>
+	</select>
+</div>
+
+<p>A propriedade <a href="http://www.w3schools.com/cssref/css3_pr_appearance.asp">appearance</a> é possível utilizar os valores “normal”, “none”, “button”, etc.</p>
+
+<pre>
+<span class="selector">select</span> {
+  <span class="property">appearance:</span> <span class="value">none;</span>
+  <span class="property">-webkit-appearance:</span> <span class="value">none;</span>
+  <span class="property">-moz-appearance:</span> <span class="value">none;</span>
+  <span class="property">-o-appearance:</span> <span class="value">none;</span>
+} 
+</pre>
+
+<h2 id="not">Not</h2>
+
+<p>O seletor <a href="http://css-tricks.com/almanac/selectors/n/not/">not</a> é muito útil para excluir elementos dos seletores quando você não precisa deles. Um exemplo é por exemplo quando você quer estilizar todos spans mas não quer alterar os que tenham a classe “item”.</p>
+
+<p>Ele também pode ser utilizada com outros seletores como <a href="http://www.w3schools.com/cssref/sel_firstchild.asp">:first-child</a>, <a href="http://www.w3schools.com/cssref/sel_last-child.asp">:last-child</a>, etc.</p>
+
+<pre>
+<span class="selector">span:not(.item)</span> {
+  <span class="property">color</span> <span class="value">#444;</span>
+} 
+</pre>
+
+<h2 id="pointer-events">Pointer Events</h2>
+
+<p><a href="http://css-tricks.com/almanac/properties/p/pointer-events/">Pointer events</a> serve para alterar a resposta de elementos html em relação a eventos relacionados ao mouse como clicar ou hover. Você pode fazer com que o click do mouse pare de funcionar para determinado elemento html.</p>
+
+<pre>
+<span class="selector">.avoid-clicks</span> {
+  <span class="property">pointer-events:</span> <span class="value">none;</span>
+} 
+</pre>
+
+<h2 id="outline">Outline</h2>
+
+<p>Outline é muito útil quando se quer remover o comportamento padrão do browser de adicionar uma borda a um elemento quando ele esta selecionado. Ela pode ser útil quando voce quer deixar o design mais limpo. Ela é diferente da propriedade border pois adiciona mais uma borda a um elemento.</p>
+
+<p>Cuidado ao remover o comportamento default do browser pois pode deixar seu site mais difícil de utilizar por pessoas que usam teclado para navegação.</p>
+
+<div style="border: 3px solid #bada55; outline: 3px solid black; margin-bottom: 20px;">Elemento com borda e outline</div>
+
+<div style="border: 3px solid #bada55;">Elemento apenas com borda</div>
+
+<pre>
+<span class="selector">div</span> {
+  <span class="property">outline:</span> <span class="value">none;</span>
+} 
+</pre>
+
+<h2 id="after-and-before">After and Before</h2>
+
+<p>Muito útil para adicionar pseudo elementos html apenas usando CSS. Isso deixa seu html mais limpo pois tudo é tratado no css.</p>
+
+<div class="after-element">Exemplo de pseudo elemento, o coração está sendo adicionado via CSS</div>
+
+<pre>
+<span class="selector">div:after</span> {
+  <span class="property">content:</span> <span class="value">'♡';</span>
+  <span class="property">color:</span> <span class="value">red;</span>
+  <span class="property">font-size:</span> <span class="value">3em;</span>
+} 
+</pre>
+
+<h2 id="columns">Columns</h2>
+
+<p><a href="http://www.w3schools.com/css/css3_multiple_columns.asp">Columns</a> serve para repartir um texto em colunas, muito útil para diagramar um texto.</p>
+
+<p style="-webkit-column-count: 3; column-count: 3;">Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. Exemplo de texto em 3 colunas. </p>
+
+<pre>
+<span class="selector">p</span> {
+  <span class="property">-webkit-column-count:</span> <span class="value">3;</span>
+  <span class="property">column-count:</span> <span class="value">3;</span>
+} 
+</pre>
+
+<h2 id="target">Target</h2>
+
+<p><a href="http://css-tricks.com/on-target/">Esse seletor</a> funciona quando você quer estilizar algum elemento baseado no estado do hash. Por exemplo quando você tem diferentes sessões na página e quer pintar elas com cores diferentes.</p>
+
+<p><a href="#hash-example" id="hash-example">Clique aqui para mudar o estado</a></p>
+
+<pre>
+<span class="selector">#hash-example:target</span> {
+  <span class="property">background:</span> <span class="value">#BADA555;</span>
+} 
+</pre>
+
+<h2 id="attribute">Attribute</h2>
+
+<p>Com seletor de atributo você pode estilizar todos elementos que tenham algum atributo especifico como título por exemplo.</p>
+
+<p title="titulo">Texto com titulo</p>
+
+<p>Texto sem titulo</p>
+
+<p title="titulo">Texto com titulo</p>
+
+<pre>
+<span class="selector">p[title~="titulo"]</span> {
+  <span class="property">background:</span> <span class="value">#BADA55;</span>
+} 
+</pre>
+
+<h2 id="vh-unit">VH Unit</h2>
+
+<p>View port units são utilizadas quando se quer dar um tamanho a um elemento baseado no tamanho de tela visível. Se você utilizar por exemplo esse código:</p>
+
+<pre>
+<span class="selector">p</span> {
+  <span class="property">height:</span> <span class="value">20vh;</span>
+} 
+</pre>
+
+<p>Isso significa que o parágrafo sempre vai ter 20% de altura baseado no tamanho da tela atual.</p>
+
+<p style="height: 20vh; background: #BADA55; padding: 10px;">Exemplo utilizando view port</p>
+
+<p>Para testar por favor diminua o tamanho do browser e veja o comportamento do parágrafo.</p>
+
+<h2 id="counters">Counters</h2>
+
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Counters">Counters</a> é útil para gerar contadores por CSS sem que seja preciso utilizar javascript.</p>
+
+<p>No exemplo a seguir os números estão sendo gerados por CSS.</p>
+
+<div class="counter">Introdução</div>
+<div class="counter">Meio</div>
+<div class="counter">Fim</div>
+
+<pre>
+<span class="selector">body</span> {
+  <span class="property">counter-reset:</span> <span class="value">section;</span>
+} 
+
+<span class="selector">.counter:before</span> {
+  <span class="property">counter-increment:</span> <span class="value">section;</span>
+  <span class="property">content:</span> <span class="value">"Sessão " counter(section) ": ";</span>
+} 
+</pre>
+
+<h2 id="resize">Resize</h2>
+
+<p><a href="http://css-tricks.com/almanac/properties/r/resize/">Resize</a> é muito útil quando se quer que um elemento seja resizable.</p>
+
+<p style="resize: both; overflow: scroll; width: 250px; height: 200px; border: 1px solid #ccc; padding: 10px; border-radius: 2px;">Exemplo de parágrafo resizable. Exemplo de parágrafo resizable. Exemplo de parágrafo resizable.</p>
+
+<pre>
+<span class="selector">p</span> {
+  <span class="property">resize:</span> <span class="value">both;</span>
+} 
+</pre>
+</div>
+
+  <!-- 
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = "fotografiafeita";
+
+    (function () {
+      var dsq = document.createElement("script");
+      dsq.type = "text/javascript";
+      dsq.async = true;
+      dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+      (
+        document.getElementsByTagName("head")[0] ||
+        document.getElementsByTagName("body")[0]
+      ).appendChild(dsq);
+    })();
+  </script>
+  <noscript
+    >Please enable JavaScript to view the
+    <a href="http://disqus.com/?ref_noscript"
+      >comments powered by Disqus.</a
+    ></noscript
+  >
+  <a href="http://disqus.com" class="dsq-brlink"
+    >comments powered by <span class="logo-disqus">Disqus</span></a
+  >
+   -->
+</section>
+
+        <footer class="footer">
+          <div class="contact">
+            <span> Designed and coded with ♡ by Glauber Ramos </span>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
