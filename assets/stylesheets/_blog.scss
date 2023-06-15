@@ -96,6 +96,10 @@
     display: block;
     margin-top: 20px;
     font-size: 1.2em;
+
+    @media (max-width: $mediumWidth) {
+      margin-top: 0;
+    }
   }
 }
 
