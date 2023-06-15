@@ -1,9 +1,12 @@
 header {
   z-index: 999;
-  padding: 10px 10px 20px;
   font-weight: 500;
   color: white;
   background: #053357;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .site > header {
@@ -51,11 +54,10 @@ header + .row {
 }
 
 .logo {
-  float: left;
   font-size: 1.5em;
   font-weight: 700;
-  color: #053357;
-  letter-spacing: 0.05em;
+  color: #222;
+  text-decoration: none;
 }
 
 nav {

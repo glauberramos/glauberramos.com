@@ -24,29 +24,7 @@
   <body>
     <div class="container">
       <div class="site">
-        <section class="about">
-          <header id="header" class="header">
-            <div class="main-header column">
-              <a href="/"><span class="logo">Glauber Ramos</span></a>
-            </div>
-          </header>
-          <span class="column about-me">
-            <p>
-              Indiehacker from Brazil -
-              <a target="_blank" href="https://easyretro.io">EasyRetro.io</a>,
-              <a target="_blank" href="https://imageai.app">ImageAI.app</a>
-            </p>
-            <ul class="icons">
-              <li>
-                <a href="http://www.twitter.com/glauberamos" target="_blank"
-                  ><i class="fa fa-twitter"></i
-                ></a>
-              </li>
-            </ul>
-          </span>
-          <span class="column large-2"></span>
-        </section>
-        {{ content }}
+        {% include header.html %} {{ content }}
         <footer class="footer">
           <div class="contact">
             <span> Designed and coded with ♡ by Glauber Ramos </span>

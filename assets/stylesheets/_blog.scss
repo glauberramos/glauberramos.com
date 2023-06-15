@@ -1,22 +1,20 @@
 .blog {
+  max-width: 700px;
+  margin: 0 auto;
   z-index: 10;
   width: 100%;
-  max-width: 100%;
-  padding: 7% 10% 3%;
-  padding-top: 0;
+  padding-bottom: 2%;
   text-align: center;
-  flex: 1;
   background: white;
+  display: block;
 
   @media (max-width: $mediumWidth) {
-    padding: 5%;
+    padding: 50px;
   }
 
   h2 {
     color: #222;
     width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
     text-align: left;
     margin-bottom: 0;
     font-size: 26px;
@@ -52,9 +50,7 @@
 
   li {
     display: flex;
-    width: 80%;
     padding-top: 20px;
-    margin: 0 auto;
     font-size: 1em;
     line-height: 1.2em;
     color: #555;
@@ -67,8 +63,10 @@
 }
 
 .post {
-  margin-top: 5px;
-  margin-bottom: 3%;
+  margin: 5px auto 3%;
+  max-width: 700px;
+  width: 100%;
+  padding: 0;
 
   p {
     font-size: 1.2em;
@@ -150,7 +148,7 @@ p[title~="titulo"] {
 }
 
 .bottom-0 {
-  padding-bottom: 20px;
+  padding-bottom: 0;
   margin-bottom: 0;
 }
 
@@ -161,8 +159,9 @@ p[title~="titulo"] {
   background: #00f6ff;
   padding: 25px 10px;
   text-align: center;
-  width: 390px;
-  margin-left: 10%;
+  width: 410px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   font-size: 20px;
   border-radius: 3px;
   font-weight: 600;

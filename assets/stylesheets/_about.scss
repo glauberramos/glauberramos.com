@@ -1,25 +1,19 @@
 .about {
-  padding: 0 10%;
+  max-width: 700px;
+  margin: 0 auto;
   color: #ccc;
-  flex: 1;
-  // background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
-  background-position: center;
-  background-size: cover;
 
   @media (max-width: $mediumWidth) {
-    padding: 0 3% 5%;
+    padding: 0 50px 5%;
   }
 
   @media (max-width: $xsmallWidth) {
-    padding: 0 2% 3%;
+    padding: 0 20px 3%;
   }
 
   header {
-    margin-bottom: 20px;
     background: transparent;
     border: none;
-    padding-left: 10%;
-    padding-right: 10%;
   }
 
   a {
@@ -36,7 +30,6 @@
     transition: color 0.3s;
     width: 150px;
     text-align: right;
-    margin-bottom: 10px;
 
     .fa {
       font-size: 1.7em;
@@ -76,7 +69,7 @@
 .about,
 .contact-me-section {
   p {
-    margin: 0 0 20px;
+    margin: 0;
     font-size: 18px;
     line-height: 1.5em;
     color: #053357;
@@ -155,8 +148,6 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding-left: 10%;
-  padding-right: 10%;
 
   @media (max-width: $largeWidth) {
     @include grid-column(10);
