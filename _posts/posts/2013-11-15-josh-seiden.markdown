@@ -9,7 +9,7 @@ categories: post
 
 Esse ano tive a oportunidade de participar do Interation South America que aconteceu em Recife - Brasil. Uma das palestras que mais gostei foi a do Josh Seiden - User experience in a rapidly changing world. Ele trabalha na empresa NEO e é autor do livro Lean UX.
 
-<img src="/assets/images/leanUX.jpg" alt="Lean UX" style="width: 400px;"/>
+<img src="/assets/images/leanUX.jpg" alt="Lean UX" style="max-width: 400px;"/>
 
 Josh falou que na nossa área a mudança é a nova realidade e precisamos estar sempre se adaptando, modificando nossas práticas e técnicas.
 

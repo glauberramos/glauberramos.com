@@ -13,7 +13,7 @@ Queria mostrar o processo de UX que segui no meu projeto para desenvolver uma no
 
 Tivemos primeiramente uma reunião com analistas e stakeholders para entender o que precisa ser feito. Utilizamos o formato de [estórias do usuário](http://www.thoughtworks.com/insights/blog/how-do-you-get-more-out-your-user-stories) e sempre pensamos em qual problema que estamos tentando resolver (problem statement).
 
-<img src="/assets/images/userstory.png" alt="Design Thinkng" style="width: 400px;"/>
+<img src="/assets/images/userstory.png" alt="Design Thinkng" style="max-width: 400px;"/>
 
 ### Ideação (30 min)
 
@@ -21,7 +21,7 @@ Após o time estar na mesma página sobre o que precisa ser feito, reuni algumas
 
 Aqui há mais detalhes de como funciona o [exercicio de sketching](http://glauberramos.com/sessao-design-colaborativo.html)
 
-<img src="/assets/images/sketches.jpg" alt="Design Thinkng" style="width: 550px;"/>
+<img src="/assets/images/sketches.jpg" alt="Design Thinkng" style="max-width: 550px;"/>
 
 ### Prototipagem rápida (1 hora)
 
@@ -31,11 +31,11 @@ A idéia aqui é criar as 2 - 3 melhores idéias para poder testar com usuários
 
 ### Wireframes
 
-<img src="/assets/images/wireframes1.png" alt="Design Thinkng" style="width: 550px;"/>
+<img src="/assets/images/wireframes1.png" alt="Design Thinkng" style="max-width: 550px;"/>
 
 ### Protótipo clicavel
 
-<img src="/assets/images/editGroup.gif" alt="Design Thinkng" style="width: 650px;"/>
+<img src="/assets/images/editGroup.gif" alt="Design Thinkng" style="max-width: 650px;"/>
 
 Para a criação da animação utilizei o software [LICEcap](http://www.cockos.com/licecap/).
 
@@ -53,13 +53,13 @@ Perguntas para se fazer durante o teste:
 
 Imagem das notas que fiz depois do teste com os primeiros usuários. É importante tomar nota para depois utiliza-las quando fores retrabalhar os designs.
 
-<img src="/assets/images/usernotes.jpg" alt="User Notes" style="width: 350px;"/>
+<img src="/assets/images/usernotes.jpg" alt="User Notes" style="max-width: 350px;"/>
 
 ### Iteração (1 hora)
 
 Após realizar os testes dei uma revisada nas notas que fiz e comecei a gerar novas idéias e incrementar os protótipos/wireframes.
 
-<img src="/assets/images/editGroup2.gif" alt="Design Thinkng" style="width: 650px;"/>
+<img src="/assets/images/editGroup2.gif" alt="Design Thinkng" style="max-width: 650px;"/>
 
 ### Testar de novo (30 min)
 
