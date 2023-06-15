@@ -9,7 +9,7 @@
   display: block;
 
   @media (max-width: $mediumWidth) {
-    padding: 20px;
+    padding: 0 20px;
   }
 
   h2 {
@@ -159,7 +159,8 @@ p[title~="titulo"] {
   background: #00f6ff;
   padding: 25px 10px;
   text-align: center;
-  width: 410px;
+  max-width: 410px;
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 20px;

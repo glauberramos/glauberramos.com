@@ -4,11 +4,11 @@
   color: #ccc;
 
   @media (max-width: $mediumWidth) {
-    padding: 0 20px 5%;
+    padding: 0 20px;
   }
 
   @media (max-width: $xsmallWidth) {
-    padding: 0 20px 3%;
+    padding: 0 20px;
   }
 
   header {
@@ -28,7 +28,7 @@
     display: block;
     list-style: none;
     transition: color 0.3s;
-    width: 150px;
+    width: 80px;
     text-align: right;
 
     .fa {
@@ -71,7 +71,6 @@
   align-items: center;
 
   @media (max-width: $largeWidth) {
-    @include grid-column(10);
     margin: 0;
   }
 
