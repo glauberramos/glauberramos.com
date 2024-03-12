@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simple rantom quote app</title>
+    <meta name="description" content="Simple rantom quote app" />
+  </head>
+
+  <body>
+    <div width="24" class="quote">
+      <div class="quote-text">
+        <div class="quote-body">
+          <span>"</span
+          ><span id="quote-text"
+            >Listening to and understanding our inner sufferings will resolve
+            most of the problems we encounter.</span
+          ><span>"</span>
+        </div>
+      </div>
+      <div class="author">
+        <!-- <img
+          src="https://buddha-api.com/img/buddhist/thich_nhat_hanh.png"
+          alt="buddhist image"
+          class="author-img"
+        /> -->
+        <div class="author-name" id="author-name">Thich Nhat Hanh</div>
+      </div>
+    </div>
+  </body>
+  <style>
+    body {
+      font-family: system-ui;
+      background-color: rgb(50, 56, 71);
+      color: white;
+      font-size: 24px;
+    }
+
+    .quote {
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 0.2em;
+      margin-right: 0em;
+      width: 30em;
+      height: 100%;
+      max-width: calc(100% - 2rem);
+      margin: 60px auto;
+    }
+
+    .quote-text {
+      width: 100%;
+      height: calc(100% - 3em);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2em 2em 0.5em;
+      box-sizing: border-box;
+    }
+
+    .author {
+      display: flex;
+      align-items: center;
+      height: 5em;
+      padding-left: 20px;
+    }
+
+    .author-img {
+      width: 2.5em;
+      opacity: 0.9;
+    }
+
+    .author-name {
+      color: rgba(50, 56, 71, 0.7);
+      font-size: 1.2em;
+      font-weight: 600;
+      margin-left: 1em;
+    }
+
+    .quote-body {
+      color: rgb(50, 56, 71);
+      font-size: 1.3em;
+      font-weight: 500;
+    }
+  </style>
+  <script>
+    var quotes = [
+      {
+        text: "Be curious, read widely, try new things. I think a lot of what people call intelligence boils down to curiosity",
+        author: "Aaron Swartz",
+      },
+      {
+        text: "The meaning of life is just to be alive. It is so plain and so obvious and so simple. And yet, everybody rushes around in a great panic as if it were necessary to achieve something beyond themselves",
+        author: "Alan Watts",
+      },
+      {
+        text: "Society grows great when old men plant trees whose shade they know they shall never sit in",
+        author: "Anonymous Greek Proverb",
+      },
+      {
+        text: "Frodo: I wish the Ring had never come to me. I wish none of this had happened. Gandalf: So do all who live to see such times, but that is not for them to decide. All we have to decide is what to do with the time that is given to us.",
+        author: "J.R.R. Tolkien",
+      },
+      {
+        text: "People say I'm the Beatle who changed the most, but to me, that's what life's about",
+        author: "George Harrison",
+      },
+      {
+        text: "When you don't create things, you become defined by your tastes rather than ability. Your tastes only narrow & exclude people. So, create",
+        author: "Why The Lucky Stiff",
+      },
+      {
+        text: "Nothing is original. Steal from anywhere that resonates with inspiration or fuels your imagination. Devour old films, new films, music, books, paintings, photographs, poems, dreams, random conversations, architecture, bridges, street signs, trees, clouds, bodies of water, light and shadows. Select only things to steal from that speak directly to your soul. If you do this, your work (and theft) will be authentic. Authenticity is invaluable; originality is nonexistent. And don’t bother concealing your thievery. celebrate it if you feel like it. In any case, always remember what Jean-Luc Godard said: “It’s not where you take things from – it’s where you take them to",
+        author: "Jim Jarmusch",
+      },
+      {
+        text: "This is your life. Do what you love, and do it often. If you don't like something, change it. If you don't like your job, quit. If you don't have enough time, stop watching TV. If you are looking for the love of your life, stop; They will be waiting for you when you start doing things you love. Stop over analyzing, life is simple.All emotions are beautiful. When you eat, appreciate every last bite.  Open your mind, arms, and heart to new things and people, we are united in our differences. Ask the next person you see what their passion is, and share your inspiring dream with them. Travel often; Getting lost will help you find yourself. Some opportunities come only once, seize them. Life is about the people you meet, and the things you create with them, so go out and start creating. Life is short. Live your dream and share your passion",
+        author: "The Holstee Manifesto",
+      },
+      {
+        text: "Um homem precisa viajar. Por sua conta, não por meio de histórias, imagens, livros ou TV. Precisa viajar por si, com seus olhos e pés, para entender o que é seu. Para um dia plantar as suas próprias árvores e dar-lhes valor. Conhecer o frio para desfrutar do calor. E o oposto. Sentir a distância e o desabrigo para estar bem sob o próprio teto. Um homem precisa viajar para lugares que não conhece para quebrar essa arrogância que nos faz ver o mundo como o imaginamos, e não simplesmente como é ou pode ser; que nos faz professores e doutores do que não vimos, quando deveríamos ser alunos, e simplesmente ir ver",
+        author: "Amyr Klink",
+      },
+      {
+        text: "Inventamos una montaña de consumo superfluo, que hay que tirar y seguir comprando y tirando y lo que estamos gastando es tiempo de vida; porque cuando yo compro algo o tuno lo compras con plata, lo compras con el tiempo de vida que tuviste en libertad para tener esa plata. Pero con esta diferencia, la única cosa que no se puede comprar es la vida... la vida se gasta y es miserable gastar la vida para perder libertad",
+        author: "José Mujica",
+      },
+    ];
+
+    const random = Math.floor(Math.random() * quotes.length);
+
+    document.getElementById("quote-text").innerHTML = quotes[random].text;
+    document.getElementById("author-name").innerHTML = quotes[random].author;
+  </script>
+</html>
