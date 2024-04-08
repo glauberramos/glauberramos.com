@@ -5,6 +5,7 @@ title: "Ferramentas de Front End"
 description: "Ferramentas de Front End"
 date: 2013-12-15 21:18:28
 categories: post
+tags: post
 ---
 
 <p>Essa é uma lista de coisas a se pensar na hora de criar um projeto front-end. Ela foi baseda na lista criada pelo meu colega <a href="http://3oheme.com/blog/2013/09/25/different-areas-you-need-to-think-about-for-a-website-frontend-wip.html#static_code_analysis">Ignacio Duarte</a>. A idéia é manter essa lista sempre atualizada e que ela seja um guia rápido de referência quando se está pensando em um projeto de front-end.</p>

@@ -1,0 +1,12 @@
+{
+    "name": "Glauber Ramos Website",
+    "email": "contato@glauberramos.com",
+    "description": "Portfolio Glauber Ramos",
+    "url": "http://glauberramos.com",
+    "twitter_username": "glauberamos",
+    "github_username": "glauberramos",
+    "permalink": ":title.html",
+    "gems": [
+        "jekyll-autoprefixer"
+    ]
+}

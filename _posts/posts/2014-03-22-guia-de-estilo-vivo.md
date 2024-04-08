@@ -5,6 +5,7 @@ title: "Guia de estilo vivo"
 description: "Guia de estilo vivo"
 date: 2014-3-22 21:18:28
 categories: post
+tags: post
 ---
 
 !["Guia de estilo"](/assets/images/guiadeestilo.png "Guia de estilo")

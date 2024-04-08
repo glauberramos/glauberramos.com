@@ -5,6 +5,7 @@ title: "Interaction South America 2013 - Josh Seiden"
 description: "Interaction South America 2013 - Josh Seiden"
 date: 2013-11-15 12:00:00
 categories: post
+tags: post
 ---
 
 Esse ano tive a oportunidade de participar do Interation South America que aconteceu em Recife - Brasil. Uma das palestras que mais gostei foi a do Josh Seiden - User experience in a rapidly changing world. Ele trabalha na empresa NEO e é autor do livro Lean UX.

@@ -5,6 +5,7 @@ title: "Affordance"
 description: "Affordance"
 date: 2014-07-02 12:00:00
 categories: post
+tags: post
 ---
 
 Conceito criado por Don Norman para definir as propriedades percebíveis de um objeto mas que tbm é utilizado para elementos de aplicações.

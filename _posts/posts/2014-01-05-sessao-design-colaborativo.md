@@ -5,6 +5,7 @@ title: "Sessão de design colaborativa"
 description: "Sessão de design colaborativa"
 date: 2014-1-5 21:18:28
 categories: post
+tags: post
 ---
 
 Sessão de design colaborativa é muito importante para aumentar a colaboração com o time. Ela serve para criar uma visão compartilhada entre o time para que se possa entender o que o usuário quer, qual problema estamos tentando resolver e criar material para complementar o design.

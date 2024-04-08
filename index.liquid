@@ -1,0 +1,22 @@
+---
+layout: home
+title: Glauber Ramos Portfolio
+---
+
+{% include header.liquid %}
+
+<section class="blog row">
+  {% for yearPosts in collections.postsByYear %}
+  <h2>{{ yearPosts[0] }}</h2>
+  <ul class="posts">
+    {% for post in yearPosts[1] %}
+    <li>
+      <a name="{{ post.data.title }}" href="{{ BASE_PATH }}{{ post.url }}">
+        {{ post.data.title }}
+      </a >
+    </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+</section>
+

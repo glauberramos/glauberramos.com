@@ -5,6 +5,7 @@ title: "Ano Sabático 2017"
 description: "Ano Sabático 2017"
 date: 2017-03-16 12:00:00
 categories: post
+tags: post
 ---
 
 Olár a todos,

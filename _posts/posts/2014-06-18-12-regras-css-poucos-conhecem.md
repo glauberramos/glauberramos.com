@@ -5,6 +5,7 @@ title: "12 regras CSS que poucos conhecem"
 description: "12 regras CSS que poucos conhecem"
 date: 2014-06-18 21:18:28
 categories: post
+tags: post
 ---
 
 <div class="parallax-container">
@@ -21,7 +22,7 @@ Ele pode dar um toque no design porque mostra que foi dado atenção aos [pequen
 <span class="selector">::selection </span>{
   <span class="property">background:</span> <span class="value">#BADA55;</span>
   <span class="property">color:</span> <span class="value">white;</span>
-} 
+}
 </pre>
 
 ## Appearance
@@ -54,7 +55,7 @@ A propriedade [appearance](http://www.w3schools.com/cssref/css3_pr_appearance.as
   <span class="property">-webkit-appearance:</span> <span class="value">none;</span>
   <span class="property">-moz-appearance:</span> <span class="value">none;</span>
   <span class="property">-o-appearance:</span> <span class="value">none;</span>
-} 
+}
 </pre>
 
 ## Not
@@ -66,7 +67,7 @@ Ele também pode ser utilizada com outros seletores como [:first-child](http://w
 <pre>
 <span class="selector">span:not(.item)</span> {
   <span class="property">color</span> <span class="value">#444;</span>
-} 
+}
 </pre>
 
 ## Pointer Events
@@ -76,7 +77,7 @@ Ele também pode ser utilizada com outros seletores como [:first-child](http://w
 <pre>
 <span class="selector">.avoid-clicks</span> {
   <span class="property">pointer-events:</span> <span class="value">none;</span>
-} 
+}
 </pre>
 
 ## Outline
@@ -92,7 +93,7 @@ Cuidado ao remover o comportamento default do browser pois pode deixar seu site 
 <pre>
 <span class="selector">div</span> {
   <span class="property">outline:</span> <span class="value">none;</span>
-} 
+}
 </pre>
 
 ## After and Before
@@ -106,7 +107,7 @@ Muito útil para adicionar pseudo elementos html apenas usando CSS. Isso deixa s
   <span class="property">content:</span> <span class="value">'♡';</span>
   <span class="property">color:</span> <span class="value">red;</span>
   <span class="property">font-size:</span> <span class="value">3em;</span>
-} 
+}
 </pre>
 
 ## Columns
@@ -119,7 +120,7 @@ Muito útil para adicionar pseudo elementos html apenas usando CSS. Isso deixa s
 <span class="selector">p</span> {
   <span class="property">-webkit-column-count:</span> <span class="value">3;</span>
   <span class="property">column-count:</span> <span class="value">3;</span>
-} 
+}
 </pre>
 
 ## Target
@@ -131,7 +132,7 @@ Muito útil para adicionar pseudo elementos html apenas usando CSS. Isso deixa s
 <pre>
 <span class="selector">#hash-example:target</span> {
   <span class="property">background:</span> <span class="value">#BADA555;</span>
-} 
+}
 </pre>
 
 ## Attribute
@@ -147,7 +148,7 @@ Com seletor de atributo você pode estilizar todos elementos que tenham algum at
 <pre>
 <span class="selector">p[title~="titulo"]</span> {
   <span class="property">background:</span> <span class="value">#BADA55;</span>
-} 
+}
 </pre>
 
 ## VH Unit
@@ -157,7 +158,7 @@ View port units são utilizadas quando se quer dar um tamanho a um elemento base
 <pre>
 <span class="selector">p</span> {
   <span class="property">height:</span> <span class="value">20vh;</span>
-} 
+}
 </pre>
 
 Isso significa que o parágrafo sempre vai ter 20% de altura baseado no tamanho da tela atual.
@@ -179,12 +180,12 @@ No exemplo a seguir os números estão sendo gerados por CSS.
 <pre>
 <span class="selector">body</span> {
   <span class="property">counter-reset:</span> <span class="value">section;</span>
-} 
+}
 
 <span class="selector">.counter:before</span> {
   <span class="property">counter-increment:</span> <span class="value">section;</span>
   <span class="property">content:</span> <span class="value">"Sessão " counter(section) ": ";</span>
-} 
+}
 </pre>
 
 ## Resize
@@ -196,5 +197,5 @@ No exemplo a seguir os números estão sendo gerados por CSS.
 <pre>
 <span class="selector">p</span> {
   <span class="property">resize:</span> <span class="value">both;</span>
-} 
+}
 </pre>

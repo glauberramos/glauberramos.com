@@ -5,6 +5,7 @@ title: "Redesenhando uma funcionalidade"
 description: "Redesenhando uma funcionalidade"
 date: 2014-05-30 12:00:00
 categories: post
+tags: post
 ---
 
 Como redesenhar uma funcionalidade levando em conta fatores como a funcionalidade atual? estatistica de uso? competidores? necessidades dos usuários? etc...

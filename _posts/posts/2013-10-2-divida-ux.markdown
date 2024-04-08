@@ -5,6 +5,7 @@ title: "Dívida de UX"
 date: 2013-10-2 21:18:28
 description: 2013-10-2 21:18:28
 categories: post
+tags: post
 ---
 
 <div class="parallax-container">

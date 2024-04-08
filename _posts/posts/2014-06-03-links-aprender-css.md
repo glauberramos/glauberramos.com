@@ -5,6 +5,7 @@ title: "Links sobre CSS - Material de estudo"
 description: "Links sobre CSS - Material de estudo"
 date: 2014-06-03 12:00:00
 categories: post
+tags: post
 ---
 
 ### Dica básica

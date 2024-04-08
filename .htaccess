@@ -65,15 +65,15 @@ AddType        text/vtt                                vtt
         AddOutputFilterByType DEFLATE text/plain
         AddOutputFilterByType DEFLATE text/x-component
         AddOutputFilterByType DEFLATE text/xml
-        
+
         # The following MIME types are in the process of registration
         AddOutputFilterByType DEFLATE application/xslt+xml
         AddOutputFilterByType DEFLATE image/svg+xml
-        
+
         # The following MIME types are NOT registered
         AddOutputFilterByType DEFLATE application/mathml+xml
         AddOutputFilterByType DEFLATE application/rss+xml
-        
+
         # JavaScript has various MIME types
         AddOutputFilterByType DEFLATE application/javascript
         AddOutputFilterByType DEFLATE application/x-javascript
@@ -132,7 +132,7 @@ AddType        text/vtt                                vtt
 #    2. Last-Modified or ETag
 #
 #         Set the Last-Modified date to the last time the resource was changed. If the Last-Modified
-#        date is sufficiently far enough in the past, chances are the browser won't refetch it. 
+#        date is sufficiently far enough in the past, chances are the browser won't refetch it.
 #
 # Per Google: "it is redundant to specify both Expires and Cache-Control: max-age, or to specify
 # both Last-Modified and ETag."

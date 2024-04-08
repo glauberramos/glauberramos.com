@@ -5,6 +5,7 @@ title: "Prototipagem rápida e teste"
 description: "Prototipagem rápida e teste"
 date: 2014-05-13 12:00:00
 categories: post
+tags: post
 ---
 
 Queria mostrar o processo de UX que segui no meu projeto para desenvolver uma nova funcionalidade. O time trabalha em um processo ágil e eu utilizei uma metodologia lean focando no usuário.

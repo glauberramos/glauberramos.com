@@ -5,6 +5,7 @@ title: "Daily Inspiration - Inventing on principle"
 description: "Daily Inspiration - Inventing on principle"
 date: 2014-06-04 12:00:00
 categories: post
+tags: post
 ---
 
 > Base your life on a principle.

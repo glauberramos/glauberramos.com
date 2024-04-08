@@ -5,6 +5,7 @@ title: "Lean UX - Testando seu design"
 description: "Lean UX - Testando seu design"
 date: 2013-12-13 21:18:28
 categories: post
+tags: post
 ---
 
 ###Como checar a hierarquia visual do seu design

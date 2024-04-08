@@ -5,6 +5,7 @@ title: "Como se proteger dos vazamentos de dados de todos os brasileiros"
 description: "Como se proteger dos vazamentos de dados de todos os brasileiros"
 date: 2020-03-14 12:00:00
 categories: post
+tags: post
 ---
 
 ## Básico para segurança digital
