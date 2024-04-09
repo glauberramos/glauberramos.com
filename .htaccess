@@ -187,3 +187,5 @@ AddType        text/vtt                                vtt
 
 # Remove ETags
 FileETag None
+
+ErrorDocument 404 /404.html
