@@ -1,32 +1,96 @@
----
-layout: home
-title: Glauber Ramos Portfolio
----
-
-{% include header.html %}
-{% include subscribe.html %}
-
-<section class="blog row">
-    {% for post in site.posts %} {% capture year_of_current_post %} {{ post.date
-    | date: "%Y" }} {% endcapture %} {% capture year_of_previous_post %} {{
-    post.previous.date | date: "%Y" }} {% endcapture %} {% if forloop.first %}
-    <h2>{{ year_of_current_post }}</h2>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Glauber Ramos personal blog where I share my thoughts and tips from my enterpreneur career" />
+    <title>Glauber Ramos Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <link rel="stylesheet" href="assets/stylesheets/main.css" />
+    <script defer data-domain="glauberramos.com" src="https://plausible.io/js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="site">
+        <section class="about">
+          <header id="header" class="header">
+            <div class="main-header">
+              <a href="/"><span class="logo">Glauber Ramos</span></a>
+            </div>
+          </header>
+          <span class="about-me">
+            <p>
+              Indiehacker from Brazil &nbsp;
+              <a target="_blank" href="https://easyretro.io">EasyRetro.io</a>,
+              <a target="_blank" href="https://imageai.app">ImageAI.app</a>
+              -
+              <a href="/projects">All Projects</a>
+            </p>
+            <ul class="icons">
+              <li>
+                <a aria-label="Glauber ramos twitter" href="http://www.twitter.com/glauberamos" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" fill="#053357" height="24" viewBox="0 0 24 24">
+                    <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </span>
+        </section>
+        <section class="blog row">
+    <h2>2023</h2>
     <ul class="posts">
-      {% endif %}
-
-      <li>
-        <a name="{{ post.title }}" href="{{ BASE_PATH }}{{ post.url }}"
-          >{{ post.title }}</a
-        >
-      </li>
-
-      {% if forloop.last %}
+      <li><a href="/best-communities-for-bootstrapped-founders">Best communities for bootstrapped founders</a></li>
+      <li><a href="/best-events-for-bootstrapped-founders">Best events for bootstrapped founders</a></li>
+      <li><a href="/places-to-buy-sell-websites-microsaas-saas">Places to buy and sell websites, microsaas and saas</a></li>
+      <li><a href="/places-to-post-your-startup">Places to post your startup</a></li>
     </ul>
-    {% else %} {% if year_of_current_post != year_of_previous_post %}
-  </ul>
+    <h2>2020</h2>
+    <ul class="posts">
+      <li><a href="/se-proteger-de-vazamento-de-dados">Como se proteger dos vazamentos de dados de todos os brasileiros</a></li>
+    </ul>
+    <h2>2019</h2>
+    <ul class="posts">
+      <li><a href="/links-indie-hackers">Links for Indie Hackers and Makers</a></li>
+    </ul>
+    <h2>2017</h2>
+    <ul class="posts">
+      <li><a href="/css-architecture">CSS Architecture</a></li>
+      <li><a href="/ano-sabatico">Ano Sabático 2017</a></li>
+    </ul>
+    <h2>2014</h2>
+    <ul class="posts">
+      <li><a href="/affordance">Affordance</a></li>
+      <li><a href="/12-regras-css-poucos-conhecem">12 regras CSS que poucos conhecem</a></li>
+      <li><a href="/inventing-on-principle">Daily Inspiration - Inventing on principle</a></li>
+      <li><a href="/links-aprender-css">Links sobre CSS - Material de estudo</a></li>
+      <li><a href="/redesenhando-uma-funcionalidade">Redesenhando uma funcionalidade</a></li>
+      <li><a href="/prototipagem-rapida-teste">Prototipagem rápida e teste</a></li>
+      <li><a href="/links-aprender-ux">Links sobre UX - Experiência do Usuário</a></li>
+      <li><a href="/guia-de-estilo-vivo">Guia de estilo vivo</a></li>
+      <li><a href="/sessao-design-colaborativo">Sessão de design colaborativa</a></li>
+    </ul>
+    <h2>2013</h2>
+    <ul class="posts">
+      <li><a href="/ferramentas-front-end">Ferramentas de Front End</a></li>
+      <li><a href="/josh-seiden">Interaction South America 2013 - Josh Seiden</a></li>
+      <li><a href="/porque-nao-usar-bootstrap">Motivos para não usar o Bootstrap</a></li>
+      <li><a href="/divida-ux">Dívida de UX</a></li>
+      <li><a href="/hello-world">Hello World!</a></li>
+    </ul>
+    <h2>2012</h2>
+    <ul class="posts">
+      <li><a href="/testando-design">Lean UX - Testando seu design</a></li>
+    </ul>
 
-  <h2>{{ year_of_previous_post }}</h2>
-  <ul class="posts">
-    {% endif %} {% endif %} {% endfor %}
-  </ul>
-</section>
+        </section>
+        <footer class="footer">
+          <div class="contact">
+            <span>Designed and coded with ♡ by Glauber Ramos</span>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="assets/scripts/script.js"></script>
+  </body>
+</html>
