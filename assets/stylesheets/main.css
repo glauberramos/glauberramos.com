@@ -41,11 +41,13 @@ table { border-collapse: collapse; border-spacing: 0; }
 ul.posts { margin-bottom: 2em; list-style-type: none; }
 .projects-title { padding-bottom: 16px; }
 ul.projects { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 2.5em; list-style-type: none; }
-ul.projects li { display: flex; list-style: none; background: #181818; border: 1px solid #222; border-radius: 10px; transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease; }
+ul.projects li { display: flex; padding: 0; list-style: none; background: #181818; border: 1px solid #222; border-radius: 10px; transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease; }
 ul.projects li:hover { transform: translateY(-2px); border-color: #ffe121; background: #1d1d1d; }
-ul.projects li a { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; width: 100%; padding: 12px 10px; font-size: 0.95em; text-align: center; text-decoration: none; }
-ul.projects .project-emoji { font-size: 1.4em; line-height: 1; }
-ul.projects .project-name { font-weight: 500; color: #e0e0e0; }
+ul.projects li a { display: flex; flex-direction: row; align-items: center; gap: 14px; width: 100%; margin: 0; padding: 20px 18px; font-size: 0.95em; text-align: left; text-decoration: none; }
+ul.projects .project-emoji { font-size: 1.6em; line-height: 1; flex-shrink: 0; }
+ul.projects .project-text { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+ul.projects .project-name { font-weight: 500; color: #e0e0e0; line-height: 1.2; }
+ul.projects .project-desc { font-size: 0.8em; color: #888; line-height: 1.2; }
 ul.projects li:hover .project-name { color: #ffe121; }
 ul.posts span { color: #999; font-weight: 100; }
 #post pre { padding: 2em; }
