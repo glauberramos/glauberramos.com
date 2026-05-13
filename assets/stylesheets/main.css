@@ -39,6 +39,14 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /* Jekyll */
 ul.posts { margin-bottom: 2em; list-style-type: none; }
+.projects-title { padding-bottom: 16px; }
+ul.projects { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 2.5em; list-style-type: none; }
+ul.projects li { display: flex; list-style: none; background: #181818; border: 1px solid #222; border-radius: 10px; transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease; }
+ul.projects li:hover { transform: translateY(-2px); border-color: #ffe121; background: #1d1d1d; }
+ul.projects li a { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; width: 100%; padding: 12px 10px; font-size: 0.95em; text-align: center; text-decoration: none; }
+ul.projects .project-emoji { font-size: 1.4em; line-height: 1; }
+ul.projects .project-name { font-weight: 500; color: #e0e0e0; }
+ul.projects li:hover .project-name { color: #ffe121; }
 ul.posts span { color: #999; font-weight: 100; }
 #post pre { padding: 2em; }
 #post ul, #post ol { margin-left: 1.35em; }
@@ -233,6 +241,7 @@ select { width: 28em; height: 2.5em; padding-left: 0.5em; }
   .about p { font-size: 1em; }
   .about-me { margin: 0; }
   .blog { padding: 0 20px; }
+  ul.projects { grid-template-columns: repeat(2, 1fr); }
   .blog a { margin-top: 10px; margin-bottom: 10px; font-size: 1.3em; }
   .blog li { width: auto; }
   .footer .contact { width: 100%; }
