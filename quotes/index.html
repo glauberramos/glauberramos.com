@@ -8,78 +8,137 @@
   </head>
 
   <body>
-    <div width="24" class="quote">
+    <div class="quote">
       <div class="quote-text">
         <div class="quote-body">
-          <span>"</span
+          <span class="quote-mark" aria-hidden="true">“</span
           ><span id="quote-text"
             >Listening to and understanding our inner sufferings will resolve
             most of the problems we encounter.</span
-          ><span>"</span>
+          ><span class="quote-mark-end" aria-hidden="true">”</span>
         </div>
       </div>
       <div class="author">
-        <!-- <img
-          src="https://buddha-api.com/img/buddhist/thich_nhat_hanh.png"
-          alt="buddhist image"
-          class="author-img"
-        /> -->
         <div class="author-name" id="author-name">Thich Nhat Hanh</div>
+      </div>
+      <div class="actions">
+        <button type="button" id="new-quote" class="new-quote-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12a9 9 0 1 1-3-6.7" />
+            <polyline points="21 4 21 10 15 10" />
+          </svg>
+          New quote
+        </button>
       </div>
     </div>
   </body>
   <style>
     body {
-      font-family: system-ui;
-      background-color: rgb(50, 56, 71);
-      color: white;
-      font-size: 24px;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background-color: rgb(18, 22, 32);
+      color: #e8eaf0;
+      font-size: 18px;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 48px 24px;
+      box-sizing: border-box;
     }
 
     .quote {
-      background-color: rgba(255, 255, 255, 0.9);
-      border-radius: 0.2em;
-      margin-right: 0em;
-      width: 30em;
-      height: 100%;
-      max-width: calc(100% - 2rem);
-      margin: 60px auto;
+      background-color: rgb(32, 38, 52);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 12px;
+      width: 36em;
+      max-width: 100%;
+      box-shadow: 0 20px 60px -20px rgba(0, 0, 0, 0.6),
+        0 8px 20px -10px rgba(0, 0, 0, 0.4);
+      overflow: hidden;
     }
 
     .quote-text {
-      width: 100%;
-      height: calc(100% - 3em);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 2em 2em 0.5em;
-      box-sizing: border-box;
+      padding: 2.5em 2.5em 1em;
+    }
+
+    .quote-body {
+      color: #e8eaf0;
+      font-size: 1.15em;
+      font-weight: 400;
+      line-height: 1.55;
+      white-space: pre-line;
+    }
+
+    .quote-mark,
+    .quote-mark-end {
+      color: rgba(255, 255, 255, 0.25);
+      font-size: 1.1em;
+      font-weight: 700;
     }
 
     .author {
       display: flex;
       align-items: center;
-      height: 5em;
-      padding-left: 20px;
-    }
-
-    .author-img {
-      width: 2.5em;
-      opacity: 0.9;
+      padding: 0.5em 2.5em 1.5em;
     }
 
     .author-name {
-      color: rgba(50, 56, 71, 0.7);
-      font-size: 1.2em;
+      color: rgba(232, 234, 240, 0.55);
+      font-size: 0.95em;
       font-weight: 600;
-      margin-left: 1em;
+      letter-spacing: 0.02em;
+      position: relative;
+      padding-left: 2.2em;
     }
 
-    .quote-body {
-      color: rgb(50, 56, 71);
-      font-size: 1.3em;
+    .author-name::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 1.6em;
+      height: 1px;
+      background-color: rgba(232, 234, 240, 0.3);
+    }
+
+    .actions {
+      display: flex;
+      justify-content: flex-end;
+      padding: 1em 1.5em 1.5em;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      margin-top: 0.5em;
+    }
+
+    .new-quote-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5em;
+      background-color: rgba(255, 255, 255, 0.06);
+      color: #e8eaf0;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      padding: 0.55em 1em;
+      font: inherit;
+      font-size: 0.9em;
       font-weight: 500;
-      white-space: pre-line;
+      cursor: pointer;
+      transition: background-color 120ms ease, border-color 120ms ease,
+        transform 120ms ease;
+    }
+
+    .new-quote-btn:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.18);
+    }
+
+    .new-quote-btn:active {
+      transform: scale(0.98);
+    }
+
+    .new-quote-btn:focus-visible {
+      outline: 2px solid rgba(120, 160, 255, 0.6);
+      outline-offset: 2px;
     }
   </style>
   <script>
@@ -136,11 +195,37 @@
         text: "Look deep into nature, and then you will understand everything better",
         author: "Albert Einstein",
       },
+      {
+        text: "The world is a book and those who do not travel read only one page",
+        author: "St. Augustine",
+      },
+      {
+        text: "Don’t cry because it’s over, smile because it happened",
+        author: "Dr. Seuss",
+      },
+      {
+        text: "Time is the most important asset. Time does not equal money. Time equals life. And you only have one chance to make it right. Every human being is fighting a battle inside themselves. It’s your obligation to help and inspire them. Regardless of what you do, you can always inspire others to do good. Nobody is better than you. And you’re not better than anybody else. Be humble. Being in the comfort zone is wonderful, but nothing ever grows there. Keep studying. Keep creating. Haters will come if you have the audacity to build something new. Don’t let them define you. Don’t let them stop you. Just block them and keep going. Don’t expect others to make you happy. You are the only one responsible for your happiness. Don’t wait until friday to enjoy life. Joy should be present in everything you do. Be kind to your parents. They gave up many things for you. Having hundreds of people admiring you is worthless, if you’re not admired by your own family. Don’t fear the unknown. Fear knowing everything. Life is too damn short and every day counts. Do what you wanna do and do it now. Tick-tock don't stop. Tick-tock don't wait",
+        author: "Zeno Rocha & Carol Moreschi",
+      },
     ];
 
-    const random = Math.floor(Math.random() * quotes.length);
+    const quoteEl = document.getElementById("quote-text");
+    const authorEl = document.getElementById("author-name");
+    let lastIndex = -1;
 
-    document.getElementById("quote-text").innerHTML = quotes[random].text;
-    document.getElementById("author-name").innerHTML = quotes[random].author;
+    function showRandomQuote() {
+      let index = Math.floor(Math.random() * quotes.length);
+      if (quotes.length > 1 && index === lastIndex) {
+        index = (index + 1) % quotes.length;
+      }
+      lastIndex = index;
+      quoteEl.textContent = quotes[index].text;
+      authorEl.textContent = quotes[index].author;
+    }
+
+    showRandomQuote();
+    document
+      .getElementById("new-quote")
+      .addEventListener("click", showRandomQuote);
   </script>
 </html>
