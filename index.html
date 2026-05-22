@@ -10,170 +10,246 @@
     <script defer data-domain="glauberramos.com" src="https://plausible.io/js/script.js"></script>
   </head>
   <body>
-    <div class="container">
-      <div class="site">
-        <section class="about">
-          <header id="header" class="header">
-            <div class="main-header">
-              <a href="/"><span class="logo">Glauber Ramos</span></a>
+    <div class="desktop">
+      <div class="window main-window">
+        <div class="title-bar">
+          <div class="title-bar-text">
+            <span class="title-bar-icon" aria-hidden="true">🖥️</span>
+            <span>Glauber Ramos — Portfolio.exe</span>
+          </div>
+          <div class="title-bar-controls">
+            <button class="tb-btn" aria-label="Minimize">_</button>
+            <button class="tb-btn" aria-label="Maximize">□</button>
+            <button class="tb-btn close" aria-label="Close">×</button>
+          </div>
+        </div>
+        <div class="menu-bar">
+          <span><u>F</u>ile</span>
+          <span><u>E</u>dit</span>
+          <span><u>V</u>iew</span>
+          <span><u>G</u>o</span>
+          <span><u>H</u>elp</span>
+        </div>
+        <div class="address-bar">
+          <span class="address-label">Address</span>
+          <div class="address-input">
+            <span class="address-icon" aria-hidden="true">🌐</span>
+            <span>C:\Users\Glauber\Desktop\portfolio.html</span>
+          </div>
+        </div>
+        <div class="window-body">
+
+          <div class="readme-panel">
+            <div class="readme-avatar" aria-hidden="true">👨🏼‍💻</div>
+            <div class="readme-text">
+              <h1 class="readme-name">Glauber Ramos</h1>
+              <p class="readme-tag">Indiehacker from Brazil</p>
+              <ul class="readme-links">
+                <li>
+                  <a aria-label="Glauber Ramos twitter" href="http://www.twitter.com/glauberamos" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                    </svg>
+                    <span>twitter.com/glauberamos</span>
+                  </a>
+                </li>
+                <li>
+                  <a aria-label="Glauber Ramos GitHub" href="https://github.com/glauberramos" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.05 0 0 .97-.31 3.18 1.18a11.07 11.07 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.58.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.69 5.41-5.25 5.69.41.36.78 1.06.78 2.13v3.16c0 .31.21.68.8.56C20.21 21.39 23.5 17.08 23.5 12 23.5 5.73 18.27.5 12 .5z"/>
+                    </svg>
+                    <span>github.com/glauberramos</span>
+                  </a>
+                </li>
+              </ul>
             </div>
-          </header>
-          <span class="about-me">
-            <p>Indiehacker from Brazil</p>
-            <ul class="icons">
+          </div>
+
+          <fieldset class="group">
+            <legend>📁 Projects</legend>
+            <ul class="icon-grid">
               <li>
-                <a aria-label="Glauber ramos twitter" href="http://www.twitter.com/glauberamos" target="_blank">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" fill="#ffe121" height="24" viewBox="0 0 24 24">
-                    <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
-                  </svg>
+                <a href="https://easyretro.io/" target="_blank">
+                  <span class="icon" aria-hidden="true">📝</span>
+                  <span class="icon-name">EasyRetro</span>
+                  <span class="icon-desc">Sprint retrospectives</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://planitpoker.com/" target="_blank">
+                  <span class="icon" aria-hidden="true">🃏</span>
+                  <span class="icon-name">PlanItPoker</span>
+                  <span class="icon-desc">Planning poker</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://slideasy.io/" target="_blank">
+                  <span class="icon" aria-hidden="true">📽️</span>
+                  <span class="icon-name">Slideasy</span>
+                  <span class="icon-desc">Slides made simple</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://imageai.app" target="_blank">
+                  <span class="icon" aria-hidden="true">🪄</span>
+                  <span class="icon-name">Image AI</span>
+                  <span class="icon-desc">AI image generation</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://glauberramos.github.io/inat/" target="_blank">
+                  <span class="icon" aria-hidden="true">🌿</span>
+                  <span class="icon-name">Tools for iNaturalist</span>
+                  <span class="icon-desc">Naturalist utilities</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://citynaturestats.com/" target="_blank">
+                  <span class="icon" aria-hidden="true">🏙️</span>
+                  <span class="icon-name">CityNatureStats</span>
+                  <span class="icon-desc">Urban biodiversity stats</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://pasteepad.com/" target="_blank">
+                  <span class="icon" aria-hidden="true">📋</span>
+                  <span class="icon-name">PasteePad</span>
+                  <span class="icon-desc">Quick text sharing</span>
                 </a>
               </li>
             </ul>
-          </span>
-        </section>
-        <section class="blog row">
-    <h2 class="projects-title">Projects</h2>
-    <ul class="projects">
-      <li>
-        <a href="https://easyretro.io/" target="_blank">
-          <span class="project-emoji" aria-hidden="true">📝</span>
-          <span class="project-text">
-            <span class="project-name">EasyRetro</span>
-            <span class="project-desc">Sprint retrospectives</span>
-          </span>
-        </a>
-      </li>
-      <li>
-        <a href="https://planitpoker.com/" target="_blank">
-          <span class="project-emoji" aria-hidden="true">🃏</span>
-          <span class="project-text">
-            <span class="project-name">PlanItPoker</span>
-            <span class="project-desc">Planning poker</span>
-          </span>
-        </a>
-      </li>
-      <li>
-        <a href="https://slideasy.io/" target="_blank">
-          <span class="project-emoji" aria-hidden="true">📽️</span>
-          <span class="project-text">
-            <span class="project-name">Slideasy</span>
-            <span class="project-desc">Slides made simple</span>
-          </span>
-        </a>
-      </li>
-      <li>
-        <a href="https://imageai.app" target="_blank">
-          <span class="project-emoji" aria-hidden="true">🪄</span>
-          <span class="project-text">
-            <span class="project-name">Image AI</span>
-            <span class="project-desc">AI image generation</span>
-          </span>
-        </a>
-      </li>
-      <li>
-        <a href="https://glauberramos.github.io/inat/" target="_blank">
-          <span class="project-emoji" aria-hidden="true">🌿</span>
-          <span class="project-text">
-            <span class="project-name">Tools for iNaturalist</span>
-            <span class="project-desc">Naturalist utilities</span>
-          </span>
-        </a>
-      </li>
-      <li>
-        <a href="https://citynaturestats.com/" target="_blank">
-          <span class="project-emoji" aria-hidden="true">🏙️</span>
-          <span class="project-text">
-            <span class="project-name">CityNatureStats</span>
-            <span class="project-desc">Urban biodiversity stats</span>
-          </span>
-        </a>
-      </li>
-      <li>
-        <a href="https://pasteepad.com/" target="_blank">
-          <span class="project-emoji" aria-hidden="true">📋</span>
-          <span class="project-text">
-            <span class="project-name">PasteePad</span>
-            <span class="project-desc">Quick text sharing</span>
-          </span>
-        </a>
-      </li>
-    </ul>
+          </fieldset>
 
-    <h2 class="projects-title">Other Projects</h2>
-    <ul class="projects">
-      <li>
-        <a href="/quotes">
-          <span class="project-emoji" aria-hidden="true">💬</span>
-          <span class="project-text">
-            <span class="project-name">Inspirational Quotes</span>
-            <span class="project-desc">A quote to start your day</span>
+          <fieldset class="group">
+            <legend>📁 Other Projects</legend>
+            <ul class="icon-grid">
+              <li>
+                <a href="/quotes">
+                  <span class="icon" aria-hidden="true">💬</span>
+                  <span class="icon-name">Inspirational Quotes</span>
+                  <span class="icon-desc">A quote to start your day</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://glauberramos.github.io/visited-countries" target="_blank">
+                  <span class="icon" aria-hidden="true">🌍</span>
+                  <span class="icon-name">Visited Countries</span>
+                  <span class="icon-desc">Map of places I've been</span>
+                </a>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="group">
+            <legend>📁 My Documents — Blog Archive</legend>
+            <div class="file-explorer">
+              <div class="folder-section">
+                <div class="folder-head">📂 2023</div>
+                <ul class="file-list">
+                  <li><a href="/best-communities-for-bootstrapped-founders"><span class="file-icon">📄</span>Best communities for bootstrapped founders</a></li>
+                  <li><a href="/best-events-for-bootstrapped-founders"><span class="file-icon">📄</span>Best events for bootstrapped founders</a></li>
+                  <li><a href="/places-to-buy-sell-websites-microsaas-saas"><span class="file-icon">📄</span>Places to buy and sell websites, microsaas and saas</a></li>
+                  <li><a href="/places-to-post-your-startup"><span class="file-icon">📄</span>Places to post your startup</a></li>
+                </ul>
+              </div>
+              <div class="folder-section">
+                <div class="folder-head">📂 2020</div>
+                <ul class="file-list">
+                  <li><a href="/se-proteger-de-vazamento-de-dados"><span class="file-icon">📄</span>Como se proteger dos vazamentos de dados de todos os brasileiros</a></li>
+                </ul>
+              </div>
+              <div class="folder-section">
+                <div class="folder-head">📂 2019</div>
+                <ul class="file-list">
+                  <li><a href="/links-indie-hackers"><span class="file-icon">📄</span>Links for Indie Hackers and Makers</a></li>
+                </ul>
+              </div>
+              <div class="folder-section">
+                <div class="folder-head">📂 2017</div>
+                <ul class="file-list">
+                  <li><a href="/css-architecture"><span class="file-icon">📄</span>CSS Architecture</a></li>
+                  <li><a href="/ano-sabatico"><span class="file-icon">📄</span>Ano Sabático 2017</a></li>
+                </ul>
+              </div>
+              <div class="folder-section">
+                <div class="folder-head">📂 2014</div>
+                <ul class="file-list">
+                  <li><a href="/affordance"><span class="file-icon">📄</span>Affordance</a></li>
+                  <li><a href="/12-regras-css-poucos-conhecem"><span class="file-icon">📄</span>12 regras CSS que poucos conhecem</a></li>
+                  <li><a href="/inventing-on-principle"><span class="file-icon">📄</span>Daily Inspiration - Inventing on principle</a></li>
+                  <li><a href="/links-aprender-css"><span class="file-icon">📄</span>Links sobre CSS - Material de estudo</a></li>
+                  <li><a href="/redesenhando-uma-funcionalidade"><span class="file-icon">📄</span>Redesenhando uma funcionalidade</a></li>
+                  <li><a href="/prototipagem-rapida-teste"><span class="file-icon">📄</span>Prototipagem rápida e teste</a></li>
+                  <li><a href="/links-aprender-ux"><span class="file-icon">📄</span>Links sobre UX - Experiência do Usuário</a></li>
+                  <li><a href="/guia-de-estilo-vivo"><span class="file-icon">📄</span>Guia de estilo vivo</a></li>
+                  <li><a href="/sessao-design-colaborativo"><span class="file-icon">📄</span>Sessão de design colaborativa</a></li>
+                </ul>
+              </div>
+              <div class="folder-section">
+                <div class="folder-head">📂 2013</div>
+                <ul class="file-list">
+                  <li><a href="/ferramentas-front-end"><span class="file-icon">📄</span>Ferramentas de Front End</a></li>
+                  <li><a href="/josh-seiden"><span class="file-icon">📄</span>Interaction South America 2013 - Josh Seiden</a></li>
+                  <li><a href="/porque-nao-usar-bootstrap"><span class="file-icon">📄</span>Motivos para não usar o Bootstrap</a></li>
+                  <li><a href="/divida-ux"><span class="file-icon">📄</span>Dívida de UX</a></li>
+                  <li><a href="/hello-world"><span class="file-icon">📄</span>Hello World!</a></li>
+                </ul>
+              </div>
+              <div class="folder-section">
+                <div class="folder-head">📂 2012</div>
+                <ul class="file-list">
+                  <li><a href="/testando-design"><span class="file-icon">📄</span>Lean UX - Testando seu design</a></li>
+                </ul>
+              </div>
+            </div>
+          </fieldset>
+
+        </div>
+        <div class="status-bar">
+          <div class="status-field">Ready</div>
+          <div class="status-field">Designed and coded with ♡ by Glauber Ramos</div>
+          <div class="status-field">31 object(s)</div>
+        </div>
+      </div>
+
+      <div class="taskbar">
+        <button class="start-button">
+          <span class="start-flag" aria-hidden="true">
+            <span class="flag-q tl"></span><span class="flag-q tr"></span>
+            <span class="flag-q bl"></span><span class="flag-q br"></span>
           </span>
-        </a>
-      </li>
-      <li>
-        <a href="https://glauberramos.github.io/visited-countries" target="_blank">
-          <span class="project-emoji" aria-hidden="true">🌍</span>
-          <span class="project-text">
-            <span class="project-name">Visited Countries</span>
-            <span class="project-desc">Map of places I've been</span>
-          </span>
-        </a>
-      </li>
-    </ul>
-
-    <h2>2023</h2>
-    <ul class="posts">
-      <li><a href="/best-communities-for-bootstrapped-founders">Best communities for bootstrapped founders</a></li>
-      <li><a href="/best-events-for-bootstrapped-founders">Best events for bootstrapped founders</a></li>
-      <li><a href="/places-to-buy-sell-websites-microsaas-saas">Places to buy and sell websites, microsaas and saas</a></li>
-      <li><a href="/places-to-post-your-startup">Places to post your startup</a></li>
-    </ul>
-    <h2>2020</h2>
-    <ul class="posts">
-      <li><a href="/se-proteger-de-vazamento-de-dados">Como se proteger dos vazamentos de dados de todos os brasileiros</a></li>
-    </ul>
-    <h2>2019</h2>
-    <ul class="posts">
-      <li><a href="/links-indie-hackers">Links for Indie Hackers and Makers</a></li>
-    </ul>
-    <h2>2017</h2>
-    <ul class="posts">
-      <li><a href="/css-architecture">CSS Architecture</a></li>
-      <li><a href="/ano-sabatico">Ano Sabático 2017</a></li>
-    </ul>
-    <h2>2014</h2>
-    <ul class="posts">
-      <li><a href="/affordance">Affordance</a></li>
-      <li><a href="/12-regras-css-poucos-conhecem">12 regras CSS que poucos conhecem</a></li>
-      <li><a href="/inventing-on-principle">Daily Inspiration - Inventing on principle</a></li>
-      <li><a href="/links-aprender-css">Links sobre CSS - Material de estudo</a></li>
-      <li><a href="/redesenhando-uma-funcionalidade">Redesenhando uma funcionalidade</a></li>
-      <li><a href="/prototipagem-rapida-teste">Prototipagem rápida e teste</a></li>
-      <li><a href="/links-aprender-ux">Links sobre UX - Experiência do Usuário</a></li>
-      <li><a href="/guia-de-estilo-vivo">Guia de estilo vivo</a></li>
-      <li><a href="/sessao-design-colaborativo">Sessão de design colaborativa</a></li>
-    </ul>
-    <h2>2013</h2>
-    <ul class="posts">
-      <li><a href="/ferramentas-front-end">Ferramentas de Front End</a></li>
-      <li><a href="/josh-seiden">Interaction South America 2013 - Josh Seiden</a></li>
-      <li><a href="/porque-nao-usar-bootstrap">Motivos para não usar o Bootstrap</a></li>
-      <li><a href="/divida-ux">Dívida de UX</a></li>
-      <li><a href="/hello-world">Hello World!</a></li>
-    </ul>
-    <h2>2012</h2>
-    <ul class="posts">
-      <li><a href="/testando-design">Lean UX - Testando seu design</a></li>
-    </ul>
-
-
-        </section>
-        <footer class="footer">
-          <div class="contact">
-            <span>Designed and coded with ♡ by Glauber Ramos</span>
-          </div>
-        </footer>
+          <span class="start-label"><u>S</u>tart</span>
+        </button>
+        <div class="taskbar-divider"></div>
+        <div class="taskbar-items">
+          <button class="taskbar-item active">
+            <span aria-hidden="true">🖥️</span>
+            <span>Glauber Ramos — Portfolio</span>
+          </button>
+        </div>
+        <div class="taskbar-tray">
+          <span class="tray-icon" aria-hidden="true">🔊</span>
+          <span class="tray-icon" aria-hidden="true">📶</span>
+          <span class="tray-clock" id="tray-clock">12:34 PM</span>
+        </div>
       </div>
     </div>
+
+    <script>
+      (function(){
+        var el = document.getElementById('tray-clock');
+        if (!el) return;
+        function tick(){
+          var d = new Date();
+          var h = d.getHours();
+          var m = d.getMinutes();
+          var ampm = h >= 12 ? 'PM' : 'AM';
+          h = h % 12; if (h === 0) h = 12;
+          el.textContent = h + ':' + (m < 10 ? '0' + m : m) + ' ' + ampm;
+        }
+        tick();
+        setInterval(tick, 30000);
+      })();
+    </script>
   </body>
 </html>
