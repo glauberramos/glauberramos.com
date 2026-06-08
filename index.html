@@ -229,6 +229,23 @@
         </div>
       </div>
 
+      <div class="window app-window" id="win-brick" data-window data-icon="🧱" data-title="Brick Breaker" hidden>
+        <div class="title-bar">
+          <div class="title-bar-text">
+            <span class="title-bar-icon" aria-hidden="true">🧱</span>
+            <span>Brick Breaker — Bricks.exe</span>
+          </div>
+          <div class="title-bar-controls">
+            <button class="tb-btn" data-action="minimize" aria-label="Minimize">_</button>
+            <button class="tb-btn" data-action="maximize" aria-label="Maximize">□</button>
+            <button class="tb-btn close" data-action="close" aria-label="Close">×</button>
+          </div>
+        </div>
+        <div class="window-body app-body">
+          <iframe class="app-frame" data-src="/brick-breaker" title="Brick Breaker" loading="lazy"></iframe>
+        </div>
+      </div>
+
       <div class="taskbar">
         <button class="start-button" id="start-button" aria-haspopup="true" aria-expanded="false" aria-controls="start-menu">
           <span class="start-flag" aria-hidden="true">
@@ -261,6 +278,7 @@
           <li><a href="https://imageai.app" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🪄</span>Image AI</a></li>
           <li class="start-menu-sep" role="separator"></li>
           <li><a href="/quotes" data-open-window="win-quotes"><span class="sm-icon" aria-hidden="true">💬</span>Inspirational Quotes</a></li>
+          <li><a href="/brick-breaker" data-open-window="win-brick"><span class="sm-icon" aria-hidden="true">🧱</span>Brick Breaker</a></li>
           <li><a href="https://glauberramos.github.io/visited-countries" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🌍</span>Visited Countries</a></li>
           <li class="start-menu-sep" role="separator"></li>
           <li><a href="http://www.twitter.com/glauberamos" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🐦</span>Twitter</a></li>

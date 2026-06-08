@@ -558,6 +558,8 @@ body {
 }
 .app-window.maximized .app-frame { height: auto; max-height: none; }
 
+#win-brick { width: 520px; }
+
 /* --- Start menu ------------------------------------------------------ */
 .start-menu[hidden] { display: none; }
 .start-menu {
