@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="desktop">
-      <div class="window main-window" id="main-window">
+      <div class="window main-window" id="main-window" data-window data-persistent data-icon="🖥️" data-title="Glauber Ramos — Portfolio">
         <div class="title-bar" id="main-titlebar">
           <div class="title-bar-text">
             <span class="title-bar-icon" aria-hidden="true">🖥️</span>
@@ -124,7 +124,7 @@
             <legend>📁 Other Projects</legend>
             <ul class="icon-grid">
               <li>
-                <a href="/quotes">
+                <a href="/quotes" data-open-window="win-quotes">
                   <span class="icon" aria-hidden="true">💬</span>
                   <span class="icon-name">Inspirational Quotes</span>
                   <span class="icon-desc">A quote to start your day</span>
@@ -212,6 +212,23 @@
         </div>
       </div>
 
+      <div class="window app-window" id="win-quotes" data-window data-icon="💬" data-title="Inspirational Quotes" hidden>
+        <div class="title-bar">
+          <div class="title-bar-text">
+            <span class="title-bar-icon" aria-hidden="true">💬</span>
+            <span>Inspirational Quotes — Quotes.exe</span>
+          </div>
+          <div class="title-bar-controls">
+            <button class="tb-btn" data-action="minimize" aria-label="Minimize">_</button>
+            <button class="tb-btn" data-action="maximize" aria-label="Maximize">□</button>
+            <button class="tb-btn close" data-action="close" aria-label="Close">×</button>
+          </div>
+        </div>
+        <div class="window-body app-body">
+          <iframe class="app-frame" data-src="/quotes" title="Inspirational Quotes" loading="lazy"></iframe>
+        </div>
+      </div>
+
       <div class="taskbar">
         <button class="start-button" id="start-button" aria-haspopup="true" aria-expanded="false" aria-controls="start-menu">
           <span class="start-flag" aria-hidden="true">
@@ -243,7 +260,7 @@
           <li><a href="https://slideasy.io/" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">📽️</span>Slideasy</a></li>
           <li><a href="https://imageai.app" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🪄</span>Image AI</a></li>
           <li class="start-menu-sep" role="separator"></li>
-          <li><a href="/quotes"><span class="sm-icon" aria-hidden="true">💬</span>Inspirational Quotes</a></li>
+          <li><a href="/quotes" data-open-window="win-quotes"><span class="sm-icon" aria-hidden="true">💬</span>Inspirational Quotes</a></li>
           <li><a href="https://glauberramos.github.io/visited-countries" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🌍</span>Visited Countries</a></li>
           <li class="start-menu-sep" role="separator"></li>
           <li><a href="http://www.twitter.com/glauberamos" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🐦</span>Twitter</a></li>
@@ -325,94 +342,177 @@
         }
       })();
 
-      /* --- Window controls + dragging -------------------------------- */
+      /* --- Window manager -------------------------------------------- */
       (function(){
-        var win = document.getElementById('main-window');
-        var bar = document.getElementById('main-titlebar');
-        var item = document.getElementById('main-taskbar-item');
-        if (!win || !bar || !item) return;
+        var tray = document.querySelector('.taskbar-items');
+        var canDrag = window.matchMedia('(min-width: 721px)');
+        var zTop = 900;
+        var wins = {};
 
-        var minimized = false;
+        function each(sel, ctx, fn){ Array.prototype.forEach.call((ctx||document).querySelectorAll(sel), fn); }
 
-        function setActive(on){ item.classList.toggle('active', on); }
-
-        function minimize(){
-          minimized = true;
-          win.classList.add('minimized');
-          setActive(false);
-        }
-        function restore(){
-          minimized = false;
-          win.classList.remove('minimized');
-          setActive(true);
-        }
-        function toggleMaximize(){
-          if (minimized) { restore(); return; }
-          win.classList.remove('floating');
-          win.style.top = win.style.left = '';
-          win.classList.toggle('maximized');
+        function bringToFront(s){
+          zTop += 1;
+          s.win.style.zIndex = zTop;
+          for (var id in wins){ if (wins[id].item) wins[id].item.classList.remove('active'); }
+          if (s.item && !s.minimized) s.item.classList.add('active');
         }
 
-        // Title-bar control buttons.
-        win.querySelectorAll('.title-bar-controls [data-action]').forEach(function(b){
+        function ensureItem(s){
+          if (s.item) return s.item;
+          var b = document.createElement('button');
+          b.className = 'taskbar-item';
+          b.setAttribute('data-target', s.id);
+          b.innerHTML = '<span aria-hidden="true">' + s.icon + '</span><span>' + s.title + '</span>';
           b.addEventListener('click', function(){
-            var a = b.getAttribute('data-action');
-            if (a === 'minimize') minimize();
-            else if (a === 'maximize') toggleMaximize();
-            else if (a === 'close') minimize();
+            if (s.minimized) restore(s);
+            else if (s.item.classList.contains('active')) minimize(s);
+            else { show(s); bringToFront(s); }
+          });
+          tray.appendChild(b);
+          s.item = b;
+          return b;
+        }
+
+        function show(s){ s.win.hidden = false; s.win.classList.remove('minimized'); s.minimized = false; }
+
+        function open(s){
+          // Lazy-load any deferred iframe the first time the window opens.
+          var frame = s.win.querySelector('iframe[data-src]');
+          if (frame){ frame.src = frame.getAttribute('data-src'); frame.removeAttribute('data-src'); }
+          show(s);
+          // Position app (non-persistent) windows near center on first open.
+          if (!s.persistent && !s.placed){
+            s.placed = true;
+            var w = s.win.offsetWidth || 440;
+            var h = s.win.offsetHeight || 520;
+            var x = Math.max(12, (window.innerWidth - w) / 2 + 40);
+            var y = Math.max(12, (window.innerHeight - h - 44) / 2);
+            s.win.style.left = x + 'px';
+            s.win.style.top = y + 'px';
+          }
+          ensureItem(s);
+          bringToFront(s);
+        }
+
+        function minimize(s){
+          s.minimized = true;
+          s.win.classList.add('minimized');
+          if (s.item) s.item.classList.remove('active');
+        }
+        function restore(s){
+          show(s);
+          bringToFront(s);
+        }
+        function close(s){
+          if (s.persistent){ minimize(s); return; }   // portfolio can't truly close
+          s.win.hidden = true;
+          s.win.classList.remove('maximized', 'floating');
+          s.win.style.cssText = '';
+          s.minimized = false;
+          s.placed = false;
+          if (s.item){ s.item.remove(); s.item = null; }
+        }
+        function toggleMaximize(s){
+          if (s.minimized){ restore(s); return; }
+          s.win.classList.remove('floating');
+          s.win.style.top = s.win.style.left = '';
+          s.win.classList.toggle('maximized');
+          bringToFront(s);
+        }
+
+        function setupDrag(s){
+          var bar = s.bar, win = s.win;
+          var dragging = false, sx = 0, sy = 0, ox = 0, oy = 0;
+          bar.addEventListener('pointerdown', function(e){
+            if (!canDrag.matches) return;
+            if (e.target.closest('.title-bar-controls')) return;
+            if (win.classList.contains('maximized')) return;
+            var rect = win.getBoundingClientRect();
+            if (!win.classList.contains('floating') && !s.fixed){
+              win.classList.add('floating');
+              win.style.left = rect.left + 'px';
+              win.style.top = rect.top + 'px';
+            }
+            dragging = true;
+            sx = e.clientX; sy = e.clientY;
+            ox = parseFloat(win.style.left) || rect.left;
+            oy = parseFloat(win.style.top) || rect.top;
+            bar.classList.add('grabbing');
+            bar.setPointerCapture && bar.setPointerCapture(e.pointerId);
+            bringToFront(s);
+          });
+          window.addEventListener('pointermove', function(e){
+            if (!dragging) return;
+            var nx = ox + (e.clientX - sx);
+            var ny = oy + (e.clientY - sy);
+            nx = Math.max(8 - win.offsetWidth + 120, Math.min(nx, window.innerWidth - 80));
+            ny = Math.max(8, Math.min(ny, window.innerHeight - 80));
+            win.style.left = nx + 'px';
+            win.style.top = ny + 'px';
+          });
+          window.addEventListener('pointerup', function(){
+            dragging = false;
+            bar.classList.remove('grabbing');
+          });
+        }
+
+        function register(win){
+          var s = {
+            win: win,
+            id: win.id,
+            bar: win.querySelector('.title-bar'),
+            icon: win.getAttribute('data-icon') || '🗔',
+            title: win.getAttribute('data-title') || win.id,
+            persistent: win.hasAttribute('data-persistent'),
+            fixed: win.classList.contains('app-window'),
+            minimized: false,
+            placed: false,
+            item: null
+          };
+          wins[win.id] = s;
+
+          each('.title-bar-controls [data-action]', win, function(b){
+            b.addEventListener('click', function(){
+              var a = b.getAttribute('data-action');
+              if (a === 'minimize') minimize(s);
+              else if (a === 'maximize') toggleMaximize(s);
+              else if (a === 'close') close(s);
+            });
+          });
+          s.bar.addEventListener('dblclick', function(e){
+            if (e.target.closest('.title-bar-controls')) return;
+            toggleMaximize(s);
+          });
+          win.addEventListener('pointerdown', function(){ if (!s.minimized) bringToFront(s); });
+          setupDrag(s);
+
+          // Persistent windows already have a taskbar item in the markup.
+          if (s.persistent){
+            var existing = tray.querySelector('[data-target="' + s.id + '"]');
+            if (existing){
+              s.item = existing;
+              existing.addEventListener('click', function(){
+                if (s.minimized) restore(s);
+                else if (existing.classList.contains('active')) minimize(s);
+                else { show(s); bringToFront(s); }
+              });
+            }
+          }
+          return s;
+        }
+
+        each('[data-window]', document, register);
+
+        // Launchers — open a window instead of navigating.
+        each('[data-open-window]', document, function(el){
+          el.addEventListener('click', function(e){
+            var s = wins[el.getAttribute('data-open-window')];
+            if (!s) return;            // fall back to href navigation
+            e.preventDefault();
+            open(s);
           });
         });
-
-        // Taskbar item toggles minimize/restore.
-        item.addEventListener('click', function(){
-          minimized ? restore() : minimize();
-        });
-
-        // Double-click title bar to (un)maximize.
-        bar.addEventListener('dblclick', function(e){
-          if (e.target.closest('.title-bar-controls')) return;
-          toggleMaximize();
-        });
-
-        // Dragging — desktop pointers only, disabled when maximized.
-        var dragging = false, sx = 0, sy = 0, ox = 0, oy = 0;
-        var canDrag = window.matchMedia('(min-width: 721px)');
-
-        function onDown(e){
-          if (!canDrag.matches) return;
-          if (e.target.closest('.title-bar-controls')) return;
-          if (win.classList.contains('maximized')) return;
-          var rect = win.getBoundingClientRect();
-          if (!win.classList.contains('floating')){
-            win.classList.add('floating');
-            win.style.left = rect.left + 'px';
-            win.style.top = rect.top + 'px';
-          }
-          dragging = true;
-          sx = e.clientX; sy = e.clientY;
-          ox = parseFloat(win.style.left) || rect.left;
-          oy = parseFloat(win.style.top) || rect.top;
-          bar.classList.add('grabbing');
-          bar.setPointerCapture && bar.setPointerCapture(e.pointerId);
-        }
-        function onMove(e){
-          if (!dragging) return;
-          var nx = ox + (e.clientX - sx);
-          var ny = oy + (e.clientY - sy);
-          var maxX = window.innerWidth - 80;
-          var maxY = window.innerHeight - 80;
-          nx = Math.max(8 - win.offsetWidth + 120, Math.min(nx, maxX));
-          ny = Math.max(8, Math.min(ny, maxY));
-          win.style.left = nx + 'px';
-          win.style.top = ny + 'px';
-        }
-        function onUp(){
-          dragging = false;
-          bar.classList.remove('grabbing');
-        }
-        bar.addEventListener('pointerdown', onDown);
-        window.addEventListener('pointermove', onMove);
-        window.addEventListener('pointerup', onUp);
       })();
     </script>
   </body>

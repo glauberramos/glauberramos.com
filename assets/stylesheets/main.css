@@ -505,14 +505,15 @@ body {
 }
 
 /* --- Window states --------------------------------------------------- */
-.main-window .title-bar { cursor: default; }
+.window[hidden] { display: none; }
+.window .title-bar { cursor: default; }
 @media (min-width: 721px) {
-  .main-window .title-bar { cursor: grab; }
-  .main-window .title-bar.grabbing { cursor: grabbing; }
+  .window .title-bar { cursor: grab; }
+  .window .title-bar.grabbing { cursor: grabbing; }
 }
-.main-window.minimized { display: none; }
+.window.minimized { display: none; }
 
-.main-window.floating {
+.window.floating {
   position: fixed;
   margin: 0;
   z-index: 900;
@@ -520,9 +521,9 @@ body {
   display: flex;
   flex-direction: column;
 }
-.main-window.floating .window-body { flex: 1 1 auto; overflow-y: auto; }
+.window.floating .window-body { flex: 1 1 auto; overflow-y: auto; }
 
-.main-window.maximized {
+.window.maximized {
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 44px;
   width: auto;
@@ -533,7 +534,29 @@ body {
   display: flex;
   flex-direction: column;
 }
-.main-window.maximized .window-body { flex: 1 1 auto; overflow-y: auto; }
+.window.maximized .window-body { flex: 1 1 auto; overflow-y: auto; }
+
+/* --- App windows (Quotes, etc.) -------------------------------------- */
+.app-window {
+  position: fixed;
+  top: 80px; left: 80px;
+  width: 440px;
+  max-width: calc(100vw - 24px);
+  margin: 0;
+  z-index: 900;
+  display: flex;
+  flex-direction: column;
+}
+.app-body { padding: 0; flex: 1 1 auto; display: flex; }
+.app-frame {
+  display: block;
+  width: 100%;
+  height: 480px;
+  max-height: calc(100vh - 150px);
+  border: 0;
+  background: var(--bg);
+}
+.app-window.maximized .app-frame { height: auto; max-height: none; }
 
 /* --- Start menu ------------------------------------------------------ */
 .start-menu[hidden] { display: none; }
