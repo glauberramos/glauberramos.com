@@ -540,7 +540,7 @@ body {
 .app-window {
   position: fixed;
   top: 80px; left: 80px;
-  width: 440px;
+  width: 560px;
   max-width: calc(100vw - 24px);
   margin: 0;
   z-index: 900;
@@ -551,7 +551,7 @@ body {
 .app-frame {
   display: block;
   width: 100%;
-  height: 480px;
+  height: 560px;
   max-height: calc(100vh - 150px);
   border: 0;
   background: var(--bg);
