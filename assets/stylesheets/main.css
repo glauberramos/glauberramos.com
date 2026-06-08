@@ -462,16 +462,17 @@ body {
   gap: 8px;
   height: 32px;
   padding: 0 14px 0 10px;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 13px;
-  color: #1a1610;
-  background: var(--accent);
+  color: var(--text-2);
+  background: var(--face);
+  border: 1px solid var(--line);
   border-radius: 8px;
-  box-shadow: 0 1px 0 rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.5);
-  transition: transform 120ms ease;
+  box-shadow: var(--shadow-1);
+  transition: background 120ms ease, color 120ms ease, transform 120ms ease;
 }
-.start-button:hover { transform: translateY(-1px); }
-.start-button:active { transform: translateY(0); }
+.start-button:hover { background: var(--face-2); color: var(--text); }
+.start-button:active { transform: translateY(1px); }
 .start-flag {
   position: relative;
   width: 14px; height: 14px;
@@ -486,7 +487,7 @@ body {
 .flag-q.tl { top: 0; left: 0; background: #ff3b30; }
 .flag-q.tr { top: 0; right: 0; background: #4cd964; }
 .flag-q.bl { bottom: 0; left: 0; background: #007aff; }
-.flag-q.br { bottom: 0; right: 0; background: #1a1610; }
+.flag-q.br { bottom: 0; right: 0; background: #ffcc00; }
 .start-label u { text-decoration: underline; }
 
 .taskbar-divider {
@@ -543,7 +544,8 @@ body {
 .start-button { cursor: pointer; }
 .start-button.is-open {
   transform: translateY(0);
-  box-shadow: inset 0 2px 4px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,225,33,0.4);
+  background: var(--face-2);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.35), 0 0 0 1px var(--line-2);
 }
 
 /* --- Window states --------------------------------------------------- */
