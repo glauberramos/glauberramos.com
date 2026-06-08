@@ -11,6 +11,12 @@
   </head>
   <body>
     <div class="desktop">
+      <div class="desktop-icons">
+        <button class="desktop-icon" type="button" data-open-window="main-window">
+          <span class="desktop-icon-img" aria-hidden="true">🖥️</span>
+          <span class="desktop-icon-label">Portfolio.exe</span>
+        </button>
+      </div>
       <div class="window main-window" id="main-window" data-window data-persistent data-icon="🖥️" data-title="Glauber Ramos — Portfolio">
         <div class="title-bar" id="main-titlebar">
           <div class="title-bar-text">
@@ -139,7 +145,7 @@
           </fieldset>
 
           <fieldset class="group">
-            <legend>📁 My Documents — Blog Archive</legend>
+            <legend>📁 Blog Archive</legend>
             <div class="file-explorer">
               <div class="folder-section">
                 <div class="folder-head">📂 2023</div>
@@ -420,7 +426,6 @@
           bringToFront(s);
         }
         function close(s){
-          if (s.persistent){ minimize(s); return; }   // portfolio can't truly close
           s.win.hidden = true;
           s.win.classList.remove('maximized', 'floating');
           s.win.style.cssText = '';
