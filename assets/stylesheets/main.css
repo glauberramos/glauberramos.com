@@ -498,6 +498,154 @@ body {
 .tray-icon { font-size: 13px; line-height: 1; opacity: 0.85; }
 .tray-clock { font-variant-numeric: tabular-nums; }
 
+.start-button { cursor: pointer; }
+.start-button.is-open {
+  transform: translateY(0);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,225,33,0.4);
+}
+
+/* --- Window states --------------------------------------------------- */
+.main-window .title-bar { cursor: default; }
+@media (min-width: 721px) {
+  .main-window .title-bar { cursor: grab; }
+  .main-window .title-bar.grabbing { cursor: grabbing; }
+}
+.main-window.minimized { display: none; }
+
+.main-window.floating {
+  position: fixed;
+  margin: 0;
+  z-index: 900;
+  max-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+}
+.main-window.floating .window-body { flex: 1 1 auto; overflow-y: auto; }
+
+.main-window.maximized {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 44px;
+  width: auto;
+  max-width: none;
+  margin: 0;
+  border-radius: 0;
+  z-index: 900;
+  display: flex;
+  flex-direction: column;
+}
+.main-window.maximized .window-body { flex: 1 1 auto; overflow-y: auto; }
+
+/* --- Start menu ------------------------------------------------------ */
+.start-menu[hidden] { display: none; }
+.start-menu {
+  position: fixed;
+  bottom: 50px;
+  left: 10px;
+  z-index: 1100;
+  display: flex;
+  min-width: 264px;
+  background: var(--paper);
+  border: 1px solid var(--line-2);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-2);
+  overflow: hidden;
+  animation: start-menu-in 130ms ease;
+}
+@keyframes start-menu-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.start-menu-rail {
+  flex-shrink: 0;
+  width: 34px;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0) 40%),
+    var(--bg-2);
+  border-right: 1px solid var(--line);
+}
+.start-menu-rail span {
+  display: block;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin: 12px auto;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--accent);
+  white-space: nowrap;
+}
+.start-menu-list {
+  flex: 1;
+  list-style: none;
+  margin: 0;
+  padding: 6px;
+}
+.start-menu-heading {
+  padding: 4px 10px 6px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.start-menu-sep {
+  height: 1px;
+  margin: 6px 8px;
+  background: var(--line);
+}
+.start-menu-list a,
+.start-menu-list .sm-action {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 7px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+  transition: background 110ms ease, color 110ms ease;
+}
+.start-menu-list a:hover,
+.start-menu-list .sm-action:hover {
+  background: var(--accent);
+  color: #1a1610;
+}
+.sm-icon { font-size: 15px; width: 18px; text-align: center; flex-shrink: 0; }
+
+/* --- Shut Down screen ------------------------------------------------ */
+.shutdown-screen[hidden] { display: none; }
+.shutdown-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  background: #000;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 600ms ease;
+}
+.shutdown-screen.on { opacity: 1; }
+.shutdown-text {
+  font-family: var(--font-mono);
+  font-size: 22px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--accent);
+  text-shadow: 0 0 12px rgba(255,225,33,0.45);
+}
+.shutdown-hint {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--muted);
+}
+
 /* --- Post pages (legacy markup) -------------------------------------- */
 .container { padding: 32px 20px 80px; }
 .site { display: block; max-width: 760px; margin: 0 auto; }
@@ -621,6 +769,8 @@ blockquote p { margin: 0; }
   .readme-avatar { width: 56px; height: 56px; font-size: 32px; }
   .readme-name { font-size: 20px; }
   .window-body { padding: 18px; }
+  .start-menu { left: 8px; right: 8px; min-width: 0; }
+  .shutdown-text { font-size: 18px; }
 }
 @media (max-width: 480px) {
   .icon-grid { grid-template-columns: repeat(2, 1fr); }

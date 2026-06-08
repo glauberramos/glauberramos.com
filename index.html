@@ -11,16 +11,16 @@
   </head>
   <body>
     <div class="desktop">
-      <div class="window main-window">
-        <div class="title-bar">
+      <div class="window main-window" id="main-window">
+        <div class="title-bar" id="main-titlebar">
           <div class="title-bar-text">
             <span class="title-bar-icon" aria-hidden="true">🖥️</span>
             <span>Glauber Ramos — Portfolio.exe</span>
           </div>
           <div class="title-bar-controls">
-            <button class="tb-btn" aria-label="Minimize">_</button>
-            <button class="tb-btn" aria-label="Maximize">□</button>
-            <button class="tb-btn close" aria-label="Close">×</button>
+            <button class="tb-btn" data-action="minimize" aria-label="Minimize">_</button>
+            <button class="tb-btn" data-action="maximize" aria-label="Maximize">□</button>
+            <button class="tb-btn close" data-action="close" aria-label="Close">×</button>
           </div>
         </div>
         <div class="menu-bar">
@@ -213,7 +213,7 @@
       </div>
 
       <div class="taskbar">
-        <button class="start-button">
+        <button class="start-button" id="start-button" aria-haspopup="true" aria-expanded="false" aria-controls="start-menu">
           <span class="start-flag" aria-hidden="true">
             <span class="flag-q tl"></span><span class="flag-q tr"></span>
             <span class="flag-q bl"></span><span class="flag-q br"></span>
@@ -222,7 +222,7 @@
         </button>
         <div class="taskbar-divider"></div>
         <div class="taskbar-items">
-          <button class="taskbar-item active">
+          <button class="taskbar-item active" id="main-taskbar-item" data-target="main-window">
             <span aria-hidden="true">🖥️</span>
             <span>Glauber Ramos — Portfolio</span>
           </button>
@@ -233,9 +233,34 @@
           <span class="tray-clock" id="tray-clock">12:34 PM</span>
         </div>
       </div>
+
+      <nav class="start-menu" id="start-menu" aria-label="Start menu" hidden>
+        <div class="start-menu-rail" aria-hidden="true"><span>GLAUBER&middot;OS</span></div>
+        <ul class="start-menu-list">
+          <li class="start-menu-heading">Programs</li>
+          <li><a href="https://easyretro.io/" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">📝</span>EasyRetro</a></li>
+          <li><a href="https://planitpoker.com/" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🃏</span>PlanItPoker</a></li>
+          <li><a href="https://slideasy.io/" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">📽️</span>Slideasy</a></li>
+          <li><a href="https://imageai.app" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🪄</span>Image AI</a></li>
+          <li class="start-menu-sep" role="separator"></li>
+          <li><a href="/quotes"><span class="sm-icon" aria-hidden="true">💬</span>Inspirational Quotes</a></li>
+          <li><a href="https://glauberramos.github.io/visited-countries" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🌍</span>Visited Countries</a></li>
+          <li class="start-menu-sep" role="separator"></li>
+          <li><a href="http://www.twitter.com/glauberamos" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🐦</span>Twitter</a></li>
+          <li><a href="https://github.com/glauberramos" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🐙</span>GitHub</a></li>
+          <li class="start-menu-sep" role="separator"></li>
+          <li><button type="button" class="sm-action" data-action="shutdown"><span class="sm-icon" aria-hidden="true">⏻</span>Shut Down&hellip;</button></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="shutdown-screen" id="shutdown-screen" hidden>
+      <p class="shutdown-text">It&rsquo;s now safe to turn off<br />your computer.</p>
+      <p class="shutdown-hint">Click anywhere to restart</p>
     </div>
 
     <script>
+      /* --- Taskbar clock --------------------------------------------- */
       (function(){
         var el = document.getElementById('tray-clock');
         if (!el) return;
@@ -249,6 +274,145 @@
         }
         tick();
         setInterval(tick, 30000);
+      })();
+
+      /* --- Start menu ------------------------------------------------- */
+      (function(){
+        var btn = document.getElementById('start-button');
+        var menu = document.getElementById('start-menu');
+        if (!btn || !menu) return;
+
+        function open(){
+          menu.hidden = false;
+          btn.setAttribute('aria-expanded', 'true');
+          btn.classList.add('is-open');
+        }
+        function close(){
+          menu.hidden = true;
+          btn.setAttribute('aria-expanded', 'false');
+          btn.classList.remove('is-open');
+        }
+        function toggle(){ menu.hidden ? open() : close(); }
+
+        btn.addEventListener('click', function(e){ e.stopPropagation(); toggle(); });
+
+        // Clicking a link/action inside the menu closes it.
+        menu.addEventListener('click', function(e){
+          if (e.target.closest('a, .sm-action')) close();
+        });
+
+        // Click outside closes.
+        document.addEventListener('click', function(e){
+          if (menu.hidden) return;
+          if (!menu.contains(e.target) && e.target !== btn) close();
+        });
+
+        // Escape closes.
+        document.addEventListener('keydown', function(e){
+          if (e.key === 'Escape' && !menu.hidden) { close(); btn.focus(); }
+        });
+
+        // Shut Down action.
+        var shutdown = document.getElementById('shutdown-screen');
+        menu.addEventListener('click', function(e){
+          var act = e.target.closest('[data-action="shutdown"]');
+          if (!act || !shutdown) return;
+          shutdown.hidden = false;
+          requestAnimationFrame(function(){ shutdown.classList.add('on'); });
+        });
+        if (shutdown){
+          shutdown.addEventListener('click', function(){ location.reload(); });
+        }
+      })();
+
+      /* --- Window controls + dragging -------------------------------- */
+      (function(){
+        var win = document.getElementById('main-window');
+        var bar = document.getElementById('main-titlebar');
+        var item = document.getElementById('main-taskbar-item');
+        if (!win || !bar || !item) return;
+
+        var minimized = false;
+
+        function setActive(on){ item.classList.toggle('active', on); }
+
+        function minimize(){
+          minimized = true;
+          win.classList.add('minimized');
+          setActive(false);
+        }
+        function restore(){
+          minimized = false;
+          win.classList.remove('minimized');
+          setActive(true);
+        }
+        function toggleMaximize(){
+          if (minimized) { restore(); return; }
+          win.classList.remove('floating');
+          win.style.top = win.style.left = '';
+          win.classList.toggle('maximized');
+        }
+
+        // Title-bar control buttons.
+        win.querySelectorAll('.title-bar-controls [data-action]').forEach(function(b){
+          b.addEventListener('click', function(){
+            var a = b.getAttribute('data-action');
+            if (a === 'minimize') minimize();
+            else if (a === 'maximize') toggleMaximize();
+            else if (a === 'close') minimize();
+          });
+        });
+
+        // Taskbar item toggles minimize/restore.
+        item.addEventListener('click', function(){
+          minimized ? restore() : minimize();
+        });
+
+        // Double-click title bar to (un)maximize.
+        bar.addEventListener('dblclick', function(e){
+          if (e.target.closest('.title-bar-controls')) return;
+          toggleMaximize();
+        });
+
+        // Dragging — desktop pointers only, disabled when maximized.
+        var dragging = false, sx = 0, sy = 0, ox = 0, oy = 0;
+        var canDrag = window.matchMedia('(min-width: 721px)');
+
+        function onDown(e){
+          if (!canDrag.matches) return;
+          if (e.target.closest('.title-bar-controls')) return;
+          if (win.classList.contains('maximized')) return;
+          var rect = win.getBoundingClientRect();
+          if (!win.classList.contains('floating')){
+            win.classList.add('floating');
+            win.style.left = rect.left + 'px';
+            win.style.top = rect.top + 'px';
+          }
+          dragging = true;
+          sx = e.clientX; sy = e.clientY;
+          ox = parseFloat(win.style.left) || rect.left;
+          oy = parseFloat(win.style.top) || rect.top;
+          bar.classList.add('grabbing');
+          bar.setPointerCapture && bar.setPointerCapture(e.pointerId);
+        }
+        function onMove(e){
+          if (!dragging) return;
+          var nx = ox + (e.clientX - sx);
+          var ny = oy + (e.clientY - sy);
+          var maxX = window.innerWidth - 80;
+          var maxY = window.innerHeight - 80;
+          nx = Math.max(8 - win.offsetWidth + 120, Math.min(nx, maxX));
+          ny = Math.max(8, Math.min(ny, maxY));
+          win.style.left = nx + 'px';
+          win.style.top = ny + 'px';
+        }
+        function onUp(){
+          dragging = false;
+          bar.classList.remove('grabbing');
+        }
+        bar.addEventListener('pointerdown', onDown);
+        window.addEventListener('pointermove', onMove);
+        window.addEventListener('pointerup', onUp);
       })();
     </script>
   </body>
