@@ -417,6 +417,7 @@
           if (s.minimized){ restore(s); return; }
           s.win.classList.remove('floating');
           s.win.style.top = s.win.style.left = '';
+          if (!s.fixed) s.win.style.width = '';
           s.win.classList.toggle('maximized');
           bringToFront(s);
         }
@@ -430,6 +431,7 @@
             if (win.classList.contains('maximized')) return;
             var rect = win.getBoundingClientRect();
             if (!win.classList.contains('floating') && !s.fixed){
+              win.style.width = rect.width + 'px';
               win.classList.add('floating');
               win.style.left = rect.left + 'px';
               win.style.top = rect.top + 'px';
