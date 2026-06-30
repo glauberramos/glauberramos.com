@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Glauber Ramos personal blog where I share my thoughts and tips from my enterpreneur career" />
+    <title>Glauber Ramos Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <link rel="stylesheet" href="assets/stylesheets/main.css" />
+    <script defer data-domain="glauberramos.com" src="https://plausible.io/js/script.js"></script>
+  </head>
+  <body>
+    <div class="desktop">
+      <div class="desktop-icons">
+        <button class="desktop-icon" type="button" data-open-window="main-window">
+          <span class="desktop-icon-img" aria-hidden="true">🖥️</span>
+          <span class="desktop-icon-label">Portfolio.exe</span>
+        </button>
+        <button class="desktop-icon" type="button" data-open-window="win-quotes">
+          <span class="desktop-icon-img" aria-hidden="true">💬</span>
+          <span class="desktop-icon-label">Quotes.exe</span>
+        </button>
+        <button class="desktop-icon" type="button" data-open-window="win-brick">
+          <span class="desktop-icon-img" aria-hidden="true">🧱</span>
+          <span class="desktop-icon-label">Breakout.exe</span>
+        </button>
+      </div>
+      <div class="window main-window" id="main-window" data-window data-persistent data-icon="🖥️" data-title="Glauber Ramos — Portfolio">
+        <div class="title-bar" id="main-titlebar">
+          <div class="title-bar-text">
+            <span class="title-bar-icon" aria-hidden="true">🖥️</span>
+            <span>Glauber Ramos — Portfolio.exe</span>
+          </div>
+          <div class="title-bar-controls">
+            <button class="tb-btn" data-action="minimize" aria-label="Minimize">_</button>
+            <button class="tb-btn" data-action="maximize" aria-label="Maximize">□</button>
+            <button class="tb-btn close" data-action="close" aria-label="Close">×</button>
+          </div>
+        </div>
+        <div class="menu-bar">
+          <span><u>F</u>ile</span>
+          <span><u>E</u>dit</span>
+          <span><u>V</u>iew</span>
+        </div>
+        <div class="address-bar">
+          <span class="address-label">Address</span>
+          <div class="address-input">
+            <span class="address-icon" aria-hidden="true">🌐</span>
+            <span>C:\Users\Glauber\Desktop\portfolio.html</span>
+          </div>
+        </div>
+        <div class="window-body">
+
+          <div class="readme-panel">
+            <div class="readme-avatar" aria-hidden="true">👨🏼‍💻</div>
+            <div class="readme-text">
+              <h1 class="readme-name">Glauber Ramos</h1>
+              <p class="readme-tag">Indiehacker from Brazil</p>
+            </div>
+            <ul class="readme-links">
+              <li>
+                <a aria-label="Glauber Ramos twitter" href="http://www.twitter.com/glauberamos" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                  </svg>
+                  <span>@glauberamos</span>
+                </a>
+              </li>
+              <li>
+                <a aria-label="Glauber Ramos GitHub" href="https://github.com/glauberramos" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.05 0 0 .97-.31 3.18 1.18a11.07 11.07 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.58.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.69 5.41-5.25 5.69.41.36.78 1.06.78 2.13v3.16c0 .31.21.68.8.56C20.21 21.39 23.5 17.08 23.5 12 23.5 5.73 18.27.5 12 .5z"/>
+                  </svg>
+                  <span>glauberramos</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <fieldset class="group">
+            <legend>📁 Projects</legend>
+            <ul class="icon-grid">
+              <li>
+                <a href="https://easyretro.io/" target="_blank">
+                  <span class="icon" aria-hidden="true">📝</span>
+                  <span class="icon-name">EasyRetro</span>
+                  <span class="icon-desc">Sprint retrospectives</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://planitpoker.com/" target="_blank">
+                  <span class="icon" aria-hidden="true">🃏</span>
+                  <span class="icon-name">PlanItPoker</span>
+                  <span class="icon-desc">Planning poker</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://slideasy.io/" target="_blank">
+                  <span class="icon" aria-hidden="true">📽️</span>
+                  <span class="icon-name">Slideasy</span>
+                  <span class="icon-desc">Interactive presentations</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://imageai.app" target="_blank">
+                  <span class="icon" aria-hidden="true">🪄</span>
+                  <span class="icon-name">Image AI</span>
+                  <span class="icon-desc">AI image generation</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://glauberramos.github.io/inat/" target="_blank">
+                  <span class="icon" aria-hidden="true">🌿</span>
+                  <span class="icon-name">Tools for iNaturalist</span>
+                  <span class="icon-desc">Naturalist utilities</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://citynaturestats.com/" target="_blank">
+                  <span class="icon" aria-hidden="true">🏙️</span>
+                  <span class="icon-name">CityNatureStats</span>
+                  <span class="icon-desc">Urban biodiversity stats</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://pasteepad.com/" target="_blank">
+                  <span class="icon" aria-hidden="true">📋</span>
+                  <span class="icon-name">PasteePad</span>
+                  <span class="icon-desc">Simple notepad</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://glauberramos.github.io/visited-countries" target="_blank">
+                  <span class="icon" aria-hidden="true">🌍</span>
+                  <span class="icon-name">Visited Countries</span>
+                  <span class="icon-desc">Map of places I've been</span>
+                </a>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="group">
+            <legend>📁 Blog Archive</legend>
+            <div class="file-explorer">
+              <div class="folder-section">
+                <div class="folder-head">📂 2023</div>
+                <ul class="file-list">
+                  <li><a href="/best-communities-for-bootstrapped-founders"><span class="file-icon">📄</span>Best communities for bootstrapped founders</a></li>
+                  <li><a href="/best-events-for-bootstrapped-founders"><span class="file-icon">📄</span>Best events for bootstrapped founders</a></li>
+                  <li><a href="/places-to-buy-sell-websites-microsaas-saas"><span class="file-icon">📄</span>Places to buy and sell websites, microsaas and saas</a></li>
+                  <li><a href="/places-to-post-your-startup"><span class="file-icon">📄</span>Places to post your startup</a></li>
+                </ul>
+              </div>
+              <div class="folder-section">
+                <div class="folder-head">📂 2020</div>
+                <ul class="file-list">
+                  <li><a href="/se-proteger-de-vazamento-de-dados"><span class="file-icon">📄</span>Como se proteger dos vazamentos de dados de todos os brasileiros</a></li>
+                </ul>
+              </div>
+              <div class="folder-section">
+                <div class="folder-head">📂 2019</div>
+                <ul class="file-list">
+                  <li><a href="/links-indie-hackers"><span class="file-icon">📄</span>Links for Indie Hackers and Makers</a></li>
+                </ul>
+              </div>
+              <div class="folder-section">
+                <div class="folder-head">📂 2017</div>
+                <ul class="file-list">
+                  <li><a href="/css-architecture"><span class="file-icon">📄</span>CSS Architecture</a></li>
+                  <li><a href="/ano-sabatico"><span class="file-icon">📄</span>Ano Sabático 2017</a></li>
+                </ul>
+              </div>
+              <div class="folder-section">
+                <div class="folder-head">📂 2014</div>
+                <ul class="file-list">
+                  <li><a href="/affordance"><span class="file-icon">📄</span>Affordance</a></li>
+                  <li><a href="/12-regras-css-poucos-conhecem"><span class="file-icon">📄</span>12 regras CSS que poucos conhecem</a></li>
+                  <li><a href="/inventing-on-principle"><span class="file-icon">📄</span>Daily Inspiration - Inventing on principle</a></li>
+                  <li><a href="/links-aprender-css"><span class="file-icon">📄</span>Links sobre CSS - Material de estudo</a></li>
+                  <li><a href="/redesenhando-uma-funcionalidade"><span class="file-icon">📄</span>Redesenhando uma funcionalidade</a></li>
+                  <li><a href="/prototipagem-rapida-teste"><span class="file-icon">📄</span>Prototipagem rápida e teste</a></li>
+                  <li><a href="/links-aprender-ux"><span class="file-icon">📄</span>Links sobre UX - Experiência do Usuário</a></li>
+                  <li><a href="/guia-de-estilo-vivo"><span class="file-icon">📄</span>Guia de estilo vivo</a></li>
+                  <li><a href="/sessao-design-colaborativo"><span class="file-icon">📄</span>Sessão de design colaborativa</a></li>
+                </ul>
+              </div>
+              <div class="folder-section">
+                <div class="folder-head">📂 2013</div>
+                <ul class="file-list">
+                  <li><a href="/ferramentas-front-end"><span class="file-icon">📄</span>Ferramentas de Front End</a></li>
+                  <li><a href="/josh-seiden"><span class="file-icon">📄</span>Interaction South America 2013 - Josh Seiden</a></li>
+                  <li><a href="/porque-nao-usar-bootstrap"><span class="file-icon">📄</span>Motivos para não usar o Bootstrap</a></li>
+                  <li><a href="/divida-ux"><span class="file-icon">📄</span>Dívida de UX</a></li>
+                  <li><a href="/hello-world"><span class="file-icon">📄</span>Hello World!</a></li>
+                </ul>
+              </div>
+              <div class="folder-section">
+                <div class="folder-head">📂 2012</div>
+                <ul class="file-list">
+                  <li><a href="/testando-design"><span class="file-icon">📄</span>Lean UX - Testando seu design</a></li>
+                </ul>
+              </div>
+            </div>
+          </fieldset>
+
+        </div>
+        <div class="status-bar">
+          <div class="status-field">Designed and coded with ♡ by Glauber Ramos</div>
+          <div class="status-field">23 blog posts</div>
+        </div>
+      </div>
+
+      <div class="window app-window" id="win-quotes" data-window data-icon="💬" data-title="Inspirational Quotes" hidden>
+        <div class="title-bar">
+          <div class="title-bar-text">
+            <span class="title-bar-icon" aria-hidden="true">💬</span>
+            <span>Inspirational Quotes — Quotes.exe</span>
+          </div>
+          <div class="title-bar-controls">
+            <button class="tb-btn" data-action="minimize" aria-label="Minimize">_</button>
+            <button class="tb-btn" data-action="maximize" aria-label="Maximize">□</button>
+            <button class="tb-btn close" data-action="close" aria-label="Close">×</button>
+          </div>
+        </div>
+        <div class="window-body app-body">
+          <iframe class="app-frame" data-src="/quotes" title="Inspirational Quotes" loading="lazy"></iframe>
+        </div>
+      </div>
+
+      <div class="window app-window" id="win-brick" data-window data-icon="🧱" data-title="Breakout" hidden>
+        <div class="title-bar">
+          <div class="title-bar-text">
+            <span class="title-bar-icon" aria-hidden="true">🧱</span>
+            <span>Breakout — Breakout.exe</span>
+          </div>
+          <div class="title-bar-controls">
+            <button class="tb-btn" data-action="minimize" aria-label="Minimize">_</button>
+            <button class="tb-btn" data-action="maximize" aria-label="Maximize">□</button>
+            <button class="tb-btn close" data-action="close" aria-label="Close">×</button>
+          </div>
+        </div>
+        <div class="window-body app-body">
+          <iframe class="app-frame" data-src="/brick-breaker" title="Brick Breaker" loading="lazy"></iframe>
+        </div>
+      </div>
+
+      <div class="taskbar">
+        <button class="start-button" id="start-button" aria-haspopup="true" aria-expanded="false" aria-controls="start-menu">
+          <span class="start-flag" aria-hidden="true">
+            <span class="flag-q tl"></span><span class="flag-q tr"></span>
+            <span class="flag-q bl"></span><span class="flag-q br"></span>
+          </span>
+          <span class="start-label"><u>S</u>tart</span>
+        </button>
+        <div class="taskbar-divider"></div>
+        <div class="taskbar-items">
+          <button class="taskbar-item active" id="main-taskbar-item" data-target="main-window">
+            <span aria-hidden="true">🖥️</span>
+            <span>Glauber Ramos — Portfolio</span>
+          </button>
+        </div>
+        <div class="taskbar-tray">
+          <span class="tray-icon" aria-hidden="true">🔊</span>
+          <span class="tray-icon" aria-hidden="true">📶</span>
+          <span class="tray-clock" id="tray-clock">12:34 PM</span>
+        </div>
+      </div>
+
+      <nav class="start-menu" id="start-menu" aria-label="Start menu" hidden>
+        <div class="start-menu-rail" aria-hidden="true"><span>GLAUBER&middot;OS</span></div>
+        <ul class="start-menu-list">
+          <li class="start-menu-heading">Programs</li>
+          <li><a href="https://easyretro.io/" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">📝</span>EasyRetro</a></li>
+          <li><a href="https://planitpoker.com/" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🃏</span>PlanItPoker</a></li>
+          <li><a href="https://slideasy.io/" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">📽️</span>Slideasy</a></li>
+          <li><a href="https://imageai.app" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🪄</span>Image AI</a></li>
+          <li class="start-menu-sep" role="separator"></li>
+          <li><a href="https://glauberramos.github.io/visited-countries" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🌍</span>Visited Countries</a></li>
+          <li class="start-menu-sep" role="separator"></li>
+          <li><a href="http://www.twitter.com/glauberamos" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🐦</span>Twitter</a></li>
+          <li><a href="https://github.com/glauberramos" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🐙</span>GitHub</a></li>
+          <li class="start-menu-sep" role="separator"></li>
+          <li><button type="button" class="sm-action" data-action="shutdown"><span class="sm-icon" aria-hidden="true">⏻</span>Shut Down&hellip;</button></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="shutdown-screen" id="shutdown-screen" hidden>
+      <p class="shutdown-text">It&rsquo;s now safe to turn off<br />your computer.</p>
+      <p class="shutdown-hint">Click anywhere to restart</p>
+    </div>
+
+    <script>
+      /* --- Taskbar clock --------------------------------------------- */
+      (function(){
+        var el = document.getElementById('tray-clock');
+        if (!el) return;
+        function tick(){
+          var d = new Date();
+          var h = d.getHours();
+          var m = d.getMinutes();
+          var ampm = h >= 12 ? 'PM' : 'AM';
+          h = h % 12; if (h === 0) h = 12;
+          el.textContent = h + ':' + (m < 10 ? '0' + m : m) + ' ' + ampm;
+        }
+        tick();
+        setInterval(tick, 30000);
+      })();
+
+      /* --- Start menu ------------------------------------------------- */
+      (function(){
+        var btn = document.getElementById('start-button');
+        var menu = document.getElementById('start-menu');
+        if (!btn || !menu) return;
+
+        function open(){
+          menu.hidden = false;
+          btn.setAttribute('aria-expanded', 'true');
+          btn.classList.add('is-open');
+        }
+        function close(){
+          menu.hidden = true;
+          btn.setAttribute('aria-expanded', 'false');
+          btn.classList.remove('is-open');
+        }
+        function toggle(){ menu.hidden ? open() : close(); }
+
+        btn.addEventListener('click', function(e){ e.stopPropagation(); toggle(); });
+
+        // Clicking a link/action inside the menu closes it.
+        menu.addEventListener('click', function(e){
+          if (e.target.closest('a, .sm-action')) close();
+        });
+
+        // Click outside closes.
+        document.addEventListener('click', function(e){
+          if (menu.hidden) return;
+          if (!menu.contains(e.target) && e.target !== btn) close();
+        });
+
+        // Escape closes.
+        document.addEventListener('keydown', function(e){
+          if (e.key === 'Escape' && !menu.hidden) { close(); btn.focus(); }
+        });
+
+        // Shut Down action.
+        var shutdown = document.getElementById('shutdown-screen');
+        menu.addEventListener('click', function(e){
+          var act = e.target.closest('[data-action="shutdown"]');
+          if (!act || !shutdown) return;
+          shutdown.hidden = false;
+          requestAnimationFrame(function(){ shutdown.classList.add('on'); });
+        });
+        if (shutdown){
+          shutdown.addEventListener('click', function(){ location.reload(); });
+        }
+      })();
+
+      /* --- Window manager -------------------------------------------- */
+      (function(){
+        var tray = document.querySelector('.taskbar-items');
+        var canDrag = window.matchMedia('(min-width: 721px)');
+        var zTop = 900;
+        var wins = {};
+
+        function each(sel, ctx, fn){ Array.prototype.forEach.call((ctx||document).querySelectorAll(sel), fn); }
+
+        function bringToFront(s){
+          zTop += 1;
+          s.win.style.zIndex = zTop;
+          for (var id in wins){ if (wins[id].item) wins[id].item.classList.remove('active'); }
+          if (s.item && !s.minimized) s.item.classList.add('active');
+        }
+
+        function ensureItem(s){
+          if (s.item) return s.item;
+          var b = document.createElement('button');
+          b.className = 'taskbar-item';
+          b.setAttribute('data-target', s.id);
+          b.innerHTML = '<span aria-hidden="true">' + s.icon + '</span><span>' + s.title + '</span>';
+          b.addEventListener('click', function(){
+            if (s.minimized) restore(s);
+            else if (s.item.classList.contains('active')) minimize(s);
+            else { show(s); bringToFront(s); }
+          });
+          tray.appendChild(b);
+          s.item = b;
+          return b;
+        }
+
+        function show(s){ s.win.hidden = false; s.win.classList.remove('minimized'); s.minimized = false; }
+
+        function open(s){
+          // Lazy-load any deferred iframe the first time the window opens.
+          var frame = s.win.querySelector('iframe[data-src]');
+          if (frame){ frame.src = frame.getAttribute('data-src'); frame.removeAttribute('data-src'); }
+          show(s);
+          // Position app (non-persistent) windows near center on first open.
+          if (!s.persistent && !s.placed){
+            s.placed = true;
+            var w = s.win.offsetWidth || 440;
+            var h = s.win.offsetHeight || 520;
+            var x = Math.min(Math.max(12, (window.innerWidth - w) / 2 + 40), window.innerWidth - w - 12);
+            var y = Math.max(12, (window.innerHeight - h - 44) / 2);
+            s.win.style.left = x + 'px';
+            s.win.style.top = y + 'px';
+          }
+          ensureItem(s);
+          bringToFront(s);
+        }
+
+        function minimize(s){
+          s.minimized = true;
+          s.win.classList.add('minimized');
+          if (s.item) s.item.classList.remove('active');
+        }
+        function restore(s){
+          show(s);
+          bringToFront(s);
+        }
+        function close(s){
+          s.win.hidden = true;
+          s.win.classList.remove('maximized', 'floating');
+          s.win.style.cssText = '';
+          s.minimized = false;
+          s.placed = false;
+          if (s.item){ s.item.remove(); s.item = null; }
+        }
+        function toggleMaximize(s){
+          if (s.minimized){ restore(s); return; }
+          s.win.classList.remove('floating');
+          s.win.style.top = s.win.style.left = '';
+          if (!s.fixed) s.win.style.width = '';
+          s.win.classList.toggle('maximized');
+          bringToFront(s);
+        }
+
+        function setupDrag(s){
+          var bar = s.bar, win = s.win;
+          var dragging = false, sx = 0, sy = 0, ox = 0, oy = 0;
+          bar.addEventListener('pointerdown', function(e){
+            if (!canDrag.matches) return;
+            if (e.target.closest('.title-bar-controls')) return;
+            if (win.classList.contains('maximized')) return;
+            var rect = win.getBoundingClientRect();
+            if (!win.classList.contains('floating') && !s.fixed){
+              win.style.width = rect.width + 'px';
+              win.classList.add('floating');
+              win.style.left = rect.left + 'px';
+              win.style.top = rect.top + 'px';
+            }
+            dragging = true;
+            sx = e.clientX; sy = e.clientY;
+            ox = parseFloat(win.style.left) || rect.left;
+            oy = parseFloat(win.style.top) || rect.top;
+            bar.classList.add('grabbing');
+            bar.setPointerCapture && bar.setPointerCapture(e.pointerId);
+            bringToFront(s);
+          });
+          window.addEventListener('pointermove', function(e){
+            if (!dragging) return;
+            var nx = ox + (e.clientX - sx);
+            var ny = oy + (e.clientY - sy);
+            nx = Math.max(8 - win.offsetWidth + 120, Math.min(nx, window.innerWidth - 80));
+            ny = Math.max(8, Math.min(ny, window.innerHeight - 80));
+            win.style.left = nx + 'px';
+            win.style.top = ny + 'px';
+          });
+          window.addEventListener('pointerup', function(){
+            dragging = false;
+            bar.classList.remove('grabbing');
+          });
+        }
+
+        function register(win){
+          var s = {
+            win: win,
+            id: win.id,
+            bar: win.querySelector('.title-bar'),
+            icon: win.getAttribute('data-icon') || '🗔',
+            title: win.getAttribute('data-title') || win.id,
+            persistent: win.hasAttribute('data-persistent'),
+            fixed: win.classList.contains('app-window'),
+            minimized: false,
+            placed: false,
+            item: null
+          };
+          wins[win.id] = s;
+
+          each('.title-bar-controls [data-action]', win, function(b){
+            b.addEventListener('click', function(){
+              var a = b.getAttribute('data-action');
+              if (a === 'minimize') minimize(s);
+              else if (a === 'maximize') toggleMaximize(s);
+              else if (a === 'close') close(s);
+            });
+          });
+          s.bar.addEventListener('dblclick', function(e){
+            if (e.target.closest('.title-bar-controls')) return;
+            toggleMaximize(s);
+          });
+          win.addEventListener('pointerdown', function(){ if (!s.minimized) bringToFront(s); });
+          setupDrag(s);
+
+          // Persistent windows already have a taskbar item in the markup.
+          if (s.persistent){
+            var existing = tray.querySelector('[data-target="' + s.id + '"]');
+            if (existing){
+              s.item = existing;
+              existing.addEventListener('click', function(){
+                if (s.minimized) restore(s);
+                else if (existing.classList.contains('active')) minimize(s);
+                else { show(s); bringToFront(s); }
+              });
+            }
+          }
+          return s;
+        }
+
+        each('[data-window]', document, register);
+
+        // Launchers — open a window instead of navigating.
+        each('[data-open-window]', document, function(el){
+          el.addEventListener('click', function(e){
+            var s = wins[el.getAttribute('data-open-window')];
+            if (!s) return;            // fall back to href navigation
+            e.preventDefault();
+            open(s);
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>
