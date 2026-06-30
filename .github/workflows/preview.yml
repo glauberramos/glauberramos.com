@@ -1,0 +1,25 @@
+name: Deploy PR previews
+concurrency: preview-${{ github.ref }}
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      # No build step needed — the site is plain static HTML.
+      # If you add a build later, output to ./ or adjust source-dir below.
+
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: .
+          preview-branch: gh-pages
+          umbrella-dir: pr-preview
