@@ -400,7 +400,7 @@
             s.placed = true;
             var w = s.win.offsetWidth || 440;
             var h = s.win.offsetHeight || 520;
-            var x = Math.max(12, (window.innerWidth - w) / 2 + 40);
+            var x = Math.min(Math.max(12, (window.innerWidth - w) / 2 + 40), window.innerWidth - w - 12);
             var y = Math.max(12, (window.innerHeight - h - 44) / 2);
             s.win.style.left = x + 'px';
             s.win.style.top = y + 'px';
