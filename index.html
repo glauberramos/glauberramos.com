@@ -24,6 +24,10 @@
           <span class="desktop-icon-img" aria-hidden="true">🧱</span>
           <span class="desktop-icon-label">Breakout.exe</span>
         </button>
+        <button class="desktop-icon" type="button" data-open-window="win-about">
+          <span class="desktop-icon-img" aria-hidden="true">💿</span>
+          <span class="desktop-icon-label">About.exe</span>
+        </button>
       </div>
       <div class="window main-window" id="main-window" data-window data-persistent data-icon="🖥️" data-title="Glauber Ramos — Portfolio">
         <div class="title-bar" id="main-titlebar">
@@ -244,6 +248,23 @@
         </div>
       </div>
 
+      <div class="window app-window" id="win-about" data-window data-icon="💿" data-title="About" hidden>
+        <div class="title-bar">
+          <div class="title-bar-text">
+            <span class="title-bar-icon" aria-hidden="true">💿</span>
+            <span>About — About.exe</span>
+          </div>
+          <div class="title-bar-controls">
+            <button class="tb-btn" data-action="minimize" aria-label="Minimize">_</button>
+            <button class="tb-btn" data-action="maximize" aria-label="Maximize">□</button>
+            <button class="tb-btn close" data-action="close" aria-label="Close">×</button>
+          </div>
+        </div>
+        <div class="window-body app-body">
+          <iframe class="app-frame" data-src="/about" title="About" loading="lazy" allow="autoplay"></iframe>
+        </div>
+      </div>
+
       <div class="taskbar">
         <button class="start-button" id="start-button" aria-haspopup="true" aria-expanded="false" aria-controls="start-menu">
           <span class="start-flag" aria-hidden="true">
@@ -276,6 +297,7 @@
           <li><a href="https://imageai.app" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🪄</span>Image AI</a></li>
           <li class="start-menu-sep" role="separator"></li>
           <li><a href="https://glauberramos.github.io/visited-countries" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🌍</span>Visited Countries</a></li>
+          <li><a href="/about"><span class="sm-icon" aria-hidden="true">💿</span>About</a></li>
           <li class="start-menu-sep" role="separator"></li>
           <li><a href="http://www.twitter.com/glauberamos" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🐦</span>Twitter</a></li>
           <li><a href="https://github.com/glauberramos" target="_blank" rel="noopener"><span class="sm-icon" aria-hidden="true">🐙</span>GitHub</a></li>
@@ -365,6 +387,15 @@
 
         function each(sel, ctx, fn){ Array.prototype.forEach.call((ctx||document).querySelectorAll(sel), fn); }
 
+        // Let iframe apps (About.exe music) react to their window being
+        // hidden or shown again.
+        function notifyFrame(s, msg){
+          var f = s.win.querySelector('iframe');
+          if (f && f.src && f.contentWindow){
+            try { f.contentWindow.postMessage(msg, location.origin); } catch (e) {}
+          }
+        }
+
         function bringToFront(s){
           zTop += 1;
           s.win.style.zIndex = zTop;
@@ -388,7 +419,12 @@
           return b;
         }
 
-        function show(s){ s.win.hidden = false; s.win.classList.remove('minimized'); s.minimized = false; }
+        function show(s){
+          s.win.hidden = false;
+          s.win.classList.remove('minimized');
+          s.minimized = false;
+          notifyFrame(s, 'about:show');
+        }
 
         function open(s){
           // Lazy-load any deferred iframe the first time the window opens.
@@ -413,12 +449,14 @@
           s.minimized = true;
           s.win.classList.add('minimized');
           if (s.item) s.item.classList.remove('active');
+          notifyFrame(s, 'about:hide');
         }
         function restore(s){
           show(s);
           bringToFront(s);
         }
         function close(s){
+          notifyFrame(s, 'about:hide');
           s.win.hidden = true;
           s.win.classList.remove('maximized', 'floating');
           s.win.style.cssText = '';
