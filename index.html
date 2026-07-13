@@ -261,7 +261,7 @@
           </div>
         </div>
         <div class="window-body app-body">
-          <iframe class="app-frame" data-src="/about" title="About" loading="lazy" allow="autoplay"></iframe>
+          <iframe class="app-frame" data-src="/about" title="About" loading="lazy"></iframe>
         </div>
       </div>
 
@@ -378,6 +378,220 @@
         }
       })();
 
+      /* --- About.exe music --------------------------------------------
+         Runs in this page (not the iframe) so the click that opens the
+         window is the autoplay gesture in every browser. Prefers
+         /about/background.mp3|wav if one exists; otherwise plays an
+         original Web Audio synth loop inspired by "Giorgio by Moroder"
+         (113 BPM, A minor). */
+      var aboutMusic = (function () {
+        var BPM = 113;
+        var STEP = 60 / BPM / 4;              /* one 16th note */
+        var LOOKAHEAD = 0.12;
+
+        /* One bar per chord, 4-bar loop: Am, F, C, G */
+        var ROOTS = [33, 29, 36, 31];
+        var PADS = [
+          [45, 48, 52],
+          [41, 45, 48],
+          [48, 52, 55],
+          [43, 47, 50]
+        ];
+        var BASS = [0, 0, 12, 0, 0, 12, 0, 0, 12, 0, 0, 12, 0, 0, 12, 0];
+        var VEL  = [1, .65, .9, .65, 1, .9, .65, .65, .9, .65, .65, .9, 1, .65, .9, .65];
+
+        var ctx = null, master, delayNode, noiseBuf;
+        var step = 0, nextTime = 0, timer = null;
+        var audioEl = null, mode = null;      /* 'file' | 'synth' */
+
+        function midi(n) { return 440 * Math.pow(2, (n - 69) / 12); }
+
+        function init() {
+          ctx = new (window.AudioContext || window.webkitAudioContext)();
+
+          master = ctx.createGain();
+          master.gain.value = 0.4;
+          var comp = ctx.createDynamicsCompressor();
+          comp.threshold.value = -18;
+          comp.ratio.value = 4;
+          master.connect(comp);
+          comp.connect(ctx.destination);
+
+          /* dotted-8th echo — the signature Moroder bounce */
+          delayNode = ctx.createDelay(1);
+          delayNode.delayTime.value = STEP * 6;
+          var fb = ctx.createGain(); fb.gain.value = 0.3;
+          var wet = ctx.createGain(); wet.gain.value = 0.25;
+          delayNode.connect(fb); fb.connect(delayNode);
+          delayNode.connect(wet); wet.connect(master);
+
+          noiseBuf = ctx.createBuffer(1, ctx.sampleRate, ctx.sampleRate);
+          var d = noiseBuf.getChannelData(0);
+          for (var i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
+        }
+
+        function bass(t, note, vel) {
+          var osc = ctx.createOscillator();
+          osc.type = 'sawtooth';
+          osc.frequency.value = midi(note);
+          var f = ctx.createBiquadFilter();
+          f.type = 'lowpass';
+          f.Q.value = 8;
+          f.frequency.setValueAtTime(1500 * vel, t);
+          f.frequency.exponentialRampToValueAtTime(220, t + 0.13);
+          var g = ctx.createGain();
+          g.gain.setValueAtTime(0.42 * vel, t);
+          g.gain.exponentialRampToValueAtTime(0.001, t + 0.16);
+          osc.connect(f); f.connect(g);
+          g.connect(master);
+          g.connect(delayNode);
+          osc.start(t); osc.stop(t + 0.2);
+        }
+
+        function kick(t) {
+          var osc = ctx.createOscillator();
+          osc.frequency.setValueAtTime(150, t);
+          osc.frequency.exponentialRampToValueAtTime(42, t + 0.11);
+          var g = ctx.createGain();
+          g.gain.setValueAtTime(0.9, t);
+          g.gain.exponentialRampToValueAtTime(0.001, t + 0.19);
+          osc.connect(g); g.connect(master);
+          osc.start(t); osc.stop(t + 0.2);
+        }
+
+        function hat(t, open) {
+          var src = ctx.createBufferSource();
+          src.buffer = noiseBuf;
+          var f = ctx.createBiquadFilter();
+          f.type = 'highpass';
+          f.frequency.value = 7500;
+          var g = ctx.createGain();
+          g.gain.setValueAtTime(open ? 0.22 : 0.11, t);
+          g.gain.exponentialRampToValueAtTime(0.001, t + (open ? 0.09 : 0.035));
+          src.connect(f); f.connect(g); g.connect(master);
+          src.start(t); src.stop(t + 0.1);
+        }
+
+        function clap(t) {
+          var src = ctx.createBufferSource();
+          src.buffer = noiseBuf;
+          var f = ctx.createBiquadFilter();
+          f.type = 'bandpass';
+          f.frequency.value = 1700;
+          f.Q.value = 0.9;
+          var g = ctx.createGain();
+          g.gain.setValueAtTime(0.3, t);
+          g.gain.exponentialRampToValueAtTime(0.001, t + 0.16);
+          src.connect(f); f.connect(g); g.connect(master);
+          src.start(t); src.stop(t + 0.2);
+        }
+
+        function pad(t, notes) {
+          var barLen = STEP * 16;
+          notes.forEach(function (n) {
+            [-6, 6].forEach(function (cents) {
+              var osc = ctx.createOscillator();
+              osc.type = 'sawtooth';
+              osc.frequency.value = midi(n);
+              osc.detune.value = cents;
+              var f = ctx.createBiquadFilter();
+              f.type = 'lowpass';
+              f.frequency.value = 850;
+              var g = ctx.createGain();
+              g.gain.setValueAtTime(0.0001, t);
+              g.gain.linearRampToValueAtTime(0.028, t + 0.4);
+              g.gain.setValueAtTime(0.028, t + barLen - 0.3);
+              g.gain.linearRampToValueAtTime(0.0001, t + barLen);
+              osc.connect(f); f.connect(g); g.connect(master);
+              osc.start(t); osc.stop(t + barLen + 0.05);
+            });
+          });
+        }
+
+        function lead(t, notes, s) {
+          var n = notes[s % notes.length] + 12;
+          var osc = ctx.createOscillator();
+          osc.type = 'square';
+          osc.frequency.value = midi(n);
+          var f = ctx.createBiquadFilter();
+          f.type = 'lowpass';
+          f.frequency.value = 2600;
+          var g = ctx.createGain();
+          g.gain.setValueAtTime(0.05, t);
+          g.gain.exponentialRampToValueAtTime(0.001, t + 0.12);
+          osc.connect(f); f.connect(g);
+          g.connect(master);
+          g.connect(delayNode);
+          osc.start(t); osc.stop(t + 0.15);
+        }
+
+        function schedule() {
+          while (nextTime < ctx.currentTime + LOOKAHEAD) {
+            var s = step % 16;
+            var bar = Math.floor(step / 16) % 4;
+            var loop = Math.floor(step / 64);
+            var root = ROOTS[bar];
+
+            bass(nextTime, root + BASS[s], VEL[s]);
+            if (s % 4 === 0) kick(nextTime);
+            hat(nextTime, s % 4 === 2);
+            if (s === 4 || s === 12) clap(nextTime);
+            if (s === 0) pad(nextTime, PADS[bar]);
+            if (loop % 2 === 1 && s % 2 === 0) lead(nextTime, PADS[bar], s / 2);
+
+            nextTime += STEP;
+            step += 1;
+          }
+        }
+
+        function startSynth() {
+          if (!ctx) init();
+          var begin = function () {
+            if (!timer) {
+              nextTime = Math.max(nextTime, ctx.currentTime + 0.05);
+              timer = setInterval(schedule, 25);
+            }
+          };
+          if (ctx.state === 'suspended') {
+            ctx.resume().then(begin).catch(function () {});
+          } else {
+            begin();
+          }
+        }
+
+        function start() {
+          if (mode === 'synth') { startSynth(); return; }
+          if (!audioEl) {
+            /* plays background.mp3 or background.wav, whichever exists */
+            audioEl = document.createElement('audio');
+            ['/about/background.mp3', '/about/background.wav'].forEach(function (f) {
+              var el = document.createElement('source');
+              el.src = f;
+              audioEl.appendChild(el);
+            });
+            audioEl.loop = true;
+            audioEl.volume = 0.8;
+          }
+          var p = audioEl.play();
+          if (p && p.then) {
+            p.then(function () {
+              mode = 'file';
+            }).catch(function () {
+              /* no audio file — fall back to the synth loop */
+              mode = 'synth';
+              startSynth();
+            });
+          }
+        }
+
+        function stop() {
+          if (audioEl) audioEl.pause();
+          if (ctx && ctx.state === 'running') ctx.suspend();
+        }
+
+        return { start: start, stop: stop };
+      })();
+
       /* --- Window manager -------------------------------------------- */
       (function(){
         var tray = document.querySelector('.taskbar-items');
@@ -386,15 +600,6 @@
         var wins = {};
 
         function each(sel, ctx, fn){ Array.prototype.forEach.call((ctx||document).querySelectorAll(sel), fn); }
-
-        // Let iframe apps (About.exe music) react to their window being
-        // hidden or shown again.
-        function notifyFrame(s, msg){
-          var f = s.win.querySelector('iframe');
-          if (f && f.src && f.contentWindow){
-            try { f.contentWindow.postMessage(msg, location.origin); } catch (e) {}
-          }
-        }
 
         function bringToFront(s){
           zTop += 1;
@@ -423,7 +628,7 @@
           s.win.hidden = false;
           s.win.classList.remove('minimized');
           s.minimized = false;
-          notifyFrame(s, 'about:show');
+          if (s.id === 'win-about') aboutMusic.start();
         }
 
         function open(s){
@@ -449,14 +654,14 @@
           s.minimized = true;
           s.win.classList.add('minimized');
           if (s.item) s.item.classList.remove('active');
-          notifyFrame(s, 'about:hide');
+          if (s.id === 'win-about') aboutMusic.stop();
         }
         function restore(s){
           show(s);
           bringToFront(s);
         }
         function close(s){
-          notifyFrame(s, 'about:hide');
+          if (s.id === 'win-about') aboutMusic.stop();
           s.win.hidden = true;
           s.win.classList.remove('maximized', 'floating');
           s.win.style.cssText = '';
